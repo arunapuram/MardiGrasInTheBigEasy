@@ -1,0 +1,102 @@
+<Solution>
+  <PropertyGroup Name="MardiGrasInTheBigEasy" Version="2.3.1.1" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="BaseGame.csd" Type="Scene" />
+        <Folder Name="source">
+          <Folder Name="MainWindow">
+            <Image Name="GameBackground.png" />
+          </Folder>
+          <Folder Name="PlayBar">
+            <Image Name="PlayBar.png" />
+            <Image Name="HelpReleased.png" />
+            <Image Name="HelpHold.png" />
+            <Image Name="HelpNormal.png" />
+            <Image Name="Credits.png" />
+            <Image Name="Cash.png" />
+            <Image Name="PlayNormal.png" />
+            <Image Name="PlayHold.png" />
+            <Image Name="PlayReleased.png" />
+            <Image Name="BetPerLineNormal.png" />
+            <Image Name="BetPerLineHold.png" />
+            <Image Name="BetPerLineReleased.png" />
+          </Folder>
+          <Folder Name="Game">
+            <Image Name="Reels.png" />
+            <Folder Name="Blank">
+              <Image Name="blank.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="Bonus">
+            <Folder Name="PickYourPoison">
+              <Folder Name="CoasterFlipAnim">
+                <Image Name="MyFrame_00.png" />
+              </Folder>
+            </Folder>
+          </Folder>
+          <Folder Name="Reels">
+            <Folder Name="Ace">
+              <Image Name="Ace.png" />
+            </Folder>
+            <Folder Name="Jack">
+              <Image Name="Jack.png" />
+            </Folder>
+            <Folder Name="King">
+              <Image Name="King.png" />
+            </Folder>
+            <Folder Name="Queen">
+              <Image Name="Queen.png" />
+            </Folder>
+            <Folder Name="Ten">
+              <Image Name="Ten.png" />
+            </Folder>
+            <Folder Name="Wild0">
+              <Image Name="Wild.PNG" />
+            </Folder>
+            <Folder Name="Wild1">
+              <Image Name="Wild.PNG" />
+            </Folder>
+            <Folder Name="Wild2">
+              <Image Name="Wild.PNG" />
+            </Folder>
+            <Folder Name="Wild_2x">
+              <Image Name="Wild_2x.png" />
+            </Folder>
+            <Folder Name="Wild_3x">
+              <Image Name="Wild_3x.png" />
+            </Folder>
+            <Folder Name="Wild_4x">
+              <Image Name="Wild_4x.png" />
+            </Folder>
+            <Folder Name="PartyGirl">
+              <Image Name="PartyGirlTop.png" />
+              <Image Name="PartyGirlBottom.png" />
+            </Folder>
+            <Folder Name="Mask">
+              <Image Name="Mask.png" />
+            </Folder>
+            <Folder Name="Hurricane">
+              <Image Name="Hurricane.png" />
+            </Folder>
+            <Folder Name="KingCake">
+              <Image Name="KingCake.png" />
+            </Folder>
+            <Folder Name="Nine">
+              <Image Name="Nine.png" />
+            </Folder>
+            <Folder Name="FreeSpin">
+              <Image Name="FreeSpin.png" />
+            </Folder>
+            <Folder Name="Pick">
+              <Image Name="Pick.png" />
+            </Folder>
+            <Folder Name="Wheel">
+              <Image Name="Wheel.png" />
+            </Folder>
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

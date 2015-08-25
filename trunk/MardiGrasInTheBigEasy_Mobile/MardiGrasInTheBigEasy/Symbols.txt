@@ -1,0 +1,66 @@
+0	F	WildA
+0	G	WildB
+0	H	WildC
+0	S	Mult Wild 2x
+0	U	Mult Wild 3x
+0	V	Mult Wild 4x
+0	I	Theme 1a
+0	L	Theme 1b
+0	C	Theme 2
+0	D	Theme 3
+0	E	Theme 4
+0	A	Ace
+0	K	King
+0	Q	Queen
+0	J	Jack
+0	T	Ten
+0	N	Nine
+0	X	FS Scatter
+0	Y	Pick Scatter
+0	Z	Wheel Bonus
+0	W	Wild
+0	B	Theme 1
+
+1	F	WildA
+1	G	WildB
+1	H	WildC
+1	I	Theme 1a
+1	L	Theme 1b
+1	C	Theme 2
+1	D	Theme 3
+1	E	Theme 4
+1	A	Ace
+1	K	King
+1	Q	Queen
+1	J	Jack
+1	T	Ten
+1	N	Nine
+1	X	FS Scatter
+1	O	Mult Wild 2x
+1	P	Mult Wild 3x
+1	R	Mult Wild 4x
+1	S	Mult Wild 5x
+1	U	Mult Wild 10x
+1	W	Wild
+1	B	Theme 1
+1	M	Multiplier
+
+2	F	WildA
+2	G	WildB
+2	H	WildC
+2	I	Theme 1a
+2	L	Theme 1b
+2	C	Theme 2
+2	D	Theme 3
+2	E	Theme 4
+2	A	Ace
+2	K	King
+2	Q	Queen
+2	J	Jack
+2	T	Ten
+2	N	Nine
+2	R	MysteryWild
+2	W	Wild
+2	B	Theme 1
+
+
