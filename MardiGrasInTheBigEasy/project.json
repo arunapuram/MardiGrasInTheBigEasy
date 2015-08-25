@@ -14,6 +14,8 @@
         "src/resource.js",
         "src/app.js",
         "src/Prizedata/ReelInformation.js",
-        "src/Prizedata/SymbolInformation.js"
+        "src/Prizedata/SymbolInformation.js",
+        "src/Prizedata/PaylineInformation.js",
+        "src/Data/AppData.js"
     ]
 }

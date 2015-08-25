@@ -19,8 +19,9 @@ var HelloWorldLayer = cc.Layer.extend({
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
-        this.aStopPosition = [34,44,24,14,4];
-
+        this.aStopPosition = [5,6,4,5,4];
+        this.objAppData = new AppData();
+        this.objAppData.updateReelFace(this.aStopPosition);
         this.nreelsymbols= cc.aMathReelSet[0].length;
         /////////////////////////////
         // 2. add a menu item with "X" image, which is clicked to quit the program
@@ -38,7 +39,6 @@ var HelloWorldLayer = cc.Layer.extend({
             /*var pp = cc.p(23+(232/2)+i*232,-1*(184*this.nSymbolCount/2)+1400);*/
             var pp = cc.p(23+(SYMBOL_WIDTH_HALF)+i*SYMBOL_WIDTH,-1*(SYMBOL_HEIGHT*this.nSymbolCount/2)+cc.winSize.height);
             this.nCurrentReelIndex[i] = 0;
-            this.reelStop(i,true);
             this.aReelStrips[i].visible = true;
             //this.mainscene.node.addChild(this.aReelStrips[i]);
         }
@@ -50,7 +50,7 @@ var HelloWorldLayer = cc.Layer.extend({
         }
         for(var i=0;i<this.nSymbols;i++)
         {
-            this.UpdateReelStrip(i);
+            this.reelStop(i,true);
             /*this.aReelStrips[i].beginWithClear(255,255,255,255);*//*
             this.aReelStrips[i].beginWithClear(1,1,1,1);
             for(var j = 0; j < this.nSymbolCount; j++)
@@ -101,6 +101,23 @@ var HelloWorldLayer = cc.Layer.extend({
             clipper.stencil = stencil;
             clipper.addChild(this.aReelStrips[i]);
         }
+        /*var camera = cc.Camera.createPerspective(60, size.width/size.height, 1, 1000);
+        camera.setCameraFlag(cc.CameraFlag.USER1);
+        camera.setPosition3D(cc.math.vec3(0, 100, 100));
+        camera.lookAt(cc.math.vec3(0, 0, 0), cc.math.vec3(0, 1, 0));
+        this.mainscene.node.addChild(camera);
+        this._spotLight = jsb.SpotLight.create(cc.math.vec3(-1, -1, 0), cc.math.vec3(0, 0, 0), cc.color(200, 200, 200), 0, 0.5, 10000);
+        this._spotLight.setEnabled(true);
+        this.mainscene.node.addChild(this._spotLight);
+        this._spotLight.setCameraMask(2);
+        this._angle = 0;
+        var dt = 0;
+        this._spotLight.setPosition3D(cc.math.vec3(100*Math.cos(this._angle+4*dt), 100, 100*Math.sin(this._angle+4*dt)));
+        this._spotLight.setDirection(cc.math.vec3(-Math.cos(this._angle + 4 * dt), -1, -Math.sin(this._angle + 4*dt)));*/
+        var label = new cc.LabelTTF(this.objAppData.getReelFace(), "fonts/arial.ttf", 55);
+        label.x = size.width/2;
+        label.y = 730;
+        this.addChild(label);
         return true;
     },
     touchEvent: function (sender, type) {
@@ -123,9 +140,7 @@ var HelloWorldLayer = cc.Layer.extend({
     },
     checkControl1:function (i)
     {
-        this.aReelStrips[i].stopAction(this.fe2[i]);
         this.reelStop(i,false);
-        this.playbutton.setEnabled(true);
     },
     spinReel:function (i)
     {
@@ -159,9 +174,11 @@ var HelloWorldLayer = cc.Layer.extend({
         this.nCurrentReelIndex[i] = this.nCurrentReelIndex[i]*10;
         this.aReelStrips[i].x = SYMBOL_WIDTH_HALF;
         this.aReelStrips[i].y = -1*((SYMBOL_HEIGHT*this.nSymbolCount/2)-(2*SYMBOL_HEIGHT)) + ((this.aStopPosition[i]%10)*SYMBOL_HEIGHT);//550;
-
+        this.UpdateReelStrip(i);
         if(bFromStart === false)
         {
+            this.playbutton.setEnabled(true);
+            this.aReelStrips[i].stopAction(this.fe2[i]);
             var move = cc.moveBy(0.3, cc.p(0,50));
             var move1 = cc.moveBy(0.3, cc.p(0,-50));
            /* var actionMoveDone = cc.callFunc(this.resetReel.bind(this,i), this);*/
@@ -194,7 +211,8 @@ var HelloWorldLayer = cc.Layer.extend({
             }
             sprite.x = pp.x+232/2;
             sprite.y = pp.y;
-            var label = new cc.LabelTTF("" + (j +this.nCurrentReelIndex[i])%80, "fonts/arial.ttf", 55);
+            var nStripIndex = (j +this.nCurrentReelIndex[i])%80;
+            var label = new cc.LabelTTF("" + nStripIndex + cc.aMathReelSet[0][nstripid-1], "fonts/arial.ttf", 55);
             label.setAnchorPoint(cc.p(0, 0));
             label.x = pp.x;
             label.y = pp.y;
