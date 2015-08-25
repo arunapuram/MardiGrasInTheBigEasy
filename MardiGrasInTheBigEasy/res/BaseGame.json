@@ -1,0 +1,1598 @@
+{
+  "ID": "ae9bbae4-7e3f-40ea-bcfc-93926ab7396a",
+  "Version": "2.3.1.1",
+  "Name": "BaseGame",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 14,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/MainWindow/GameBackground.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1360,
+            "Scale9Height": 768,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 682.0465,
+              "Y": 387.9314
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5015,
+              "Y": 0.5051
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 2.0465,
+            "RightMargin": -2.0465,
+            "TopMargin": -3.9314,
+            "BottomMargin": 3.9314,
+            "Tag": 19,
+            "ActionTag": -1175693081,
+            "Size": {
+              "X": 1360.0,
+              "Y": 768.0
+            },
+            "Name": "MainBackground",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/PlayBar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 683.2766,
+              "Y": 80.3857
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5024,
+              "Y": 0.1047
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 3.2766,
+            "RightMargin": -3.2766,
+            "TopMargin": 611.1143,
+            "BottomMargin": 3.8857,
+            "Tag": 20,
+            "ActionTag": 1359299389,
+            "Size": {
+              "X": 1360.0,
+              "Y": 153.0
+            },
+            "Name": "PlayBar",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/Game/Reels.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1220,
+            "Scale9Height": 611,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 614.4659,
+              "Y": 458.4722
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4518,
+              "Y": 0.597
+            },
+            "PreSize": {
+              "X": 0.8971,
+              "Y": 0.7956
+            },
+            "LeftMargin": 4.4659,
+            "RightMargin": 135.5342,
+            "TopMargin": 4.0278,
+            "BottomMargin": 152.9722,
+            "Tag": 21,
+            "ActionTag": -1099469636,
+            "Size": {
+              "X": 1220.0,
+              "Y": 611.0
+            },
+            "Name": "ReelDressing",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/HelpReleased.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/HelpHold.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/HelpNormal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 52,
+            "Scale9Height": 64,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 52.3465,
+              "Y": 60.454
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0385,
+              "Y": 0.0787
+            },
+            "PreSize": {
+              "X": 0.0603,
+              "Y": 0.112
+            },
+            "LeftMargin": 11.3465,
+            "RightMargin": 1266.6536,
+            "TopMargin": 664.546,
+            "BottomMargin": 17.454,
+            "Tag": 24,
+            "ActionTag": 503522308,
+            "Size": {
+              "X": 82.0,
+              "Y": 86.0
+            },
+            "Name": "Help.Button",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/PlayReleased.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/PlayHold.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/PlayNormal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 75,
+            "Scale9Height": 65,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 758.4685,
+              "Y": 63.3603
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5577,
+              "Y": 0.0825
+            },
+            "PreSize": {
+              "X": 0.0772,
+              "Y": 0.1133
+            },
+            "LeftMargin": 705.9685,
+            "RightMargin": 549.0315,
+            "TopMargin": 661.1397,
+            "BottomMargin": 19.8603,
+            "Tag": 56,
+            "ActionTag": -1247754529,
+            "Size": {
+              "X": 105.0,
+              "Y": 87.0
+            },
+            "Name": "Play.Button",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/BetPerLineReleased.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/BetPerLineHold.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/PlayBar/BetPerLineNormal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 80,
+            "Scale9Height": 67,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 523.4771,
+              "Y": 63.2189
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3849,
+              "Y": 0.0823
+            },
+            "PreSize": {
+              "X": 0.0809,
+              "Y": 0.1159
+            },
+            "LeftMargin": 468.4771,
+            "RightMargin": 781.5229,
+            "TopMargin": 660.2811,
+            "BottomMargin": 18.7189,
+            "Tag": 57,
+            "ActionTag": 1165803442,
+            "Size": {
+              "X": 110.0,
+              "Y": 89.0
+            },
+            "Name": "BetPerLine",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1360.0,
+            "TopMargin": 768.0,
+            "Tag": 18,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Game/Blank/blank.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 24.6306,
+                  "Y": 707.7127
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.7188
+                },
+                "LeftMargin": 24.6306,
+                "RightMargin": -256.6306,
+                "TopMargin": -707.7127,
+                "BottomMargin": 155.7127,
+                "Tag": 16,
+                "ActionTag": -38366644,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 552.0
+                },
+                "Name": "Reel0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Game/Blank/blank.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 255.6301,
+                  "Y": 707.7093
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.7188
+                },
+                "LeftMargin": 255.6301,
+                "RightMargin": -487.6301,
+                "TopMargin": -707.7093,
+                "BottomMargin": 155.7093,
+                "Tag": 17,
+                "ActionTag": -1800838545,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 552.0
+                },
+                "Name": "Reel1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Game/Blank/blank.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 484.6291,
+                  "Y": 707.71
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.7188
+                },
+                "LeftMargin": 484.6291,
+                "RightMargin": -716.6291,
+                "TopMargin": -707.71,
+                "BottomMargin": 155.71,
+                "Tag": 18,
+                "ActionTag": -869673866,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 552.0
+                },
+                "Name": "Reel2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Game/Blank/blank.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 712.6279,
+                  "Y": 707.71
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.7188
+                },
+                "LeftMargin": 712.6279,
+                "RightMargin": -944.6279,
+                "TopMargin": -707.71,
+                "BottomMargin": 155.71,
+                "Tag": 19,
+                "ActionTag": 449397344,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 552.0
+                },
+                "Name": "Reel3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Game/Blank/blank.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 940.627,
+                  "Y": 707.7092
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.7188
+                },
+                "LeftMargin": 940.627,
+                "RightMargin": -1172.627,
+                "TopMargin": -707.7092,
+                "BottomMargin": 155.7092,
+                "Tag": 20,
+                "ActionTag": -930619473,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 552.0
+                },
+                "Name": "Reel4",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1765649766,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Reels",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1360.0,
+            "TopMargin": 768.0,
+            "Tag": 19,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Ace/Ace.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 64,
+                "ActionTag": -884264633,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.A",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Jack/Jack.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 65,
+                "ActionTag": 1907133309,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.J",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/King/King.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 66,
+                "ActionTag": 1062743653,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.K",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Queen/Queen.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 68,
+                "ActionTag": 2068178803,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.Q",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Ten/Ten.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 69,
+                "ActionTag": -1590246776,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.T",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild0/Wild.PNG",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.0,
+                "RightMargin": -97.0,
+                "TopMargin": -93.0,
+                "BottomMargin": -93.0,
+                "Tag": 20,
+                "ActionTag": -107375970,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 186.0
+                },
+                "Name": "ReelSymbol.F",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild1/Wild.PNG",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.0,
+                "RightMargin": -97.0,
+                "TopMargin": -93.0,
+                "BottomMargin": -93.0,
+                "Tag": 21,
+                "ActionTag": -412106610,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 186.0
+                },
+                "Name": "ReelSymbol.G",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild2/Wild.PNG",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.0,
+                "RightMargin": -97.0,
+                "TopMargin": -93.0,
+                "BottomMargin": -93.0,
+                "Tag": 22,
+                "ActionTag": 380654500,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 186.0
+                },
+                "Name": "ReelSymbol.H",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild_2x/Wild_2x.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -130.0,
+                "RightMargin": -130.0,
+                "TopMargin": -130.0,
+                "BottomMargin": -130.0,
+                "Tag": 23,
+                "ActionTag": -1204972092,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 260.0
+                },
+                "Name": "ReelSymbol.S",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild_3x/Wild_3x.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -130.0,
+                "RightMargin": -130.0,
+                "TopMargin": -130.0,
+                "BottomMargin": -130.0,
+                "Tag": 24,
+                "ActionTag": 78693685,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 260.0
+                },
+                "Name": "ReelSymbol.U",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild_4x/Wild_4x.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -130.0,
+                "RightMargin": -130.0,
+                "TopMargin": -130.0,
+                "BottomMargin": -130.0,
+                "Tag": 25,
+                "ActionTag": -1385930988,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 260.0
+                },
+                "Name": "ReelSymbol.V",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/PartyGirl/PartyGirlTop.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.5,
+                "RightMargin": -97.5,
+                "TopMargin": -92.5,
+                "BottomMargin": -92.5,
+                "Tag": 26,
+                "ActionTag": -506223642,
+                "Size": {
+                  "X": 195.0,
+                  "Y": 185.0
+                },
+                "Name": "ReelSymbol.I",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/PartyGirl/PartyGirlBottom.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.5,
+                "RightMargin": -97.5,
+                "TopMargin": -92.5,
+                "BottomMargin": -92.5,
+                "Tag": 27,
+                "ActionTag": 1904146583,
+                "Size": {
+                  "X": 195.0,
+                  "Y": 185.0
+                },
+                "Name": "ReelSymbol.L",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Mask/Mask.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 28,
+                "ActionTag": -759765351,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.C",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Hurricane/Hurricane.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 29,
+                "ActionTag": 19213340,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.D",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/KingCake/KingCake.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 30,
+                "ActionTag": -218536703,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.E",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Nine/Nine.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 31,
+                "ActionTag": 1549284173,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.N",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/FreeSpin/FreeSpin.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.5,
+                "RightMargin": -114.5,
+                "TopMargin": -114.5,
+                "BottomMargin": -114.5,
+                "Tag": 32,
+                "ActionTag": 1641827303,
+                "Size": {
+                  "X": 229.0,
+                  "Y": 229.0
+                },
+                "Name": "ReelSymbol.X",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Pick/Pick.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -114.0,
+                "BottomMargin": -114.0,
+                "Tag": 33,
+                "ActionTag": -1783318931,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 228.0
+                },
+                "Name": "ReelSymbol.Y",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wheel/Wheel.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.5,
+                "RightMargin": -114.5,
+                "TopMargin": -115.0,
+                "BottomMargin": -115.0,
+                "Tag": 34,
+                "ActionTag": -1202259421,
+                "Size": {
+                  "X": 229.0,
+                  "Y": 230.0
+                },
+                "Name": "ReelSymbol.Z",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild0/Wild.PNG",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.0,
+                "RightMargin": -97.0,
+                "TopMargin": -93.0,
+                "BottomMargin": -93.0,
+                "Tag": 35,
+                "ActionTag": -421172955,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 186.0
+                },
+                "Name": "ReelSymbol.W",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/PartyGirl/PartyGirlBottom.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.5,
+                "RightMargin": -97.5,
+                "TopMargin": -92.5,
+                "BottomMargin": -92.5,
+                "Tag": 36,
+                "ActionTag": 2132452411,
+                "Size": {
+                  "X": 195.0,
+                  "Y": 185.0
+                },
+                "Name": "ReelSymbol.B",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1628537507,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ReelSymbols",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1360.0,
+          "Y": 768.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "source/Game/Blank/blank.png",
+        "source/Game/Reels.png",
+        "source/MainWindow/GameBackground.png",
+        "source/PlayBar/BetPerLineHold.png",
+        "source/PlayBar/BetPerLineNormal.png",
+        "source/PlayBar/BetPerLineReleased.png",
+        "source/PlayBar/HelpHold.png",
+        "source/PlayBar/HelpNormal.png",
+        "source/PlayBar/HelpReleased.png",
+        "source/PlayBar/PlayBar.png",
+        "source/PlayBar/PlayHold.png",
+        "source/PlayBar/PlayNormal.png",
+        "source/PlayBar/PlayReleased.png",
+        "source/Reels/Ace/Ace.png",
+        "source/Reels/FreeSpin/FreeSpin.png",
+        "source/Reels/Hurricane/Hurricane.png",
+        "source/Reels/Jack/Jack.png",
+        "source/Reels/King/King.png",
+        "source/Reels/KingCake/KingCake.png",
+        "source/Reels/Mask/Mask.png",
+        "source/Reels/Nine/Nine.png",
+        "source/Reels/PartyGirl/PartyGirlBottom.png",
+        "source/Reels/PartyGirl/PartyGirlTop.png",
+        "source/Reels/Pick/Pick.png",
+        "source/Reels/Queen/Queen.png",
+        "source/Reels/Ten/Ten.png",
+        "source/Reels/Wheel/Wheel.png",
+        "source/Reels/Wild_2x/Wild_2x.png",
+        "source/Reels/Wild_3x/Wild_3x.png",
+        "source/Reels/Wild_4x/Wild_4x.png",
+        "source/Reels/Wild0/Wild.PNG",
+        "source/Reels/Wild1/Wild.PNG",
+        "source/Reels/Wild2/Wild.PNG"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
