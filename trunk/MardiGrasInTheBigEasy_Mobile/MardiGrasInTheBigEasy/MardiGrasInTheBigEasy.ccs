@@ -95,6 +95,9 @@
               <Image Name="Wheel.png" />
             </Folder>
           </Folder>
+          <Folder Name="Paylines">
+            <Image Name="PayBox.png" />
+          </Folder>
         </Folder>
       </RootFolder>
     </Group>
