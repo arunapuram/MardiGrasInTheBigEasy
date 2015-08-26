@@ -643,6 +643,10 @@
                   "Path": "source/Reels/Ace/Ace.png",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -683,6 +687,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/Jack/Jack.png",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -725,6 +733,10 @@
                   "Path": "source/Reels/King/King.png",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -765,6 +777,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/Queen/Queen.png",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -807,6 +823,10 @@
                   "Path": "source/Reels/Ten/Ten.png",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -847,6 +867,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/Wild0/Wild.PNG",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -889,6 +913,10 @@
                   "Path": "source/Reels/Wild1/Wild.PNG",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -929,6 +957,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/Wild2/Wild.PNG",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -971,6 +1003,10 @@
                   "Path": "source/Reels/Wild_2x/Wild_2x.png",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -1011,6 +1047,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/Wild_3x/Wild_3x.png",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -1053,6 +1093,10 @@
                   "Path": "source/Reels/Wild_4x/Wild_4x.png",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -1093,6 +1137,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/PartyGirl/PartyGirlTop.png",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -1135,6 +1183,10 @@
                   "Path": "source/Reels/PartyGirl/PartyGirlBottom.png",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -1175,6 +1227,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/Mask/Mask.png",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -1217,6 +1273,10 @@
                   "Path": "source/Reels/Hurricane/Hurricane.png",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -1257,6 +1317,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/KingCake/KingCake.png",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -1299,6 +1363,10 @@
                   "Path": "source/Reels/Nine/Nine.png",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -1339,6 +1407,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/FreeSpin/FreeSpin.png",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -1381,6 +1453,10 @@
                   "Path": "source/Reels/Pick/Pick.png",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -1421,6 +1497,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/Wheel/Wheel.png",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -1463,6 +1543,10 @@
                   "Path": "source/Reels/Wild0/Wild.PNG",
                   "Plist": ""
                 },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -1503,6 +1587,10 @@
                   "Type": "Normal",
                   "Path": "source/Reels/PartyGirl/PartyGirlBottom.png",
                   "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
                 },
                 "AnchorPoint": {
                   "ScaleX": 0.5,
@@ -1547,6 +1635,83 @@
             },
             "Name": "ReelSymbols",
             "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1360.0,
+            "TopMargin": 768.0,
+            "Tag": 37,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Paylines/PayBox.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 97.0,
+                  "Y": 279.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 97.0,
+                "RightMargin": -291.0,
+                "TopMargin": -279.0,
+                "BottomMargin": 93.0,
+                "Tag": 38,
+                "ActionTag": -1384105872,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 186.0
+                },
+                "Name": "PaylineBox",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 694942884,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Paylines",
+            "ctype": "SingleNodeObjectData"
           }
         ],
         "Size": {
@@ -1560,6 +1725,7 @@
         "source/Game/Blank/blank.png",
         "source/Game/Reels.png",
         "source/MainWindow/GameBackground.png",
+        "source/Paylines/PayBox.png",
         "source/PlayBar/BetPerLineHold.png",
         "source/PlayBar/BetPerLineNormal.png",
         "source/PlayBar/BetPerLineReleased.png",

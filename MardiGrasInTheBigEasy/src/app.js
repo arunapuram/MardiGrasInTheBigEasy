@@ -16,10 +16,11 @@ var HelloWorldLayer = cc.Layer.extend({
         this.nCurrentReelIndex = [];
         this.aReelSymbols = [];
         this.aReelStrips = [];
+        this.aPaylineBox = [];
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
-        this.aStopPosition = [5,6,4,5,4];
+        this.aStopPosition = [21,21,21,21,21];
         this.objAppData = new AppData();
         this.objAppData.updateReelFace(this.aStopPosition);
         this.nreelsymbols= cc.aMathReelSet[0].length;
@@ -78,6 +79,9 @@ var HelloWorldLayer = cc.Layer.extend({
         this.playbutton = this.mainscene.node.getChildByName("Play.Button");
         this.playbutton.addTouchEventListener(this.touchEvent, this);
         var objReelNode = this.mainscene.node.getChildByName("Reels");
+        var objPaylineNode = this.mainscene.node.getChildByName("Paylines");
+        var objPaylineBoxNode = objPaylineNode.getChildByName("PaylineBox");
+        objPaylineBoxNode.visible = false;
         for(var i=0; i<this.nSymbols;i++)
         {
             var reels = objReelNode.getChildByName("Reel"+i);
@@ -89,7 +93,7 @@ var HelloWorldLayer = cc.Layer.extend({
             clipper.x = reels.x;
             clipper.y = reels.y;
             //clipper.runAction(cc.rotateBy(1, 45).repeatForever());
-            this.addChild(clipper);
+            this.mainscene.node.addChild(clipper);
 
             var stencil = new cc.DrawNode();
             var rectangle = [cc.p(0, 0), cc.p(clipper.width, 0),
@@ -100,6 +104,13 @@ var HelloWorldLayer = cc.Layer.extend({
             stencil.drawPoly(rectangle, white, 1, white);
             clipper.stencil = stencil;
             clipper.addChild(this.aReelStrips[i]);
+            this.aPaylineBox[i] = new cc.Sprite();
+            this.aPaylineBox[i].initWithTexture(objPaylineBoxNode.getTexture());
+            this.aPaylineBox[i].setAnchorPoint(cc.p(0, 1));
+            this.aPaylineBox[i].x = reels.x;
+            this.aPaylineBox[i].y = reels.y;
+            this.aPaylineBox[i].setColor(cc.color(0,0,255,255));
+            this.mainscene.node.addChild(this.aPaylineBox[i]);
         }
         /*var camera = cc.Camera.createPerspective(60, size.width/size.height, 1, 1000);
         camera.setCameraFlag(cc.CameraFlag.USER1);
