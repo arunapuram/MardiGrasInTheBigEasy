@@ -17,6 +17,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.aReelSymbols = [];
         this.aReelStrips = [];
         this.aPaylineBox = [];
+        this.objPaylineSegment = null;
         this.aPaylinePositions = [];
         this.nPaylineCounter = 0;
         this.bShowPaylines = false;
@@ -121,9 +122,12 @@ var HelloWorldLayer = cc.Layer.extend({
                 this.aPaylinePositions[j][i] = {x:reels.x+18,y:reels.y-j*184};
             }
             this.aPaylineBox[i].visible = false;
-            this.aPaylineBox[i].retain();
+            //this.aPaylineBox[i].retain();
             this.mainscene.node.addChild(this.aPaylineBox[i]);
         }
+        this.objPaylineSegment = new cc.DrawNode();
+        this.objPaylineSegment.setLineWidth(3);
+        this.mainscene.node.addChild(this.objPaylineSegment);
         /*var camera = cc.Camera.createPerspective(60, size.width/size.height, 1, 1000);
         camera.setCameraFlag(cc.CameraFlag.USER1);
         camera.setPosition3D(cc.math.vec3(0, 100, 100));
@@ -239,13 +243,19 @@ var HelloWorldLayer = cc.Layer.extend({
         {
             if(this.nPaylineCounter<this.objAppData.aPaylineID.length)
             {
-                var colorval = cc.color(0,Math.random()*255,Math.random()*255,Math.random()*255);
+                var colorval = cc.color(Math.random()*255,Math.random()*255,Math.random()*255,200);
+                this.objPaylineSegment.clear();
+                this.objPaylineSegment.setDrawColor(colorval);
                 for(var nCols = 0; nCols < 5; nCols++)
                 {
                     this.aPaylineBox[nCols].visible = true;
                     this.aPaylineBox[nCols].setColor(colorval);
                     this.aPaylineBox[nCols].x = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].x;
                     this.aPaylineBox[nCols].y = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].y;
+                    if(nCols != 0)
+                    {
+                        this.objPaylineSegment.drawSegment(cc.p(this.aPaylineBox[nCols-1].x+(194),this.aPaylineBox[nCols-1].y-(186/2)), cc.p(this.aPaylineBox[nCols].x, this.aPaylineBox[nCols].y-(186/2)));
+                    }
                     /*this.objAppData.aPaylineStrings*/
                 }
                 this.nPaylineCounter++;
