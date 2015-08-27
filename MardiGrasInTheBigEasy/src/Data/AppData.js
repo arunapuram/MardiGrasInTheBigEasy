@@ -8,7 +8,7 @@ var AppData = function()
     this.nPaylines = 30;
     for(var nRows = 0; nRows < 3; nRows++)
     {
-        this.strReelFace[nRows] = []
+        this.strReelFace[nRows] = [];
         for(var nCols = 0; nCols < 5; nCols++)
         {
             this.strReelFace[nRows][nCols] = "";
@@ -45,19 +45,41 @@ AppData.prototype.updateReelFace = function(aReelStopPosition)
         for(var nPaylineAIndex = 0; nPaylineAIndex < aOffsetPrioPaylines[nPaylineOrder].length; nPaylineAIndex++)
         {
             var selPaylineIndex = aOffsetPrioPaylines[nPaylineOrder][nPaylineAIndex];
+            var strPaylineStr = "";
+            var apaylineOff = [];
             var nCounter = 0;
-            for(var nRows = 0; nRows < 3; nRows++)
+            for(var nCols = 0; nCols < 5; nCols++)
             {
-                for(var nCols = 0; nCols < 5; nCols++)
+                for(var nRows = 0; nRows < 3; nRows++)
                 {
-                    if(cc.aMathPayline[selPaylineIndex][nRows][nCols]===1 && this.strReelFace[nRows][nCols] === refSymbol)
+                    if(cc.aMathPayline[selPaylineIndex][nRows][nCols]===1 && ((this.strReelFace[nRows][nCols] === refSymbol) || (this.strReelFace[nRows][nCols] === "F" || this.strReelFace[nRows][nCols] === "G" || this.strReelFace[nRows][nCols] === "H" || this.strReelFace[nRows][nCols] === "W")))
                     {
+                        strPaylineStr = strPaylineStr + this.strReelFace[nRows][nCols];
                         nCounter++;
+                        apaylineOff[nCols] = nRows-1;
                     }
                 }
             }
-            if(nCounter >= 3)
+            if(nCounter === 5)
+            {
                 this.aPaylineID.push(selPaylineIndex);
+                for(var nPindex=nCounter;nPindex<5;nPindex++)
+                {
+                    strPaylineStr = strPaylineStr + "?";
+                }
+                for(var nPoffsets=nCounter;nPoffsets<5;nPoffsets++)
+                {
+                    for(var nRows = 0; nRows < 3; nRows++)
+                    {
+                        if(cc.aMathPayline[selPaylineIndex][nRows][nPoffsets]===1)
+                        {
+                            apaylineOff[nPoffsets] = nRows-1;
+                        }
+                    }
+                }
+                this.aPaylineStrings.push(strPaylineStr);
+                this.aPaylineOffsets.push(apaylineOff);
+            }
         }
     }
 };

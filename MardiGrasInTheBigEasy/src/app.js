@@ -17,6 +17,13 @@ var HelloWorldLayer = cc.Layer.extend({
         this.aReelSymbols = [];
         this.aReelStrips = [];
         this.aPaylineBox = [];
+        this.aPaylinePositions = [];
+        this.nPaylineCounter = 0;
+        this.bShowPaylines = false;
+        for(var j=0; j<3;j++)
+        {
+            this.aPaylinePositions[j] = [];
+        }
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
@@ -107,9 +114,14 @@ var HelloWorldLayer = cc.Layer.extend({
             this.aPaylineBox[i] = new cc.Sprite();
             this.aPaylineBox[i].initWithTexture(objPaylineBoxNode.getTexture());
             this.aPaylineBox[i].setAnchorPoint(cc.p(0, 1));
-            this.aPaylineBox[i].x = reels.x;
-            this.aPaylineBox[i].y = reels.y;
-            this.aPaylineBox[i].setColor(cc.color(0,0,255,255));
+            this.aPaylineBox[i].x = reels.x+18;
+            this.aPaylineBox[i].y = reels.y/*-184*/;
+            for(var j=0; j<3;j++)
+            {
+                this.aPaylinePositions[j][i] = {x:reels.x+18,y:reels.y-j*184};
+            }
+            this.aPaylineBox[i].visible = false;
+            this.aPaylineBox[i].retain();
             this.mainscene.node.addChild(this.aPaylineBox[i]);
         }
         /*var camera = cc.Camera.createPerspective(60, size.width/size.height, 1, 1000);
@@ -155,6 +167,11 @@ var HelloWorldLayer = cc.Layer.extend({
     },
     spinReel:function (i)
     {
+        if(i===0)
+        {
+            this.bShowPaylines = false;
+        }
+        this.showWinningPayline();
         var move = cc.moveBy(0.3, cc.p(0,50));
         var actionMoveDone = cc.callFunc(this.spinReelAfterBounce.bind(this,i), this);
         var seq = cc.sequence(move,actionMoveDone);
@@ -192,9 +209,50 @@ var HelloWorldLayer = cc.Layer.extend({
             this.aReelStrips[i].stopAction(this.fe2[i]);
             var move = cc.moveBy(0.3, cc.p(0,50));
             var move1 = cc.moveBy(0.3, cc.p(0,-50));
-           /* var actionMoveDone = cc.callFunc(this.resetReel.bind(this,i), this);*/
-            var seq = cc.sequence(move,move1);
+            var seq;
+            if(i===4)
+            {
+                var actionMoveDone = cc.callFunc(this.startPaylines.bind(this), this);
+                seq = cc.sequence(move, move1,actionMoveDone);
+            }
+            else
+            {
+                seq = cc.sequence(move, move1);
+            }
             this.aReelStrips[i].runAction(seq);
+        }
+
+    },
+    startPaylines:function ()
+    {
+        this.nPaylineCounter = 0;
+        this.bShowPaylines = true;
+        this.showWinningPayline();
+    },
+    showWinningPayline:function ()
+    {
+        for(var nCols = 0; nCols < 5; nCols++)
+        {
+            this.aPaylineBox[nCols].visible = false;
+        }
+        if(this.bShowPaylines)
+        {
+            if(this.nPaylineCounter<this.objAppData.aPaylineID.length)
+            {
+                var colorval = cc.color(0,Math.random()*255,Math.random()*255,Math.random()*255);
+                for(var nCols = 0; nCols < 5; nCols++)
+                {
+                    this.aPaylineBox[nCols].visible = true;
+                    this.aPaylineBox[nCols].setColor(colorval);
+                    this.aPaylineBox[nCols].x = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].x;
+                    this.aPaylineBox[nCols].y = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].y;
+                    /*this.objAppData.aPaylineStrings*/
+                }
+                this.nPaylineCounter++;
+                if(this.nPaylineCounter == this.objAppData.aPaylineID.length)
+                    this.nPaylineCounter = 0;
+                this.scheduleOnce(this.showWinningPayline.bind(this),1);
+            }
         }
     },
     UpdateReelStrip:function (i)
