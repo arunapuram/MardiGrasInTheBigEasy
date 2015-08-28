@@ -28,7 +28,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
-        this.aStopPosition = [21,21,21,21,21];
+        this.aStopPosition = [5,5,5,12,12];
         this.objAppData = new AppData();
         this.objAppData.updateReelFace(this.aStopPosition);
         this.nreelsymbols= cc.aMathReelSet[0].length;
@@ -176,6 +176,7 @@ var HelloWorldLayer = cc.Layer.extend({
             this.bShowPaylines = false;
         }
         this.showWinningPayline();
+        this.objPaylineSegment.clear();
         var move = cc.moveBy(0.3, cc.p(0,50));
         var actionMoveDone = cc.callFunc(this.spinReelAfterBounce.bind(this,i), this);
         var seq = cc.sequence(move,actionMoveDone);
@@ -248,7 +249,8 @@ var HelloWorldLayer = cc.Layer.extend({
                 this.objPaylineSegment.setDrawColor(colorval);
                 for(var nCols = 0; nCols < 5; nCols++)
                 {
-                    this.aPaylineBox[nCols].visible = true;
+                    if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) != "?")
+                        this.aPaylineBox[nCols].visible = true;
                     this.aPaylineBox[nCols].setColor(colorval);
                     this.aPaylineBox[nCols].x = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].x;
                     this.aPaylineBox[nCols].y = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].y;

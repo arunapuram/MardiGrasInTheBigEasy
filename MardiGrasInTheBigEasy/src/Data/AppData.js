@@ -48,7 +48,7 @@ AppData.prototype.updateReelFace = function(aReelStopPosition)
             var strPaylineStr = "";
             var apaylineOff = [];
             var nCounter = 0;
-            for(var nCols = 0; nCols < 5; nCols++)
+            for(var nCols = 0; nCols < 3; nCols++)
             {
                 for(var nRows = 0; nRows < 3; nRows++)
                 {
@@ -60,10 +60,22 @@ AppData.prototype.updateReelFace = function(aReelStopPosition)
                     }
                 }
             }
-            if(nCounter === 5)
+            var coter = nCounter;
+            if(nCounter >= 3)
             {
                 this.aPaylineID.push(selPaylineIndex);
                 for(var nPindex=nCounter;nPindex<5;nPindex++)
+                {
+                    for(var nRows = 0; nRows < 3; nRows++)
+                    {
+                        if(cc.aMathPayline[selPaylineIndex][nRows][nPindex]===1 && ((this.strReelFace[nRows][nPindex] === refSymbol) || (this.strReelFace[nRows][nPindex] === "F" || this.strReelFace[nRows][nPindex] === "G" || this.strReelFace[nRows][nPindex] === "H" || this.strReelFace[nRows][nPindex] === "W")))
+                        {
+                            strPaylineStr = strPaylineStr + refSymbol;
+                            coter++;
+                        }
+                    }
+                }
+                for(var nPindex=coter;nPindex<5;nPindex++)
                 {
                     strPaylineStr = strPaylineStr + "?";
                 }
