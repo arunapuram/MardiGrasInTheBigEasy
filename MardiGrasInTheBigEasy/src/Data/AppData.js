@@ -25,7 +25,7 @@ AppData.prototype.GetRefSymbol = function(nsPayLine)
             if (cc.aMathPayline[nsPayLine][nRows][nCols] === 1 && ((this.strReelFace[nRows][nCols] != "X" && this.strReelFace[nRows][nCols] != "Y" && this.strReelFace[nRows][nCols] != "Z" && this.strReelFace[nRows][nCols] != "F" && this.strReelFace[nRows][nCols] != "G" && this.strReelFace[nRows][nCols] != "H" && this.strReelFace[nRows][nCols] != "W")))
             {
                 strSYM = this.strReelFace[nRows][nCols];
-                break;
+                return strSYM;
             }
         }
     }
