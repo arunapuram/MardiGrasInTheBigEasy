@@ -15,6 +15,22 @@ var AppData = function()
         }
     }
 };
+AppData.prototype.GetRefSymbol = function(nsPayLine)
+{
+    var strSYM = "-1";
+    for (var nCols = 0; nCols < 5; nCols++)
+    {
+        for (var nRows = 0; nRows < 3; nRows++)
+        {
+            if (cc.aMathPayline[nsPayLine][nRows][nCols] === 1 && ((this.strReelFace[nRows][nCols] != "X" && this.strReelFace[nRows][nCols] != "Y" && this.strReelFace[nRows][nCols] != "Z" && this.strReelFace[nRows][nCols] != "F" && this.strReelFace[nRows][nCols] != "G" && this.strReelFace[nRows][nCols] != "H" && this.strReelFace[nRows][nCols] != "W")))
+            {
+                strSYM = this.strReelFace[nRows][nCols];
+                break;
+            }
+        }
+    }
+    return strSYM;
+};
 AppData.prototype.updateReelFace = function(aReelStopPosition)
 {
     this.resetReelFace();
@@ -41,13 +57,14 @@ AppData.prototype.updateReelFace = function(aReelStopPosition)
     }
     for(var nPaylineOrder = 0; nPaylineOrder < 3; nPaylineOrder++)
     {
-        var refSymbol = this.strReelFace[nPaylineOrder][0];
+
         for(var nPaylineAIndex = 0; nPaylineAIndex < aOffsetPrioPaylines[nPaylineOrder].length; nPaylineAIndex++)
         {
             var selPaylineIndex = aOffsetPrioPaylines[nPaylineOrder][nPaylineAIndex];
             var strPaylineStr = "";
             var apaylineOff = [];
             var nCounter = 0;
+            var refSymbol = this.GetRefSymbol(selPaylineIndex);
             for(var nCols = 0; nCols < 3; nCols++)
             {
                 for(var nRows = 0; nRows < 3; nRows++)
