@@ -28,7 +28,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
-        this.aStopPosition = [25,5,23,12,12];
+        this.aStopPosition = [20,5,30,12,12];
         this.objAppData = new AppData();
         this.objAppData.updateReelFace(this.aStopPosition);
         this.nreelsymbols= cc.aMathReelSet[0].length;
@@ -208,8 +208,13 @@ var HelloWorldLayer = cc.Layer.extend({
     {
         this.nCurrentReelIndex[i] = parseInt(""+(this.aStopPosition[i]/10));
         this.nCurrentReelIndex[i] = this.nCurrentReelIndex[i]*10;
+        if(this.aStopPosition[i]%10 === 0)
+            this.resetReel(i);
         this.aReelStrips[i].x = SYMBOL_WIDTH_HALF;
-        this.aReelStrips[i].y = -1*((SYMBOL_HEIGHT*this.nSymbolCount/2)-(2*SYMBOL_HEIGHT)) + ((this.aStopPosition[i]%10)*SYMBOL_HEIGHT);//550;
+        if(this.aStopPosition[i]%10 === 0)
+            this.aReelStrips[i].y = -1*((SYMBOL_HEIGHT*this.nSymbolCount/2)-(2*SYMBOL_HEIGHT)) + (10*SYMBOL_HEIGHT);//550;
+        else
+            this.aReelStrips[i].y = -1*((SYMBOL_HEIGHT*this.nSymbolCount/2)-(2*SYMBOL_HEIGHT)) + ((this.aStopPosition[i]%10)*SYMBOL_HEIGHT);//550;
         this.UpdateReelStrip(i);
         if(bFromStart === false)
         {
