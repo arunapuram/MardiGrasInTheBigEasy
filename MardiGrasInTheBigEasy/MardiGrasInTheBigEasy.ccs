@@ -99,6 +99,7 @@
             <Image Name="PayBox.png" />
           </Folder>
         </Folder>
+        <PlistParticleFile Name="particle_texture (4).plist" />
       </RootFolder>
     </Group>
   </SolutionFolder>
