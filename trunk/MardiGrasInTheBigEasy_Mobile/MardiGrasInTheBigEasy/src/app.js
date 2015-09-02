@@ -85,6 +85,8 @@ var HelloWorldLayer = cc.Layer.extend({
         }
 
         this.playbutton = this.mainscene.node.getChildByName("Play.Button");
+        this.coinparticle = this.mainscene.node.getChildByName("coin_particle");
+        this.mainscene.node.reorderChild(this.coinparticle,500);
         this.playbutton.addTouchEventListener(this.touchEvent, this);
         var objReelNode = this.mainscene.node.getChildByName("Reels");
         var objPaylineNode = this.mainscene.node.getChildByName("Paylines");
