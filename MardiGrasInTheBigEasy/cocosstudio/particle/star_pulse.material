@@ -1,0 +1,21 @@
+
+material star_pulse
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit star_pulse.png
+			{
+				texture_alias star_pulse.png
+				texture star_pulse.png
+			}
+		}
+
+	}
+
+}

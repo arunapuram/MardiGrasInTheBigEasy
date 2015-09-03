@@ -1,0 +1,21 @@
+
+material lights
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit lights.png
+			{
+				texture_alias lights.png
+				texture lights.png
+			}
+		}
+
+	}
+
+}

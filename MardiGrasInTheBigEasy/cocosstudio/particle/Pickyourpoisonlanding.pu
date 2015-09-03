@@ -1,0 +1,162 @@
+system Pickyourpoisonlanding
+{
+    category                                    MardiGrasInTheBigEasy
+    technique sparkles
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                star_pulse
+        default_particle_width                  40
+        default_particle_height                 40
+        default_particle_depth                  5
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Circle BurstEmitter
+        {
+            emission_rate                       dyn_random
+            {
+                min                             20
+                max                             25
+            }
+            angle                               200
+            time_to_live                        1
+            velocity                            200
+            auto_direction                      true
+            force_emission                      true
+            radius                              1
+            step                                0.75
+            normal                              0 0 1
+        }
+        affector                                TextureAnimator Animator
+        {
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector1483
+        {
+            rotation_speed                      8
+        }
+        affector                                Colour Affector1484
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.134783  0 1 0 1
+            time_colour                         0.586957  0 1 0 1
+            time_colour                         0.841304  0 1 0 0.4
+            time_colour                         1    0 1 0 0
+        }
+        affector                                Scale Affector1716
+        {
+            xyz_scale                           8
+        }
+    }
+    technique sparkles1
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                star_pulse
+        default_particle_width                  40
+        default_particle_height                 40
+        default_particle_depth                  5
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Circle BurstEmitter
+        {
+            emission_rate                       dyn_random
+            {
+                min                             20
+                max                             25
+            }
+            angle                               180
+            time_to_live                        1
+            velocity                            220
+            duration                            1
+            auto_direction                      true
+            force_emission                      true
+            radius                              1
+            step                                0.75
+            normal                              0 0 1
+        }
+        affector                                TextureAnimator Animator
+        {
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector1483
+        {
+            rotation_speed                      8
+        }
+        affector                                Colour Affector1484
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.158696  0 1 0 1
+            time_colour                         0.634783  0 1 0 1
+            time_colour                         0.886957  0 1 0 0.4
+            time_colour                         1    0 1 0 0
+        }
+        affector                                Scale Affector1716
+        {
+            xyz_scale                           8
+        }
+    }
+    technique sparkles2
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                star_pulse
+        default_particle_width                  40
+        default_particle_height                 40
+        default_particle_depth                  5
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Circle BurstEmitter
+        {
+            emission_rate                       dyn_random
+            {
+                min                             25
+                max                             30
+            }
+            angle                               190
+            time_to_live                        1
+            velocity                            200
+            duration                            1
+            auto_direction                      true
+            force_emission                      true
+            radius                              1
+            step                                0.75
+            normal                              0 0 1
+        }
+        affector                                TextureAnimator Animator
+        {
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector1483
+        {
+            rotation_speed                      8
+        }
+        affector                                Colour Affector1484
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.136957  1 1 0 1
+            time_colour                         0.641304  1 1 0 1
+            time_colour                         0.845652  1 1 0 0.4
+            time_colour                         1    1 1 0 0
+        }
+        affector                                Scale Affector1716
+        {
+            xyz_scale                           8
+        }
+    }
+}

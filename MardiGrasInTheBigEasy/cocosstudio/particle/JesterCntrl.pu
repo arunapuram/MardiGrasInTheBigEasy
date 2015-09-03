@@ -1,0 +1,424 @@
+system JesterCntrl
+{
+    category                                    MardiGrasInTheBigEasy
+    technique yellowstar
+    {
+        material                                starBurst
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box 
+        {
+            angle                               10
+            velocity                            800
+            duration                            1.5
+            all_particle_dimensions             120
+            direction                           -0.15 0.5 0
+            box_width                           40
+            box_height                          20
+            box_depth                           50
+        }
+        affector                                Scale Affector378
+        {
+            xyz_scale                           -150
+        }
+        affector                                Colour Affector379
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.271739  1 1 0 1
+            time_colour                         1    1 1 0 1
+        }
+    }
+    technique greenstar
+    {
+        material                                starBurst
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box 
+        {
+            angle                               10
+            velocity                            800
+            duration                            1.5
+            all_particle_dimensions             120
+            direction                           0.01 0.5 0
+            box_width                           40
+            box_height                          20
+            box_depth                           50
+        }
+        affector                                Scale Affector378
+        {
+            xyz_scale                           -150
+        }
+        affector                                Colour Affector379
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.269565  0 1 0 1
+            time_colour                         1    0 1 0 1
+        }
+    }
+    technique pinkstar
+    {
+        material                                starBurst
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box 
+        {
+            angle                               10
+            velocity                            800
+            duration                            1.5
+            all_particle_dimensions             120
+            direction                           0.15 0.5 0
+            box_width                           40
+            box_height                          20
+            box_depth                           50
+        }
+        affector                                Scale Affector378
+        {
+            xyz_scale                           -150
+        }
+        affector                                Colour Affector379
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.267391  1 0 1 1
+            time_colour                         1    1 0 1 1
+        }
+    }
+    technique greenconfetti
+    {
+        material                                confetti
+        default_particle_width                  30
+        default_particle_height                 30
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             18
+                max                             25
+            }
+            angle                               45
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             800
+                max                             850
+            }
+            auto_direction                      true
+            force_emission                      true
+            box_depth                           50
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    0 1 0 1
+            time_colour                         0.765217  0 1 0 1
+            time_colour                         1    0 1 0 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                LinearForce Affector497
+        {
+            force_vector                        0 -400 0
+        }
+    }
+    technique yellowconfetti
+    {
+        material                                confetti
+        default_particle_width                  30
+        default_particle_height                 30
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             18
+                max                             25
+            }
+            angle                               45
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             900
+                max                             950
+            }
+            auto_direction                      true
+            force_emission                      true
+            box_depth                           50
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 0 1
+            time_colour                         0.784783  1 1 0 1
+            time_colour                         1    1 1 0 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                LinearForce Affector497
+        {
+            force_vector                        0 -400 0
+        }
+    }
+    technique pinkwconfetti
+    {
+        material                                confetti
+        default_particle_width                  30
+        default_particle_height                 30
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             18
+                max                             25
+            }
+            angle                               45
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             900
+                max                             950
+            }
+            auto_direction                      true
+            force_emission                      true
+            box_depth                           50
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 0 1 1
+            time_colour                         0.791304  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                LinearForce Affector497
+        {
+            force_vector                        0 -400 0
+        }
+    }
+    technique spark1
+    {
+        material                                spark
+        default_particle_width                  15
+        default_particle_height                 15
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             1
+                max                             3
+            }
+            angle                               10
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             400
+                max                             450
+            }
+            direction                           -0.15 0.5 0
+            auto_direction                      true
+            force_emission                      true
+            box_depth                           50
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 0 0 1
+            time_colour                         0.763043  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                Scale Affector1375
+        {
+            xyz_scale                           8
+        }
+    }
+    technique spark2
+    {
+        material                                spark
+        default_particle_width                  35
+        default_particle_height                 35
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       3
+            angle                               10
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             400
+                max                             450
+            }
+            position                            0 100 0
+            auto_direction                      true
+            force_emission                      true
+            box_height                          200
+            box_depth                           50
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 0 0 1
+            time_colour                         0.763043  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                Scale Affector1375
+        {
+            xyz_scale                           10
+        }
+    }
+    technique spark3
+    {
+        material                                spark
+        default_particle_width                  15
+        default_particle_height                 15
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             1
+                max                             4
+            }
+            angle                               10
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             400
+                max                             450
+            }
+            direction                           0.15 0.5 0
+            auto_direction                      true
+            force_emission                      true
+            box_depth                           50
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 0 0 1
+            time_colour                         0.763043  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                Scale Affector1375
+        {
+            xyz_scale                           8
+        }
+    }
+}

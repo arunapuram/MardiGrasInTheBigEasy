@@ -1,0 +1,60 @@
+system ConfettiLuckyDust
+{
+    category                                    MardiGrasInTheBigEasy
+    technique yellow
+    {
+        material                                starBurst
+        default_particle_width                  30
+        default_particle_height                 30
+        default_particle_depth                  0
+        renderer                                Billboard
+        {
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       1
+            angle                               70
+            time_to_live                        1
+            force_emission                      true
+        }
+        affector                                Colour Affector591
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.554348  1 1 0 1
+            time_colour                         1    1 1 0 0.309804
+        }
+        affector                                LinearForce Affector241
+        {
+            force_vector                        0 -150 0
+        }
+    }
+    technique green
+    {
+        material                                starBurst
+        default_particle_width                  30
+        default_particle_height                 30
+        default_particle_depth                  0
+        renderer                                Billboard
+        {
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       1
+            angle                               70
+            time_to_live                        1
+            force_emission                      true
+        }
+        affector                                Colour Affector591
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.652174  0 1 0 1
+            time_colour                         1    0 1 0 0.309804
+        }
+        affector                                LinearForce Affector241
+        {
+            force_vector                        0 -150 0
+        }
+    }
+}

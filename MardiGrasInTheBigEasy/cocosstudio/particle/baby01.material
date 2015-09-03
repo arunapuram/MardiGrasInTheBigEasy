@@ -1,0 +1,21 @@
+
+material baby01
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit baby01.png
+			{
+				texture_alias baby01.png
+				texture baby01.png
+			}
+		}
+
+	}
+
+}

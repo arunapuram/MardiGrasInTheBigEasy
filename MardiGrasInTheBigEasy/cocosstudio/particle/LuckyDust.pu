@@ -1,0 +1,316 @@
+system LuckyDust
+{
+    category                                    MardiGrasInTheBigEasy
+    technique beads1
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                beadsLuckyDust01
+        default_particle_width                  80
+        default_particle_height                 40
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             2
+                max                             3
+            }
+            angle                               5
+            time_to_live                        1.8
+            velocity                            dyn_random
+            {
+                min                             200
+                max                             400
+            }
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.08
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                LinearForce Gravity
+        {
+            force_vector                        0 -600 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            300 500 200
+            collision_type                      flow
+            normal                              0 -100 -1
+        }
+        affector                                Colour Affector25
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.573913  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                TextureRotator Affector1938
+        {
+            rotation_speed                      -3
+        }
+        affector                                Scale Affector1487
+        {
+            xyz_scale                           30
+        }
+    }
+    technique beads2
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                beadsLuckyDust02
+        default_particle_width                  80
+        default_particle_height                 40
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             2
+                max                             3
+            }
+            angle                               5
+            time_to_live                        1.8
+            velocity                            dyn_random
+            {
+                min                             200
+                max                             400
+            }
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.08
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                LinearForce Gravity
+        {
+            force_vector                        0 -600 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            300 500 200
+            collision_type                      flow
+            normal                              0 -100 -1
+        }
+        affector                                Colour Affector25
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.573913  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                TextureRotator Affector1938
+        {
+            rotation_speed                      -3
+        }
+        affector                                Scale Affector1487
+        {
+            xyz_scale                           30
+        }
+    }
+    technique beads3
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                beadsLuckyDust03
+        default_particle_width                  80
+        default_particle_height                 40
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             2
+                max                             3
+            }
+            angle                               5
+            time_to_live                        1.8
+            velocity                            dyn_random
+            {
+                min                             200
+                max                             400
+            }
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.08
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                LinearForce Gravity
+        {
+            force_vector                        0 -600 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            300 500 200
+            collision_type                      flow
+            normal                              0 -100 -1
+        }
+        affector                                Colour Affector25
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.571739  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                TextureRotator Affector1938
+        {
+            rotation_speed                      -3
+        }
+        affector                                Scale Affector1487
+        {
+            xyz_scale                           30
+        }
+    }
+    technique yellow
+    {
+        material                                starBurst
+        default_particle_width                  40
+        default_particle_height                 40
+        default_particle_depth                  0
+        renderer                                Billboard
+        {
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             10
+                max                             15
+            }
+            angle                               dyn_random
+            {
+                min                             15
+                max                             18
+            }
+            time_to_live                        1.6
+            velocity                            200
+            box_width                           40
+            box_height                          40
+        }
+        affector                                Colour Affector591
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.226087  1 1 1 1
+            time_colour                         0.554348  1 1 0.603922 1
+            time_colour                         1    1 1 0.603922 0
+        }
+        affector                                TextureRotator Affector1938
+        {
+            rotation_speed                      3
+        }
+        affector                                LinearForce Affector241
+        {
+            force_vector                        0 -350 0
+        }
+    }
+    technique green
+    {
+        material                                starBurst
+        default_particle_width                  40
+        default_particle_height                 40
+        default_particle_depth                  0
+        renderer                                Billboard
+        {
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             10
+                max                             15
+            }
+            angle                               dyn_random
+            {
+                min                             15
+                max                             18
+            }
+            time_to_live                        1.6
+            velocity                            200
+            box_width                           40
+            box_height                          40
+        }
+        affector                                Colour Affector591
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.436957  1 1 1 1
+            time_colour                         0.593478  0.458824 1 0.458824 1
+            time_colour                         1    0 1 0.458824 0
+        }
+        affector                                TextureRotator Affector1938
+        {
+            rotation_speed                      3
+        }
+        affector                                LinearForce Affector241
+        {
+            force_vector                        0 -350 0
+        }
+    }
+    technique pulse1
+    {
+        material                                star_pulse
+        default_particle_width                  65
+        default_particle_height                 65
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       15
+            angle                               360
+            time_to_live                        1
+            velocity                            210
+            direction                           0 0 0
+            box_width                           25
+            box_height                          25
+            box_depth                           0
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector1483
+        {
+            rotation_speed                      3
+        }
+        affector                                Colour Affector1484
+        {
+            time_colour                         0    1 0 1 1
+            time_colour                         0.752174  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                Scale Affector1487
+        {
+            xyz_scale                           -100
+        }
+    }
+}

@@ -1,0 +1,21 @@
+
+material beads04
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit beads04.png
+			{
+				texture_alias beads04.png
+				texture beads04.png
+			}
+		}
+
+	}
+
+}

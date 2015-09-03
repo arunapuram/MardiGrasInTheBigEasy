@@ -1,0 +1,278 @@
+system Feathermaskcntrl
+{
+    category                                    MardiGrasInTheBigEasy
+    technique feather1
+    {
+        material                                feather01
+        default_particle_width                  40
+        default_particle_height                 60
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             3
+                max                             5
+            }
+            angle                               360
+            time_to_live                        1
+            velocity                            250
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           10
+        }
+    }
+    technique feather2
+    {
+        material                                feather02
+        default_particle_width                  40
+        default_particle_height                 60
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             3
+                max                             5
+            }
+            angle                               360
+            time_to_live                        1
+            velocity                            250
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           10
+        }
+    }
+    technique feather3
+    {
+        material                                feather03
+        default_particle_width                  40
+        default_particle_height                 60
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             3
+                max                             5
+            }
+            angle                               360
+            time_to_live                        1
+            velocity                            250
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           10
+        }
+    }
+    technique feathermask1
+    {
+        material                                star_pulse
+        default_particle_width                  20
+        default_particle_height                 20
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             7
+                max                             10
+            }
+            angle                               360
+            time_to_live                        1
+            velocity                            200
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 0 0 1
+            time_colour                         1    1 0 0 0
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           10
+        }
+    }
+    technique feathermask2
+    {
+        material                                star_pulse
+        default_particle_width                  20
+        default_particle_height                 20
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             10
+                max                             15
+            }
+            angle                               360
+            time_to_live                        1.5
+            velocity                            150
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           20
+        }
+        affector                                LinearForce Affector321
+        {
+            force_vector                        0 -200 0
+        }
+    }
+    technique feathermask3
+    {
+        material                                star_pulse
+        default_particle_width                  20
+        default_particle_height                 20
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             4
+                max                             20
+            }
+            angle                               360
+            time_to_live                        2
+            velocity                            200
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           10
+        }
+    }
+}

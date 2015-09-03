@@ -1,0 +1,98 @@
+system Voodoobonuscntrl
+{
+    category                                    MardiGrasInTheBigEasy
+    technique 
+    {
+        material                                star_pulse
+        default_particle_width                  30
+        default_particle_height                 30
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 SphereSurface 
+        {
+            emission_rate                       15
+            time_to_live                        1.8
+            velocity                            130
+            direction                           6 -1 0
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+        }
+        affector                                Scale Affector51
+        {
+            xyz_scale                           20
+        }
+        affector                                Colour Affector61
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.641304  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                TextureRotator Affector74
+        {
+            rotation                            2
+            rotation_speed                      -2
+        }
+        affector                                PathFollower 
+        {
+            exclude_emitter                     flares 
+            path_follower_point                 90 0 0
+            path_follower_point                 40 -50 40
+            path_follower_point                 -40 -60 70
+            path_follower_point                 10 -60 0
+        }
+    }
+    technique 
+    {
+        material                                star_pulse
+        default_particle_width                  30
+        default_particle_height                 30
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 SphereSurface 
+        {
+            emission_rate                       15
+            time_to_live                        1.8
+            velocity                            130
+            direction                           6 -1 0
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+        }
+        affector                                Scale Affector51
+        {
+            xyz_scale                           20
+        }
+        affector                                Colour Affector61
+        {
+            time_colour                         0    1 0 1 1
+            time_colour                         0.65  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                TextureRotator Affector74
+        {
+            rotation                            2
+            rotation_speed                      -2
+        }
+        affector                                PathFollower 
+        {
+            exclude_emitter                     flares 
+            path_follower_point                 90 0 0
+            path_follower_point                 40 -50 40
+            path_follower_point                 -40 -60 70
+            path_follower_point                 10 -60 0
+        }
+    }
+}

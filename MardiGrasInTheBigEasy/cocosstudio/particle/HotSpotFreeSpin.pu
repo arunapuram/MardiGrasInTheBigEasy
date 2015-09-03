@@ -1,0 +1,119 @@
+system HotSpotFreeSpin
+{
+    category                                    MardiGrasInTheBigEasy
+    technique Spark1
+    {
+        material                                spark
+        default_particle_width                  10
+        default_particle_height                 10
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             2
+                max                             4
+            }
+            angle                               10
+            velocity                            500
+            duration                            3
+            box_width                           110
+            box_height                          10
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                Colour Affector217
+        {
+            time_colour                         0    1 0 0 1
+            time_colour                         0.708696  1 0 1 1
+            time_colour                         1    1 0 1 1
+        }
+    }
+    technique Spark2
+    {
+        material                                spark
+        default_particle_width                  20
+        default_particle_height                 20
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             2
+                max                             4
+            }
+            angle                               10
+            velocity                            500
+            duration                            3
+            box_width                           110
+            box_height                          10
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                Colour Affector217
+        {
+            time_colour                         0    1 0 0 1
+            time_colour                         0.708696  1 0 1 1
+            time_colour                         1    1 0 1 1
+        }
+        affector                                Scale Affector725
+        {
+            xyz_scale                           10
+        }
+    }
+    technique Spark3
+    {
+        material                                spark
+        default_particle_width                  10
+        default_particle_height                 10
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             2
+                max                             4
+            }
+            angle                               10
+            velocity                            500
+            duration                            3
+            box_width                           10
+            box_height                          10
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                Colour Affector217
+        {
+            time_colour                         0    1 0 0 1
+            time_colour                         0.708696  1 0 1 1
+            time_colour                         1    1 0 1 1
+        }
+    }
+}

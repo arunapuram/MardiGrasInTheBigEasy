@@ -1,0 +1,21 @@
+
+material hurricane_splash
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit hurricane_splash.png
+			{
+				texture_alias hurricane_splash.png
+				texture hurricane_splash.png
+			}
+		}
+
+	}
+
+}

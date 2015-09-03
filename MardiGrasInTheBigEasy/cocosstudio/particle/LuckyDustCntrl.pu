@@ -1,0 +1,246 @@
+system LuckyDustCntrl
+{
+    category                                    MardiGrasInTheBigEasy
+    technique colordots1
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                f2
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 10
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             20
+                max                             30
+            }
+            angle                               dyn_random
+            {
+                min                             30
+                max                             35
+            }
+            time_to_live                        1.8
+            velocity                            dyn_random
+            {
+                min                             200
+                max                             250
+            }
+            all_particle_dimensions             20
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            49
+        }
+        affector                                LinearForce Gravity
+        {
+            force_vector                        0 -600 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            300 500 200
+            collision_type                      flow
+            normal                              0 -100 -1
+        }
+        affector                                Colour Affector25
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.204348  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+    }
+    technique colordots2
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                f2
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 10
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             20
+                max                             30
+            }
+            angle                               dyn_random
+            {
+                min                             30
+                max                             35
+            }
+            time_to_live                        1.8
+            velocity                            dyn_random
+            {
+                min                             200
+                max                             250
+            }
+            all_particle_dimensions             20
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            49
+        }
+        affector                                LinearForce Gravity
+        {
+            force_vector                        0 -600 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            300 500 200
+            collision_type                      flow
+            normal                              0 -100 -1
+        }
+        affector                                Colour Affector25
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.232609  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+    }
+    technique sparkles1
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                f1
+        default_particle_width                  100
+        default_particle_height                 100
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              4
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             6
+                max                             12
+            }
+            angle                               40
+            time_to_live                        2.1
+            velocity                            dyn_random
+            {
+                min                             200
+                max                             250
+            }
+            all_particle_dimensions             70
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            19
+        }
+        affector                                LinearForce Gravity
+        {
+            force_vector                        0 -300 0
+        }
+        affector                                TextureRotator Rotator
+        {
+            rotation                            dyn_random
+            {
+                min                             -180
+                max                             180
+            }
+            rotation_speed                      dyn_random
+            {
+                min                             2
+                max                             4
+            }
+        }
+        affector                                Colour Affector27
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.604348  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+    }
+    technique sparkles2
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                f1
+        default_particle_width                  100
+        default_particle_height                 100
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              4
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             10
+                max                             18
+            }
+            angle                               dyn_random
+            {
+                min                             20
+                max                             22
+            }
+            time_to_live                        2.1
+            velocity                            dyn_random
+            {
+                min                             200
+                max                             250
+            }
+            all_particle_dimensions             dyn_random
+            {
+                min                             130
+                max                             150
+            }
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            19
+        }
+        affector                                LinearForce Gravity
+        {
+            force_vector                        0 -300 0
+        }
+        affector                                TextureRotator Rotator
+        {
+            rotation                            dyn_random
+            {
+                min                             -180
+                max                             180
+            }
+            rotation_speed                      dyn_random
+            {
+                min                             2
+                max                             4
+            }
+        }
+        affector                                Colour Affector27
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.61087  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                Scale Affector24
+        {
+            xyz_scale                           -10
+        }
+    }
+}
