@@ -1,0 +1,21 @@
+
+material feather_sway01
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit feather_sway01.png
+			{
+				texture_alias feather_sway01.png
+				texture feather_sway01.png
+			}
+		}
+
+	}
+
+}

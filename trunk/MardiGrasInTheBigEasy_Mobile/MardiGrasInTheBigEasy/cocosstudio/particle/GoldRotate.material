@@ -1,0 +1,21 @@
+
+material GoldRotate
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit GoldRotate.png
+			{
+				texture_alias GoldRotate.png
+				texture GoldRotate.png
+			}
+		}
+
+	}
+
+}

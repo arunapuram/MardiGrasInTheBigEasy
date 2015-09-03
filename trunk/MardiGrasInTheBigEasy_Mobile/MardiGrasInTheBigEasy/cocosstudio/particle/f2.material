@@ -1,0 +1,21 @@
+
+material f2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit F2.png
+			{
+				texture_alias F2.png
+				texture F2.png
+			}
+		}
+
+	}
+
+}

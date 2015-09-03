@@ -1,0 +1,299 @@
+system StarBurst
+{
+    category                                    MardiGrasInTheBigEasy
+    technique green
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                flash
+        default_particle_width                  100
+        default_particle_height                 100
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             3
+                max                             5
+            }
+            angle                               10
+            time_to_live                        4
+            velocity                            dyn_random
+            {
+                min                             300
+                max                             450
+            }
+            duration                            1.5
+            all_particle_dimensions             12
+            box_width                           60
+            box_height                          20
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+        }
+        affector                                TextureRotator Rotator
+        {
+            rotation                            dyn_random
+            {
+                min                             -180
+                max                             180
+            }
+            rotation_speed                      5
+        }
+        affector                                Colour Fader
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.871739  0 1 0 1
+            time_colour                         1    0 1 0 0
+        }
+        affector                                Scale Affector1032
+        {
+            xyz_scale                           15
+        }
+    }
+    technique pink
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                flash
+        default_particle_width                  100
+        default_particle_height                 100
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             3
+                max                             5
+            }
+            angle                               10
+            time_to_live                        4
+            velocity                            dyn_random
+            {
+                min                             300
+                max                             450
+            }
+            duration                            1.5
+            all_particle_dimensions             12
+            box_width                           60
+            box_height                          20
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+        }
+        affector                                TextureRotator Rotator
+        {
+            rotation                            dyn_random
+            {
+                min                             -180
+                max                             180
+            }
+            rotation_speed                      5
+        }
+        affector                                Colour Fader
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.869565  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                Scale Affector1032
+        {
+            xyz_scale                           15
+        }
+    }
+    technique blue
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                flash
+        default_particle_width                  100
+        default_particle_height                 100
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             3
+                max                             5
+            }
+            angle                               10
+            time_to_live                        4
+            velocity                            dyn_random
+            {
+                min                             300
+                max                             450
+            }
+            duration                            1.5
+            all_particle_dimensions             12
+            box_width                           60
+            box_height                          20
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+        }
+        affector                                TextureRotator Rotator
+        {
+            rotation                            dyn_random
+            {
+                min                             -180
+                max                             180
+            }
+            rotation_speed                      5
+        }
+        affector                                Colour Fader
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.867391  0 1 1 1
+            time_colour                         1    0 1 1 0
+        }
+        affector                                Scale Affector1032
+        {
+            xyz_scale                           15
+        }
+    }
+    technique yellow
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                flash
+        default_particle_width                  100
+        default_particle_height                 100
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             3
+                max                             5
+            }
+            angle                               10
+            time_to_live                        4
+            velocity                            dyn_random
+            {
+                min                             300
+                max                             450
+            }
+            duration                            1.5
+            all_particle_dimensions             12
+            box_width                           60
+            box_height                          20
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+        }
+        affector                                TextureRotator Rotator
+        {
+            rotation                            dyn_random
+            {
+                min                             -180
+                max                             180
+            }
+            rotation_speed                      5
+        }
+        affector                                Colour Fader
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.865217  1 1 0 1
+            time_colour                         1    1 1 0 0
+        }
+        affector                                Scale Affector1032
+        {
+            xyz_scale                           15
+        }
+    }
+    technique red
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                flash
+        default_particle_width                  100
+        default_particle_height                 100
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            sorting                             true
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box Emitter3
+        {
+            emission_rate                       dyn_random
+            {
+                min                             3
+                max                             5
+            }
+            angle                               10
+            time_to_live                        4
+            velocity                            dyn_random
+            {
+                min                             300
+                max                             450
+            }
+            duration                            1.5
+            all_particle_dimensions             12
+            box_width                           60
+            box_height                          20
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+        }
+        affector                                TextureRotator Rotator
+        {
+            rotation                            dyn_random
+            {
+                min                             -180
+                max                             180
+            }
+            rotation_speed                      5
+        }
+        affector                                Colour Fader
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.863043  1 0 0 1
+            time_colour                         1    1 0 0 0
+        }
+        affector                                Scale Affector1032
+        {
+            xyz_scale                           15
+        }
+    }
+}

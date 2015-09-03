@@ -1,0 +1,208 @@
+system HurricaneCntrl
+{
+    category                                    MardiGrasInTheBigEasy
+    technique hurricane1
+    {
+        material                                hurricane_splash
+        default_particle_width                  280
+        default_particle_height                 400
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             1
+                max                             2
+            }
+            time_to_live                        1.1
+            direction                           0 0 0
+            force_emission                      true
+            box_width                           70
+            box_height                          10
+            box_depth                           10
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.04
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                Colour Affector780
+        {
+            time_colour                         0    0.74902 0.247059 0 1
+            time_colour                         1    1 0.839216 0 0.898039
+        }
+    }
+    technique hurricane1
+    {
+        material                                hurricane_splash
+        default_particle_width                  280
+        default_particle_height                 400
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             1
+                max                             2
+            }
+            time_to_live                        1.1
+            direction                           0 0 0
+            force_emission                      true
+            box_width                           70
+            box_height                          10
+            box_depth                           10
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.04
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+    }
+    technique hurricane2
+    {
+        material                                hurricane_splash
+        default_particle_width                  280
+        default_particle_height                 400
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             1
+                max                             2
+            }
+            time_to_live                        1.1
+            position                            0 -70 0
+            direction                           0 0 0
+            force_emission                      true
+            box_width                           70
+            box_height                          60
+            box_depth                           10
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.04
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                Colour Affector780
+        {
+            time_colour                         0    0 1 1 1
+            time_colour                         1    1 0.411765 0.701961 0.898039
+        }
+    }
+    technique star1
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                starBurst
+        default_particle_width                  15
+        default_particle_height                 15
+        renderer                                Billboard
+        {
+            render_queue_group                  100
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point BurstEmitter
+        {
+            emission_rate                       dyn_random
+            {
+                min                             15
+                max                             20
+            }
+            angle                               360
+            time_to_live                        1.1
+            velocity                            160
+            duration                            2
+            all_particle_dimensions             10
+            auto_direction                      true
+        }
+        affector                                Scale Affector25
+        {
+            xyz_scale                           30
+        }
+        affector                                TextureRotator Affector291
+        {
+            rotation_speed                      6
+        }
+        affector                                Colour Affector6
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.604348  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                TextureRotator Affector97
+        {
+            rotation_speed                      3
+        }
+    }
+    technique star2
+    {
+        visual_particle_quota                   2000
+        emitted_affector_quota                  200
+        material                                spark
+        default_particle_width                  15
+        default_particle_height                 15
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point BurstEmitter
+        {
+            emission_rate                       dyn_random
+            {
+                min                             20
+                max                             30
+            }
+            angle                               360
+            time_to_live                        0.6
+            velocity                            90
+            duration                            1.5
+            all_particle_dimensions             30
+            auto_direction                      true
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                Scale Affector25
+        {
+            xyz_scale                           30
+        }
+        affector                                TextureRotator Affector291
+        {
+            rotation_speed                      6
+        }
+        affector                                Colour Affector6
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.302174  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                TextureRotator Affector97
+        {
+            rotation_speed                      3
+        }
+    }
+}

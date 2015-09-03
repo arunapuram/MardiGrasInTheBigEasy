@@ -1,0 +1,122 @@
+system SpinsLeftLanding
+{
+    category                                    MardiGrasInTheBigEasy
+    technique spark1
+    {
+        material                                star_pulse
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             10
+                max                             15
+            }
+            angle                               360
+            time_to_live                        0.8
+            velocity                            250
+            duration                            1.5
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                Colour Affector31
+        {
+            time_colour                         0    0 1 1 0
+            time_colour                         0.123913  0 1 1 0
+            time_colour                         0.15  0 1 1 1
+            time_colour                         0.693478  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                TextureRotator Affector58
+        {
+        }
+    }
+    technique spark2
+    {
+        material                                star_pulse
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             10
+                max                             15
+            }
+            angle                               360
+            time_to_live                        0.8
+            velocity                            250
+            duration                            1.5
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                Colour Affector31
+        {
+            time_colour                         0    1 0 1 0
+            time_colour                         0.11087  1 0 1 0
+            time_colour                         0.136957  1 0 1 1
+            time_colour                         0.691304  0 1 1 1
+            time_colour                         1    0 1 1 0
+        }
+        affector                                TextureRotator Affector58
+        {
+        }
+    }
+    technique spark3
+    {
+        material                                star_pulse
+        renderer                                Billboard
+        {
+            texture_coords_rows                 6
+            texture_coords_columns              5
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             10
+                max                             15
+            }
+            angle                               360
+            time_to_live                        0.8
+            velocity                            250
+            duration                            1.5
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            29
+            texture_start_random                false
+        }
+        affector                                Colour Affector31
+        {
+            time_colour                         0    0 1 1 0
+            time_colour                         0.123913  0 1 1 0
+            time_colour                         0.15  0 1 1 1
+            time_colour                         0.693478  1 0 1 1
+            time_colour                         1    1 0 1 0
+        }
+        affector                                TextureRotator Affector58
+        {
+            rotation_speed                      -10
+        }
+    }
+}

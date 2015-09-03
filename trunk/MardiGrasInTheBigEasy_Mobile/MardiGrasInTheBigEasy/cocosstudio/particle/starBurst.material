@@ -1,0 +1,21 @@
+
+material starBurst
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit starBurst.png
+			{
+				texture_alias starBurst.png
+				texture starBurst.png
+			}
+		}
+
+	}
+
+}

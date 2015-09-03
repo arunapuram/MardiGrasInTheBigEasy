@@ -1,0 +1,21 @@
+
+material confetti
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit confetti.png
+			{
+				texture_alias confetti.png
+				texture confetti.png
+			}
+		}
+
+	}
+
+}

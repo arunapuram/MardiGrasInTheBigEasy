@@ -1,0 +1,240 @@
+system featherfreespin
+{
+    category                                    MardiGrasInTheBigEasy
+    technique feather1
+    {
+        material                                feather01
+        default_particle_width                  40
+        default_particle_height                 60
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             8
+                max                             10
+            }
+            angle                               45
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             900
+                max                             1000
+            }
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           10
+        }
+        affector                                LinearForce Affector497
+        {
+            force_vector                        0 -500 0
+        }
+    }
+    technique feather2
+    {
+        material                                feather02
+        default_particle_width                  40
+        default_particle_height                 60
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             8
+                max                             10
+            }
+            angle                               45
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             900
+                max                             1000
+            }
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           10
+        }
+        affector                                LinearForce Affector497
+        {
+            force_vector                        0 -500 0
+        }
+    }
+    technique feather3
+    {
+        material                                feather03
+        default_particle_width                  40
+        default_particle_height                 60
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             8
+                max                             10
+            }
+            angle                               45
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             900
+                max                             1000
+            }
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                LinearForce Affector497
+        {
+            force_vector                        0 -500 0
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           10
+        }
+    }
+    technique feather4
+    {
+        material                                feather04
+        default_particle_width                  40
+        default_particle_height                 60
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             8
+                max                             10
+            }
+            angle                               45
+            time_to_live                        5
+            velocity                            dyn_random
+            {
+                min                             900
+                max                             1000
+            }
+            auto_direction                      true
+            force_emission                      true
+        }
+        affector                                LinearForce Affector497
+        {
+            force_vector                        0 -500 0
+        }
+        affector                                PlaneCollider Affector15
+        {
+            position                            0 0 200
+            collision_type                      flow
+            normal                              0 0 -1
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.05
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      7
+        }
+        affector                                Colour Affector283
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.502174  1 1 1 1
+            time_colour                         1    1 1 1 0
+        }
+        affector                                Scale Affector296
+        {
+            xyz_scale                           10
+        }
+    }
+}

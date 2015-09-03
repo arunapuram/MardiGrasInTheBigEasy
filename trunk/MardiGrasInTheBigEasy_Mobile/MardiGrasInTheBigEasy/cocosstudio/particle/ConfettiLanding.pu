@@ -1,0 +1,117 @@
+system ConfettiLanding
+{
+    category                                    MardiGrasInTheBigEasy
+    technique yellow
+    {
+        material                                confetti
+        default_particle_width                  30
+        default_particle_height                 30
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       16
+            angle                               360
+            time_to_live                        1
+            velocity                            200
+            duration                            2.5
+            auto_direction                      true
+            box_height                          600
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.1
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                Colour Affector169
+        {
+            time_colour                         0    1 1 0 1
+            time_colour                         0.691304  1 1 0 1
+            time_colour                         1    1 1 0 0
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      4
+        }
+    }
+    technique green
+    {
+        material                                confetti
+        default_particle_width                  30
+        default_particle_height                 30
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       11
+            angle                               360
+            time_to_live                        1
+            velocity                            200
+            duration                            2.5
+            auto_direction                      true
+            box_height                          600
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.1
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                Colour Affector169
+        {
+            time_colour                         0    0 0.752941 0 1
+            time_colour                         0.68913  0 0.752941 0 1
+            time_colour                         1    0 0.752941 0 0
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      4
+        }
+    }
+    technique purple
+    {
+        material                                confetti
+        default_particle_width                  30
+        default_particle_height                 30
+        renderer                                Billboard
+        {
+            texture_coords_rows                 5
+            texture_coords_columns              3
+            billboard_rotation_type             vertex
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       8
+            angle                               360
+            time_to_live                        1
+            velocity                            200
+            duration                            2.5
+            auto_direction                      true
+            box_height                          600
+        }
+        affector                                TextureAnimator Animator
+        {
+            time_step                           0.1
+            end_texture_coords_range            14
+            texture_start_random                false
+        }
+        affector                                Colour Affector169
+        {
+            time_colour                         0    0.501961 0 0.501961 1
+            time_colour                         1    0.501961 0 0.501961 0
+        }
+        affector                                TextureRotator Affector186
+        {
+            rotation_speed                      4
+        }
+    }
+}

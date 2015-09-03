@@ -1,0 +1,21 @@
+
+material beadsLuckyDust01
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit beadsLuckyDust01.png
+			{
+				texture_alias beadsLuckyDust01.png
+				texture beadsLuckyDust01.png
+			}
+		}
+
+	}
+
+}

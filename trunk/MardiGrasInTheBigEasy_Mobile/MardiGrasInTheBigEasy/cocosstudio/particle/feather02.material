@@ -1,0 +1,21 @@
+
+material feather02
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit feather02.png
+			{
+				texture_alias feather02.png
+				texture feather02.png
+			}
+		}
+
+	}
+
+}
