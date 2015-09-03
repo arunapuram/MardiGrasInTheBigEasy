@@ -28,7 +28,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
-        this.aStopPosition = [66,16,56,54,66];
+        this.aStopPosition = [44,16,56,38,5];
         this.objAppData = new AppData();
         this.objAppData.updateReelFace(this.aStopPosition);
         this.nreelsymbols= cc.aMathReelSet[0].length;
@@ -85,8 +85,14 @@ var HelloWorldLayer = cc.Layer.extend({
         }
 
         this.playbutton = this.mainscene.node.getChildByName("Play.Button");
-        this.coinparticle = this.mainscene.node.getChildByName("coin_particle");
-        this.mainscene.node.reorderChild(this.coinparticle,500);
+        this.coinparticle0 = this.mainscene.node.getChildByName("coin_particle0");
+        this.coinparticle1 = this.mainscene.node.getChildByName("coin_particle1");
+        this.coinparticle2 = this.mainscene.node.getChildByName("coin_particle2");
+        this.coinparticle3 = this.mainscene.node.getChildByName("coin_particle3");
+        this.mainscene.node.reorderChild(this.coinparticle0,500);
+        this.mainscene.node.reorderChild(this.coinparticle1,503);
+        this.mainscene.node.reorderChild(this.coinparticle2,501);
+        this.mainscene.node.reorderChild(this.coinparticle3,502);
         this.playbutton.addTouchEventListener(this.touchEvent, this);
         var objReelNode = this.mainscene.node.getChildByName("Reels");
         var objPaylineNode = this.mainscene.node.getChildByName("Paylines");
@@ -157,7 +163,7 @@ var HelloWorldLayer = cc.Layer.extend({
                     this.nReelX[i] = this.aReelStrips[i].x;
                     this.nReelY[i] = this.aReelStrips[i].y;
                 }
-                this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
+                //this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
                 //this.aStopPosition = [76,5,25,44,66];
                 this.objAppData.updateReelFace(this.aStopPosition);
                 for(var i=0;i<this.nSymbols;i++)

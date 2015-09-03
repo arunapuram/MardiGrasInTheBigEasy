@@ -99,7 +99,11 @@
             <Image Name="PayBox.png" />
           </Folder>
         </Folder>
-        <PlistParticleFile Name="particle_texture (4).plist" />
+        <PlistParticleFile Name="Coin5.plist" />
+        <PlistParticleFile Name="Coin4.plist" />
+        <PlistParticleFile Name="Coin2.plist" />
+        <PlistParticleFile Name="Coin3.plist" />
+        <PlistParticleFile Name="particle_texture.plist" />
       </RootFolder>
     </Group>
   </SolutionFolder>

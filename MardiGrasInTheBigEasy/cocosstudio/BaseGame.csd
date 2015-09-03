@@ -671,7 +671,7 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="coin_particle" ActionTag="-697924731" Tag="62" IconVisible="True" LeftMargin="607.6807" RightMargin="752.3193" TopMargin="583.5635" BottomMargin="184.4365" ctype="ParticleObjectData">
+          <AbstractNodeData Name="coin_particle0" ActionTag="-697924731" Tag="62" IconVisible="True" LeftMargin="607.6807" RightMargin="752.3193" TopMargin="583.5635" BottomMargin="184.4365" ctype="ParticleObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
             <Position X="607.6807" Y="184.4365" />
@@ -679,7 +679,40 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4468" Y="0.2402" />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Normal" Path="particle_texture (4).plist" Plist="" />
+            <FileData Type="Normal" Path="Coin5.plist" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="coin_particle1" ActionTag="1921188531" Tag="63" IconVisible="True" LeftMargin="617.6807" RightMargin="742.3193" TopMargin="593.5635" BottomMargin="174.4365" ctype="ParticleObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="617.6807" Y="174.4365" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4542" Y="0.2271" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Coin4.plist" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="coin_particle2" ActionTag="-819589180" Tag="64" IconVisible="True" LeftMargin="627.6805" RightMargin="732.3195" TopMargin="603.5635" BottomMargin="164.4365" ctype="ParticleObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="627.6805" Y="164.4365" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4615" Y="0.2141" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Coin3.plist" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="coin_particle3" ActionTag="89447246" Tag="65" IconVisible="True" LeftMargin="637.6805" RightMargin="722.3195" TopMargin="613.5635" BottomMargin="154.4365" ctype="ParticleObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="637.6805" Y="154.4365" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4689" Y="0.2011" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="particle_texture.plist" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
         </Children>

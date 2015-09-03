@@ -2741,7 +2741,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "particle_texture (4).plist",
+              "Path": "Coin5.plist",
               "Plist": ""
             },
             "BlendFunc": {
@@ -2777,7 +2777,133 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "Name": "coin_particle",
+            "Name": "coin_particle0",
+            "ctype": "ParticleObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Coin4.plist",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 617.6807,
+              "Y": 174.4365
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4542,
+              "Y": 0.2271
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 617.6807,
+            "RightMargin": 742.3193,
+            "TopMargin": 593.5635,
+            "BottomMargin": 174.4365,
+            "Tag": 63,
+            "ActionTag": 1921188531,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "coin_particle1",
+            "ctype": "ParticleObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Coin3.plist",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 627.6805,
+              "Y": 164.4365
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4615,
+              "Y": 0.2141
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 627.6805,
+            "RightMargin": 732.3195,
+            "TopMargin": 603.5635,
+            "BottomMargin": 164.4365,
+            "Tag": 64,
+            "ActionTag": -819589180,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "coin_particle2",
+            "ctype": "ParticleObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "particle_texture.plist",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 637.6805,
+              "Y": 154.4365
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4689,
+              "Y": 0.2011
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 637.6805,
+            "RightMargin": 722.3195,
+            "TopMargin": 613.5635,
+            "BottomMargin": 154.4365,
+            "Tag": 65,
+            "ActionTag": 89447246,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "coin_particle3",
             "ctype": "ParticleObjectData"
           }
         ],
@@ -2789,7 +2915,10 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
-        "particle_texture (4).plist",
+        "Coin3.plist",
+        "Coin4.plist",
+        "Coin5.plist",
+        "particle_texture.plist",
         "source/Game/Blank/blank.png",
         "source/Game/Reels.png",
         "source/MainWindow/GameBackground.png",
