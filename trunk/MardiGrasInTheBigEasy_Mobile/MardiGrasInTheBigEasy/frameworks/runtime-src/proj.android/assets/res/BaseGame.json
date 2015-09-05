@@ -1639,6 +1639,1031 @@
           {
             "AnchorPoint": {},
             "Position": {
+              "X": 10.0,
+              "Y": -10.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0074,
+              "Y": -0.013
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": 1350.0,
+            "TopMargin": 778.0,
+            "BottomMargin": -10.0,
+            "Tag": 39,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Ace/Ace.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 40,
+                "ActionTag": 1437183601,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.A",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Jack/Jack.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 41,
+                "ActionTag": -133952129,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.J",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/King/King.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 42,
+                "ActionTag": 2058241000,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.K",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Queen/Queen.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 43,
+                "ActionTag": -136595176,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.Q",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Ten/Ten.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1706,
+                  "Y": 0.2396
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 44,
+                "ActionTag": 214488943,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.T",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild0/Wild.PNG",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.0,
+                "RightMargin": -97.0,
+                "TopMargin": -93.0,
+                "BottomMargin": -93.0,
+                "Tag": 45,
+                "ActionTag": 565070334,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 186.0
+                },
+                "Name": "ReelSymbol.F",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild1/Wild.PNG",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.0,
+                "RightMargin": -97.0,
+                "TopMargin": -93.0,
+                "BottomMargin": -93.0,
+                "Tag": 46,
+                "ActionTag": 1620884284,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 186.0
+                },
+                "Name": "ReelSymbol.G",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild2/Wild.PNG",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.0,
+                "RightMargin": -97.0,
+                "TopMargin": -93.0,
+                "BottomMargin": -93.0,
+                "Tag": 47,
+                "ActionTag": 508066614,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 186.0
+                },
+                "Name": "ReelSymbol.H",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild_2x/Wild_2x.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -130.0,
+                "RightMargin": -130.0,
+                "TopMargin": -130.0,
+                "BottomMargin": -130.0,
+                "Tag": 48,
+                "ActionTag": -1911808621,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 260.0
+                },
+                "Name": "ReelSymbol.S",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild_3x/Wild_3x.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -130.0,
+                "RightMargin": -130.0,
+                "TopMargin": -130.0,
+                "BottomMargin": -130.0,
+                "Tag": 49,
+                "ActionTag": 584800332,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 260.0
+                },
+                "Name": "ReelSymbol.U",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild_4x/Wild_4x.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -130.0,
+                "RightMargin": -130.0,
+                "TopMargin": -130.0,
+                "BottomMargin": -130.0,
+                "Tag": 50,
+                "ActionTag": -370621324,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 260.0
+                },
+                "Name": "ReelSymbol.V",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/PartyGirl/PartyGirlTop.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.5,
+                "RightMargin": -97.5,
+                "TopMargin": -92.5,
+                "BottomMargin": -92.5,
+                "Tag": 51,
+                "ActionTag": -108719434,
+                "Size": {
+                  "X": 195.0,
+                  "Y": 185.0
+                },
+                "Name": "ReelSymbol.I",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/PartyGirl/PartyGirlBottom.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.5,
+                "RightMargin": -97.5,
+                "TopMargin": -92.5,
+                "BottomMargin": -92.5,
+                "Tag": 52,
+                "ActionTag": -1025885728,
+                "Size": {
+                  "X": 195.0,
+                  "Y": 185.0
+                },
+                "Name": "ReelSymbol.L",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Mask/Mask.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 53,
+                "ActionTag": 788205984,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.C",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Hurricane/Hurricane.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 54,
+                "ActionTag": 419919397,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.D",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/KingCake/KingCake.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 55,
+                "ActionTag": 888159870,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.E",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Nine/Nine.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -116.0,
+                "RightMargin": -116.0,
+                "TopMargin": -92.0,
+                "BottomMargin": -92.0,
+                "Tag": 56,
+                "ActionTag": -406225499,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 184.0
+                },
+                "Name": "ReelSymbol.N",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/FreeSpin/FreeSpin.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.5,
+                "RightMargin": -114.5,
+                "TopMargin": -114.5,
+                "BottomMargin": -114.5,
+                "Tag": 57,
+                "ActionTag": 150268309,
+                "Size": {
+                  "X": 229.0,
+                  "Y": 229.0
+                },
+                "Name": "ReelSymbol.X",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Pick/Pick.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.0,
+                "RightMargin": -114.0,
+                "TopMargin": -114.0,
+                "BottomMargin": -114.0,
+                "Tag": 58,
+                "ActionTag": -1100268602,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 228.0
+                },
+                "Name": "ReelSymbol.Y",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wheel/Wheel.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -114.5,
+                "RightMargin": -114.5,
+                "TopMargin": -115.0,
+                "BottomMargin": -115.0,
+                "Tag": 59,
+                "ActionTag": -718366520,
+                "Size": {
+                  "X": 229.0,
+                  "Y": 230.0
+                },
+                "Name": "ReelSymbol.Z",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/Wild0/Wild.PNG",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.0,
+                "RightMargin": -97.0,
+                "TopMargin": -93.0,
+                "BottomMargin": -93.0,
+                "Tag": 60,
+                "ActionTag": -2007546303,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 186.0
+                },
+                "Name": "ReelSymbol.W",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "source/Reels/PartyGirl/PartyGirlBottom.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.5,
+                "RightMargin": -97.5,
+                "TopMargin": -92.5,
+                "BottomMargin": -92.5,
+                "Tag": 61,
+                "ActionTag": 1969659819,
+                "Size": {
+                  "X": 195.0,
+                  "Y": 185.0
+                },
+                "Name": "ReelSymbol.B",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1579778429,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "AnimatedReelSymbols",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
               "X": 0.0,
               "Y": 0.0
             },
@@ -1712,6 +2737,174 @@
             },
             "Name": "Paylines",
             "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Coin5.plist",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 607.6807,
+              "Y": 184.4365
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4468,
+              "Y": 0.2402
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 607.6807,
+            "RightMargin": 752.3193,
+            "TopMargin": 583.5635,
+            "BottomMargin": 184.4365,
+            "Tag": 62,
+            "ActionTag": -697924731,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "coin_particle0",
+            "ctype": "ParticleObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Coin4.plist",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 617.6807,
+              "Y": 174.4365
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4542,
+              "Y": 0.2271
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 617.6807,
+            "RightMargin": 742.3193,
+            "TopMargin": 593.5635,
+            "BottomMargin": 174.4365,
+            "Tag": 63,
+            "ActionTag": 1921188531,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "coin_particle1",
+            "ctype": "ParticleObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Coin3.plist",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 627.6805,
+              "Y": 164.4365
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4615,
+              "Y": 0.2141
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 627.6805,
+            "RightMargin": 732.3195,
+            "TopMargin": 603.5635,
+            "BottomMargin": 164.4365,
+            "Tag": 64,
+            "ActionTag": -819589180,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "coin_particle2",
+            "ctype": "ParticleObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "particle_texture.plist",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 637.6805,
+              "Y": 154.4365
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4689,
+              "Y": 0.2011
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 637.6805,
+            "RightMargin": 722.3195,
+            "TopMargin": 613.5635,
+            "BottomMargin": 154.4365,
+            "Tag": 65,
+            "ActionTag": 89447246,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "coin_particle3",
+            "ctype": "ParticleObjectData"
           }
         ],
         "Size": {
@@ -1722,6 +2915,10 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
+        "Coin3.plist",
+        "Coin4.plist",
+        "Coin5.plist",
+        "particle_texture.plist",
         "source/Game/Blank/blank.png",
         "source/Game/Reels.png",
         "source/MainWindow/GameBackground.png",
