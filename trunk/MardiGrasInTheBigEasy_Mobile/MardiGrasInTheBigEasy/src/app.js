@@ -40,6 +40,9 @@ var HelloWorldLayer = cc.Layer.extend({
         this.bHelpVisible = true;
         this.mainscene = ccs.load(res.MainScene_json);
         this.addChild(this.mainscene.node);
+
+//        this.pickscene.node.visible = false;
+        this.mainscene.node.visible = true;
         this.aSymbolNames = ["res/source/Reels/Ace/Ace.png","res/source/Reels/Jack/Jack.png","res/source/Reels/King/King.png","res/source/Reels/Queen/Queen.png","res/source/Reels/Ten/Ten.png"];
         // create a render texture
         for(var i=0;i<this.nSymbols;i++)
@@ -179,6 +182,12 @@ var HelloWorldLayer = cc.Layer.extend({
     checkControl1:function (i)
     {
         this.reelStop(i,false);
+        if(i===4)
+        {
+            this.mainscene.node.visible = false;
+            var pickScene = new PickBonusScene();
+            cc.director.pushScene(pickScene);
+        }
     },
     spinReel:function (i)
     {

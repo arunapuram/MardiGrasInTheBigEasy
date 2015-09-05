@@ -1,0 +1,4269 @@
+{
+  "ID": "1a77c380-613c-49f1-b59a-2efbe3400bcd",
+  "Version": "2.3.1.1",
+  "Name": "PickBonus",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/Background.PNG",
+              "Plist": ""
+            },
+            "Scale9Width": 1360,
+            "Scale9Height": 768,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 681.6456,
+              "Y": 379.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5012,
+              "Y": 0.4935
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 1.6456,
+            "RightMargin": -1.6456,
+            "TopMargin": 5.0,
+            "BottomMargin": -5.0,
+            "Tag": 2,
+            "ActionTag": -720968555,
+            "Size": {
+              "X": 1360.0,
+              "Y": 768.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/SignON.PNG",
+              "Plist": ""
+            },
+            "Scale9Width": 1360,
+            "Scale9Height": 126,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 681.6499,
+              "Y": 699.858
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5012,
+              "Y": 0.9113
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.1641
+            },
+            "LeftMargin": 1.6499,
+            "RightMargin": -1.6499,
+            "TopMargin": 5.142,
+            "BottomMargin": 636.858,
+            "Tag": 55,
+            "ActionTag": 1433265386,
+            "Size": {
+              "X": 1360.0,
+              "Y": 126.0
+            },
+            "Name": "PickyourPoisonBanner",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.715,
+              "ScaleY": 0.2419
+            },
+            "Position": {
+              "X": 245.0,
+              "Y": 385.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1801,
+              "Y": 0.5013
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 91.99,
+            "RightMargin": 1054.01,
+            "TopMargin": 218.4923,
+            "BottomMargin": 332.5077,
+            "Tag": 15,
+            "ActionTag": -281151699,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.0,
+              "Y": 249.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8824,
+              "Y": 0.3242
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1093.0,
+            "RightMargin": 53.0,
+            "TopMargin": 410.5,
+            "BottomMargin": 140.5,
+            "Tag": 26,
+            "ActionTag": 1151241702,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow12",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.0,
+              "Y": 252.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7331,
+              "Y": 0.3281
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 890.0,
+            "RightMargin": 256.0,
+            "TopMargin": 407.5,
+            "BottomMargin": 143.5,
+            "Tag": 25,
+            "ActionTag": 1789254119,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow11",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 796.0,
+              "Y": 251.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5853,
+              "Y": 0.3268
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 689.0,
+            "RightMargin": 457.0,
+            "TopMargin": 408.5,
+            "BottomMargin": 142.5,
+            "Tag": 24,
+            "ActionTag": -1537859095,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow10",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 591.0,
+              "Y": 251.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4346,
+              "Y": 0.3268
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 484.0,
+            "RightMargin": 662.0,
+            "TopMargin": 408.5,
+            "BottomMargin": 142.5,
+            "Tag": 23,
+            "ActionTag": -594696478,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow9",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 389.0,
+              "Y": 250.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.286,
+              "Y": 0.3255
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 282.0,
+            "RightMargin": 864.0,
+            "TopMargin": 409.5,
+            "BottomMargin": 141.5,
+            "Tag": 22,
+            "ActionTag": 648289227,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow8",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 195.0,
+              "Y": 251.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1434,
+              "Y": 0.3268
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 88.0,
+            "RightMargin": 1058.0,
+            "TopMargin": 408.5,
+            "BottomMargin": 142.5,
+            "Tag": 21,
+            "ActionTag": 687742049,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow7",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1199.0,
+              "Y": 443.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8816,
+              "Y": 0.5768
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1092.0,
+            "RightMargin": 54.0,
+            "TopMargin": 216.5,
+            "BottomMargin": 334.5,
+            "Tag": 20,
+            "ActionTag": -1702026276,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.0,
+              "Y": 442.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7331,
+              "Y": 0.5755
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 890.0,
+            "RightMargin": 256.0,
+            "TopMargin": 217.5,
+            "BottomMargin": 333.5,
+            "Tag": 19,
+            "ActionTag": 2140284505,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 795.0,
+              "Y": 441.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5846,
+              "Y": 0.5742
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 688.0,
+            "RightMargin": 458.0,
+            "TopMargin": 218.5,
+            "BottomMargin": 332.5,
+            "Tag": 18,
+            "ActionTag": 1287793469,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.0,
+              "Y": 445.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4353,
+              "Y": 0.5794
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 485.0,
+            "RightMargin": 661.0,
+            "TopMargin": 214.5,
+            "BottomMargin": 336.5,
+            "Tag": 17,
+            "ActionTag": 1201268772,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/CoasterGlow.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 390.0,
+              "Y": 444.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2868,
+              "Y": 0.5781
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 283.0,
+            "RightMargin": 863.0,
+            "TopMargin": 215.5,
+            "BottomMargin": 335.5,
+            "Tag": 16,
+            "ActionTag": 439809482,
+            "Size": {
+              "X": 214.0,
+              "Y": 217.0
+            },
+            "Name": "Coasterglow2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Blank.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 199.0894,
+              "Y": 441.5878
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1464,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 63.5894,
+            "RightMargin": 1025.4106,
+            "TopMargin": 219.9122,
+            "BottomMargin": 335.0878,
+            "Tag": 23,
+            "ActionTag": 863537641,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_8",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 199.0,
+              "Y": 441.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1463,
+              "Y": 0.5742
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 134.5,
+            "RightMargin": 1096.5,
+            "TopMargin": 256.5,
+            "BottomMargin": 370.5,
+            "Tag": 28,
+            "ActionTag": 618255262,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject00",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 199.0,
+              "Y": 441.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1463,
+              "Y": 0.5742
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 140.0,
+            "RightMargin": 1102.0,
+            "TopMargin": 259.5,
+            "BottomMargin": 373.5,
+            "Tag": 29,
+            "ActionTag": 1809737098,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject01",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 199.0,
+              "Y": 441.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1463,
+              "Y": 0.5742
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 140.5,
+            "RightMargin": 1102.5,
+            "TopMargin": 217.5,
+            "BottomMargin": 331.5,
+            "Tag": 30,
+            "ActionTag": -1328737577,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject02",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 199.0,
+              "Y": 441.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1463,
+              "Y": 0.5742
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 118.5,
+            "RightMargin": 1080.5,
+            "TopMargin": 276.5,
+            "BottomMargin": 390.5,
+            "Tag": 31,
+            "ActionTag": 106998606,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject03",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_05.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 389.3048,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2863,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 253.8048,
+            "RightMargin": 835.1952,
+            "TopMargin": 219.91,
+            "BottomMargin": 335.09,
+            "Tag": 24,
+            "ActionTag": -235471660,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_9",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 390.0,
+              "Y": 449.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2868,
+              "Y": 0.5846
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 325.5,
+            "RightMargin": 905.5,
+            "TopMargin": 248.4998,
+            "BottomMargin": 378.5002,
+            "Tag": 36,
+            "ActionTag": -1664668833,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject10",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 390.0,
+              "Y": 449.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2868,
+              "Y": 0.5846
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 331.0,
+            "RightMargin": 911.0,
+            "TopMargin": 251.4998,
+            "BottomMargin": 381.5002,
+            "Tag": 37,
+            "ActionTag": 1471179709,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject11",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 390.0,
+              "Y": 449.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2868,
+              "Y": 0.5846
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 331.5,
+            "RightMargin": 911.5,
+            "TopMargin": 209.4999,
+            "BottomMargin": 339.5001,
+            "Tag": 38,
+            "ActionTag": -1350157835,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject12",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 390.0002,
+              "Y": 449.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2868,
+              "Y": 0.5846
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 309.5002,
+            "RightMargin": 889.4998,
+            "TopMargin": 268.4998,
+            "BottomMargin": 398.5002,
+            "Tag": 39,
+            "ActionTag": -428979837,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject13",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.3857,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4356,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 456.8857,
+            "RightMargin": 632.1143,
+            "TopMargin": 219.91,
+            "BottomMargin": 335.09,
+            "Tag": 25,
+            "ActionTag": -2022526103,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_10",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.39,
+              "Y": 441.29
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4356,
+              "Y": 0.5746
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 511.89,
+            "RightMargin": 687.11,
+            "TopMargin": 276.21,
+            "BottomMargin": 390.79,
+            "Tag": 43,
+            "ActionTag": 2145133200,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject23",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.39,
+              "Y": 441.29
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4356,
+              "Y": 0.5746
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 533.89,
+            "RightMargin": 709.11,
+            "TopMargin": 217.21,
+            "BottomMargin": 331.79,
+            "Tag": 42,
+            "ActionTag": 2016167844,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject22",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.39,
+              "Y": 441.29
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4356,
+              "Y": 0.5746
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 533.39,
+            "RightMargin": 708.61,
+            "TopMargin": 259.21,
+            "BottomMargin": 373.79,
+            "Tag": 41,
+            "ActionTag": -1800067290,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject21",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.39,
+              "Y": 441.29
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4356,
+              "Y": 0.5746
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 527.89,
+            "RightMargin": 703.11,
+            "TopMargin": 256.21,
+            "BottomMargin": 370.79,
+            "Tag": 40,
+            "ActionTag": 2019571667,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject20",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.3102,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5863,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 661.8102,
+            "RightMargin": 427.1898,
+            "TopMargin": 219.91,
+            "BottomMargin": 335.09,
+            "Tag": 26,
+            "ActionTag": -121865919,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_11",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.5914,
+              "Y": 448.5902
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5865,
+              "Y": 0.5841
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 717.0914,
+            "RightMargin": 481.9086,
+            "TopMargin": 268.9098,
+            "BottomMargin": 398.0902,
+            "Tag": 47,
+            "ActionTag": 2066675261,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject33",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.5911,
+              "Y": 448.5901
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5865,
+              "Y": 0.5841
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 739.0911,
+            "RightMargin": 503.9089,
+            "TopMargin": 209.9099,
+            "BottomMargin": 339.0901,
+            "Tag": 46,
+            "ActionTag": -1785968708,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject32",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.5911,
+              "Y": 448.5901
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5865,
+              "Y": 0.5841
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 738.5911,
+            "RightMargin": 503.4089,
+            "TopMargin": 251.9099,
+            "BottomMargin": 381.0901,
+            "Tag": 45,
+            "ActionTag": 496717690,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject31",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.5913,
+              "Y": 448.5902
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5865,
+              "Y": 0.5841
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 733.0913,
+            "RightMargin": 497.9087,
+            "TopMargin": 248.9098,
+            "BottomMargin": 378.0902,
+            "Tag": 44,
+            "ActionTag": -366491168,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject30",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7026,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 862.2026,
+            "RightMargin": 226.7974,
+            "TopMargin": 219.91,
+            "BottomMargin": 335.09,
+            "Tag": 28,
+            "ActionTag": 1839912271,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_12",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 917.2,
+            "RightMargin": 281.8,
+            "TopMargin": 275.91,
+            "BottomMargin": 391.09,
+            "Tag": 51,
+            "ActionTag": -268602085,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject43",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 939.2,
+            "RightMargin": 303.8,
+            "TopMargin": 216.91,
+            "BottomMargin": 332.09,
+            "Tag": 50,
+            "ActionTag": 1554420604,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject42",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 938.7,
+            "RightMargin": 303.3,
+            "TopMargin": 258.91,
+            "BottomMargin": 374.09,
+            "Tag": 49,
+            "ActionTag": 198327633,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject41",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 933.2,
+            "RightMargin": 297.8,
+            "TopMargin": 255.91,
+            "BottomMargin": 371.09,
+            "Tag": 48,
+            "ActionTag": -500404630,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject40",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.7379,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8829,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 1065.2379,
+            "RightMargin": 23.7621,
+            "TopMargin": 219.91,
+            "BottomMargin": 335.09,
+            "Tag": 30,
+            "ActionTag": 366612503,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_13",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.74,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8829,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1120.24,
+            "RightMargin": 78.76,
+            "TopMargin": 275.91,
+            "BottomMargin": 391.09,
+            "Tag": 55,
+            "ActionTag": -718193446,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject53",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.74,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8829,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1142.24,
+            "RightMargin": 100.76,
+            "TopMargin": 216.91,
+            "BottomMargin": 332.09,
+            "Tag": 54,
+            "ActionTag": -1647593768,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject52",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.74,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8829,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1141.74,
+            "RightMargin": 100.26,
+            "TopMargin": 258.91,
+            "BottomMargin": 374.09,
+            "Tag": 53,
+            "ActionTag": -1228838329,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject51",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.74,
+              "Y": 441.59
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8829,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1136.24,
+            "RightMargin": 94.76,
+            "TopMargin": 255.91,
+            "BottomMargin": 371.09,
+            "Tag": 52,
+            "ActionTag": -344440711,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject50",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 193.93,
+              "Y": 246.5623
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1426,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 58.43,
+            "RightMargin": 1030.5701,
+            "TopMargin": 414.9377,
+            "BottomMargin": 140.0623,
+            "Tag": 31,
+            "ActionTag": 1471533264,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_14",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 193.93,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1426,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 113.43,
+            "RightMargin": 1085.5701,
+            "TopMargin": 470.94,
+            "BottomMargin": 196.06,
+            "Tag": 59,
+            "ActionTag": -1248535374,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject63",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 193.93,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1426,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 135.43,
+            "RightMargin": 1107.5701,
+            "TopMargin": 411.94,
+            "BottomMargin": 137.06,
+            "Tag": 58,
+            "ActionTag": 931768081,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject62",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 193.93,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1426,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 134.93,
+            "RightMargin": 1107.0701,
+            "TopMargin": 453.94,
+            "BottomMargin": 179.06,
+            "Tag": 57,
+            "ActionTag": -649580571,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject61",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 193.93,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1426,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 129.43,
+            "RightMargin": 1101.5701,
+            "TopMargin": 450.94,
+            "BottomMargin": 176.06,
+            "Tag": 56,
+            "ActionTag": 984357353,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject60",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 389.03,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2861,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 253.53,
+            "RightMargin": 835.47,
+            "TopMargin": 414.94,
+            "BottomMargin": 140.06,
+            "Tag": 32,
+            "ActionTag": 2138272667,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_15",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 389.03,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2861,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 308.53,
+            "RightMargin": 890.47,
+            "TopMargin": 470.94,
+            "BottomMargin": 196.06,
+            "Tag": 63,
+            "ActionTag": 953073548,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject73",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 389.03,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2861,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 330.53,
+            "RightMargin": 912.47,
+            "TopMargin": 411.94,
+            "BottomMargin": 137.06,
+            "Tag": 62,
+            "ActionTag": 309569291,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject72",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 389.03,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2861,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 330.03,
+            "RightMargin": 911.97,
+            "TopMargin": 453.94,
+            "BottomMargin": 179.06,
+            "Tag": 61,
+            "ActionTag": -1859171339,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject71",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 389.03,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2861,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 324.53,
+            "RightMargin": 906.47,
+            "TopMargin": 450.94,
+            "BottomMargin": 176.06,
+            "Tag": 60,
+            "ActionTag": -392909098,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject70",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.39,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4356,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 456.89,
+            "RightMargin": 632.11,
+            "TopMargin": 414.94,
+            "BottomMargin": 140.06,
+            "Tag": 33,
+            "ActionTag": 533156973,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_16",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.93,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.436,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 512.43,
+            "RightMargin": 686.57,
+            "TopMargin": 470.94,
+            "BottomMargin": 196.06,
+            "Tag": 67,
+            "ActionTag": -358527886,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject83",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.93,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.436,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 534.43,
+            "RightMargin": 708.57,
+            "TopMargin": 411.94,
+            "BottomMargin": 137.06,
+            "Tag": 66,
+            "ActionTag": -205785707,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject82",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.93,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.436,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 533.93,
+            "RightMargin": 708.07,
+            "TopMargin": 453.94,
+            "BottomMargin": 179.06,
+            "Tag": 65,
+            "ActionTag": 763120202,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject81",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.93,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.436,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 528.43,
+            "RightMargin": 702.57,
+            "TopMargin": 450.94,
+            "BottomMargin": 176.06,
+            "Tag": 64,
+            "ActionTag": 55125517,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject80",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.39,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5863,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 661.89,
+            "RightMargin": 427.11,
+            "TopMargin": 414.94,
+            "BottomMargin": 140.06,
+            "Tag": 34,
+            "ActionTag": -1024365831,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_17",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.39,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5863,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 716.89,
+            "RightMargin": 482.11,
+            "TopMargin": 470.94,
+            "BottomMargin": 196.06,
+            "Tag": 71,
+            "ActionTag": -572192033,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject93",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.39,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5863,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 738.89,
+            "RightMargin": 504.11,
+            "TopMargin": 411.94,
+            "BottomMargin": 137.06,
+            "Tag": 70,
+            "ActionTag": 931892970,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject92",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.39,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5863,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 738.39,
+            "RightMargin": 503.61,
+            "TopMargin": 453.94,
+            "BottomMargin": 179.06,
+            "Tag": 69,
+            "ActionTag": -18885225,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject91",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 797.39,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5863,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 732.89,
+            "RightMargin": 498.11,
+            "TopMargin": 450.94,
+            "BottomMargin": 176.06,
+            "Tag": 68,
+            "ActionTag": -933550118,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject90",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 862.2,
+            "RightMargin": 226.8,
+            "TopMargin": 414.94,
+            "BottomMargin": 140.06,
+            "Tag": 35,
+            "ActionTag": 356933885,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_18",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 917.2,
+            "RightMargin": 281.8,
+            "TopMargin": 470.94,
+            "BottomMargin": 196.06,
+            "Tag": 75,
+            "ActionTag": 1848676614,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject103",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 939.2,
+            "RightMargin": 303.8,
+            "TopMargin": 411.94,
+            "BottomMargin": 137.06,
+            "Tag": 74,
+            "ActionTag": -607379120,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject102",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 938.7,
+            "RightMargin": 303.3,
+            "TopMargin": 453.94,
+            "BottomMargin": 179.06,
+            "Tag": 73,
+            "ActionTag": -363949659,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject101",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 997.7,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7336,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 933.2,
+            "RightMargin": 297.8,
+            "TopMargin": 450.94,
+            "BottomMargin": 176.06,
+            "Tag": 72,
+            "ActionTag": -1991966347,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject100",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": "PickoneFlip.plist"
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 241,
+            "Scale9Height": 191,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.74,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8829,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.1993,
+              "Y": 0.2773
+            },
+            "LeftMargin": 1065.24,
+            "RightMargin": 23.76,
+            "TopMargin": 414.94,
+            "BottomMargin": 140.06,
+            "Tag": 36,
+            "ActionTag": -1877289127,
+            "Size": {
+              "X": 271.0,
+              "Y": 213.0
+            },
+            "Name": "Button_19",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Plus3Picks.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.74,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8829,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1120.24,
+            "RightMargin": 78.76,
+            "TopMargin": 470.94,
+            "BottomMargin": 196.06,
+            "Tag": 79,
+            "ActionTag": 1819160547,
+            "Size": {
+              "X": 161.0,
+              "Y": 101.0
+            },
+            "Name": "PB.pickobject113",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Hurricane.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.74,
+              "Y": 246.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8829,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1142.24,
+            "RightMargin": 100.76,
+            "TopMargin": 411.94,
+            "BottomMargin": 137.06,
+            "Tag": 78,
+            "ActionTag": -1659571388,
+            "Size": {
+              "X": 117.0,
+              "Y": 219.0
+            },
+            "Name": "PB.pickobject112",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Martini.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1190.7407,
+              "Y": 247.5599
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8755,
+              "Y": 0.3223
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1131.7407,
+            "RightMargin": 110.2593,
+            "TopMargin": 452.9401,
+            "BottomMargin": 180.0599,
+            "Tag": 77,
+            "ActionTag": -1862446536,
+            "Size": {
+              "X": 118.0,
+              "Y": 135.0
+            },
+            "Name": "PB.pickobject111",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Margarita.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1200.7397,
+              "Y": 246.5599
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8829,
+              "Y": 0.321
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1136.2397,
+            "RightMargin": 94.7603,
+            "TopMargin": 450.9401,
+            "BottomMargin": 176.0599,
+            "Tag": 76,
+            "ActionTag": 301487702,
+            "Size": {
+              "X": 129.0,
+              "Y": 141.0
+            },
+            "Name": "PB.pickobject110",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 209.0,
+              "Y": 431.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1537,
+              "Y": 0.5612
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 151.0,
+            "RightMargin": 1093.0,
+            "TopMargin": 273.5,
+            "BottomMargin": 367.5,
+            "Tag": 76,
+            "ActionTag": -716450002,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject04",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 400.0002,
+              "Y": 439.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2941,
+              "Y": 0.5716
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 342.0002,
+            "RightMargin": 901.9998,
+            "TopMargin": 265.4998,
+            "BottomMargin": 375.5002,
+            "Tag": 77,
+            "ActionTag": -299688398,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject14",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 602.3901,
+              "Y": 431.2901
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4429,
+              "Y": 0.5616
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 544.3901,
+            "RightMargin": 699.6099,
+            "TopMargin": 273.2099,
+            "BottomMargin": 367.7901,
+            "Tag": 78,
+            "ActionTag": 1027284691,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject24",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 807.5913,
+              "Y": 438.5902
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5938,
+              "Y": 0.5711
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 749.5913,
+            "RightMargin": 494.4087,
+            "TopMargin": 265.9098,
+            "BottomMargin": 375.0902,
+            "Tag": 79,
+            "ActionTag": 1819686132,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject34",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1007.7,
+              "Y": 440.5901
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.741,
+              "Y": 0.5737
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 949.7,
+            "RightMargin": 294.3,
+            "TopMargin": 263.9099,
+            "BottomMargin": 377.0901,
+            "Tag": 80,
+            "ActionTag": -2074570568,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject44",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1210.74,
+              "Y": 441.5897
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8902,
+              "Y": 0.575
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1152.74,
+            "RightMargin": 91.26,
+            "TopMargin": 262.9103,
+            "BottomMargin": 378.0897,
+            "Tag": 81,
+            "ActionTag": -2065717357,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject54",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 203.9301,
+              "Y": 236.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1499,
+              "Y": 0.308
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 145.9301,
+            "RightMargin": 1098.0699,
+            "TopMargin": 467.94,
+            "BottomMargin": 173.06,
+            "Tag": 82,
+            "ActionTag": -1060126944,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject64",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 399.03,
+              "Y": 236.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2934,
+              "Y": 0.308
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 341.03,
+            "RightMargin": 902.97,
+            "TopMargin": 467.94,
+            "BottomMargin": 173.06,
+            "Tag": 83,
+            "ActionTag": 1507228068,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject74",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 602.9301,
+              "Y": 236.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4433,
+              "Y": 0.308
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 544.9301,
+            "RightMargin": 699.0699,
+            "TopMargin": 467.94,
+            "BottomMargin": 173.06,
+            "Tag": 84,
+            "ActionTag": -1352527641,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject84",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 807.39,
+              "Y": 236.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5937,
+              "Y": 0.308
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 749.39,
+            "RightMargin": 494.61,
+            "TopMargin": 467.94,
+            "BottomMargin": 173.06,
+            "Tag": 85,
+            "ActionTag": 1669545967,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject94",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1007.7001,
+              "Y": 236.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.741,
+              "Y": 0.308
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 949.7001,
+            "RightMargin": 294.2999,
+            "TopMargin": 467.94,
+            "BottomMargin": 173.06,
+            "Tag": 86,
+            "ActionTag": -411162928,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject104",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/Scotch.PNG",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1210.74,
+              "Y": 236.56
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8902,
+              "Y": 0.308
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1152.74,
+            "RightMargin": 91.26,
+            "TopMargin": 467.94,
+            "BottomMargin": 173.06,
+            "Tag": 87,
+            "ActionTag": 1125976450,
+            "Size": {
+              "X": 116.0,
+              "Y": 127.0
+            },
+            "Name": "PB.pickobject114",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1360.0,
+          "Y": 768.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Press.png",
+        "PickoneFlip.plist",
+        "PickoneFlip.png",
+        "PickYourPoison/Blank.png",
+        "PickYourPoison/CoasterGlow.PNG",
+        "PickYourPoison/Hurricane.PNG",
+        "PickYourPoison/Margarita.PNG",
+        "PickYourPoison/Martini.PNG",
+        "PickYourPoison/Plus3Picks.png",
+        "PickYourPoison/Scotch.PNG",
+        "PickYourPoison/SignON.PNG",
+        "source/Bonus/PickYourPoison/Background.PNG",
+        "source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

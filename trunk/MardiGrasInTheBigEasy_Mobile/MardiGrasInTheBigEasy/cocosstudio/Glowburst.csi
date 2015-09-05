@@ -1,0 +1,36 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="Glowburst" ID="b31b7640-3869-4886-8398-26dd58d6c37b" Version="2.3.1.1" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_00.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_01.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_02.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_03.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_04.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_05.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_06.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_07.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_08.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_09.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_10.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_11.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_12.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_13.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_14.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_15.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_16.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_17.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_18.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_19.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_20.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_21.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_22.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_23.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_24.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_25.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_26.png" />
+      <FilePathData Path="PickYourPoison/GlowBurst/GlowBurst_27.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="4096" />
+  </Content>
+</PlistInfoProjectFile>
