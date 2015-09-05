@@ -28,7 +28,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
-        this.aStopPosition = [21,21,21,21,21];
+        this.aStopPosition = [44,16,56,38,5];
         this.objAppData = new AppData();
         this.objAppData.updateReelFace(this.aStopPosition);
         this.nreelsymbols= cc.aMathReelSet[0].length;
@@ -40,6 +40,9 @@ var HelloWorldLayer = cc.Layer.extend({
         this.bHelpVisible = true;
         this.mainscene = ccs.load(res.MainScene_json);
         this.addChild(this.mainscene.node);
+
+//        this.pickscene.node.visible = false;
+        this.mainscene.node.visible = true;
         this.aSymbolNames = ["res/source/Reels/Ace/Ace.png","res/source/Reels/Jack/Jack.png","res/source/Reels/King/King.png","res/source/Reels/Queen/Queen.png","res/source/Reels/Ten/Ten.png"];
         // create a render texture
         for(var i=0;i<this.nSymbols;i++)
@@ -85,6 +88,14 @@ var HelloWorldLayer = cc.Layer.extend({
         }
 
         this.playbutton = this.mainscene.node.getChildByName("Play.Button");
+        this.coinparticle0 = this.mainscene.node.getChildByName("coin_particle0");
+        this.coinparticle1 = this.mainscene.node.getChildByName("coin_particle1");
+        this.coinparticle2 = this.mainscene.node.getChildByName("coin_particle2");
+        this.coinparticle3 = this.mainscene.node.getChildByName("coin_particle3");
+        this.mainscene.node.reorderChild(this.coinparticle0,500);
+        this.mainscene.node.reorderChild(this.coinparticle1,503);
+        this.mainscene.node.reorderChild(this.coinparticle2,501);
+        this.mainscene.node.reorderChild(this.coinparticle3,502);
         this.playbutton.addTouchEventListener(this.touchEvent, this);
         var objReelNode = this.mainscene.node.getChildByName("Reels");
         var objPaylineNode = this.mainscene.node.getChildByName("Paylines");
@@ -126,7 +137,7 @@ var HelloWorldLayer = cc.Layer.extend({
             this.mainscene.node.addChild(this.aPaylineBox[i]);
         }
         this.objPaylineSegment = new cc.DrawNode();
-        this.objPaylineSegment.setLineWidth(3);
+        this.objPaylineSegment.setLineWidth(5);
         this.mainscene.node.addChild(this.objPaylineSegment);
         /*var camera = cc.Camera.createPerspective(60, size.width/size.height, 1, 1000);
         camera.setCameraFlag(cc.CameraFlag.USER1);
@@ -155,6 +166,9 @@ var HelloWorldLayer = cc.Layer.extend({
                     this.nReelX[i] = this.aReelStrips[i].x;
                     this.nReelY[i] = this.aReelStrips[i].y;
                 }
+                //this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
+                //this.aStopPosition = [76,5,25,44,66];
+                this.objAppData.updateReelFace(this.aStopPosition);
                 for(var i=0;i<this.nSymbols;i++)
                 {
                     this.scheduleOnce(this.spinReel.bind(this,i), i*(0.3));
@@ -168,6 +182,9 @@ var HelloWorldLayer = cc.Layer.extend({
     checkControl1:function (i)
     {
         this.reelStop(i,false);
+	this.mainscene.node.visible = false;
+         var pickScene = new PickBonusScene();
+           cc.director.pushScene(pickScene);
     },
     spinReel:function (i)
     {
@@ -176,6 +193,7 @@ var HelloWorldLayer = cc.Layer.extend({
             this.bShowPaylines = false;
         }
         this.showWinningPayline();
+        this.objPaylineSegment.clear();
         var move = cc.moveBy(0.3, cc.p(0,50));
         var actionMoveDone = cc.callFunc(this.spinReelAfterBounce.bind(this,i), this);
         var seq = cc.sequence(move,actionMoveDone);
@@ -204,8 +222,13 @@ var HelloWorldLayer = cc.Layer.extend({
     {
         this.nCurrentReelIndex[i] = parseInt(""+(this.aStopPosition[i]/10));
         this.nCurrentReelIndex[i] = this.nCurrentReelIndex[i]*10;
+        if(this.aStopPosition[i]%10 === 0)
+            this.resetReel(i);
         this.aReelStrips[i].x = SYMBOL_WIDTH_HALF;
-        this.aReelStrips[i].y = -1*((SYMBOL_HEIGHT*this.nSymbolCount/2)-(2*SYMBOL_HEIGHT)) + ((this.aStopPosition[i]%10)*SYMBOL_HEIGHT);//550;
+        if(this.aStopPosition[i]%10 === 0)
+            this.aReelStrips[i].y = -1*((SYMBOL_HEIGHT*this.nSymbolCount/2)-(2*SYMBOL_HEIGHT)) + (10*SYMBOL_HEIGHT);//550;
+        else
+            this.aReelStrips[i].y = -1*((SYMBOL_HEIGHT*this.nSymbolCount/2)-(2*SYMBOL_HEIGHT)) + ((this.aStopPosition[i]%10)*SYMBOL_HEIGHT);//550;
         this.UpdateReelStrip(i);
         if(bFromStart === false)
         {
@@ -248,13 +271,43 @@ var HelloWorldLayer = cc.Layer.extend({
                 this.objPaylineSegment.setDrawColor(colorval);
                 for(var nCols = 0; nCols < 5; nCols++)
                 {
-                    this.aPaylineBox[nCols].visible = true;
+                    if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) != "?")
+                        this.aPaylineBox[nCols].visible = true;
                     this.aPaylineBox[nCols].setColor(colorval);
                     this.aPaylineBox[nCols].x = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].x;
                     this.aPaylineBox[nCols].y = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].y;
                     if(nCols != 0)
                     {
-                        this.objPaylineSegment.drawSegment(cc.p(this.aPaylineBox[nCols-1].x+(194),this.aPaylineBox[nCols-1].y-(186/2)), cc.p(this.aPaylineBox[nCols].x, this.aPaylineBox[nCols].y-(186/2)));
+                        if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) === "?" && this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols-1) === "?")
+                        {
+                            this.objPaylineSegment.drawSegment(cc.p(this.aPaylineBox[nCols - 1].x + (194/2), this.aPaylineBox[nCols - 1].y - (186 / 2)), cc.p(this.aPaylineBox[nCols].x + (194/2), this.aPaylineBox[nCols].y - (186 / 2)));
+                            if(nCols===4)
+                                this.objPaylineSegment.drawSegment(cc.p(this.aPaylineBox[nCols].x + (194/2), this.aPaylineBox[nCols].y - (186 / 2)),cc.p(this.aPaylineBox[nCols].x + (194), this.aPaylineBox[nCols].y - (186/2)));
+                        }
+                        else if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) === "?" && this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols-1) != "?")
+                        {
+                            var nY = (186 / 2);
+                            if(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols]===this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols-1])
+                                nY = (186 / 2);
+                            else if(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols]<this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols-1])
+                                nY = 0;
+                            else if(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols]>this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols-1])
+                                nY = (186);
+                            this.objPaylineSegment.drawSegment(cc.p(this.aPaylineBox[nCols - 1].x + (194), this.aPaylineBox[nCols - 1].y - nY), cc.p(this.aPaylineBox[nCols].x + (194/2), this.aPaylineBox[nCols].y - (186 / 2)));
+                            if(nCols===4)
+                                this.objPaylineSegment.drawSegment(cc.p(this.aPaylineBox[nCols].x + (194/2), this.aPaylineBox[nCols].y - (186 / 2)),cc.p(this.aPaylineBox[nCols].x + (194), this.aPaylineBox[nCols].y - (186/2)));
+                        }
+                        else
+                        {
+                            var nY = (186 / 2);
+                            if(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols]===this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols-1])
+                                nY = (186 / 2);
+                            else if(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols]<this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols-1])
+                                nY = 0;
+                            else if(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols]>this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols-1])
+                                nY = (186);
+                            this.objPaylineSegment.drawSegment(cc.p(this.aPaylineBox[nCols - 1].x + (194), this.aPaylineBox[nCols - 1].y - nY), cc.p(this.aPaylineBox[nCols].x , this.aPaylineBox[nCols].y - (186 / 2)));
+                        }
                     }
                     /*this.objAppData.aPaylineStrings*/
                 }
