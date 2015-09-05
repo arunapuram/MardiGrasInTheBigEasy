@@ -16,6 +16,9 @@
         "src/Prizedata/ReelInformation.js",
         "src/Prizedata/SymbolInformation.js",
         "src/Prizedata/PaylineInformation.js",
-        "src/Data/AppData.js"
+        "src/Data/AppData.js",
+	"src/PickBonus.js",
+        "src/SpriteAnimation.js",
+        "src/PickMath.js"
     ]
 }

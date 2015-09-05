@@ -32,8 +32,9 @@
       <Value ctype="TabsInfo">
         <OpenedDocuments>
           <FilePathData Path="BaseGame.csd" />
+          <FilePathData Path="PickBonus.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="BaseGame.csd" />
+        <ActiveDocument Path="PickBonus.csd" />
       </Value>
     </Item>
   </Properties>
