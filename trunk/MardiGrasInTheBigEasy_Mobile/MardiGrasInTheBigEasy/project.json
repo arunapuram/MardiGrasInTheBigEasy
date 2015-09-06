@@ -19,6 +19,7 @@
         "src/Data/AppData.js",
 	"src/PickBonus.js",
         "src/SpriteAnimation.js",
-        "src/PickMath.js"
+        "src/PickMath.js",
+        "src/FlipBookAnimation.js"
     ]
 }

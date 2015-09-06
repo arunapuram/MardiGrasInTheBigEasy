@@ -1665,7 +1665,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Ace/Ace.png",
+                  "Path": "source/Reels/Ace/Animated/AnimatedReelSymbol_A.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1694,17 +1694,17 @@
                   "X": 0.1706,
                   "Y": 0.2396
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -198.0,
+                "RightMargin": -198.0,
+                "TopMargin": -94.0,
+                "BottomMargin": -94.0,
                 "Tag": 40,
                 "ActionTag": 1437183601,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 396.0,
+                  "Y": 188.0
                 },
-                "Name": "ReelSymbol.A",
+                "Name": "AnimatedReelSymbol_A",
                 "ctype": "SpriteObjectData"
               },
               {
@@ -2934,6 +2934,7 @@
         "source/PlayBar/PlayNormal.png",
         "source/PlayBar/PlayReleased.png",
         "source/Reels/Ace/Ace.png",
+        "source/Reels/Ace/Animated/AnimatedReelSymbol_A.png",
         "source/Reels/FreeSpin/FreeSpin.png",
         "source/Reels/Hurricane/Hurricane.png",
         "source/Reels/Jack/Jack.png",
