@@ -39,6 +39,9 @@
           <Folder Name="Reels">
             <Folder Name="Ace">
               <Image Name="Ace.png" />
+              <Folder Name="Animated">
+                <Image Name="AnimatedReelSymbol_A.png" />
+              </Folder>
             </Folder>
             <Folder Name="Jack">
               <Image Name="Jack.png" />

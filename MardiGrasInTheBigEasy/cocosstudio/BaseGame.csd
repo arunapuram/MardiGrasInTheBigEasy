@@ -399,18 +399,18 @@
           <AbstractNodeData Name="AnimatedReelSymbols" ActionTag="-1579778429" Tag="39" IconVisible="True" LeftMargin="10.0000" RightMargin="1350.0000" TopMargin="778.0000" BottomMargin="-10.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="ReelSymbol.A" ActionTag="1437183601" Tag="40" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
-                <Size X="232.0000" Y="184.0000" />
+              <AbstractNodeData Name="AnimatedReelSymbol_A" ActionTag="1437183601" Tag="40" IconVisible="False" LeftMargin="-198.0000" RightMargin="-198.0000" TopMargin="-94.0000" BottomMargin="-94.0000" ctype="SpriteObjectData">
+                <Size X="396.0000" Y="188.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.1706" Y="0.2396" />
-                <FileData Type="Normal" Path="source/Reels/Ace/Ace.png" Plist="" />
+                <FileData Type="Normal" Path="source/Reels/Ace/Animated/AnimatedReelSymbol_A.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.J" ActionTag="-133952129" Tag="41" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.J" Visible="False" ActionTag="-133952129" Tag="41" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
                 <Size X="232.0000" Y="184.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -421,7 +421,7 @@
                 <FileData Type="Normal" Path="source/Reels/Jack/Jack.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.K" ActionTag="2058241000" Tag="42" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.K" Visible="False" ActionTag="2058241000" Tag="42" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
                 <Size X="232.0000" Y="184.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -432,7 +432,7 @@
                 <FileData Type="Normal" Path="source/Reels/King/King.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.Q" ActionTag="-136595176" Tag="43" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.Q" Visible="False" ActionTag="-136595176" Tag="43" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
                 <Size X="232.0000" Y="184.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -443,7 +443,7 @@
                 <FileData Type="Normal" Path="source/Reels/Queen/Queen.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.T" ActionTag="214488943" Tag="44" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.T" Visible="False" ActionTag="214488943" Tag="44" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
                 <Size X="232.0000" Y="184.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -454,7 +454,7 @@
                 <FileData Type="Normal" Path="source/Reels/Ten/Ten.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.F" ActionTag="565070334" Tag="45" IconVisible="False" LeftMargin="-97.0000" RightMargin="-97.0000" TopMargin="-93.0000" BottomMargin="-93.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.F" Visible="False" ActionTag="565070334" Tag="45" IconVisible="False" LeftMargin="-97.0000" RightMargin="-97.0000" TopMargin="-93.0000" BottomMargin="-93.0000" ctype="SpriteObjectData">
                 <Size X="194.0000" Y="186.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -465,7 +465,7 @@
                 <FileData Type="Normal" Path="source/Reels/Wild0/Wild.PNG" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.G" ActionTag="1620884284" Tag="46" IconVisible="False" LeftMargin="-97.0000" RightMargin="-97.0000" TopMargin="-93.0000" BottomMargin="-93.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.G" Visible="False" ActionTag="1620884284" Tag="46" IconVisible="False" LeftMargin="-97.0000" RightMargin="-97.0000" TopMargin="-93.0000" BottomMargin="-93.0000" ctype="SpriteObjectData">
                 <Size X="194.0000" Y="186.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -476,7 +476,7 @@
                 <FileData Type="Normal" Path="source/Reels/Wild1/Wild.PNG" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.H" ActionTag="508066614" Tag="47" IconVisible="False" LeftMargin="-97.0000" RightMargin="-97.0000" TopMargin="-93.0000" BottomMargin="-93.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.H" Visible="False" ActionTag="508066614" Tag="47" IconVisible="False" LeftMargin="-97.0000" RightMargin="-97.0000" TopMargin="-93.0000" BottomMargin="-93.0000" ctype="SpriteObjectData">
                 <Size X="194.0000" Y="186.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -487,7 +487,7 @@
                 <FileData Type="Normal" Path="source/Reels/Wild2/Wild.PNG" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.S" ActionTag="-1911808621" Tag="48" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.S" Visible="False" ActionTag="-1911808621" Tag="48" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
                 <Size X="260.0000" Y="260.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -498,7 +498,7 @@
                 <FileData Type="Normal" Path="source/Reels/Wild_2x/Wild_2x.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.U" ActionTag="584800332" Tag="49" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.U" Visible="False" ActionTag="584800332" Tag="49" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
                 <Size X="260.0000" Y="260.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -509,7 +509,7 @@
                 <FileData Type="Normal" Path="source/Reels/Wild_3x/Wild_3x.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.V" ActionTag="-370621324" Tag="50" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.V" Visible="False" ActionTag="-370621324" Tag="50" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
                 <Size X="260.0000" Y="260.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -520,7 +520,7 @@
                 <FileData Type="Normal" Path="source/Reels/Wild_4x/Wild_4x.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.I" ActionTag="-108719434" Tag="51" IconVisible="False" LeftMargin="-97.5000" RightMargin="-97.5000" TopMargin="-92.5000" BottomMargin="-92.5000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.I" Visible="False" ActionTag="-108719434" Tag="51" IconVisible="False" LeftMargin="-97.5000" RightMargin="-97.5000" TopMargin="-92.5000" BottomMargin="-92.5000" ctype="SpriteObjectData">
                 <Size X="195.0000" Y="185.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -531,7 +531,7 @@
                 <FileData Type="Normal" Path="source/Reels/PartyGirl/PartyGirlTop.png" Plist="" />
                 <BlendFunc Src="770" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.L" ActionTag="-1025885728" Tag="52" IconVisible="False" LeftMargin="-97.5000" RightMargin="-97.5000" TopMargin="-92.5000" BottomMargin="-92.5000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.L" Visible="False" ActionTag="-1025885728" Tag="52" IconVisible="False" LeftMargin="-97.5000" RightMargin="-97.5000" TopMargin="-92.5000" BottomMargin="-92.5000" ctype="SpriteObjectData">
                 <Size X="195.0000" Y="185.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -542,7 +542,7 @@
                 <FileData Type="Normal" Path="source/Reels/PartyGirl/PartyGirlBottom.png" Plist="" />
                 <BlendFunc Src="770" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.C" ActionTag="788205984" Tag="53" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.C" Visible="False" ActionTag="788205984" Tag="53" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
                 <Size X="232.0000" Y="184.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -553,7 +553,7 @@
                 <FileData Type="Normal" Path="source/Reels/Mask/Mask.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.D" ActionTag="419919397" Tag="54" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.D" Visible="False" ActionTag="419919397" Tag="54" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
                 <Size X="232.0000" Y="184.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -564,7 +564,7 @@
                 <FileData Type="Normal" Path="source/Reels/Hurricane/Hurricane.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.E" ActionTag="888159870" Tag="55" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.E" Visible="False" ActionTag="888159870" Tag="55" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
                 <Size X="232.0000" Y="184.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -575,7 +575,7 @@
                 <FileData Type="Normal" Path="source/Reels/KingCake/KingCake.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.N" ActionTag="-406225499" Tag="56" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.N" Visible="False" ActionTag="-406225499" Tag="56" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
                 <Size X="232.0000" Y="184.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -586,7 +586,7 @@
                 <FileData Type="Normal" Path="source/Reels/Nine/Nine.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.X" ActionTag="150268309" Tag="57" IconVisible="False" LeftMargin="-114.5000" RightMargin="-114.5000" TopMargin="-114.5000" BottomMargin="-114.5000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.X" Visible="False" ActionTag="150268309" Tag="57" IconVisible="False" LeftMargin="-114.5000" RightMargin="-114.5000" TopMargin="-114.5000" BottomMargin="-114.5000" ctype="SpriteObjectData">
                 <Size X="229.0000" Y="229.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -597,7 +597,7 @@
                 <FileData Type="Normal" Path="source/Reels/FreeSpin/FreeSpin.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.Y" ActionTag="-1100268602" Tag="58" IconVisible="False" LeftMargin="-114.0000" RightMargin="-114.0000" TopMargin="-114.0000" BottomMargin="-114.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.Y" Visible="False" ActionTag="-1100268602" Tag="58" IconVisible="False" LeftMargin="-114.0000" RightMargin="-114.0000" TopMargin="-114.0000" BottomMargin="-114.0000" ctype="SpriteObjectData">
                 <Size X="228.0000" Y="228.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -608,7 +608,7 @@
                 <FileData Type="Normal" Path="source/Reels/Pick/Pick.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.Z" ActionTag="-718366520" Tag="59" IconVisible="False" LeftMargin="-114.5000" RightMargin="-114.5000" TopMargin="-115.0000" BottomMargin="-115.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.Z" Visible="False" ActionTag="-718366520" Tag="59" IconVisible="False" LeftMargin="-114.5000" RightMargin="-114.5000" TopMargin="-115.0000" BottomMargin="-115.0000" ctype="SpriteObjectData">
                 <Size X="229.0000" Y="230.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -619,7 +619,7 @@
                 <FileData Type="Normal" Path="source/Reels/Wheel/Wheel.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.W" ActionTag="-2007546303" Tag="60" IconVisible="False" LeftMargin="-97.0000" RightMargin="-97.0000" TopMargin="-93.0000" BottomMargin="-93.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.W" Visible="False" ActionTag="-2007546303" Tag="60" IconVisible="False" LeftMargin="-97.0000" RightMargin="-97.0000" TopMargin="-93.0000" BottomMargin="-93.0000" ctype="SpriteObjectData">
                 <Size X="194.0000" Y="186.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -630,7 +630,7 @@
                 <FileData Type="Normal" Path="source/Reels/Wild0/Wild.PNG" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.B" ActionTag="1969659819" Tag="61" IconVisible="False" LeftMargin="-97.5000" RightMargin="-97.5000" TopMargin="-92.5000" BottomMargin="-92.5000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="ReelSymbol.B" Visible="False" ActionTag="1969659819" Tag="61" IconVisible="False" LeftMargin="-97.5000" RightMargin="-97.5000" TopMargin="-92.5000" BottomMargin="-92.5000" ctype="SpriteObjectData">
                 <Size X="195.0000" Y="185.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -671,7 +671,7 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="coin_particle0" ActionTag="-697924731" Tag="62" IconVisible="True" LeftMargin="607.6807" RightMargin="752.3193" TopMargin="583.5635" BottomMargin="184.4365" ctype="ParticleObjectData">
+          <AbstractNodeData Name="coin_particle0" Visible="False" ActionTag="-697924731" Tag="62" IconVisible="True" LeftMargin="607.6807" RightMargin="752.3193" TopMargin="583.5635" BottomMargin="184.4365" ctype="ParticleObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
             <Position X="607.6807" Y="184.4365" />
@@ -682,7 +682,7 @@
             <FileData Type="Normal" Path="Coin5.plist" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="coin_particle1" ActionTag="1921188531" Tag="63" IconVisible="True" LeftMargin="617.6807" RightMargin="742.3193" TopMargin="593.5635" BottomMargin="174.4365" ctype="ParticleObjectData">
+          <AbstractNodeData Name="coin_particle1" Visible="False" ActionTag="1921188531" Tag="63" IconVisible="True" LeftMargin="617.6807" RightMargin="742.3193" TopMargin="593.5635" BottomMargin="174.4365" ctype="ParticleObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
             <Position X="617.6807" Y="174.4365" />
@@ -693,7 +693,7 @@
             <FileData Type="Normal" Path="Coin4.plist" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="coin_particle2" ActionTag="-819589180" Tag="64" IconVisible="True" LeftMargin="627.6805" RightMargin="732.3195" TopMargin="603.5635" BottomMargin="164.4365" ctype="ParticleObjectData">
+          <AbstractNodeData Name="coin_particle2" Visible="False" ActionTag="-819589180" Tag="64" IconVisible="True" LeftMargin="627.6805" RightMargin="732.3195" TopMargin="603.5635" BottomMargin="164.4365" ctype="ParticleObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
             <Position X="627.6805" Y="164.4365" />
@@ -704,7 +704,7 @@
             <FileData Type="Normal" Path="Coin3.plist" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="coin_particle3" ActionTag="89447246" Tag="65" IconVisible="True" LeftMargin="637.6805" RightMargin="722.3195" TopMargin="613.5635" BottomMargin="154.4365" ctype="ParticleObjectData">
+          <AbstractNodeData Name="coin_particle3" Visible="False" ActionTag="89447246" Tag="65" IconVisible="True" LeftMargin="637.6805" RightMargin="722.3195" TopMargin="613.5635" BottomMargin="154.4365" ctype="ParticleObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
             <Position X="637.6805" Y="154.4365" />

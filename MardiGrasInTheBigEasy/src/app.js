@@ -25,6 +25,8 @@ var HelloWorldLayer = cc.Layer.extend({
         {
             this.aPaylinePositions[j] = [];
         }
+        this.aAnimatedReelSymbols = [];
+        this.aAnimatedReelSymbols["A"] = [];
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
@@ -96,6 +98,10 @@ var HelloWorldLayer = cc.Layer.extend({
         this.mainscene.node.reorderChild(this.coinparticle1,503);
         this.mainscene.node.reorderChild(this.coinparticle2,501);
         this.mainscene.node.reorderChild(this.coinparticle3,502);
+        this.coinparticle0.visible = false;
+        this.coinparticle1.visible = false;
+        this.coinparticle2.visible = false;
+        this.coinparticle3.visible = false;
         this.playbutton.addTouchEventListener(this.touchEvent, this);
         var objReelNode = this.mainscene.node.getChildByName("Reels");
         var objPaylineNode = this.mainscene.node.getChildByName("Paylines");
@@ -152,6 +158,16 @@ var HelloWorldLayer = cc.Layer.extend({
         var dt = 0;
         this._spotLight.setPosition3D(cc.math.vec3(100*Math.cos(this._angle+4*dt), 100, 100*Math.sin(this._angle+4*dt)));
         this._spotLight.setDirection(cc.math.vec3(-Math.cos(this._angle + 4 * dt), -1, -Math.sin(this._angle + 4*dt)));*/
+
+        var objAnimReelSymbolsNode = this.mainscene.node.getChildByName("AnimatedReelSymbols");
+        this.aAnimatedReelSymbolsA = objAnimReelSymbolsNode.getChildByName("AnimatedReelSymbol_A");
+        this.aAnimatedReelSymbolsA.visible = false;
+        for(var i=0;i<5;i++)
+        {
+            this.aAnimatedReelSymbols["A"][i] = new FlipBookAnimation(this.aAnimatedReelSymbolsA.getTexture().url);
+            this.mainscene.node.addChild(this.aAnimatedReelSymbols["A"][i].getNode());
+        }
+
         var label = new cc.LabelTTF(this.objAppData.getReelFace(), "fonts/arial.ttf", 55);
         label.x = size.width/2;
         label.y = 730;
@@ -182,12 +198,12 @@ var HelloWorldLayer = cc.Layer.extend({
     checkControl1:function (i)
     {
         this.reelStop(i,false);
-        if(i===4)
+        /*if(i===4)
         {
             this.mainscene.node.visible = false;
             var pickScene = new PickBonusScene();
             cc.director.pushScene(pickScene);
-        }
+        }*/
     },
     spinReel:function (i)
     {
@@ -259,6 +275,14 @@ var HelloWorldLayer = cc.Layer.extend({
         this.bShowPaylines = true;
         this.showWinningPayline();
     },
+    playAnimatedReelSymbol:function (srtSYMB,nCol,x,y)
+    {
+        var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
+        objNode.visible = true;
+        objNode.x = x;
+        objNode.y = y;
+        this.aAnimatedReelSymbols[srtSYMB][nCol].playFromStart();
+    },
     showWinningPayline:function ()
     {
         for(var nCols = 0; nCols < 5; nCols++)
@@ -274,11 +298,14 @@ var HelloWorldLayer = cc.Layer.extend({
                 this.objPaylineSegment.setDrawColor(colorval);
                 for(var nCols = 0; nCols < 5; nCols++)
                 {
-                    if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) != "?")
-                        this.aPaylineBox[nCols].visible = true;
                     this.aPaylineBox[nCols].setColor(colorval);
                     this.aPaylineBox[nCols].x = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].x;
                     this.aPaylineBox[nCols].y = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].y;
+                    if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) != "?")
+                    {
+                        this.aPaylineBox[nCols].visible = true;
+                        this.playAnimatedReelSymbol(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols),nCols,this.aPaylineBox[nCols].x,this.aPaylineBox[nCols].y);
+                    }
                     if(nCols != 0)
                     {
                         if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) === "?" && this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols-1) === "?")
