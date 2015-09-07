@@ -8,18 +8,18 @@ FlipBookAnimation =function(strpath)
     var animFrames = [];
     var i = 0;
     do{
-        str = this.strfilename+"_"+ i +".png";
+        str = this.strfilename+ i +".png";
         var frame = cc.spriteFrameCache.getSpriteFrame(str);
         animFrames.push(frame);
         i++;
-    }while(cc.spriteFrameCache.getSpriteFrame(this.strfilename+"_"+ i +".png") != undefined );
+    }while(cc.spriteFrameCache.getSpriteFrame(this.strfilename+ i +".png") != undefined );
     var animation = new cc.Animation(animFrames,1,1);
     this.objAnim = new cc.Animate(animation)
     this.objloopAnim  = this.objAnim.repeatForever();
     var seqa = this.objAnim.repeat(1);
     var actionMoveDone = cc.callFunc(this.onAnimCompleated.bind(this), this);
     this.objPlayAnim   = cc.sequence(seqa,actionMoveDone);
-    this.objSubNode = new cc.Sprite("#"+this.strfilename+"_0.png");
+    this.objSubNode = new cc.Sprite("#"+this.strfilename+"0.png");
     this.objMainNode.addChild(this.objSubNode);
 };
 
