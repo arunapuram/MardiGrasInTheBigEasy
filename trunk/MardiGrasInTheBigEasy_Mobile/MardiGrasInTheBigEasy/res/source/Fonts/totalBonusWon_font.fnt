@@ -1,0 +1,19 @@
+info face="totalBonusWon_font"italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0
+common lineHeight=170 base=26 scaleW=495 scaleH=499 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="totalBonusWon_font.png"
+chars count=13
+char id=48 x=0 y=0 width=121 height=166 xoffset=0 yoffset=4 xadvance=124 page=0 chnl=0 letter="0"
+char id=49 x=420 y=0 width=75 height=168 xoffset=0 yoffset=0 xadvance=78 page=0 chnl=0 letter="1"
+char id=50 x=322 y=170 width=98 height=167 xoffset=0 yoffset=3 xadvance=101 page=0 chnl=0 letter="2"
+char id=51 x=323 y=0 width=97 height=167 xoffset=0 yoffset=3 xadvance=100 page=0 chnl=0 letter="3"
+char id=52 x=114 y=166 width=109 height=174 xoffset=0 yoffset=-6 xadvance=112 page=0 chnl=0 letter="4"
+char id=53 x=223 y=170 width=99 height=165 xoffset=0 yoffset=5 xadvance=102 page=0 chnl=0 letter="5"
+char id=54 x=0 y=332 width=114 height=167 xoffset=0 yoffset=4 xadvance=117 page=0 chnl=0 letter="6"
+char id=55 x=223 y=0 width=100 height=170 xoffset=0 yoffset=3 xadvance=103 page=0 chnl=0 letter="7"
+char id=56 x=121 y=0 width=100 height=166 xoffset=0 yoffset=4 xadvance=103 page=0 chnl=0 letter="8"
+char id=57 x=0 y=166 width=114 height=166 xoffset=0 yoffset=4 xadvance=117 page=0 chnl=0 letter="9"
+char id=44 x=114 y=340 width=37 height=57 xoffset=0 yoffset=114 xadvance=40 page=0 chnl=0 letter=","
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=0 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=0 page=0 chnl=0 letter="	"
+
+kernings count=0
