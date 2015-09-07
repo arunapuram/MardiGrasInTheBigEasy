@@ -41,10 +41,15 @@
               <Image Name="Ace.png" />
               <Folder Name="Animated">
                 <Image Name="AnimatedReelSymbol_A.png" />
+                <Image Name="Ace.png" />
               </Folder>
             </Folder>
             <Folder Name="Jack">
               <Image Name="Jack.png" />
+              <Folder Name="Animated">
+                <Image Name="0000.png" />
+                <Image Name="0001.png" />
+              </Folder>
             </Folder>
             <Folder Name="King">
               <Image Name="King.png" />
