@@ -165,6 +165,7 @@ var HelloWorldLayer = cc.Layer.extend({
         for(var i=0;i<5;i++)
         {
             this.aAnimatedReelSymbols["A"][i] = new FlipBookAnimation(this.aAnimatedReelSymbolsA.getTexture().url);
+            this.aAnimatedReelSymbols["A"][i].onAnimationCompleated = this.hideAnimatedSymbol.bind(this,"A",i);
             this.mainscene.node.addChild(this.aAnimatedReelSymbols["A"][i].getNode());
         }
 
@@ -279,9 +280,14 @@ var HelloWorldLayer = cc.Layer.extend({
     {
         var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
         objNode.visible = true;
-        objNode.x = x;
-        objNode.y = y;
+        objNode.x = x-18+SYMBOL_WIDTH_HALF;
+        objNode.y = y-SYMBOL_HEIGHT_HALF;
         this.aAnimatedReelSymbols[srtSYMB][nCol].playFromStart();
+    },
+    hideAnimatedSymbol:function (srtSYMB,nCol)
+    {
+        var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
+        objNode.visible = false;
     },
     showWinningPayline:function ()
     {
