@@ -1665,7 +1665,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Ace/Animated/AnimatedReelSymbol_A.png",
+                  "Path": "source/Reels/Ace/Animated/Ace.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2934,7 +2934,7 @@
         "source/PlayBar/PlayNormal.png",
         "source/PlayBar/PlayReleased.png",
         "source/Reels/Ace/Ace.png",
-        "source/Reels/Ace/Animated/AnimatedReelSymbol_A.png",
+        "source/Reels/Ace/Animated/Ace.png",
         "source/Reels/FreeSpin/FreeSpin.png",
         "source/Reels/Hurricane/Hurricane.png",
         "source/Reels/Jack/Jack.png",
