@@ -160,7 +160,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this._spotLight.setDirection(cc.math.vec3(-Math.cos(this._angle + 4 * dt), -1, -Math.sin(this._angle + 4*dt)));*/
 
         var objAnimReelSymbolsNode = this.mainscene.node.getChildByName("AnimatedReelSymbols");
-        this.aAnimatedReelSymbolsA = objAnimReelSymbolsNode.getChildByName("AnimatedReelSymbol_A");
+        this.aAnimatedReelSymbolsA = objAnimReelSymbolsNode.getChildByName("AnimatedReelSymbol.A");
         this.aAnimatedReelSymbolsA.visible = false;
         for(var i=0;i<5;i++)
         {
