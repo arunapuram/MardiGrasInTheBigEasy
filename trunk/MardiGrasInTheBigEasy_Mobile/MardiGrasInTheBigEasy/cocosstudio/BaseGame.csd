@@ -407,7 +407,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.1706" Y="0.2396" />
-                <FileData Type="Normal" Path="source/Reels/Ace/Animated/AnimatedReelSymbol_A.png" Plist="" />
+                <FileData Type="Normal" Path="source/Reels/Ace/Animated/Ace.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="ReelSymbol.J" Visible="False" ActionTag="-133952129" Tag="41" IconVisible="False" LeftMargin="-116.0000" RightMargin="-116.0000" TopMargin="-92.0000" BottomMargin="-92.0000" ctype="SpriteObjectData">
