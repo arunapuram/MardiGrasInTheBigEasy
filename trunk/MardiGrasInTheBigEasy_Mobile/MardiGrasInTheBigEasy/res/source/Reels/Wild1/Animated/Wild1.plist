@@ -4,196 +4,6 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Wild0.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>2</integer>
-                <key>y</key>
-                <integer>2</integer>
-            </dict>
-            <key>Wild1.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>198</integer>
-                <key>y</key>
-                <integer>2</integer>
-            </dict>
-            <key>Wild2.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>394</integer>
-                <key>y</key>
-                <integer>2</integer>
-            </dict>
-            <key>Wild3.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>590</integer>
-                <key>y</key>
-                <integer>2</integer>
-            </dict>
-            <key>Wild4.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>2</integer>
-                <key>y</key>
-                <integer>190</integer>
-            </dict>
-            <key>Wild5.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>198</integer>
-                <key>y</key>
-                <integer>190</integer>
-            </dict>
-            <key>Wild6.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>394</integer>
-                <key>y</key>
-                <integer>190</integer>
-            </dict>
-            <key>Wild7.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>590</integer>
-                <key>y</key>
-                <integer>190</integer>
-            </dict>
-            <key>Wild8.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>2</integer>
-                <key>y</key>
-                <integer>378</integer>
-            </dict>
-            <key>Wild9.png</key>
-            <dict>
-                <key>height</key>
-                <integer>186</integer>
-                <key>offsetX</key>
-                <real>0</real>
-                <key>offsetY</key>
-                <real>0</real>
-                <key>originalHeight</key>
-                <integer>186</integer>
-                <key>originalWidth</key>
-                <integer>194</integer>
-                <key>width</key>
-                <integer>194</integer>
-                <key>x</key>
-                <integer>198</integer>
-                <key>y</key>
-                <integer>378</integer>
-            </dict>
             <key>Wild10.png</key>
             <dict>
                 <key>height</key>
@@ -209,9 +19,9 @@
                 <key>width</key>
                 <integer>194</integer>
                 <key>x</key>
-                <integer>394</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>378</integer>
+                <integer>2</integer>
             </dict>
             <key>Wild11.png</key>
             <dict>
@@ -228,11 +38,201 @@
                 <key>width</key>
                 <integer>194</integer>
                 <key>x</key>
+                <integer>198</integer>
+                <key>y</key>
+                <integer>2</integer>
+            </dict>
+            <key>Wild12.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>394</integer>
+                <key>y</key>
+                <integer>2</integer>
+            </dict>
+            <key>Wild13.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>590</integer>
+                <key>y</key>
+                <integer>2</integer>
+            </dict>
+            <key>Wild14.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>2</integer>
+                <key>y</key>
+                <integer>190</integer>
+            </dict>
+            <key>Wild15.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>198</integer>
+                <key>y</key>
+                <integer>190</integer>
+            </dict>
+            <key>Wild16.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>394</integer>
+                <key>y</key>
+                <integer>190</integer>
+            </dict>
+            <key>Wild17.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>590</integer>
+                <key>y</key>
+                <integer>190</integer>
+            </dict>
+            <key>Wild18.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>2</integer>
+                <key>y</key>
+                <integer>378</integer>
+            </dict>
+            <key>Wild19.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>198</integer>
+                <key>y</key>
+                <integer>378</integer>
+            </dict>
+            <key>Wild110.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>394</integer>
+                <key>y</key>
+                <integer>378</integer>
+            </dict>
+            <key>Wild111.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
                 <integer>590</integer>
                 <key>y</key>
                 <integer>378</integer>
             </dict>
-            <key>Wild12.png</key>
+            <key>Wild112.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -251,7 +251,7 @@
                 <key>y</key>
                 <integer>566</integer>
             </dict>
-            <key>Wild13.png</key>
+            <key>Wild113.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -270,19 +270,38 @@
                 <key>y</key>
                 <integer>566</integer>
             </dict>
+            <key>Wild114.png</key>
+            <dict>
+                <key>height</key>
+                <integer>186</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>186</integer>
+                <key>originalWidth</key>
+                <integer>194</integer>
+                <key>width</key>
+                <integer>194</integer>
+                <key>x</key>
+                <integer>394</integer>
+                <key>y</key>
+                <integer>566</integer>
+            </dict>
         </dict>
         <key>metadata</key>
         <dict>
             <key>format</key>
             <integer>0</integer>
             <key>realTextureFileName</key>
-            <string>Wild.png</string>
+            <string>Wild1.png</string>
             <key>size</key>
             <string>{786,786}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:8042b3094e00d1ce483d0400d2ec8ef2:6a9d851b118330074aedeb1263eb150f:82109e7028a419fc6a066a5f45246d51$</string>
+            <string>$TexturePacker:SmartUpdate:2b91ef65de8d07c73643aedf2b86eb74:54e2ba089fa203b00abbb0b565dc8210:82109e7028a419fc6a066a5f45246d51$</string>
             <key>textureFileName</key>
-            <string>Wild.png</string>
+            <string>Wild1.png</string>
         </dict>
         <key>texture</key>
         <dict>

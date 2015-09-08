@@ -38,12 +38,12 @@ var res = {
     Pickoneflip_plist15 : "res/source/Reels/Wild_3x/Animated/Wild_3x.plist",
     Pickoneflip_png16  : "res/source/Reels/Wild_4x/Animated/Wild_4x.png",
     Pickoneflip_plist16 : "res/source/Reels/Wild_4x/Animated/Wild_4x.plist",
-    Pickoneflip_png17  : "res/source/Reels/Wild0/Animated/Wild.png",
-    Pickoneflip_plist17 : "res/source/Reels/Wild0/Animated/Wild.plist",
-    Pickoneflip_png18  : "res/source/Reels/Wild1/Animated/Wild.png",
-    Pickoneflip_plist18 : "res/source/Reels/Wild1/Animated/Wild.plist",
-    Pickoneflip_png19  : "res/source/Reels/Wild2/Animated/Wild.png",
-    Pickoneflip_plist19 : "res/source/Reels/Wild2/Animated/Wild.plist"
+    Pickoneflip_png17  : "res/source/Reels/Wild0/Animated/Wild0.png",
+    Pickoneflip_plist17 : "res/source/Reels/Wild0/Animated/Wild0.plist",
+    Pickoneflip_png18  : "res/source/Reels/Wild1/Animated/Wild1.png",
+    Pickoneflip_plist18 : "res/source/Reels/Wild1/Animated/Wild1.plist",
+    Pickoneflip_png19  : "res/source/Reels/Wild2/Animated/Wild2.png",
+    Pickoneflip_plist19 : "res/source/Reels/Wild2/Animated/Wild2.plist"
 };
 
 var g_resources = [];
