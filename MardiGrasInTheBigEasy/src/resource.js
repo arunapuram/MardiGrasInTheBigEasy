@@ -8,6 +8,8 @@ var res = {
     Pickoneflip_plist : "res/source/Bonus/PickYourPoison/Pickoneflip.plist",
     Pickoneflip_png  : "res/source/Reels/Ace/Animated/Ace.png",
     Pickoneflip_plist : "res/source/Reels/Ace/Animated/Ace.plist",
+    Pickoneflip_png  : "res/source/Reels/Jack/Animated/Jack.png",
+    Pickoneflip_plist : "res/source/Reels/Jack/Animated/Jack.plist",
 };
 
 var g_resources = [];

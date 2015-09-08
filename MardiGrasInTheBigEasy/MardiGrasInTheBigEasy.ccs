@@ -49,59 +49,111 @@
               <Folder Name="Animated">
                 <Image Name="0000.png" />
                 <Image Name="0001.png" />
+                <Image Name="Jack.png" />
               </Folder>
             </Folder>
             <Folder Name="King">
               <Image Name="King.png" />
+              <Folder Name="Animated">
+                <Image Name="King.png" />
+              </Folder>
             </Folder>
             <Folder Name="Queen">
               <Image Name="Queen.png" />
+              <Folder Name="Animated">
+                <Image Name="Queen.png" />
+              </Folder>
             </Folder>
             <Folder Name="Ten">
               <Image Name="Ten.png" />
+              <Folder Name="Animated">
+                <Image Name="Ten.png" />
+              </Folder>
             </Folder>
             <Folder Name="Wild0">
               <Image Name="Wild.PNG" />
+              <Folder Name="Animated">
+                <Image Name="Wild.png" />
+              </Folder>
             </Folder>
             <Folder Name="Wild1">
               <Image Name="Wild.PNG" />
+              <Folder Name="Animated">
+                <Image Name="Wild.png" />
+              </Folder>
             </Folder>
             <Folder Name="Wild2">
               <Image Name="Wild.PNG" />
+              <Folder Name="Animated">
+                <Image Name="Wild.png" />
+              </Folder>
             </Folder>
             <Folder Name="Wild_2x">
               <Image Name="Wild_2x.png" />
+              <Folder Name="Animated">
+                <Image Name="Wild_2x.png" />
+              </Folder>
             </Folder>
             <Folder Name="Wild_3x">
               <Image Name="Wild_3x.png" />
+              <Folder Name="Animated">
+                <Image Name="Wild_3x.png" />
+              </Folder>
             </Folder>
             <Folder Name="Wild_4x">
               <Image Name="Wild_4x.png" />
+              <Folder Name="Animated">
+                <Image Name="Wild_4x.png" />
+              </Folder>
             </Folder>
             <Folder Name="PartyGirl">
               <Image Name="PartyGirlTop.png" />
               <Image Name="PartyGirlBottom.png" />
+              <Folder Name="Animated">
+                <Image Name="PartyGirl.png" />
+              </Folder>
             </Folder>
             <Folder Name="Mask">
               <Image Name="Mask.png" />
+              <Folder Name="Animated">
+                <Image Name="Mask.png" />
+              </Folder>
             </Folder>
             <Folder Name="Hurricane">
               <Image Name="Hurricane.png" />
+              <Folder Name="Animated">
+                <Image Name="Hurricane.png" />
+              </Folder>
             </Folder>
             <Folder Name="KingCake">
               <Image Name="KingCake.png" />
+              <Folder Name="Animated">
+                <Image Name="KingCake.png" />
+              </Folder>
             </Folder>
             <Folder Name="Nine">
               <Image Name="Nine.png" />
+              <Folder Name="Animated">
+                <Image Name="Nine.png" />
+              </Folder>
             </Folder>
             <Folder Name="FreeSpin">
               <Image Name="FreeSpin.png" />
+              <Folder Name="Animated">
+                <Image Name="FreeSpin.png" />
+              </Folder>
             </Folder>
             <Folder Name="Pick">
               <Image Name="Pick.png" />
+              <Folder Name="Animated">
+                <Image Name="Pick.png" />
+              </Folder>
             </Folder>
             <Folder Name="Wheel">
               <Image Name="Wheel.png" />
+              <Folder Name="Animated">
+                <Image Name="Wheel.png" />
+              </Folder>
             </Folder>
           </Folder>
           <Folder Name="Paylines">
