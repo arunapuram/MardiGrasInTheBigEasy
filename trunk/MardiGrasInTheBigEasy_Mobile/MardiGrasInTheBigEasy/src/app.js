@@ -1,4 +1,7 @@
 
+var CREDIT_METER_AMOUNT = 4000;
+var TOTAL_BET = 250;
+var BET_PER_LINE = 5;
 var SYMBOL_WIDTH = 232;
 var SYMBOL_HEIGHT = 184;
 var SYMBOL_WIDTH_HALF = 232 >> 1;
@@ -87,9 +90,13 @@ var HelloWorldLayer = cc.Layer.extend({
             //this.aReelStrips[i].setAlphaBlending(true);
            // this.aReelStrips[i].clip(cc.size(232, 184*3));*/
         }
-        this.objBangUpController = new BangUpController("PaidText", this);
+        this.bIsBonus = false;
+        this.objBangUpController = new BangUpController("PaidText","CreditText",this.bIsBonus, this);
         this.objBangUpController.onBangUpCompleate = this.onBangUpComplete.bind(this);
-
+        this.objBetPerLineText = this.mainscene.node.getChildByName("BET_PER_LINE");
+        this.objTotalBetText = this.mainscene.node.getChildByName("TOTAL_BET_TEXT");
+        this.objBetPerLineText.setString(BET_PER_LINE.toString());
+        this.objTotalBetText.setString(TOTAL_BET.toString());
 
         this.playbutton = this.mainscene.node.getChildByName("Play.Button");
         this.coinparticle0 = this.mainscene.node.getChildByName("coin_particle0");
@@ -219,8 +226,10 @@ var HelloWorldLayer = cc.Layer.extend({
     {
         if(i===0)
         {
+            CREDIT_METER_AMOUNT = CREDIT_METER_AMOUNT - TOTAL_BET;
+            this.objBangUpController.CreditTextlabel.setString(CREDIT_METER_AMOUNT.toString());
             this.bShowPaylines = false;
-            this.objBangUpController.label.setString("0");
+            this.objBangUpController.PaidTextlabel.setString("0");
         }
         this.showWinningPayline();
         this.objPaylineSegment.clear();
@@ -283,8 +292,7 @@ var HelloWorldLayer = cc.Layer.extend({
     startPaylines:function ()
     {
         this.nAwardcredits = 100;
-        var bIsBonus = false;
-        this.objBangUpController.startBangup(this.nAwardcredits, bIsBonus);
+        this.objBangUpController.startBangup(this.nAwardcredits, this.bIsBonus);
         this.nPaylineCounter = 0;
         this.bShowPaylines = true;
         this.showWinningPayline();
@@ -424,6 +432,7 @@ var HelloWorldLayer = cc.Layer.extend({
     onBangUpComplete:function ()
     {
        // this.objBangUpController.label.setString("0");
+        CREDIT_METER_AMOUNT = CREDIT_METER_AMOUNT + this.objBangUpController.nAwardAmount
         this.playbutton.setEnabled(true);
     },
 });

@@ -341,6 +341,7 @@
         <PlistInfo Name="PickoneFlip.csi" Type="Plist" />
         <PlistInfo Name="Flame.csi" Type="Plist" />
         <Fnt Name="CreditsWinFont_lrg.fnt" />
+        <Fnt Name="BetFont_BetPerLine.fnt" />
       </RootFolder>
     </Group>
   </SolutionFolder>

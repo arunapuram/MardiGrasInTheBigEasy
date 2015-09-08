@@ -1,8 +1,10 @@
 
 /////////////////////////////////////////////////////////////////////////
-BangUpController = function(str, appInstance)
+BangUpController = function(str,str2,bIsBonus,appInstance)
 {
     this.strPaidTextName = str;
+    this.strCreditTextName = str2;
+    this.bIsBonus = bIsBonus;
     this.appInstance = appInstance;
     this.mainscene = appInstance.mainscene;
     this.fDefaultMusicalBangupMinSpeed = 5.9;
@@ -74,12 +76,17 @@ BangUpController.prototype.initBangUp = function()
     if(this.strPaidTextName === null)
         this.strPaidTextName = "PaidText";
 
+    if(this.strCreditTextName === null)
+        this.strCreditTextName = "CreditText";
+
     this.paidStart = 0;
     this.paidCurrentValue = 0;
     this.paidEnd = 0;
 
-    this.label = this.mainscene.node.getChildByName(this.strPaidTextName);
-    this.label.setString(this.paidStart.toString());// = this.paidStart.toString();
+    this.PaidTextlabel = this.mainscene.node.getChildByName(this.strPaidTextName);
+    this.PaidTextlabel.setString(this.paidStart.toString());// = this.paidStart.toString();
+    this.CreditTextlabel = this.mainscene.node.getChildByName(this.strCreditTextName);
+    this.CreditTextlabel.setString(CREDIT_METER_AMOUNT);// = this.paidStart.toString();
 };
 
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -91,8 +98,9 @@ BangUpController.prototype.startBangup = function(nAwardAmount, bIsBonus)
     this.paidStart = 0;
     this.paidCurrentValue = 0;
     this.paidEnd = 0;
-    this.label = this.mainscene.node.getChildByName(this.strPaidTextName);
-    this.label._localZOrder = 100;
+
+    this.PaidTextlabel = this.mainscene.node.getChildByName(this.strPaidTextName);
+    this.CreditTextlabel = this.mainscene.node.getChildByName(this.strCreditTextName);
 
     this.nAwardAmount = nAwardAmount;
     this.paidEnd = this.paidStart + this.nAwardAmount;
@@ -115,7 +123,9 @@ BangUpController.prototype.incrementText = function ()
     }
     else {
         this.objBangUpController.paidCurrentValue++;
-        this.objBangUpController.label.setString(this.objBangUpController.paidCurrentValue.toString());
+        var nCreditValue = CREDIT_METER_AMOUNT + this.objBangUpController.paidCurrentValue;
+        this.objBangUpController.PaidTextlabel.setString(this.objBangUpController.paidCurrentValue.toString());
+        this.objBangUpController.CreditTextlabel.setString(nCreditValue);
     }
 };
 
@@ -156,9 +166,11 @@ BangUpController.prototype.determineAudioCue = function (nAwardAmount)
 
 };
 
+/*
 
 BangUpController.prototype.onBangUpComplete = function()
 {
+    CREDIT_METER_AMOUNT = CREDIT_METER_AMOUNT + this.nAwardAmount;
     if(this.onBangUpCompleateCallback != null)
         this.onBangUpCompleateCallback();
-};
+};*/

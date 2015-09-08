@@ -722,8 +722,38 @@
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.7412" Y="0.0676" />
+            <PreSize X="0.0140" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="CreditsWinFont_lrg.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="CreditText" ActionTag="-1561027056" Tag="67" IconVisible="False" LeftMargin="217.4957" RightMargin="1031.5044" TopMargin="690.3889" BottomMargin="22.6111" LabelText="4000" ctype="TextBMFontObjectData">
+            <Size X="151.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="272.9957" Y="50.1111" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2007" Y="0.0652" />
             <PreSize X="0.0816" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="CreditsWinFont_lrg.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="TOTAL_BET_TEXT" ActionTag="1510570815" Tag="68" IconVisible="False" LeftMargin="611.5067" RightMargin="684.4933" TopMargin="700.1801" BottomMargin="37.8199" LabelText="250" ctype="TextBMFontObjectData">
+            <Size X="64.0000" Y="30.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="643.5067" Y="52.8199" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4732" Y="0.0688" />
+            <PreSize X="0.0471" Y="0.0391" />
+            <LabelBMFontFile_CNB Type="Normal" Path="BetFont_BetPerLine.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="BET_PER_LINE" ActionTag="899550497" Tag="69" IconVisible="False" LeftMargin="513.4628" RightMargin="826.5372" TopMargin="698.6170" BottomMargin="39.3830" LabelText="5" ctype="TextBMFontObjectData">
+            <Size X="20.0000" Y="30.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="523.4628" Y="54.3830" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.3849" Y="0.0708" />
+            <PreSize X="0.0184" Y="0.0391" />
+            <LabelBMFontFile_CNB Type="Normal" Path="BetFont_BetPerLine.fnt" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
