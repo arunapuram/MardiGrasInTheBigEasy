@@ -715,6 +715,16 @@
             <FileData Type="Normal" Path="particle_texture.plist" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
+          <AbstractNodeData Name="PaidText" ActionTag="1848352793" Tag="142" IconVisible="False" LeftMargin="998.5950" RightMargin="342.4050" TopMargin="688.5470" BottomMargin="24.4530" LabelText="1" ctype="TextBMFontObjectData">
+            <Size X="19.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1008.0950" Y="51.9530" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7412" Y="0.0676" />
+            <PreSize X="0.0816" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="CreditsWinFont_lrg.fnt" Plist="" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>
