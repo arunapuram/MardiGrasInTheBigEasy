@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Pick00.png</key>
+            <key>Pick0.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Pick01.png</key>
+            <key>Pick1.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Pick02.png</key>
+            <key>Pick2.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Pick03.png</key>
+            <key>Pick3.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Pick04.png</key>
+            <key>Pick4.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>232</integer>
             </dict>
-            <key>Pick05.png</key>
+            <key>Pick5.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>232</integer>
             </dict>
-            <key>Pick06.png</key>
+            <key>Pick6.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>232</integer>
             </dict>
-            <key>Pick07.png</key>
+            <key>Pick7.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>232</integer>
             </dict>
-            <key>Pick08.png</key>
+            <key>Pick8.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>462</integer>
             </dict>
-            <key>Pick09.png</key>
+            <key>Pick9.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>

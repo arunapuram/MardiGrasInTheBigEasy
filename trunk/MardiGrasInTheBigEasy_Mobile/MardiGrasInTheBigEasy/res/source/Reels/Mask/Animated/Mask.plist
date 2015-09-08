@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Mask00.png</key>
+            <key>Mask0.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Mask01.png</key>
+            <key>Mask1.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Mask02.png</key>
+            <key>Mask2.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Mask03.png</key>
+            <key>Mask3.png</key>
             <dict>
                 <key>height</key>
                 <integer>182</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Mask04.png</key>
+            <key>Mask4.png</key>
             <dict>
                 <key>height</key>
                 <integer>182</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>188</integer>
             </dict>
-            <key>Mask05.png</key>
+            <key>Mask5.png</key>
             <dict>
                 <key>height</key>
                 <integer>180</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>188</integer>
             </dict>
-            <key>Mask06.png</key>
+            <key>Mask6.png</key>
             <dict>
                 <key>height</key>
                 <integer>180</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>188</integer>
             </dict>
-            <key>Mask07.png</key>
+            <key>Mask7.png</key>
             <dict>
                 <key>height</key>
                 <integer>180</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>188</integer>
             </dict>
-            <key>Mask08.png</key>
+            <key>Mask8.png</key>
             <dict>
                 <key>height</key>
                 <integer>182</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>372</integer>
             </dict>
-            <key>Mask09.png</key>
+            <key>Mask9.png</key>
             <dict>
                 <key>height</key>
                 <integer>182</integer>

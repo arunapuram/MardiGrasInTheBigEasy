@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>FreeSpin00.png</key>
+            <key>FreeSpin0.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>FreeSpin01.png</key>
+            <key>FreeSpin1.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>FreeSpin02.png</key>
+            <key>FreeSpin2.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>FreeSpin03.png</key>
+            <key>FreeSpin3.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>FreeSpin04.png</key>
+            <key>FreeSpin4.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>233</integer>
             </dict>
-            <key>FreeSpin05.png</key>
+            <key>FreeSpin5.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>233</integer>
             </dict>
-            <key>FreeSpin06.png</key>
+            <key>FreeSpin6.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>233</integer>
             </dict>
-            <key>FreeSpin07.png</key>
+            <key>FreeSpin7.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>233</integer>
             </dict>
-            <key>FreeSpin08.png</key>
+            <key>FreeSpin8.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>464</integer>
             </dict>
-            <key>FreeSpin09.png</key>
+            <key>FreeSpin9.png</key>
             <dict>
                 <key>height</key>
                 <integer>229</integer>

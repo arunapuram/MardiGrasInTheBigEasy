@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>PartyGirl00.png</key>
+            <key>PartyGirl0.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>PartyGirl01.png</key>
+            <key>PartyGirl1.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>PartyGirl02.png</key>
+            <key>PartyGirl2.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>PartyGirl03.png</key>
+            <key>PartyGirl3.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>PartyGirl04.png</key>
+            <key>PartyGirl4.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>PartyGirl05.png</key>
+            <key>PartyGirl5.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>PartyGirl06.png</key>
+            <key>PartyGirl6.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>PartyGirl07.png</key>
+            <key>PartyGirl7.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>PartyGirl08.png</key>
+            <key>PartyGirl8.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>372</integer>
             </dict>
-            <key>PartyGirl09.png</key>
+            <key>PartyGirl9.png</key>
             <dict>
                 <key>height</key>
                 <integer>368</integer>

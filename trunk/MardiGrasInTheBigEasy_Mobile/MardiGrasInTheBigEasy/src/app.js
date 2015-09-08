@@ -169,14 +169,16 @@ var HelloWorldLayer = cc.Layer.extend({
             {
                 this.aAnimatedReelSymbols[sSYM][k] = new FlipBookAnimation(aAnimReelSymbols.getTexture().url);
                 this.aAnimatedReelSymbols[sSYM][k].onAnimationCompleated = this.hideAnimatedSymbol.bind(this,sSYM,k);
-                this.mainscene.node.addChild(this.aAnimatedReelSymbols[sSYM][k].getNode());
+                var objNode = this.aAnimatedReelSymbols[sSYM][k].getNode();
+                this.mainscene.node.addChild(objNode);
+                objNode.visible = false;
             }
         }
 
-        var label = new cc.LabelTTF(this.objAppData.getReelFace(), "fonts/arial.ttf", 55);
+        /*var label = new cc.LabelTTF(this.objAppData.getReelFace(), "fonts/arial.ttf", 55);
         label.x = size.width/2;
         label.y = 730;
-        this.addChild(label);
+        this.addChild(label);*/
         return true;
     },
     touchEvent: function (sender, type) {
@@ -187,7 +189,7 @@ var HelloWorldLayer = cc.Layer.extend({
                     this.nReelX[i] = this.aReelStrips[i].x;
                     this.nReelY[i] = this.aReelStrips[i].y;
                 }
-               // this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
+                this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
                 //this.aStopPosition = [76,5,25,44,66];
                 this.objAppData.updateReelFace(this.aStopPosition);
                 for(var i=0;i<this.nSymbols;i++)
@@ -292,9 +294,26 @@ var HelloWorldLayer = cc.Layer.extend({
     {
         var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
         objNode.visible = false;
+        if(nCol===2)
+        {
+            this.showWinningPayline();
+        }
+    },
+    hidePaylines:function ()
+    {
+        for (var i = 0; i < this.nreelsymbols; i++)
+        {
+            var sSYM = cc.aMathReelSet[0][i];
+            for (var k = 0; k < 5; k++)
+            {
+                var objNode = this.aAnimatedReelSymbols[sSYM][k].getNode();
+                objNode.visible = false;
+            }
+        }
     },
     showWinningPayline:function ()
     {
+        this.hidePaylines();
         for(var nCols = 0; nCols < 5; nCols++)
         {
             this.aPaylineBox[nCols].visible = false;
@@ -354,7 +373,7 @@ var HelloWorldLayer = cc.Layer.extend({
                 this.nPaylineCounter++;
                 if(this.nPaylineCounter == this.objAppData.aPaylineID.length)
                     this.nPaylineCounter = 0;
-                this.scheduleOnce(this.showWinningPayline.bind(this),1);
+                /*this.scheduleOnce(this.showWinningPayline.bind(this),1);*/
             }
         }
     },
@@ -384,12 +403,12 @@ var HelloWorldLayer = cc.Layer.extend({
             sprite.x = pp.x+232/2;
             sprite.y = pp.y;
             var nStripIndex = (j +this.nCurrentReelIndex[i])%80;
-            var label = new cc.LabelTTF("" + nStripIndex + cc.aMathReelSet[0][nstripid-1], "fonts/arial.ttf", 55);
+           /* var label = new cc.LabelTTF("" + nStripIndex + cc.aMathReelSet[0][nstripid-1], "fonts/arial.ttf", 55);
             label.setAnchorPoint(cc.p(0, 0));
             label.x = pp.x;
-            label.y = pp.y;
+            label.y = pp.y;*/
             sprite.visit();
-            label.visit();
+           // label.visit();
         }
         this.aReelStrips[i].end();
         this.aReelStrips[i].getSprite().getTexture().setAntiAliasTexParameters();

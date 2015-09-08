@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Wild_3x00.png</key>
+            <key>Wild_3x0.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wild_3x01.png</key>
+            <key>Wild_3x1.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wild_3x02.png</key>
+            <key>Wild_3x2.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wild_3x03.png</key>
+            <key>Wild_3x3.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>162</integer>
             </dict>
-            <key>Wild_3x04.png</key>
+            <key>Wild_3x4.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>162</integer>
             </dict>
-            <key>Wild_3x05.png</key>
+            <key>Wild_3x5.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>162</integer>
             </dict>
-            <key>Wild_3x06.png</key>
+            <key>Wild_3x6.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>322</integer>
             </dict>
-            <key>Wild_3x07.png</key>
+            <key>Wild_3x7.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>322</integer>
             </dict>
-            <key>Wild_3x08.png</key>
+            <key>Wild_3x8.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>322</integer>
             </dict>
-            <key>Wild_3x09.png</key>
+            <key>Wild_3x9.png</key>
             <dict>
                 <key>height</key>
                 <integer>158</integer>
