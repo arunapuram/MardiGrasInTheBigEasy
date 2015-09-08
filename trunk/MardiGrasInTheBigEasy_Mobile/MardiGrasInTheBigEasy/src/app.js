@@ -26,7 +26,6 @@ var HelloWorldLayer = cc.Layer.extend({
             this.aPaylinePositions[j] = [];
         }
         this.aAnimatedReelSymbols = [];
-        this.aAnimatedReelSymbols["A"] = [];
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
@@ -160,13 +159,18 @@ var HelloWorldLayer = cc.Layer.extend({
         this._spotLight.setDirection(cc.math.vec3(-Math.cos(this._angle + 4 * dt), -1, -Math.sin(this._angle + 4*dt)));*/
 
         var objAnimReelSymbolsNode = this.mainscene.node.getChildByName("AnimatedReelSymbols");
-        this.aAnimatedReelSymbolsA = objAnimReelSymbolsNode.getChildByName("AnimatedReelSymbol.A");
-        this.aAnimatedReelSymbolsA.visible = false;
-        for(var i=0;i<5;i++)
+        objAnimReelSymbolsNode.visible = false;
+        for(var i=0;i<this.nreelsymbols;i++)
         {
-            this.aAnimatedReelSymbols["A"][i] = new FlipBookAnimation(this.aAnimatedReelSymbolsA.getTexture().url);
-            this.aAnimatedReelSymbols["A"][i].onAnimationCompleated = this.hideAnimatedSymbol.bind(this,"A",i);
-            this.mainscene.node.addChild(this.aAnimatedReelSymbols["A"][i].getNode());
+            var sSYM = cc.aMathReelSet[0][i];
+            this.aAnimatedReelSymbols[sSYM] = [];
+            var aAnimReelSymbols = objAnimReelSymbolsNode.getChildByName("AnimatedReelSymbol."+sSYM);
+            for(var k=0;k<5;k++)
+            {
+                this.aAnimatedReelSymbols[sSYM][k] = new FlipBookAnimation(aAnimReelSymbols.getTexture().url);
+                this.aAnimatedReelSymbols[sSYM][k].onAnimationCompleated = this.hideAnimatedSymbol.bind(this,sSYM,k);
+                this.mainscene.node.addChild(this.aAnimatedReelSymbols[sSYM][k].getNode());
+            }
         }
 
         var label = new cc.LabelTTF(this.objAppData.getReelFace(), "fonts/arial.ttf", 55);
@@ -183,7 +187,7 @@ var HelloWorldLayer = cc.Layer.extend({
                     this.nReelX[i] = this.aReelStrips[i].x;
                     this.nReelY[i] = this.aReelStrips[i].y;
                 }
-                //this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
+                this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
                 //this.aStopPosition = [76,5,25,44,66];
                 this.objAppData.updateReelFace(this.aStopPosition);
                 for(var i=0;i<this.nSymbols;i++)
