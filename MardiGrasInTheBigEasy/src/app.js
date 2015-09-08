@@ -187,7 +187,7 @@ var HelloWorldLayer = cc.Layer.extend({
                     this.nReelX[i] = this.aReelStrips[i].x;
                     this.nReelY[i] = this.aReelStrips[i].y;
                 }
-                this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
+               // this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
                 //this.aStopPosition = [76,5,25,44,66];
                 this.objAppData.updateReelFace(this.aStopPosition);
                 for(var i=0;i<this.nSymbols;i++)
