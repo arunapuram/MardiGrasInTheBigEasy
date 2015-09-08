@@ -2905,6 +2905,48 @@
             },
             "Name": "coin_particle3",
             "ctype": "ParticleObjectData"
+          },
+          {
+            "LabelText": "1",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "CreditsWinFont_lrg.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1008.095,
+              "Y": 51.953
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7412,
+              "Y": 0.0676
+            },
+            "PreSize": {
+              "X": 0.0816,
+              "Y": 0.0716
+            },
+            "LeftMargin": 998.595,
+            "RightMargin": 342.405,
+            "TopMargin": 688.547,
+            "BottomMargin": 24.453,
+            "Tag": 142,
+            "ActionTag": 1848352793,
+            "Size": {
+              "X": 19.0,
+              "Y": 55.0
+            },
+            "Name": "PaidText",
+            "ctype": "TextBMFontObjectData"
           }
         ],
         "Size": {
@@ -2918,6 +2960,8 @@
         "Coin3.plist",
         "Coin4.plist",
         "Coin5.plist",
+        "CreditsWinFont_lrg.fnt",
+        "CreditsWinFont_lrg.png",
         "particle_texture.plist",
         "source/Game/Blank/blank.png",
         "source/Game/Reels.png",

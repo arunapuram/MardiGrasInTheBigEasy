@@ -87,6 +87,9 @@ var HelloWorldLayer = cc.Layer.extend({
             //this.aReelStrips[i].setAlphaBlending(true);
            // this.aReelStrips[i].clip(cc.size(232, 184*3));*/
         }
+        this.objBangUpController = new BangUpController("PaidText", this);
+        this.objBangUpController.onBangUpCompleate = this.onBangUpComplete.bind(this);
+
 
         this.playbutton = this.mainscene.node.getChildByName("Play.Button");
         this.coinparticle0 = this.mainscene.node.getChildByName("coin_particle0");
@@ -217,6 +220,7 @@ var HelloWorldLayer = cc.Layer.extend({
         if(i===0)
         {
             this.bShowPaylines = false;
+            this.objBangUpController.label.setString("0");
         }
         this.showWinningPayline();
         this.objPaylineSegment.clear();
@@ -258,7 +262,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.UpdateReelStrip(i);
         if(bFromStart === false)
         {
-            this.playbutton.setEnabled(true);
+           // this.playbutton.setEnabled(true);
             this.aReelStrips[i].stopAction(this.fe2[i]);
             var move = cc.moveBy(0.3, cc.p(0,50));
             var move1 = cc.moveBy(0.3, cc.p(0,-50));
@@ -278,6 +282,9 @@ var HelloWorldLayer = cc.Layer.extend({
     },
     startPaylines:function ()
     {
+        this.nAwardcredits = 100;
+        var bIsBonus = false;
+        this.objBangUpController.startBangup(this.nAwardcredits, bIsBonus);
         this.nPaylineCounter = 0;
         this.bShowPaylines = true;
         this.showWinningPayline();
@@ -413,7 +420,12 @@ var HelloWorldLayer = cc.Layer.extend({
         this.aReelStrips[i].end();
         this.aReelStrips[i].getSprite().getTexture().setAntiAliasTexParameters();
        // this.scheduleOnce(this.UpdateReelStrip.bind(this,i),0.1);
-    }
+    },
+    onBangUpComplete:function ()
+    {
+       // this.objBangUpController.label.setString("0");
+        this.playbutton.setEnabled(true);
+    },
 });
 
 var HelloWorldScene = cc.Scene.extend({

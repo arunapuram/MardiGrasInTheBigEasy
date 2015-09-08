@@ -340,6 +340,7 @@
         </Folder>
         <PlistInfo Name="PickoneFlip.csi" Type="Plist" />
         <PlistInfo Name="Flame.csi" Type="Plist" />
+        <Fnt Name="CreditsWinFont_lrg.fnt" />
       </RootFolder>
     </Group>
   </SolutionFolder>
