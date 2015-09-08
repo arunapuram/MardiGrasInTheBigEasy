@@ -2,7 +2,7 @@
     "project_type": "javascript",
 
     "debugMode" : 1,
-    "showFPS" : true,
+    "showFPS" : false,
     "frameRate" : 60,
     "id" : "gameCanvas",
     "renderMode" : 0,
@@ -17,8 +17,10 @@
         "src/Prizedata/SymbolInformation.js",
         "src/Prizedata/PaylineInformation.js",
         "src/Data/AppData.js",
-	"src/PickBonus.js",
+	    "src/PickBonus.js",
         "src/SpriteAnimation.js",
-        "src/PickMath.js"
+        "src/PickMath.js",
+        "src/FlipBookAnimation.js",
+        "src/BangUpController.js"
     ]
 }

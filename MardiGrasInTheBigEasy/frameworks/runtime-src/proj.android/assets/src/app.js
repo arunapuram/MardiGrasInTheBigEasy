@@ -1,4 +1,7 @@
 
+var CREDIT_METER_AMOUNT = 4000;
+var TOTAL_BET = 250;
+var BET_PER_LINE = 5;
 var SYMBOL_WIDTH = 232;
 var SYMBOL_HEIGHT = 184;
 var SYMBOL_WIDTH_HALF = 232 >> 1;
@@ -25,6 +28,7 @@ var HelloWorldLayer = cc.Layer.extend({
         {
             this.aPaylinePositions[j] = [];
         }
+        this.aAnimatedReelSymbols = [];
         this.nReelX=[];
         this.nReelY=[];
         this.fe2=[];
@@ -86,6 +90,13 @@ var HelloWorldLayer = cc.Layer.extend({
             //this.aReelStrips[i].setAlphaBlending(true);
            // this.aReelStrips[i].clip(cc.size(232, 184*3));*/
         }
+        this.bIsBonus = false;
+        this.objBangUpController = new BangUpController("PaidText","CreditText",this.bIsBonus, this);
+        this.objBangUpController.onBangUpCompleate = this.onBangUpComplete.bind(this);
+        this.objBetPerLineText = this.mainscene.node.getChildByName("BET_PER_LINE");
+        this.objTotalBetText = this.mainscene.node.getChildByName("TOTAL_BET_TEXT");
+        this.objBetPerLineText.setString(BET_PER_LINE.toString());
+        this.objTotalBetText.setString(TOTAL_BET.toString());
 
         this.playbutton = this.mainscene.node.getChildByName("Play.Button");
         this.coinparticle0 = this.mainscene.node.getChildByName("coin_particle0");
@@ -96,6 +107,10 @@ var HelloWorldLayer = cc.Layer.extend({
         this.mainscene.node.reorderChild(this.coinparticle1,503);
         this.mainscene.node.reorderChild(this.coinparticle2,501);
         this.mainscene.node.reorderChild(this.coinparticle3,502);
+        this.coinparticle0.visible = false;
+        this.coinparticle1.visible = false;
+        this.coinparticle2.visible = false;
+        this.coinparticle3.visible = false;
         this.playbutton.addTouchEventListener(this.touchEvent, this);
         var objReelNode = this.mainscene.node.getChildByName("Reels");
         var objPaylineNode = this.mainscene.node.getChildByName("Paylines");
@@ -152,10 +167,28 @@ var HelloWorldLayer = cc.Layer.extend({
         var dt = 0;
         this._spotLight.setPosition3D(cc.math.vec3(100*Math.cos(this._angle+4*dt), 100, 100*Math.sin(this._angle+4*dt)));
         this._spotLight.setDirection(cc.math.vec3(-Math.cos(this._angle + 4 * dt), -1, -Math.sin(this._angle + 4*dt)));*/
-        var label = new cc.LabelTTF(this.objAppData.getReelFace(), "fonts/arial.ttf", 55);
+
+        var objAnimReelSymbolsNode = this.mainscene.node.getChildByName("AnimatedReelSymbols");
+        objAnimReelSymbolsNode.visible = false;
+        for(var i=0;i<1;i++)
+        {
+            var sSYM = cc.aMathReelSet[0][i];
+            this.aAnimatedReelSymbols[sSYM] = [];
+            var aAnimReelSymbols = objAnimReelSymbolsNode.getChildByName("AnimatedReelSymbol."+sSYM);
+           /* for(var k=0;k<5;k++)
+            {
+                this.aAnimatedReelSymbols[sSYM][k] = new FlipBookAnimation(aAnimReelSymbols.getTexture().url);
+                this.aAnimatedReelSymbols[sSYM][k].onAnimationCompleated = this.hideAnimatedSymbol.bind(this,sSYM,k);
+                var objNode = this.aAnimatedReelSymbols[sSYM][k].getNode();
+                this.mainscene.node.addChild(objNode);
+                objNode.visible = false;
+            }*/
+        }
+
+        /*var label = new cc.LabelTTF(this.objAppData.getReelFace(), "fonts/arial.ttf", 55);
         label.x = size.width/2;
         label.y = 730;
-        this.addChild(label);
+        this.addChild(label);*/
         return true;
     },
     touchEvent: function (sender, type) {
@@ -166,7 +199,7 @@ var HelloWorldLayer = cc.Layer.extend({
                     this.nReelX[i] = this.aReelStrips[i].x;
                     this.nReelY[i] = this.aReelStrips[i].y;
                 }
-                //this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
+                this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
                 //this.aStopPosition = [76,5,25,44,66];
                 this.objAppData.updateReelFace(this.aStopPosition);
                 for(var i=0;i<this.nSymbols;i++)
@@ -182,15 +215,21 @@ var HelloWorldLayer = cc.Layer.extend({
     checkControl1:function (i)
     {
         this.reelStop(i,false);
-	this.mainscene.node.visible = false;
-         var pickScene = new PickBonusScene();
-           cc.director.pushScene(pickScene);
+        /*if(i===4)
+        {
+            this.mainscene.node.visible = false;
+            var pickScene = new PickBonusScene();
+            cc.director.pushScene(pickScene);
+        }*/
     },
     spinReel:function (i)
     {
         if(i===0)
         {
+            CREDIT_METER_AMOUNT = CREDIT_METER_AMOUNT - TOTAL_BET;
+            this.objBangUpController.CreditTextlabel.setString(CREDIT_METER_AMOUNT.toString());
             this.bShowPaylines = false;
+            this.objBangUpController.PaidTextlabel.setString("0");
         }
         this.showWinningPayline();
         this.objPaylineSegment.clear();
@@ -232,7 +271,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.UpdateReelStrip(i);
         if(bFromStart === false)
         {
-            this.playbutton.setEnabled(true);
+           // this.playbutton.setEnabled(true);
             this.aReelStrips[i].stopAction(this.fe2[i]);
             var move = cc.moveBy(0.3, cc.p(0,50));
             var move1 = cc.moveBy(0.3, cc.p(0,-50));
@@ -252,12 +291,44 @@ var HelloWorldLayer = cc.Layer.extend({
     },
     startPaylines:function ()
     {
+        this.nAwardcredits = 100;
+        this.objBangUpController.startBangup(this.nAwardcredits, this.bIsBonus);
         this.nPaylineCounter = 0;
         this.bShowPaylines = true;
         this.showWinningPayline();
     },
+    playAnimatedReelSymbol:function (srtSYMB,nCol,x,y)
+    {
+        /*var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
+        objNode.visible = true;
+        objNode.x = x-18+SYMBOL_WIDTH_HALF;
+        objNode.y = y-SYMBOL_HEIGHT_HALF;
+        this.aAnimatedReelSymbols[srtSYMB][nCol].playFromStart();*/
+    },
+    hideAnimatedSymbol:function (srtSYMB,nCol)
+    {
+       /* var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
+        objNode.visible = false;*/
+        /*if(nCol===2)
+        {
+            this.showWinningPayline();
+        }*/
+    },
+    hidePaylines:function ()
+    {
+        /*for (var i = 0; i < this.nreelsymbols; i++)
+        {
+            var sSYM = cc.aMathReelSet[0][i];
+            for (var k = 0; k < 5; k++)
+            {
+                var objNode = this.aAnimatedReelSymbols[sSYM][k].getNode();
+                objNode.visible = false;
+            }
+        }*/
+    },
     showWinningPayline:function ()
     {
+        this.hidePaylines();
         for(var nCols = 0; nCols < 5; nCols++)
         {
             this.aPaylineBox[nCols].visible = false;
@@ -271,11 +342,14 @@ var HelloWorldLayer = cc.Layer.extend({
                 this.objPaylineSegment.setDrawColor(colorval);
                 for(var nCols = 0; nCols < 5; nCols++)
                 {
-                    if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) != "?")
-                        this.aPaylineBox[nCols].visible = true;
                     this.aPaylineBox[nCols].setColor(colorval);
                     this.aPaylineBox[nCols].x = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].x;
                     this.aPaylineBox[nCols].y = this.aPaylinePositions[(this.objAppData.aPaylineOffsets[this.nPaylineCounter][nCols])+1][nCols].y;
+                    if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) != "?")
+                    {
+                        this.aPaylineBox[nCols].visible = true;
+                        this.playAnimatedReelSymbol(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols),nCols,this.aPaylineBox[nCols].x,this.aPaylineBox[nCols].y);
+                    }
                     if(nCols != 0)
                     {
                         if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) === "?" && this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols-1) === "?")
@@ -344,17 +418,23 @@ var HelloWorldLayer = cc.Layer.extend({
             sprite.x = pp.x+232/2;
             sprite.y = pp.y;
             var nStripIndex = (j +this.nCurrentReelIndex[i])%80;
-            var label = new cc.LabelTTF("" + nStripIndex + cc.aMathReelSet[0][nstripid-1], "fonts/arial.ttf", 55);
+           /* var label = new cc.LabelTTF("" + nStripIndex + cc.aMathReelSet[0][nstripid-1], "fonts/arial.ttf", 55);
             label.setAnchorPoint(cc.p(0, 0));
             label.x = pp.x;
-            label.y = pp.y;
+            label.y = pp.y;*/
             sprite.visit();
-            label.visit();
+           // label.visit();
         }
         this.aReelStrips[i].end();
         this.aReelStrips[i].getSprite().getTexture().setAntiAliasTexParameters();
        // this.scheduleOnce(this.UpdateReelStrip.bind(this,i),0.1);
-    }
+    },
+    onBangUpComplete:function ()
+    {
+       // this.objBangUpController.label.setString("0");
+        CREDIT_METER_AMOUNT = CREDIT_METER_AMOUNT + this.objBangUpController.nAwardAmount
+        this.playbutton.setEnabled(true);
+    },
 });
 
 var HelloWorldScene = cc.Scene.extend({

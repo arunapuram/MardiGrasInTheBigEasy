@@ -1665,7 +1665,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Ace/Ace.png",
+                  "Path": "source/Reels/Ace/Animated/Ace.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1694,23 +1694,23 @@
                   "X": 0.1706,
                   "Y": 0.2396
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -198.0,
+                "RightMargin": -198.0,
+                "TopMargin": -94.0,
+                "BottomMargin": -94.0,
                 "Tag": 40,
                 "ActionTag": 1437183601,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 396.0,
+                  "Y": 188.0
                 },
-                "Name": "ReelSymbol.A",
+                "Name": "AnimatedReelSymbol.A",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Jack/Jack.png",
+                  "Path": "source/Reels/Jack/Animated/Jack.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1739,23 +1739,23 @@
                   "X": 0.1706,
                   "Y": 0.2396
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -122.0,
+                "RightMargin": -122.0,
+                "TopMargin": -94.0,
+                "BottomMargin": -94.0,
                 "Tag": 41,
                 "ActionTag": -133952129,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 244.0,
+                  "Y": 188.0
                 },
-                "Name": "ReelSymbol.J",
+                "Name": "AnimatedReelSymbol.J",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/King/King.png",
+                  "Path": "source/Reels/King/Animated/King.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1784,23 +1784,23 @@
                   "X": 0.1706,
                   "Y": 0.2396
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -180.0,
+                "RightMargin": -180.0,
+                "TopMargin": -94.0,
+                "BottomMargin": -94.0,
                 "Tag": 42,
                 "ActionTag": 2058241000,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 360.0,
+                  "Y": 188.0
                 },
-                "Name": "ReelSymbol.K",
+                "Name": "AnimatedReelSymbol.K",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Queen/Queen.png",
+                  "Path": "source/Reels/Queen/Animated/Queen.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1829,23 +1829,23 @@
                   "X": 0.1706,
                   "Y": 0.2396
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -168.0,
+                "RightMargin": -168.0,
+                "TopMargin": -94.0,
+                "BottomMargin": -94.0,
                 "Tag": 43,
                 "ActionTag": -136595176,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 336.0,
+                  "Y": 188.0
                 },
-                "Name": "ReelSymbol.Q",
+                "Name": "AnimatedReelSymbol.Q",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Ten/Ten.png",
+                  "Path": "source/Reels/Ten/Animated/Ten.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1874,23 +1874,23 @@
                   "X": 0.1706,
                   "Y": 0.2396
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -194.0,
+                "RightMargin": -194.0,
+                "TopMargin": -88.0,
+                "BottomMargin": -88.0,
                 "Tag": 44,
                 "ActionTag": 214488943,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 388.0,
+                  "Y": 176.0
                 },
-                "Name": "ReelSymbol.T",
+                "Name": "AnimatedReelSymbol.T",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild0/Wild.PNG",
+                  "Path": "source/Reels/Wild0/Animated/Wild0.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1919,23 +1919,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -97.0,
-                "RightMargin": -97.0,
-                "TopMargin": -93.0,
-                "BottomMargin": -93.0,
+                "LeftMargin": -393.0,
+                "RightMargin": -393.0,
+                "TopMargin": -393.0,
+                "BottomMargin": -393.0,
                 "Tag": 45,
                 "ActionTag": 565070334,
                 "Size": {
-                  "X": 194.0,
-                  "Y": 186.0
+                  "X": 786.0,
+                  "Y": 786.0
                 },
-                "Name": "ReelSymbol.F",
+                "Name": "AnimatedReelSymbol.F",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild1/Wild.PNG",
+                  "Path": "source/Reels/Wild1/Animated/Wild1.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1964,23 +1964,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -97.0,
-                "RightMargin": -97.0,
-                "TopMargin": -93.0,
-                "BottomMargin": -93.0,
+                "LeftMargin": -393.0,
+                "RightMargin": -393.0,
+                "TopMargin": -393.0,
+                "BottomMargin": -393.0,
                 "Tag": 46,
                 "ActionTag": 1620884284,
                 "Size": {
-                  "X": 194.0,
-                  "Y": 186.0
+                  "X": 786.0,
+                  "Y": 786.0
                 },
-                "Name": "ReelSymbol.G",
+                "Name": "AnimatedReelSymbol.G",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild2/Wild.PNG",
+                  "Path": "source/Reels/Wild2/Animated/Wild2.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2009,23 +2009,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -97.0,
-                "RightMargin": -97.0,
-                "TopMargin": -93.0,
-                "BottomMargin": -93.0,
+                "LeftMargin": -393.0,
+                "RightMargin": -393.0,
+                "TopMargin": -393.0,
+                "BottomMargin": -393.0,
                 "Tag": 47,
                 "ActionTag": 508066614,
                 "Size": {
-                  "X": 194.0,
-                  "Y": 186.0
+                  "X": 786.0,
+                  "Y": 786.0
                 },
-                "Name": "ReelSymbol.H",
+                "Name": "AnimatedReelSymbol.H",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild_2x/Wild_2x.png",
+                  "Path": "source/Reels/Wild_2x/Animated/Wild_2x.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2054,23 +2054,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -130.0,
-                "RightMargin": -130.0,
-                "TopMargin": -130.0,
-                "BottomMargin": -130.0,
+                "LeftMargin": -401.0,
+                "RightMargin": -401.0,
+                "TopMargin": -401.0,
+                "BottomMargin": -401.0,
                 "Tag": 48,
                 "ActionTag": -1911808621,
                 "Size": {
-                  "X": 260.0,
-                  "Y": 260.0
+                  "X": 802.0,
+                  "Y": 802.0
                 },
-                "Name": "ReelSymbol.S",
+                "Name": "AnimatedReelSymbol.S",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild_3x/Wild_3x.png",
+                  "Path": "source/Reels/Wild_3x/Animated/Wild_3x.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2099,23 +2099,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -130.0,
-                "RightMargin": -130.0,
-                "TopMargin": -130.0,
-                "BottomMargin": -130.0,
+                "LeftMargin": -401.0,
+                "RightMargin": -401.0,
+                "TopMargin": -401.0,
+                "BottomMargin": -401.0,
                 "Tag": 49,
                 "ActionTag": 584800332,
                 "Size": {
-                  "X": 260.0,
-                  "Y": 260.0
+                  "X": 802.0,
+                  "Y": 802.0
                 },
-                "Name": "ReelSymbol.U",
+                "Name": "AnimatedReelSymbol.U",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild_4x/Wild_4x.png",
+                  "Path": "source/Reels/Wild_4x/Animated/Wild_4x.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2144,23 +2144,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -130.0,
-                "RightMargin": -130.0,
-                "TopMargin": -130.0,
-                "BottomMargin": -130.0,
+                "LeftMargin": -401.0,
+                "RightMargin": -401.0,
+                "TopMargin": -401.0,
+                "BottomMargin": -401.0,
                 "Tag": 50,
                 "ActionTag": -370621324,
                 "Size": {
-                  "X": 260.0,
-                  "Y": 260.0
+                  "X": 802.0,
+                  "Y": 802.0
                 },
-                "Name": "ReelSymbol.V",
+                "Name": "AnimatedReelSymbol.V",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/PartyGirl/PartyGirlTop.png",
+                  "Path": "source/Reels/PartyGirl/Animated/PartyGirl.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2189,23 +2189,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -97.5,
-                "RightMargin": -97.5,
-                "TopMargin": -92.5,
-                "BottomMargin": -92.5,
+                "LeftMargin": -789.0,
+                "RightMargin": -789.0,
+                "TopMargin": -789.0,
+                "BottomMargin": -789.0,
                 "Tag": 51,
                 "ActionTag": -108719434,
                 "Size": {
-                  "X": 195.0,
-                  "Y": 185.0
+                  "X": 1578.0,
+                  "Y": 1578.0
                 },
-                "Name": "ReelSymbol.I",
+                "Name": "AnimatedReelSymbol.I",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/PartyGirl/PartyGirlBottom.png",
+                  "Path": "source/Reels/PartyGirl/Animated/PartyGirl.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2234,23 +2234,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -97.5,
-                "RightMargin": -97.5,
-                "TopMargin": -92.5,
-                "BottomMargin": -92.5,
+                "LeftMargin": -789.0,
+                "RightMargin": -789.0,
+                "TopMargin": -789.0,
+                "BottomMargin": -789.0,
                 "Tag": 52,
                 "ActionTag": -1025885728,
                 "Size": {
-                  "X": 195.0,
-                  "Y": 185.0
+                  "X": 1578.0,
+                  "Y": 1578.0
                 },
-                "Name": "ReelSymbol.L",
+                "Name": "AnimatedReelSymbol.L",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Mask/Mask.png",
+                  "Path": "source/Reels/Mask/Animated/Mask.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2279,23 +2279,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -464.0,
+                "RightMargin": -464.0,
+                "TopMargin": -464.0,
+                "BottomMargin": -464.0,
                 "Tag": 53,
                 "ActionTag": 788205984,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 928.0,
+                  "Y": 928.0
                 },
-                "Name": "ReelSymbol.C",
+                "Name": "AnimatedReelSymbol.C",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Hurricane/Hurricane.png",
+                  "Path": "source/Reels/Hurricane/Animated/Hurricane.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2324,23 +2324,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -373.0,
+                "RightMargin": -373.0,
+                "TopMargin": -373.0,
+                "BottomMargin": -373.0,
                 "Tag": 54,
                 "ActionTag": 419919397,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 746.0,
+                  "Y": 746.0
                 },
-                "Name": "ReelSymbol.D",
+                "Name": "AnimatedReelSymbol.D",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/KingCake/KingCake.png",
+                  "Path": "source/Reels/KingCake/Animated/KingCake.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2369,23 +2369,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -424.0,
+                "RightMargin": -424.0,
+                "TopMargin": -424.0,
+                "BottomMargin": -424.0,
                 "Tag": 55,
                 "ActionTag": 888159870,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 848.0,
+                  "Y": 848.0
                 },
-                "Name": "ReelSymbol.E",
+                "Name": "AnimatedReelSymbol.E",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Nine/Nine.png",
+                  "Path": "source/Reels/Nine/Animated/Nine.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2414,23 +2414,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -116.0,
-                "RightMargin": -116.0,
-                "TopMargin": -92.0,
-                "BottomMargin": -92.0,
+                "LeftMargin": -170.0,
+                "RightMargin": -170.0,
+                "TopMargin": -93.0,
+                "BottomMargin": -93.0,
                 "Tag": 56,
                 "ActionTag": -406225499,
                 "Size": {
-                  "X": 232.0,
-                  "Y": 184.0
+                  "X": 340.0,
+                  "Y": 186.0
                 },
-                "Name": "ReelSymbol.N",
+                "Name": "AnimatedReelSymbol.N",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/FreeSpin/FreeSpin.png",
+                  "Path": "source/Reels/FreeSpin/Animated/FreeSpin.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2459,23 +2459,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -114.5,
-                "RightMargin": -114.5,
-                "TopMargin": -114.5,
-                "BottomMargin": -114.5,
+                "LeftMargin": -463.0,
+                "RightMargin": -463.0,
+                "TopMargin": -463.0,
+                "BottomMargin": -463.0,
                 "Tag": 57,
                 "ActionTag": 150268309,
                 "Size": {
-                  "X": 229.0,
-                  "Y": 229.0
+                  "X": 926.0,
+                  "Y": 926.0
                 },
-                "Name": "ReelSymbol.X",
+                "Name": "AnimatedReelSymbol.X",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Pick/Pick.png",
+                  "Path": "source/Reels/Pick/Animated/Pick.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2504,23 +2504,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -114.0,
-                "RightMargin": -114.0,
-                "TopMargin": -114.0,
-                "BottomMargin": -114.0,
+                "LeftMargin": -461.0,
+                "RightMargin": -461.0,
+                "TopMargin": -461.0,
+                "BottomMargin": -461.0,
                 "Tag": 58,
                 "ActionTag": -1100268602,
                 "Size": {
-                  "X": 228.0,
-                  "Y": 228.0
+                  "X": 922.0,
+                  "Y": 922.0
                 },
-                "Name": "ReelSymbol.Y",
+                "Name": "AnimatedReelSymbol.Y",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wheel/Wheel.png",
+                  "Path": "source/Reels/Wheel/Animated/Wheel.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2549,23 +2549,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -114.5,
-                "RightMargin": -114.5,
-                "TopMargin": -115.0,
-                "BottomMargin": -115.0,
+                "LeftMargin": -465.0,
+                "RightMargin": -465.0,
+                "TopMargin": -465.0,
+                "BottomMargin": -465.0,
                 "Tag": 59,
                 "ActionTag": -718366520,
                 "Size": {
-                  "X": 229.0,
-                  "Y": 230.0
+                  "X": 930.0,
+                  "Y": 930.0
                 },
-                "Name": "ReelSymbol.Z",
+                "Name": "AnimatedReelSymbol.Z",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild0/Wild.PNG",
+                  "Path": "source/Reels/Wild0/Animated/Wild0.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2594,23 +2594,23 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -97.0,
-                "RightMargin": -97.0,
-                "TopMargin": -93.0,
-                "BottomMargin": -93.0,
+                "LeftMargin": -393.0,
+                "RightMargin": -393.0,
+                "TopMargin": -393.0,
+                "BottomMargin": -393.0,
                 "Tag": 60,
                 "ActionTag": -2007546303,
                 "Size": {
-                  "X": 194.0,
-                  "Y": 186.0
+                  "X": 786.0,
+                  "Y": 786.0
                 },
-                "Name": "ReelSymbol.W",
+                "Name": "AnimatedReelSymbol.W",
                 "ctype": "SpriteObjectData"
               },
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/PartyGirl/PartyGirlBottom.png",
+                  "Path": "source/Reels/PartyGirl/Animated/PartyGirl.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2639,17 +2639,17 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -97.5,
-                "RightMargin": -97.5,
-                "TopMargin": -92.5,
-                "BottomMargin": -92.5,
+                "LeftMargin": -789.0,
+                "RightMargin": -789.0,
+                "TopMargin": -789.0,
+                "BottomMargin": -789.0,
                 "Tag": 61,
                 "ActionTag": 1969659819,
                 "Size": {
-                  "X": 195.0,
-                  "Y": 185.0
+                  "X": 1578.0,
+                  "Y": 1578.0
                 },
-                "Name": "ReelSymbol.B",
+                "Name": "AnimatedReelSymbol.B",
                 "ctype": "SpriteObjectData"
               }
             ],
@@ -2905,6 +2905,174 @@
             },
             "Name": "coin_particle3",
             "ctype": "ParticleObjectData"
+          },
+          {
+            "LabelText": "1",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "CreditsWinFont_lrg.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1008.095,
+              "Y": 51.953
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7412,
+              "Y": 0.0676
+            },
+            "PreSize": {
+              "X": 0.014,
+              "Y": 0.0716
+            },
+            "LeftMargin": 998.595,
+            "RightMargin": 342.405,
+            "TopMargin": 688.547,
+            "BottomMargin": 24.453,
+            "Tag": 142,
+            "ActionTag": 1848352793,
+            "Size": {
+              "X": 19.0,
+              "Y": 55.0
+            },
+            "Name": "PaidText",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "4000",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "CreditsWinFont_lrg.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 272.9957,
+              "Y": 50.1111
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2007,
+              "Y": 0.0652
+            },
+            "PreSize": {
+              "X": 0.0816,
+              "Y": 0.0716
+            },
+            "LeftMargin": 197.4957,
+            "RightMargin": 1011.5043,
+            "TopMargin": 690.3889,
+            "BottomMargin": 22.6111,
+            "Tag": 67,
+            "ActionTag": -1561027056,
+            "Size": {
+              "X": 151.0,
+              "Y": 55.0
+            },
+            "Name": "CreditText",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "250",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "BetFont_BetPerLine.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 643.5067,
+              "Y": 52.8199
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4732,
+              "Y": 0.0688
+            },
+            "PreSize": {
+              "X": 0.0471,
+              "Y": 0.0391
+            },
+            "LeftMargin": 611.5067,
+            "RightMargin": 684.4933,
+            "TopMargin": 700.1801,
+            "BottomMargin": 37.8199,
+            "Tag": 68,
+            "ActionTag": 1510570815,
+            "Size": {
+              "X": 64.0,
+              "Y": 30.0
+            },
+            "Name": "TOTAL_BET_TEXT",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "5",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "BetFont_BetPerLine.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 523.4628,
+              "Y": 54.383
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3849,
+              "Y": 0.0708
+            },
+            "PreSize": {
+              "X": 0.0184,
+              "Y": 0.0391
+            },
+            "LeftMargin": 513.4628,
+            "RightMargin": 826.5372,
+            "TopMargin": 698.617,
+            "BottomMargin": 39.383,
+            "Tag": 69,
+            "ActionTag": 899550497,
+            "Size": {
+              "X": 20.0,
+              "Y": 30.0
+            },
+            "Name": "BET_PER_LINE",
+            "ctype": "TextBMFontObjectData"
           }
         ],
         "Size": {
@@ -2915,9 +3083,13 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
+        "BetFont_BetPerLine.fnt",
+        "BetFont_BetPerLine.png",
         "Coin3.plist",
         "Coin4.plist",
         "Coin5.plist",
+        "CreditsWinFont_lrg.fnt",
+        "CreditsWinFont_lrg.png",
         "particle_texture.plist",
         "source/Game/Blank/blank.png",
         "source/Game/Reels.png",
@@ -2934,24 +3106,43 @@
         "source/PlayBar/PlayNormal.png",
         "source/PlayBar/PlayReleased.png",
         "source/Reels/Ace/Ace.png",
+        "source/Reels/Ace/Animated/Ace.png",
+        "source/Reels/FreeSpin/Animated/FreeSpin.png",
         "source/Reels/FreeSpin/FreeSpin.png",
+        "source/Reels/Hurricane/Animated/Hurricane.png",
         "source/Reels/Hurricane/Hurricane.png",
+        "source/Reels/Jack/Animated/Jack.png",
         "source/Reels/Jack/Jack.png",
+        "source/Reels/King/Animated/King.png",
         "source/Reels/King/King.png",
+        "source/Reels/KingCake/Animated/KingCake.png",
         "source/Reels/KingCake/KingCake.png",
+        "source/Reels/Mask/Animated/Mask.png",
         "source/Reels/Mask/Mask.png",
+        "source/Reels/Nine/Animated/Nine.png",
         "source/Reels/Nine/Nine.png",
+        "source/Reels/PartyGirl/Animated/PartyGirl.png",
         "source/Reels/PartyGirl/PartyGirlBottom.png",
         "source/Reels/PartyGirl/PartyGirlTop.png",
+        "source/Reels/Pick/Animated/Pick.png",
         "source/Reels/Pick/Pick.png",
+        "source/Reels/Queen/Animated/Queen.png",
         "source/Reels/Queen/Queen.png",
+        "source/Reels/Ten/Animated/Ten.png",
         "source/Reels/Ten/Ten.png",
+        "source/Reels/Wheel/Animated/Wheel.png",
         "source/Reels/Wheel/Wheel.png",
+        "source/Reels/Wild_2x/Animated/Wild_2x.png",
         "source/Reels/Wild_2x/Wild_2x.png",
+        "source/Reels/Wild_3x/Animated/Wild_3x.png",
         "source/Reels/Wild_3x/Wild_3x.png",
+        "source/Reels/Wild_4x/Animated/Wild_4x.png",
         "source/Reels/Wild_4x/Wild_4x.png",
+        "source/Reels/Wild0/Animated/Wild0.png",
         "source/Reels/Wild0/Wild.PNG",
+        "source/Reels/Wild1/Animated/Wild1.png",
         "source/Reels/Wild1/Wild.PNG",
+        "source/Reels/Wild2/Animated/Wild2.png",
         "source/Reels/Wild2/Wild.PNG"
       ],
       "ctype": "GameProjectData"
