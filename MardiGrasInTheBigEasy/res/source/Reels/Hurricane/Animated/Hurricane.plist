@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Hurricane00.png</key>
+            <key>Hurricane0.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Hurricane01.png</key>
+            <key>Hurricane1.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Hurricane02.png</key>
+            <key>Hurricane2.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Hurricane03.png</key>
+            <key>Hurricane3.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Hurricane04.png</key>
+            <key>Hurricane4.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>188</integer>
             </dict>
-            <key>Hurricane05.png</key>
+            <key>Hurricane5.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>188</integer>
             </dict>
-            <key>Hurricane06.png</key>
+            <key>Hurricane6.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>188</integer>
             </dict>
-            <key>Hurricane07.png</key>
+            <key>Hurricane7.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>188</integer>
             </dict>
-            <key>Hurricane08.png</key>
+            <key>Hurricane8.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>374</integer>
             </dict>
-            <key>Hurricane09.png</key>
+            <key>Hurricane9.png</key>
             <dict>
                 <key>height</key>
                 <integer>184</integer>

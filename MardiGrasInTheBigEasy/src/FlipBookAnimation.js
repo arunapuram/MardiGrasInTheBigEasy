@@ -13,7 +13,7 @@ FlipBookAnimation =function(strpath)
         animFrames.push(frame);
         i++;
     }while(cc.spriteFrameCache.getSpriteFrame(this.strfilename+ i +".png") != undefined );
-    var animation = new cc.Animation(animFrames,1,true,1,0.5,1);
+    var animation = new cc.Animation(animFrames,0.1,1);
     this.objAnim = new cc.Animate(animation)
     this.objloopAnim  = this.objAnim.repeatForever();
     var seqa = this.objAnim.repeat(1);

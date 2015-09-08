@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Wheel00.png</key>
+            <key>Wheel0.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wheel01.png</key>
+            <key>Wheel1.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wheel02.png</key>
+            <key>Wheel2.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wheel03.png</key>
+            <key>Wheel3.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wheel04.png</key>
+            <key>Wheel4.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>234</integer>
             </dict>
-            <key>Wheel05.png</key>
+            <key>Wheel5.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>234</integer>
             </dict>
-            <key>Wheel06.png</key>
+            <key>Wheel6.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>234</integer>
             </dict>
-            <key>Wheel07.png</key>
+            <key>Wheel7.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>234</integer>
             </dict>
-            <key>Wheel08.png</key>
+            <key>Wheel8.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>466</integer>
             </dict>
-            <key>Wheel09.png</key>
+            <key>Wheel9.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>

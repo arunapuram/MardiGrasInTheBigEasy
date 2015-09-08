@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Multiplier00.png</key>
+            <key>Multiplier0.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>232</integer>
             </dict>
-            <key>Multiplier01.png</key>
+            <key>Multiplier1.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>464</integer>
             </dict>
-            <key>Multiplier02.png</key>
+            <key>Multiplier2.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>464</integer>
             </dict>
-            <key>Multiplier03.png</key>
+            <key>Multiplier3.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>696</integer>
             </dict>
-            <key>Multiplier04.png</key>
+            <key>Multiplier4.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Multiplier05.png</key>
+            <key>Multiplier5.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Multiplier06.png</key>
+            <key>Multiplier6.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>696</integer>
             </dict>
-            <key>Multiplier07.png</key>
+            <key>Multiplier7.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>464</integer>
             </dict>
-            <key>Multiplier08.png</key>
+            <key>Multiplier8.png</key>
             <dict>
                 <key>height</key>
                 <integer>230</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>464</integer>
             </dict>
-            <key>Multiplier09.png</key>
+            <key>Multiplier9.png</key>
             <dict>
                 <key>height</key>
                 <integer>228</integer>

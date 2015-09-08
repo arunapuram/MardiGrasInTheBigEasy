@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>KingCake00.png</key>
+            <key>KingCake0.png</key>
             <dict>
                 <key>height</key>
                 <integer>174</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>354</integer>
             </dict>
-            <key>KingCake01.png</key>
+            <key>KingCake1.png</key>
             <dict>
                 <key>height</key>
                 <integer>172</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>KingCake02.png</key>
+            <key>KingCake2.png</key>
             <dict>
                 <key>height</key>
                 <integer>174</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>354</integer>
             </dict>
-            <key>KingCake03.png</key>
+            <key>KingCake3.png</key>
             <dict>
                 <key>height</key>
                 <integer>174</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>354</integer>
             </dict>
-            <key>KingCake04.png</key>
+            <key>KingCake4.png</key>
             <dict>
                 <key>height</key>
                 <integer>174</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>530</integer>
             </dict>
-            <key>KingCake05.png</key>
+            <key>KingCake5.png</key>
             <dict>
                 <key>height</key>
                 <integer>174</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>530</integer>
             </dict>
-            <key>KingCake06.png</key>
+            <key>KingCake6.png</key>
             <dict>
                 <key>height</key>
                 <integer>174</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>530</integer>
             </dict>
-            <key>KingCake07.png</key>
+            <key>KingCake7.png</key>
             <dict>
                 <key>height</key>
                 <integer>174</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>178</integer>
             </dict>
-            <key>KingCake08.png</key>
+            <key>KingCake8.png</key>
             <dict>
                 <key>height</key>
                 <integer>174</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>178</integer>
             </dict>
-            <key>KingCake09.png</key>
+            <key>KingCake9.png</key>
             <dict>
                 <key>height</key>
                 <integer>174</integer>
