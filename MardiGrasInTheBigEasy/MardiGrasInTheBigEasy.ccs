@@ -74,18 +74,21 @@
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
+                <Image Name="Wild0.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild1">
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
+                <Image Name="Wild1.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild2">
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
+                <Image Name="Wild2.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild_2x">

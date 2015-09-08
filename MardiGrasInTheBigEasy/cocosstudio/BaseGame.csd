@@ -462,7 +462,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild0/Animated/Wild.png" Plist="" />
+                <FileData Type="Normal" Path="source/Reels/Wild0/Animated/Wild0.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="AnimatedReelSymbol.G" Visible="False" ActionTag="1620884284" Tag="46" IconVisible="False" LeftMargin="-393.0000" RightMargin="-393.0000" TopMargin="-393.0000" BottomMargin="-393.0000" ctype="SpriteObjectData">
@@ -473,10 +473,10 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild1/Animated/Wild.png" Plist="" />
+                <FileData Type="Normal" Path="source/Reels/Wild1/Animated/Wild1.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="AnimatedReelSymbol.H" Visible="False" ActionTag="508066614" Tag="47" IconVisible="False" LeftMargin="-393.0000" RightMargin="-393.0000" TopMargin="-393.0000" BottomMargin="-393.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="AnimatedReelSymbol.H" ActionTag="508066614" Tag="47" IconVisible="False" LeftMargin="-393.0000" RightMargin="-393.0000" TopMargin="-393.0000" BottomMargin="-393.0000" ctype="SpriteObjectData">
                 <Size X="786.0000" Y="786.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -484,7 +484,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild2/Animated/Wild.png" Plist="" />
+                <FileData Type="Normal" Path="source/Reels/Wild2/Animated/Wild2.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="AnimatedReelSymbol.S" Visible="False" ActionTag="-1911808621" Tag="48" IconVisible="False" LeftMargin="-401.0000" RightMargin="-401.0000" TopMargin="-401.0000" BottomMargin="-401.0000" ctype="SpriteObjectData">
@@ -627,7 +627,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild0/Animated/Wild.png" Plist="" />
+                <FileData Type="Normal" Path="source/Reels/Wild0/Animated/Wild0.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="AnimatedReelSymbol.B" Visible="False" ActionTag="1969659819" Tag="61" IconVisible="False" LeftMargin="-789.0000" RightMargin="-789.0000" TopMargin="-789.0000" BottomMargin="-789.0000" ctype="SpriteObjectData">
@@ -725,7 +725,7 @@
             <PreSize X="0.0140" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="CreditsWinFont_lrg.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="CreditText" ActionTag="-1561027056" Tag="67" IconVisible="False" LeftMargin="217.4957" RightMargin="1031.5044" TopMargin="690.3889" BottomMargin="22.6111" LabelText="4000" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="CreditText" ActionTag="-1561027056" Tag="67" IconVisible="False" LeftMargin="197.4957" RightMargin="1011.5043" TopMargin="690.3889" BottomMargin="22.6111" LabelText="4000" ctype="TextBMFontObjectData">
             <Size X="151.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="272.9957" Y="50.1111" />

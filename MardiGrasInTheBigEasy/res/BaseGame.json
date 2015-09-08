@@ -1890,7 +1890,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild0/Animated/Wild.png",
+                  "Path": "source/Reels/Wild0/Animated/Wild0.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1935,7 +1935,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild1/Animated/Wild.png",
+                  "Path": "source/Reels/Wild1/Animated/Wild1.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1980,7 +1980,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild2/Animated/Wild.png",
+                  "Path": "source/Reels/Wild2/Animated/Wild2.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2565,7 +2565,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild0/Animated/Wild.png",
+                  "Path": "source/Reels/Wild0/Animated/Wild0.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -2977,8 +2977,8 @@
               "X": 0.0816,
               "Y": 0.0716
             },
-            "LeftMargin": 217.4957,
-            "RightMargin": 1031.5044,
+            "LeftMargin": 197.4957,
+            "RightMargin": 1011.5043,
             "TopMargin": 690.3889,
             "BottomMargin": 22.6111,
             "Tag": 67,
@@ -3138,11 +3138,11 @@
         "source/Reels/Wild_3x/Wild_3x.png",
         "source/Reels/Wild_4x/Animated/Wild_4x.png",
         "source/Reels/Wild_4x/Wild_4x.png",
-        "source/Reels/Wild0/Animated/Wild.png",
+        "source/Reels/Wild0/Animated/Wild0.png",
         "source/Reels/Wild0/Wild.PNG",
-        "source/Reels/Wild1/Animated/Wild.png",
+        "source/Reels/Wild1/Animated/Wild1.png",
         "source/Reels/Wild1/Wild.PNG",
-        "source/Reels/Wild2/Animated/Wild.png",
+        "source/Reels/Wild2/Animated/Wild2.png",
         "source/Reels/Wild2/Wild.PNG"
       ],
       "ctype": "GameProjectData"

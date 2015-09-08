@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Wild0.png</key>
+            <key>Wild20.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -23,7 +23,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wild1.png</key>
+            <key>Wild21.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -42,7 +42,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wild2.png</key>
+            <key>Wild22.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -61,7 +61,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wild3.png</key>
+            <key>Wild23.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -80,7 +80,7 @@
                 <key>y</key>
                 <integer>2</integer>
             </dict>
-            <key>Wild4.png</key>
+            <key>Wild24.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -99,7 +99,7 @@
                 <key>y</key>
                 <integer>190</integer>
             </dict>
-            <key>Wild5.png</key>
+            <key>Wild25.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -118,7 +118,7 @@
                 <key>y</key>
                 <integer>190</integer>
             </dict>
-            <key>Wild6.png</key>
+            <key>Wild26.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -137,7 +137,7 @@
                 <key>y</key>
                 <integer>190</integer>
             </dict>
-            <key>Wild7.png</key>
+            <key>Wild27.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -156,7 +156,7 @@
                 <key>y</key>
                 <integer>190</integer>
             </dict>
-            <key>Wild8.png</key>
+            <key>Wild28.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -175,7 +175,7 @@
                 <key>y</key>
                 <integer>378</integer>
             </dict>
-            <key>Wild9.png</key>
+            <key>Wild29.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -194,7 +194,7 @@
                 <key>y</key>
                 <integer>378</integer>
             </dict>
-            <key>Wild10.png</key>
+            <key>Wild210.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -213,7 +213,7 @@
                 <key>y</key>
                 <integer>378</integer>
             </dict>
-            <key>Wild11.png</key>
+            <key>Wild211.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -232,7 +232,7 @@
                 <key>y</key>
                 <integer>378</integer>
             </dict>
-            <key>Wild12.png</key>
+            <key>Wild212.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -251,7 +251,7 @@
                 <key>y</key>
                 <integer>566</integer>
             </dict>
-            <key>Wild13.png</key>
+            <key>Wild213.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -270,7 +270,7 @@
                 <key>y</key>
                 <integer>566</integer>
             </dict>
-            <key>Wild14.png</key>
+            <key>Wild214.png</key>
             <dict>
                 <key>height</key>
                 <integer>186</integer>
@@ -295,13 +295,13 @@
             <key>format</key>
             <integer>0</integer>
             <key>realTextureFileName</key>
-            <string>Wild.png</string>
+            <string>Wild2.png</string>
             <key>size</key>
             <string>{786,786}</string>
             <key>smartupdate</key>
             <string>$TexturePacker:SmartUpdate:440f4ccfbee46771c57f8abc28805fe0:1a0f65cd4b80125fdb19e3ebd16c1fb9:82109e7028a419fc6a066a5f45246d51$</string>
             <key>textureFileName</key>
-            <string>Wild.png</string>
+            <string>Wild2.png</string>
         </dict>
         <key>texture</key>
         <dict>
