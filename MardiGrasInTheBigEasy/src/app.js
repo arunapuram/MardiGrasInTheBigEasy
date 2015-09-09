@@ -35,6 +35,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.aStopPosition = [44,16,56,38,5];
         this.objAppData = new AppData();
         this.objAppData.updateReelFace(this.aStopPosition);
+
         this.nreelsymbols= cc.aMathReelSet[0].length;
         /////////////////////////////
         // 2. add a menu item with "X" image, which is clicked to quit the program
@@ -189,6 +190,7 @@ var HelloWorldLayer = cc.Layer.extend({
         label.x = size.width/2;
         label.y = 730;
         this.addChild(label);*/
+        this.objDemo = new DemoPrizeControl(this);
         return true;
     },
     touchEvent: function (sender, type) {
