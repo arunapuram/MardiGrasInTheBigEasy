@@ -165,6 +165,7 @@
           <Folder Name="Demo">
             <Image Name="DemoNormal.png" />
             <Image Name="DemoPressed.png" />
+            <Image Name="DemoBackground.png" />
           </Folder>
         </Folder>
         <PlistParticleFile Name="Coin5.plist" />

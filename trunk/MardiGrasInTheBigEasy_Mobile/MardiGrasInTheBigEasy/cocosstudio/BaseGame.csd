@@ -770,6 +770,16 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
+          <AbstractNodeData Name="DemoBackground" Visible="False" ActionTag="-1131568717" Tag="71" IconVisible="False" LeftMargin="29.9998" RightMargin="30.0002" TopMargin="63.8545" BottomMargin="104.1455" Scale9Width="1300" Scale9Height="600" ctype="ImageViewObjectData">
+            <Size X="1300.0000" Y="600.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="679.9998" Y="404.1455" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5000" Y="0.5262" />
+            <PreSize X="0.9559" Y="0.7813" />
+            <FileData Type="Normal" Path="source/Demo/DemoBackground.png" Plist="" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>
