@@ -476,7 +476,7 @@
                 <FileData Type="Normal" Path="source/Reels/Wild1/Animated/Wild1.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="AnimatedReelSymbol.H" ActionTag="508066614" Tag="47" IconVisible="False" LeftMargin="-393.0000" RightMargin="-393.0000" TopMargin="-393.0000" BottomMargin="-393.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="AnimatedReelSymbol.H" Visible="False" ActionTag="508066614" Tag="47" IconVisible="False" LeftMargin="-393.0000" RightMargin="-393.0000" TopMargin="-393.0000" BottomMargin="-393.0000" ctype="SpriteObjectData">
                 <Size X="786.0000" Y="786.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -754,6 +754,21 @@
             <PrePosition X="0.3849" Y="0.0708" />
             <PreSize X="0.0184" Y="0.0391" />
             <LabelBMFontFile_CNB Type="Normal" Path="BetFont_BetPerLine.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="DemoButton" ActionTag="-702872017" Tag="71" IconVisible="False" LeftMargin="1269.8833" RightMargin="10.1167" TopMargin="4.6398" BottomMargin="723.3602" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="50" Scale9Height="18" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="80.0000" Y="40.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1309.8833" Y="743.3602" />
+            <Scale ScaleX="1.2000" ScaleY="1.2000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9631" Y="0.9679" />
+            <PreSize X="0.0588" Y="0.0521" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Normal" Path="source/Demo/DemoPressed.png" Plist="" />
+            <NormalFileData Type="Normal" Path="source/Demo/DemoNormal.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

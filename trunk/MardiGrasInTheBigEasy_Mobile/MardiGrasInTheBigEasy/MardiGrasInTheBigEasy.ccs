@@ -162,6 +162,10 @@
           <Folder Name="Paylines">
             <Image Name="PayBox.png" />
           </Folder>
+          <Folder Name="Demo">
+            <Image Name="DemoNormal.png" />
+            <Image Name="DemoPressed.png" />
+          </Folder>
         </Folder>
         <PlistParticleFile Name="Coin5.plist" />
         <PlistParticleFile Name="Coin4.plist" />
