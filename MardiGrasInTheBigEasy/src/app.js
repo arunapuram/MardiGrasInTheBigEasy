@@ -190,29 +190,55 @@ var HelloWorldLayer = cc.Layer.extend({
         label.x = size.width/2;
         label.y = 730;
         this.addChild(label);*/
+        this.bIsDemoOpen = false;
         this.objDemo = new DemoPrizeControl(this);
+        this.DemoBtn = this.mainscene.node.getChildByName("DemoButton");
+        this.DemoBg = this.mainscene.node.getChildByName("DemoBackground");
+        this.mainscene.node.reorderChild(this.DemoBtn,1000);
+        this.mainscene.node.reorderChild(this.DemoBg,1000);
+        this.DemoBtn.addTouchEventListener(this.touchEvent, this);
+        this.DemoBg.visible = this.bIsDemoOpen;
+        this.objDemo.enable(this.bIsDemoOpen);
         return true;
     },
     touchEvent: function (sender, type) {
         switch (type) {
             case ccui.Widget.TOUCH_ENDED:
-                for (var i = 0; i < this.nSymbols; i++)
+                if(sender === this.playbutton)
                 {
-                    this.nReelX[i] = this.aReelStrips[i].x;
-                    this.nReelY[i] = this.aReelStrips[i].y;
+                    this.startPlay();
                 }
-                this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
-                //this.aStopPosition = [76,5,25,44,66];
-                this.objAppData.updateReelFace(this.aStopPosition);
-                for(var i=0;i<this.nSymbols;i++)
+                else if(sender === this.DemoBtn)
                 {
-                    this.scheduleOnce(this.spinReel.bind(this,i), i*(0.3));
+                    this.bIsDemoOpen = !this.bIsDemoOpen;
+                    this.DemoBg.visible = this.bIsDemoOpen;
+                    this.objDemo.enable(this.bIsDemoOpen);
                 }
-                this.playbutton.setEnabled(false);
                 break;
             default:
                 break;
         }
+    },
+    startPlay:function (bFromDemo,aReelStp) {
+        for (var i = 0; i < this.nSymbols; i++) {
+            this.nReelX[i] = this.aReelStrips[i].x;
+            this.nReelY[i] = this.aReelStrips[i].y;
+        }
+        if (bFromDemo)
+        {
+            this.bIsDemoOpen = false;
+            this.DemoBg.visible = this.bIsDemoOpen;
+            this.objDemo.enable(this.bIsDemoOpen);
+            this.aStopPosition = aReelStp;
+        }
+        else
+            this.aStopPosition = [Math.floor(Math.random() * 79), Math.floor(Math.random() * 79), Math.floor(Math.random() * 79), Math.floor(Math.random() * 79), Math.floor(Math.random() * 79)];
+        //this.aStopPosition = [76,5,25,44,66];
+        this.objAppData.updateReelFace(this.aStopPosition);
+        for (var i = 0; i < this.nSymbols; i++) {
+            this.scheduleOnce(this.spinReel.bind(this, i), i * (0.3));
+        }
+        this.playbutton.setEnabled(false);
     },
     checkControl1:function (i)
     {

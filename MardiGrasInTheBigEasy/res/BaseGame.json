@@ -3148,6 +3148,49 @@
             },
             "Name": "DemoButton",
             "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/Demo/DemoBackground.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1300,
+            "Scale9Height": 600,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 679.9998,
+              "Y": 404.1455
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5262
+            },
+            "PreSize": {
+              "X": 0.9559,
+              "Y": 0.7812
+            },
+            "LeftMargin": 29.9998,
+            "RightMargin": 30.0002,
+            "TopMargin": 63.8545,
+            "BottomMargin": 104.1455,
+            "Tag": 71,
+            "ActionTag": -1131568717,
+            "Size": {
+              "X": 1300.0,
+              "Y": 600.0
+            },
+            "Name": "DemoBackground",
+            "ctype": "ImageViewObjectData"
           }
         ],
         "Size": {
@@ -3167,6 +3210,7 @@
         "CreditsWinFont_lrg.png",
         "Default/Button_Disable.png",
         "particle_texture.plist",
+        "source/Demo/DemoBackground.png",
         "source/Demo/DemoNormal.png",
         "source/Demo/DemoPressed.png",
         "source/Game/Blank/blank.png",

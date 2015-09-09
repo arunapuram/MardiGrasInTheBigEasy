@@ -4,20 +4,20 @@ var CC_BLACK = cc.color(0, 0, 0);
 var CC_WHITE = cc.color(255, 255, 255);
 var CC_YELLOW = cc.color(221, 224, 45);
 var CC_CYAN = cc.color(47, 199, 216);
-var nCatX = 150;
+var nCatX = 55;
 var nCatY = 600;
 var rectWidth = 200;
 var rectHeight = 30;
 DemoPrizeControl =function(mainNode)
 {
     cc.MenuItemFont.setFontName("Arial");
-    cc.MenuItemFont.setFontSize(20);
+    cc.MenuItemFont.setFontSize(18);
     this.demoItems = [];
     this.mainNode = mainNode;
     this.menuRequest = new cc.Menu();
     this.drawbox = new cc.DrawNode();
-    this.mainNode.addChild(this.drawbox);
-    this.mainNode.addChild(this.menuRequest);
+    this.mainNode.addChild(this.drawbox,1001);
+    this.mainNode.addChild(this.menuRequest,1001);
     this.menuRequest.setPosition(cc.p(0, 0));
 
     this.addReelStop("Bonus", "Voodoowilds-Showcase", "yellow", [13,13,10,9,9]);
@@ -62,11 +62,15 @@ DemoPrizeControl =function(mainNode)
     this.updateDemoMenu();
 };
 ////////////////////////////////////////////////////////////////////////////////////////
-
+DemoPrizeControl.prototype.enable = function(bEnable)
+{
+    this.drawbox.visible = bEnable;
+    this.menuRequest.visible = bEnable;
+};
 DemoPrizeControl.prototype.updateDemoMenu = function()
 {
     var objCat = [];
-    var objX = [];
+    var objCounter = [];
     var objY = [];
     for(var i=0;i<this.menuData.MenuArray.length;i++)
     {
@@ -78,29 +82,48 @@ DemoPrizeControl.prototype.updateDemoMenu = function()
     });
     for(var i=0;i<objCatArray.length;i++)
     {
-        this.drawCategory(objCatArray[i],nCatX,nCatY,i);
+        this.drawCategory(objCatArray[i],i);
+        objCounter[i] = 0;
     }
     for(var i=0;i<this.menuData.MenuArray.length;i++)
     {
         var menuItem = this.menuData.MenuArray[i];
-        var item1 = new cc.MenuItemFont(menuItem.Name, this.forceBasePlay, this);
-        item1.setColor(cc.color(0, 200, 20));
-        this.drawbox.drawRect(cc.p(250, 300), cc.p(300, 400), cc.color(0, 255, 255, 255), 2, cc.color(255, 0, 255, 255));
-        item1.setPosition(cc.p(250, 50));
-        this.menuRequest.addChild(item1);
+        this.drawDemoItem(menuItem,i,objCatArray,objCounter);
+        objCounter[objCatArray.indexOf(menuItem.category)]++;
     }
 };
 ////////////////////////////////////////////////////////////////////////////////////////
 
-DemoPrizeControl.prototype.drawCategory = function(strcategory, xpos, ypos,nIndex)
+DemoPrizeControl.prototype.drawCategory = function(strcategory,nIndex)
 {
     var item1 = new cc.MenuItemFont(strcategory, null, this);
     item1.setColor(CC_WHITE);
-    var nX = xpos+nIndex*rectWidth;
-    var nY = ypos;
+    var nX = nCatX+nIndex*(10+rectWidth);
+    var nY = nCatY;
     this.drawbox.drawRect(cc.p(nX, nY), cc.p(nX+rectWidth, nY+rectHeight), CC_BLACK, 4, CC_RED);
-    item1.setPosition(cc.p(nX, ypos));
-    this.menuRequest.addChild(item1);
+    item1.setPosition(cc.p(nX+rectWidth/2, nY+rectHeight/2));
+    this.menuRequest.addChild(item1,1001);
+};
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+DemoPrizeControl.prototype.drawDemoItem = function(menuItem,nIndex,aobjCatArray,aobjCounter)
+{
+    var nCatIndex = aobjCatArray.indexOf(menuItem.category);
+    var item1;
+    if(menuItem.bonusID != 0)
+        item1 = new cc.MenuItemFont(menuItem.Name, this.forceBonusPlay.bind(this), this);
+    else
+        item1 = new cc.MenuItemFont(menuItem.Name, this.forceBasePlay.bind(this,nIndex), this);
+    item1.setColor(CC_BLACK);
+    var nX = nCatX+nCatIndex*(10+rectWidth);
+    var nY = nCatY-40*(aobjCounter[nCatIndex]+1);
+    if(menuItem.buttonColor === "yellow")
+        this.drawbox.drawRect(cc.p(nX, nY), cc.p(nX+rectWidth, nY+rectHeight), CC_YELLOW, 4, CC_WHITE);
+    else
+        this.drawbox.drawRect(cc.p(nX, nY), cc.p(nX+rectWidth, nY+rectHeight), CC_CYAN, 4, CC_WHITE);
+    item1.setPosition(cc.p(nX+rectWidth/2, nY+rectHeight/2));
+    this.menuRequest.addChild(item1,1001);
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -119,8 +142,16 @@ DemoPrizeControl.prototype.addReelStop = function(category, symbolName, buttonCo
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
-DemoPrizeControl.prototype.forceBasePlay = function()
+DemoPrizeControl.prototype.forceBonusPlay = function()
 {
+    this.mainNode.startPlay();
+};
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+DemoPrizeControl.prototype.forceBasePlay = function(nIndex)
+{
+    this.mainNode.startPlay(true,this.menuData.MenuArray[nIndex].stops);
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////
