@@ -22,6 +22,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.aPaylineBox = [];
         this.objPaylineSegment = null;
         this.aPaylinePositions = [];
+        this.objClipper = [];
         this.nPaylineCounter = 0;
         this.bShowPaylines = false;
         for(var j=0; j<3;j++)
@@ -120,41 +121,26 @@ var HelloWorldLayer = cc.Layer.extend({
         for(var i=0; i<this.nSymbols;i++)
         {
             var reels = objReelNode.getChildByName("Reel"+i);
-            var clipper = new cc.ClippingNode();
-            clipper.width = reels.width;
-            clipper.height = reels.height;
-            clipper.anchorX = 0;
-            clipper.anchorY = 1;
-            clipper.x = reels.x;
-            clipper.y = reels.y;
+            this.objClipper[i] = new cc.ClippingNode();
+            this.objClipper[i].width = reels.width;
+            this.objClipper[i].height = reels.height;
+            this.objClipper[i].anchorX = 0;
+            this.objClipper[i].anchorY = 1;
+            this.objClipper[i].x = reels.x;
+            this.objClipper[i].y = reels.y;
             //clipper.runAction(cc.rotateBy(1, 45).repeatForever());
-            this.mainscene.node.addChild(clipper);
+            this.mainscene.node.addChild(this.objClipper[i]);
 
             var stencil = new cc.DrawNode();
-            var rectangle = [cc.p(0, 0), cc.p(clipper.width, 0),
-                cc.p(clipper.width, clipper.height),
-                cc.p(0, clipper.height)];
+            var rectangle = [cc.p(0, 0), cc.p(this.objClipper[i].width, 0),
+                cc.p(this.objClipper[i].width, this.objClipper[i].height),
+                cc.p(0, this.objClipper[i].height)];
 
             var white = cc.color(255, 255, 255, 0);
             stencil.drawPoly(rectangle, white, 1, white);
-            clipper.stencil = stencil;
-            clipper.addChild(this.aReelStrips[i]);
-            this.aPaylineBox[i] = new cc.Sprite();
-            this.aPaylineBox[i].initWithTexture(objPaylineBoxNode.getTexture());
-            this.aPaylineBox[i].setAnchorPoint(cc.p(0, 1));
-            this.aPaylineBox[i].x = reels.x+18;
-            this.aPaylineBox[i].y = reels.y/*-184*/;
-            for(var j=0; j<3;j++)
-            {
-                this.aPaylinePositions[j][i] = {x:reels.x+18,y:reels.y-j*184};
-            }
-            this.aPaylineBox[i].visible = false;
-            //this.aPaylineBox[i].retain();
-            this.mainscene.node.addChild(this.aPaylineBox[i]);
+            this.objClipper[i].stencil = stencil;
+            this.objClipper[i].addChild(this.aReelStrips[i]);
         }
-        this.objPaylineSegment = new cc.DrawNode();
-        this.objPaylineSegment.setLineWidth(5);
-        this.mainscene.node.addChild(this.objPaylineSegment);
         /*var camera = cc.Camera.createPerspective(60, size.width/size.height, 1, 1000);
         camera.setCameraFlag(cc.CameraFlag.USER1);
         camera.setPosition3D(cc.math.vec3(0, 100, 100));
@@ -181,7 +167,7 @@ var HelloWorldLayer = cc.Layer.extend({
                 this.aAnimatedReelSymbols[sSYM][k] = new FlipBookAnimation(aAnimReelSymbols.getTexture().url);
                 this.aAnimatedReelSymbols[sSYM][k].onAnimationCompleated = this.hideAnimatedSymbol.bind(this,sSYM,k);
                 var objNode = this.aAnimatedReelSymbols[sSYM][k].getNode();
-                this.mainscene.node.addChild(objNode);
+                this.objClipper[k].addChild(objNode);
                 objNode.visible = false;
             }
         }
@@ -190,6 +176,23 @@ var HelloWorldLayer = cc.Layer.extend({
         label.x = size.width/2;
         label.y = 730;
         this.addChild(label);*/
+        for(var i=0; i<this.nSymbols;i++)
+        {
+            var reels = objReelNode.getChildByName("Reel" + i);
+            this.aPaylineBox[i] = new cc.Sprite();
+            this.aPaylineBox[i].initWithTexture(objPaylineBoxNode.getTexture());
+            this.aPaylineBox[i].setAnchorPoint(cc.p(0, 1));
+            this.aPaylineBox[i].x = reels.x + 18;
+            this.aPaylineBox[i].y = reels.y/*-184*/;
+            for (var j = 0; j < 3; j++) {
+                this.aPaylinePositions[j][i] = {x: reels.x + 18, y: reels.y - j * 184};
+            }
+            this.aPaylineBox[i].visible = false;
+            this.mainscene.node.addChild(this.aPaylineBox[i]);
+        }
+        this.objPaylineSegment = new cc.DrawNode();
+        this.objPaylineSegment.setLineWidth(5);
+        this.mainscene.node.addChild(this.objPaylineSegment);
         this.bIsDemoOpen = false;
         this.objDemo = new DemoPrizeControl(this);
         this.DemoBtn = this.mainscene.node.getChildByName("DemoButton");
@@ -199,6 +202,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.DemoBtn.addTouchEventListener(this.touchEvent, this);
         this.DemoBg.visible = this.bIsDemoOpen;
         this.objDemo.enable(this.bIsDemoOpen);
+
         return true;
     },
     touchEvent: function (sender, type) {
@@ -258,9 +262,9 @@ var HelloWorldLayer = cc.Layer.extend({
             this.objBangUpController.CreditTextlabel.setString(CREDIT_METER_AMOUNT.toString());
             this.bShowPaylines = false;
             this.objBangUpController.PaidTextlabel.setString("0");
+            this.showWinningPayline();
+            this.objPaylineSegment.clear();
         }
-        this.showWinningPayline();
-        this.objPaylineSegment.clear();
         var move = cc.moveBy(0.3, cc.p(0,50));
         var actionMoveDone = cc.callFunc(this.spinReelAfterBounce.bind(this,i), this);
         var seq = cc.sequence(move,actionMoveDone);
@@ -335,12 +339,12 @@ var HelloWorldLayer = cc.Layer.extend({
     },
     hideAnimatedSymbol:function (srtSYMB,nCol)
     {
-        var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
-        objNode.visible = false;
-        if(nCol===2)
+        /*var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
+        objNode.visible = false;*/
+        /*if(nCol===2)
         {
             this.showWinningPayline();
-        }
+        }*/
     },
     hidePaylines:function ()
     {
@@ -376,7 +380,7 @@ var HelloWorldLayer = cc.Layer.extend({
                     if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) != "?")
                     {
                         this.aPaylineBox[nCols].visible = true;
-                        this.playAnimatedReelSymbol(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols),nCols,this.aPaylineBox[nCols].x,this.aPaylineBox[nCols].y);
+                        this.playAnimatedReelSymbol(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols),nCols,18,this.aPaylineBox[nCols].y-184+28);
                     }
                     if(nCols != 0)
                     {
@@ -416,7 +420,7 @@ var HelloWorldLayer = cc.Layer.extend({
                 this.nPaylineCounter++;
                 if(this.nPaylineCounter == this.objAppData.aPaylineID.length)
                     this.nPaylineCounter = 0;
-                /*this.scheduleOnce(this.showWinningPayline.bind(this),1);*/
+                this.scheduleOnce(this.showWinningPayline.bind(this),2.1);
             }
         }
     },

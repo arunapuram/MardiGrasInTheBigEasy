@@ -13,12 +13,12 @@ FlipBookAnimation =function(strpath)
         animFrames.push(frame);
         i++;
     }while(cc.spriteFrameCache.getSpriteFrame(this.strfilename+ i +".png") != undefined );
-    var animation = new cc.Animation(animFrames,0.1,1);
+    var animation = new cc.Animation(animFrames,1/animFrames.length,1);
     this.objAnim = new cc.Animate(animation)
     this.objloopAnim  = this.objAnim.repeatForever();
     var seqa = this.objAnim.repeat(1);
     var actionMoveDone = cc.callFunc(this.onAnimCompleated.bind(this), this);
-    this.objPlayAnim   = cc.sequence(seqa,actionMoveDone);
+    this.objPlayAnim   = cc.sequence(this.objAnim,actionMoveDone);
     this.objSubNode = new cc.Sprite("#"+this.strfilename+"0.png");
     this.objMainNode.addChild(this.objSubNode);
 };
