@@ -32,8 +32,394 @@
             <Folder Name="PickYourPoison">
               <Folder Name="CoasterFlipAnim">
                 <Image Name="MyFrame_00.png" />
+                <Image Name="MyFrame_01.png" />
+                <Image Name="MyFrame_02.png" />
+                <Image Name="MyFrame_03.png" />
+                <Image Name="MyFrame_04.png" />
+                <Image Name="MyFrame_05.png" />
+                <Image Name="MyFrame_06.png" />
+                <Image Name="MyFrame_07.png" />
+                <Image Name="MyFrame_08.png" />
+                <Image Name="MyFrame_09.png" />
+                <Image Name="MyFrame_10.png" />
+                <Image Name="MyFrame_11.png" />
+                <Image Name="MyFrame_12.png" />
+                <Image Name="MyFrame_13.png" />
+                <Image Name="MyFrame_14.png" />
+                <Image Name="MyFrame_15.png" />
+                <Image Name="MyFrame_16.png" />
+                <Image Name="MyFrame_17.png" />
+                <Image Name="MyFrame_18.png" />
+                <Image Name="MyFrame_19.png" />
+                <Image Name="MyFrame_20.png" />
+                <Image Name="MyFrame_21.png" />
+                <Image Name="MyFrame_22.png" />
+                <Image Name="MyFrame_23.png" />
+                <Image Name="MyFrame_24.png" />
+                <Image Name="MyFrame_25.png" />
+                <Image Name="MyFrame_26.png" />
+                <Image Name="MyFrame_27.png" />
+                <Image Name="MyFrame_28.png" />
+                <Image Name="MyFrame_29.png" />
               </Folder>
               <Image Name="Background.PNG" />
+              <Fnt Name="PickingFont02.fnt" />
+              <Fnt Name="PickingFont.fnt" />
+              <Folder Name="banner_lastPick">
+                <Image Name="banner_lastPick01.png" />
+                <Image Name="banner_lastPick02.png" />
+                <Image Name="banner_lastPick03.png" />
+                <Image Name="banner_lastPick04.png" />
+                <Image Name="banner_lastPick05.png" />
+                <Image Name="banner_lastPick06.png" />
+                <Image Name="banner_lastPick07.png" />
+                <Image Name="banner_lastPick08.png" />
+                <Image Name="banner_lastPick09.png" />
+                <Image Name="banner_lastPick10.png" />
+                <Image Name="banner_lastPick11.png" />
+                <Image Name="banner_lastPick12.png" />
+                <Image Name="banner_lastPick13.png" />
+                <Image Name="banner_lastPick14.png" />
+                <Image Name="banner_lastPick15.png" />
+                <Image Name="banner_lastPick16.png" />
+                <Image Name="banner_lastPick17.png" />
+                <Image Name="banner_lastPick18.png" />
+                <Image Name="banner_lastPick19.png" />
+                <Image Name="banner_lastPick20.png" />
+                <Image Name="banner_lastPick21.png" />
+                <Image Name="banner_lastPick22.png" />
+                <Image Name="banner_lastPick23.png" />
+                <Image Name="banner_lastPick24.png" />
+                <Image Name="banner_lastPick25.png" />
+                <Image Name="banner_lastPick26.png" />
+                <Image Name="banner_lastPick27.png" />
+                <Image Name="banner_lastPick28.png" />
+                <Image Name="banner_lastPick29.png" />
+                <Image Name="banner_lastPick30.png" />
+                <Image Name="banner_lastPick31.png" />
+                <Image Name="banner_lastPick32.png" />
+                <Image Name="banner_lastPick33.png" />
+                <Image Name="banner_lastPick34.png" />
+                <Image Name="banner_lastPick35.png" />
+                <Image Name="banner_lastPick36.png" />
+                <Image Name="banner_lastPick37.png" />
+                <Image Name="banner_lastPick38.png" />
+                <Image Name="banner_lastPick39.png" />
+                <Image Name="banner_lastPick40.png" />
+                <Image Name="banner_lastPick41.png" />
+                <Image Name="banner_lastPick42.png" />
+                <Image Name="banner_lastPick43.png" />
+                <Image Name="banner_lastPick44.png" />
+                <Image Name="banner_lastPick45.png" />
+                <Image Name="banner_lastPick46.png" />
+                <Image Name="banner_lastPick47.png" />
+                <Image Name="banner_lastPick48.png" />
+                <Image Name="banner_lastPick49.png" />
+                <Image Name="banner_lastPick50.png" />
+                <Image Name="banner_lastPick51.png" />
+                <Image Name="banner_lastPick52.png" />
+                <Image Name="banner_lastPick53.png" />
+                <Image Name="banner_lastPick54.png" />
+                <Image Name="banner_lastPick55.png" />
+                <Image Name="banner_lastPick56.png" />
+                <Image Name="banner_lastPick57.png" />
+                <Image Name="banner_lastPick58.png" />
+                <Image Name="banner_lastPick59.png" />
+              </Folder>
+              <Folder Name="FlamesAnim">
+                <Image Name="MyFrame_00.png" />
+                <Image Name="MyFrame_01.png" />
+                <Image Name="MyFrame_02.png" />
+                <Image Name="MyFrame_03.png" />
+                <Image Name="MyFrame_04.png" />
+                <Image Name="MyFrame_05.png" />
+                <Image Name="MyFrame_06.png" />
+                <Image Name="MyFrame_07.png" />
+                <Image Name="MyFrame_08.png" />
+                <Image Name="MyFrame_09.png" />
+                <Image Name="MyFrame_10.png" />
+                <Image Name="MyFrame_11.png" />
+                <Image Name="MyFrame_12.png" />
+                <Image Name="MyFrame_13.png" />
+                <Image Name="MyFrame_14.png" />
+                <Image Name="MyFrame_15.png" />
+                <Image Name="MyFrame_16.png" />
+                <Image Name="MyFrame_17.png" />
+                <Image Name="MyFrame_18.png" />
+                <Image Name="MyFrame_19.png" />
+                <Image Name="MyFrame_20.png" />
+                <Image Name="MyFrame_21.png" />
+                <Image Name="MyFrame_22.png" />
+                <Image Name="MyFrame_23.png" />
+                <Image Name="MyFrame_24.png" />
+                <Image Name="MyFrame_25.png" />
+                <Image Name="MyFrame_26.png" />
+                <Image Name="MyFrame_27.png" />
+                <Image Name="MyFrame_28.png" />
+                <Image Name="MyFrame_29.png" />
+              </Folder>
+              <Folder Name="GlowBurst">
+                <Image Name="GlowBurst_00.png" />
+                <Image Name="GlowBurst_01.png" />
+                <Image Name="GlowBurst_02.png" />
+                <Image Name="GlowBurst_03.png" />
+                <Image Name="GlowBurst_04.png" />
+                <Image Name="GlowBurst_05.png" />
+                <Image Name="GlowBurst_06.png" />
+                <Image Name="GlowBurst_07.png" />
+                <Image Name="GlowBurst_08.png" />
+                <Image Name="GlowBurst_09.png" />
+                <Image Name="GlowBurst_10.png" />
+                <Image Name="GlowBurst_11.png" />
+                <Image Name="GlowBurst_12.png" />
+                <Image Name="GlowBurst_13.png" />
+                <Image Name="GlowBurst_14.png" />
+                <Image Name="GlowBurst_15.png" />
+                <Image Name="GlowBurst_16.png" />
+                <Image Name="GlowBurst_17.png" />
+                <Image Name="GlowBurst_18.png" />
+                <Image Name="GlowBurst_19.png" />
+                <Image Name="GlowBurst_20.png" />
+                <Image Name="GlowBurst_21.png" />
+                <Image Name="GlowBurst_22.png" />
+                <Image Name="GlowBurst_23.png" />
+                <Image Name="GlowBurst_24.png" />
+                <Image Name="GlowBurst_25.png" />
+                <Image Name="GlowBurst_26.png" />
+                <Image Name="GlowBurst_27.png" />
+              </Folder>
+              <PlistImageFolder Image="Pickoneflip.png" PListFile="Pickoneflip.plist" Name=".Pickoneflip_PList.Dir">
+                <PlistImageFile Name="Pickoneflip_0.png" Key="Pickoneflip_0.png" />
+                <PlistImageFile Name="Pickoneflip_1.png" Key="Pickoneflip_1.png" />
+                <PlistImageFile Name="Pickoneflip_2.png" Key="Pickoneflip_2.png" />
+                <PlistImageFile Name="Pickoneflip_3.png" Key="Pickoneflip_3.png" />
+                <PlistImageFile Name="Pickoneflip_4.png" Key="Pickoneflip_4.png" />
+                <PlistImageFile Name="Pickoneflip_5.png" Key="Pickoneflip_5.png" />
+                <PlistImageFile Name="Pickoneflip_6.png" Key="Pickoneflip_6.png" />
+                <PlistImageFile Name="Pickoneflip_7.png" Key="Pickoneflip_7.png" />
+                <PlistImageFile Name="Pickoneflip_8.png" Key="Pickoneflip_8.png" />
+                <PlistImageFile Name="Pickoneflip_9.png" Key="Pickoneflip_9.png" />
+                <PlistImageFile Name="Pickoneflip_10.png" Key="Pickoneflip_10.png" />
+                <PlistImageFile Name="Pickoneflip_11.png" Key="Pickoneflip_11.png" />
+                <PlistImageFile Name="Pickoneflip_12.png" Key="Pickoneflip_12.png" />
+                <PlistImageFile Name="Pickoneflip_13.png" Key="Pickoneflip_13.png" />
+                <PlistImageFile Name="Pickoneflip_14.png" Key="Pickoneflip_14.png" />
+                <PlistImageFile Name="Pickoneflip_15.png" Key="Pickoneflip_15.png" />
+                <PlistImageFile Name="Pickoneflip_16.png" Key="Pickoneflip_16.png" />
+                <PlistImageFile Name="Pickoneflip_17.png" Key="Pickoneflip_17.png" />
+                <PlistImageFile Name="Pickoneflip_18.png" Key="Pickoneflip_18.png" />
+                <PlistImageFile Name="Pickoneflip_19.png" Key="Pickoneflip_19.png" />
+                <PlistImageFile Name="Pickoneflip_20.png" Key="Pickoneflip_20.png" />
+                <PlistImageFile Name="Pickoneflip_21.png" Key="Pickoneflip_21.png" />
+                <PlistImageFile Name="Pickoneflip_22.png" Key="Pickoneflip_22.png" />
+                <PlistImageFile Name="Pickoneflip_23.png" Key="Pickoneflip_23.png" />
+                <PlistImageFile Name="Pickoneflip_24.png" Key="Pickoneflip_24.png" />
+                <PlistImageFile Name="Pickoneflip_25.png" Key="Pickoneflip_25.png" />
+                <PlistImageFile Name="Pickoneflip_26.png" Key="Pickoneflip_26.png" />
+                <PlistImageFile Name="Pickoneflip_27.png" Key="Pickoneflip_27.png" />
+                <PlistImageFile Name="Pickoneflip_28.png" Key="Pickoneflip_28.png" />
+                <PlistImageFile Name="Pickoneflip_29.png" Key="Pickoneflip_29.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="glowburst.png" PListFile="glowburst.plist" Name=".glowburst_PList.Dir">
+                <PlistImageFile Name="glowburst_0.png" Key="glowburst_0.png" />
+                <PlistImageFile Name="glowburst_1.png" Key="glowburst_1.png" />
+                <PlistImageFile Name="glowburst_2.png" Key="glowburst_2.png" />
+                <PlistImageFile Name="glowburst_3.png" Key="glowburst_3.png" />
+                <PlistImageFile Name="glowburst_4.png" Key="glowburst_4.png" />
+                <PlistImageFile Name="glowburst_5.png" Key="glowburst_5.png" />
+                <PlistImageFile Name="glowburst_6.png" Key="glowburst_6.png" />
+                <PlistImageFile Name="glowburst_7.png" Key="glowburst_7.png" />
+                <PlistImageFile Name="glowburst_8.png" Key="glowburst_8.png" />
+                <PlistImageFile Name="glowburst_9.png" Key="glowburst_9.png" />
+                <PlistImageFile Name="glowburst_10.png" Key="glowburst_10.png" />
+                <PlistImageFile Name="glowburst_11.png" Key="glowburst_11.png" />
+                <PlistImageFile Name="glowburst_12.png" Key="glowburst_12.png" />
+                <PlistImageFile Name="glowburst_13.png" Key="glowburst_13.png" />
+                <PlistImageFile Name="glowburst_14.png" Key="glowburst_14.png" />
+                <PlistImageFile Name="glowburst_15.png" Key="glowburst_15.png" />
+                <PlistImageFile Name="glowburst_16.png" Key="glowburst_16.png" />
+                <PlistImageFile Name="glowburst_17.png" Key="glowburst_17.png" />
+                <PlistImageFile Name="glowburst_18.png" Key="glowburst_18.png" />
+                <PlistImageFile Name="glowburst_19.png" Key="glowburst_19.png" />
+                <PlistImageFile Name="glowburst_20.png" Key="glowburst_20.png" />
+                <PlistImageFile Name="glowburst_21.png" Key="glowburst_21.png" />
+                <PlistImageFile Name="glowburst_22.png" Key="glowburst_22.png" />
+                <PlistImageFile Name="glowburst_23.png" Key="glowburst_23.png" />
+                <PlistImageFile Name="glowburst_24.png" Key="glowburst_24.png" />
+                <PlistImageFile Name="glowburst_25.png" Key="glowburst_25.png" />
+                <PlistImageFile Name="glowburst_26.png" Key="glowburst_26.png" />
+                <PlistImageFile Name="glowburst_27.png" Key="glowburst_27.png" />
+              </PlistImageFolder>
+              <Image Name="Blank.png" />
+              <Image Name="CoasterGlow.PNG" />
+              <Image Name="Flames.png" />
+              <Image Name="Hurricane.PNG" />
+              <Image Name="LargeCoaster.png" />
+              <Image Name="Margarita.PNG" />
+              <Image Name="Martini.PNG" />
+              <Image Name="Plus3Picks.png" />
+              <Image Name="PoisonCoasterFlipAnim.png" />
+              <Image Name="Scotch.PNG" />
+              <Image Name="SignON.PNG" />
+              <File Name="totalBonusWon_pickyourpoison.bik" />
+            </Folder>
+            <Folder Name="FreeSpin">
+              <Folder Name="curtains">
+                <Image Name="0000.png" />
+                <Image Name="0001.png" />
+                <Image Name="0002.png" />
+                <Image Name="0003.png" />
+                <Image Name="0004.png" />
+                <Image Name="0005.png" />
+                <Image Name="0006.png" />
+                <Image Name="0007.png" />
+                <Image Name="0008.png" />
+                <Image Name="0009.png" />
+                <Image Name="0010.png" />
+                <Image Name="0011.png" />
+                <Image Name="0012.png" />
+                <Image Name="0013.png" />
+                <Image Name="0014.png" />
+              </Folder>
+              <Image Name="Background_Freespin.png" />
+              <Image Name="FreeSpinTopCover.png" />
+              <Image Name="freespin_symbol.png" />
+              <Image Name="Lamps_Freespin.png" />
+              <Image Name="MaxSpins.png" />
+              <Image Name="Playbar_Freespin.png" />
+              <Image Name="Reels_Freespin.png" />
+              <Image Name="Reels_Freespin_Multiplier.png" />
+              <Image Name="Spotlight.png" />
+            </Folder>
+            <Folder Name="JesterWheel">
+              <Folder Name="banner_spinAgain">
+                <Image Name="banner_spinAgain00.png" />
+                <Image Name="banner_spinAgain01.png" />
+                <Image Name="banner_spinAgain02.png" />
+                <Image Name="banner_spinAgain03.png" />
+                <Image Name="banner_spinAgain04.png" />
+                <Image Name="banner_spinAgain05.png" />
+                <Image Name="banner_spinAgain06.png" />
+                <Image Name="banner_spinAgain07.png" />
+                <Image Name="banner_spinAgain08.png" />
+                <Image Name="banner_spinAgain09.png" />
+                <Image Name="banner_spinAgain10.png" />
+                <Image Name="banner_spinAgain11.png" />
+                <Image Name="banner_spinAgain12.png" />
+                <Image Name="banner_spinAgain13.png" />
+                <Image Name="banner_spinAgain14.png" />
+                <Image Name="banner_spinAgain15.png" />
+                <Image Name="banner_spinAgain16.png" />
+                <Image Name="banner_spinAgain17.png" />
+                <Image Name="banner_spinAgain18.png" />
+                <Image Name="banner_spinAgain19.png" />
+                <Image Name="banner_spinAgain20.png" />
+                <Image Name="banner_spinAgain21.png" />
+                <Image Name="banner_spinAgain22.png" />
+                <Image Name="banner_spinAgain23.png" />
+                <Image Name="banner_spinAgain24.png" />
+                <Image Name="banner_spinAgain25.png" />
+                <Image Name="banner_spinAgain26.png" />
+                <Image Name="banner_spinAgain27.png" />
+                <Image Name="banner_spinAgain28.png" />
+                <Image Name="banner_spinAgain29.png" />
+                <Image Name="banner_spinAgain30.png" />
+                <Image Name="banner_spinAgain31.png" />
+                <Image Name="banner_spinAgain32.png" />
+                <Image Name="banner_spinAgain33.png" />
+                <Image Name="banner_spinAgain34.png" />
+                <Image Name="banner_spinAgain35.png" />
+                <Image Name="banner_spinAgain36.png" />
+                <Image Name="banner_spinAgain37.png" />
+                <Image Name="banner_spinAgain38.png" />
+                <Image Name="banner_spinAgain39.png" />
+                <Image Name="banner_spinAgain40.png" />
+                <Image Name="banner_spinAgain41.png" />
+                <Image Name="banner_spinAgain42.png" />
+                <Image Name="banner_spinAgain43.png" />
+                <Image Name="banner_spinAgain44.png" />
+                <Image Name="banner_spinAgain45.png" />
+                <Image Name="banner_spinAgain46.png" />
+                <Image Name="banner_spinAgain47.png" />
+                <Image Name="banner_spinAgain48.png" />
+                <Image Name="banner_spinAgain49.png" />
+                <Image Name="banner_spinAgain50.png" />
+                <Image Name="banner_spinAgain51.png" />
+                <Image Name="banner_spinAgain52.png" />
+                <Image Name="banner_spinAgain53.png" />
+                <Image Name="banner_spinAgain54.png" />
+                <Image Name="banner_spinAgain55.png" />
+                <Image Name="banner_spinAgain56.png" />
+                <Image Name="banner_spinAgain57.png" />
+                <Image Name="banner_spinAgain58.png" />
+                <Image Name="banner_spinAgain59.png" />
+              </Folder>
+              <File Name="totalBonusWon_jesterWheel.bik" />
+              <File Name="TouchScreenToSpin_.bik" />
+              <Image Name="GamescreenCover.PNG" />
+              <Image Name="JesterWheel.PNG" />
+              <Image Name="JesterWheelBase.png" />
+              <Image Name="JesterWheelShadow.PNG" />
+              <Image Name="LargeArrow.PNG" />
+              <Image Name="RedPointer.PNG" />
+              <Image Name="SmallArrowsGlow.PNG" />
+              <Image Name="WheelCenter.png" />
+            </Folder>
+            <Folder Name="VoodooWilds">
+              <Folder Name="Landing">
+                <Image Name="voodoo_00.png" />
+                <Image Name="voodoo_01.png" />
+                <Image Name="voodoo_02.png" />
+                <Image Name="voodoo_03.png" />
+                <Image Name="voodoo_04.png" />
+                <Image Name="voodoo_05.png" />
+                <Image Name="voodoo_06.png" />
+                <Image Name="voodoo_07.png" />
+                <Image Name="voodoo_08.png" />
+                <Image Name="voodoo_09.png" />
+                <Image Name="voodoo_10.png" />
+                <Image Name="voodoo_11.png" />
+                <Image Name="voodoo_12.png" />
+                <Image Name="voodoo_13.png" />
+                <Image Name="voodoo_14.png" />
+                <Image Name="voodoo_15.png" />
+                <Image Name="voodoo_16.png" />
+                <Image Name="voodoo_17.png" />
+                <Image Name="voodoo_18.png" />
+                <Image Name="voodoo_19.png" />
+                <Image Name="voodoo_20.png" />
+                <Image Name="voodoo_21.png" />
+                <Image Name="voodoo_22.png" />
+                <Image Name="voodoo_23.png" />
+                <Image Name="voodoo_24.png" />
+                <Image Name="voodoo_25.png" />
+                <Image Name="voodoo_26.png" />
+                <Image Name="voodoo_27.png" />
+                <Image Name="voodoo_28.png" />
+                <Image Name="voodoo_29.png" />
+                <Image Name="voodoo_30.png" />
+                <Image Name="voodoo_31.png" />
+                <Image Name="voodoo_32.png" />
+                <Image Name="voodoo_33.png" />
+                <Image Name="voodoo_34.png" />
+                <Image Name="voodoo_35.png" />
+                <Image Name="voodoo_36.png" />
+                <Image Name="voodoo_37.png" />
+                <Image Name="voodoo_38.png" />
+                <Image Name="voodoo_39.png" />
+                <Image Name="voodoo_40.png" />
+                <Image Name="voodoo_41.png" />
+                <Image Name="voodoo_42.png" />
+                <Image Name="voodoo_43.png" />
+                <Image Name="voodoo_44.png" />
+                <Image Name="voodoo_45.png" />
+                <Image Name="voodoo_46.png" />
+                <Image Name="voodoo_47.png" />
+              </Folder>
+              <Image Name="Background_Voodoo.png" />
+              <Image Name="Lamps_Voodoo.png" />
+              <Image Name="Playbar_Voodoo.png" />
+              <Image Name="Reels_Voodoo.png" />
             </Folder>
           </Folder>
           <Folder Name="Reels">
@@ -74,21 +460,18 @@
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
-                <Image Name="Wild0.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild1">
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
-                <Image Name="Wild1.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild2">
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
-                <Image Name="Wild2.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild_2x">
@@ -350,6 +733,7 @@
         <PlistInfo Name="Flame.csi" Type="Plist" />
         <Fnt Name="CreditsWinFont_lrg.fnt" />
         <Fnt Name="BetFont_BetPerLine.fnt" />
+        <Project Name="JesterWheel.csd" Type="Scene" />
       </RootFolder>
     </Group>
   </SolutionFolder>
