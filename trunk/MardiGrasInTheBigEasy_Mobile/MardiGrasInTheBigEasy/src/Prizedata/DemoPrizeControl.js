@@ -47,7 +47,7 @@ DemoPrizeControl =function(mainNode)
     this.addReelStop("Free Spin Party (FSP)", "Random", "yellow", [5,5,3,5,3]);
     this.addReelStop("Free Spin Party (FSP)", "Anticipation", "yellow", [5,6,3,3,3]);
     this.addReelStop("Themes", "Wild", "blue",  [21,21,23,21,22]);
-    this.addReelStop("Themes", "Girl", "blue",  [19,41,44,42,42]);
+    this.addReelStop("Themes", "Girl", "blue",  [19,42,43,42,42]);
     this.addReelStop("Themes", "Mask", "blue",  [48,27,57,49,74]);
     this.addReelStop("Themes", "Hurricane", "blue",  [50,20,32,37,22]);
     this.addReelStop("Themes", "King Cake", "blue",  [58,39,6,14,31]);
