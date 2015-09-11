@@ -115,7 +115,41 @@ AppData.prototype.updateReelFace = function(aReelStopPosition)
             }
         }
     }
+    this.updateBonusPayline("X",30);
+    this.updateBonusPayline("Y",31);
+    this.updateBonusPayline("Z",32);
 };
+AppData.prototype.updateBonusPayline = function(str,nPayID)
+{
+    var strBonusPaylineStr = "";
+    var aBonuspaylineOff = [];
+    var nBonusCounter = 0;
+    for(var nCols = 0; nCols < 5; nCols++)
+    {
+        var nIncCnt = 0;
+        for(var nRows = 0; nRows < 3; nRows++)
+        {
+            if(this.strReelFace[nRows][nCols] === str)
+            {
+                strBonusPaylineStr = strBonusPaylineStr+this.strReelFace[nRows][nCols];
+                nIncCnt++;
+                nBonusCounter++;
+                aBonuspaylineOff[nCols] = nRows-1;
+            }
+        }
+        if(nIncCnt === 0)
+        {
+            strBonusPaylineStr = strBonusPaylineStr + "?";
+            aBonuspaylineOff[nCols] = 0;
+        }
+    }
+    if(nBonusCounter >= 3)
+    {
+        this.aPaylineStrings.push(strBonusPaylineStr);
+        this.aPaylineOffsets.push(aBonuspaylineOff);
+        this.aPaylineID.push(nPayID);
+    }
+}
 AppData.prototype.resetReelFace = function()
 {
     for(var nRows = 0; nRows < 3; nRows++)
