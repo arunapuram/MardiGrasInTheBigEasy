@@ -35,6 +35,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.aStopPosition = [44,16,56,38,5];
         this.objAppData = new AppData();
         this.objAppData.updateReelFace(this.aStopPosition);
+
         this.nreelsymbols= cc.aMathReelSet[0].length;
         /////////////////////////////
         // 2. add a menu item with "X" image, which is clicked to quit the program
@@ -170,47 +171,75 @@ var HelloWorldLayer = cc.Layer.extend({
 
         var objAnimReelSymbolsNode = this.mainscene.node.getChildByName("AnimatedReelSymbols");
         objAnimReelSymbolsNode.visible = false;
-        for(var i=0;i<1;i++)
+        for(var i=0;i<this.nreelsymbols;i++)
         {
             var sSYM = cc.aMathReelSet[0][i];
             this.aAnimatedReelSymbols[sSYM] = [];
             var aAnimReelSymbols = objAnimReelSymbolsNode.getChildByName("AnimatedReelSymbol."+sSYM);
-           /* for(var k=0;k<5;k++)
+            for(var k=0;k<5;k++)
             {
-                this.aAnimatedReelSymbols[sSYM][k] = new FlipBookAnimation(aAnimReelSymbols.getTexture().url);
+                /*this.aAnimatedReelSymbols[sSYM][k] = new FlipBookAnimation(aAnimReelSymbols.getTexture().url);
                 this.aAnimatedReelSymbols[sSYM][k].onAnimationCompleated = this.hideAnimatedSymbol.bind(this,sSYM,k);
                 var objNode = this.aAnimatedReelSymbols[sSYM][k].getNode();
                 this.mainscene.node.addChild(objNode);
-                objNode.visible = false;
-            }*/
+                objNode.visible = false;*/
+            }
         }
 
         /*var label = new cc.LabelTTF(this.objAppData.getReelFace(), "fonts/arial.ttf", 55);
         label.x = size.width/2;
         label.y = 730;
         this.addChild(label);*/
+        this.bIsDemoOpen = false;
+        this.objDemo = new DemoPrizeControl(this);
+        this.DemoBtn = this.mainscene.node.getChildByName("DemoButton");
+        this.DemoBg = this.mainscene.node.getChildByName("DemoBackground");
+        this.mainscene.node.reorderChild(this.DemoBtn,1000);
+        this.mainscene.node.reorderChild(this.DemoBg,1000);
+        this.DemoBtn.addTouchEventListener(this.touchEvent, this);
+        this.DemoBg.visible = this.bIsDemoOpen;
+        this.objDemo.enable(this.bIsDemoOpen);
         return true;
     },
     touchEvent: function (sender, type) {
         switch (type) {
             case ccui.Widget.TOUCH_ENDED:
-                for (var i = 0; i < this.nSymbols; i++)
+                if(sender === this.playbutton)
                 {
-                    this.nReelX[i] = this.aReelStrips[i].x;
-                    this.nReelY[i] = this.aReelStrips[i].y;
+                    this.startPlay();
                 }
-                this.aStopPosition = [Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79),Math.floor(Math.random()*79)];
-                //this.aStopPosition = [76,5,25,44,66];
-                this.objAppData.updateReelFace(this.aStopPosition);
-                for(var i=0;i<this.nSymbols;i++)
+                else if(sender === this.DemoBtn)
                 {
-                    this.scheduleOnce(this.spinReel.bind(this,i), i*(0.3));
+                    this.bIsDemoOpen = !this.bIsDemoOpen;
+                    this.DemoBg.visible = this.bIsDemoOpen;
+                    this.objDemo.enable(this.bIsDemoOpen);
                 }
-                this.playbutton.setEnabled(false);
                 break;
             default:
                 break;
         }
+    },
+    startPlay:function (bFromDemo,aReelStp)
+    {
+        for (var i = 0; i < this.nSymbols; i++) {
+            this.nReelX[i] = this.aReelStrips[i].x;
+            this.nReelY[i] = this.aReelStrips[i].y;
+        }
+        if (bFromDemo)
+        {
+            this.bIsDemoOpen = false;
+            this.DemoBg.visible = this.bIsDemoOpen;
+            this.objDemo.enable(this.bIsDemoOpen);
+            this.aStopPosition = aReelStp;
+        }
+        else
+            this.aStopPosition = [Math.floor(Math.random() * 79), Math.floor(Math.random() * 79), Math.floor(Math.random() * 79), Math.floor(Math.random() * 79), Math.floor(Math.random() * 79)];
+        //this.aStopPosition = [76,5,25,44,66];
+        this.objAppData.updateReelFace(this.aStopPosition);
+        for (var i = 0; i < this.nSymbols; i++) {
+            this.scheduleOnce(this.spinReel.bind(this, i), i * (0.3));
+        }
+        this.playbutton.setEnabled(false);
     },
     checkControl1:function (i)
     {
@@ -307,24 +336,24 @@ var HelloWorldLayer = cc.Layer.extend({
     },
     hideAnimatedSymbol:function (srtSYMB,nCol)
     {
-       /* var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
-        objNode.visible = false;*/
-        /*if(nCol===2)
+        /*var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
+        objNode.visible = false;
+        if(nCol===2)
         {
             this.showWinningPayline();
         }*/
     },
     hidePaylines:function ()
     {
-        /*for (var i = 0; i < this.nreelsymbols; i++)
+        for (var i = 0; i < this.nreelsymbols; i++)
         {
             var sSYM = cc.aMathReelSet[0][i];
             for (var k = 0; k < 5; k++)
             {
-                var objNode = this.aAnimatedReelSymbols[sSYM][k].getNode();
-                objNode.visible = false;
+                /*var objNode = this.aAnimatedReelSymbols[sSYM][k].getNode();
+                objNode.visible = false;*/
             }
-        }*/
+        }
     },
     showWinningPayline:function ()
     {
