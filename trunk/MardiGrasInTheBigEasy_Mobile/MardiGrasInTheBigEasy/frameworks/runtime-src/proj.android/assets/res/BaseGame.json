@@ -3073,6 +3073,124 @@
             },
             "Name": "BET_PER_LINE",
             "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "source/Demo/DemoPressed.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "source/Demo/DemoNormal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 50,
+            "Scale9Height": 18,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1309.8833,
+              "Y": 743.3602
+            },
+            "Scale": {
+              "ScaleX": 1.2,
+              "ScaleY": 1.2
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9631,
+              "Y": 0.9679
+            },
+            "PreSize": {
+              "X": 0.0588,
+              "Y": 0.0521
+            },
+            "LeftMargin": 1269.8833,
+            "RightMargin": 10.1167,
+            "TopMargin": 4.6398,
+            "BottomMargin": 723.3602,
+            "Tag": 71,
+            "ActionTag": -702872017,
+            "Size": {
+              "X": 80.0,
+              "Y": 40.0
+            },
+            "Name": "DemoButton",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/Demo/DemoBackground.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1300,
+            "Scale9Height": 600,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 679.9998,
+              "Y": 404.1455
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5262
+            },
+            "PreSize": {
+              "X": 0.9559,
+              "Y": 0.7812
+            },
+            "LeftMargin": 29.9998,
+            "RightMargin": 30.0002,
+            "TopMargin": 63.8545,
+            "BottomMargin": 104.1455,
+            "Tag": 71,
+            "ActionTag": -1131568717,
+            "Size": {
+              "X": 1300.0,
+              "Y": 600.0
+            },
+            "Name": "DemoBackground",
+            "ctype": "ImageViewObjectData"
           }
         ],
         "Size": {
@@ -3090,7 +3208,11 @@
         "Coin5.plist",
         "CreditsWinFont_lrg.fnt",
         "CreditsWinFont_lrg.png",
+        "Default/Button_Disable.png",
         "particle_texture.plist",
+        "source/Demo/DemoBackground.png",
+        "source/Demo/DemoNormal.png",
+        "source/Demo/DemoPressed.png",
         "source/Game/Blank/blank.png",
         "source/Game/Reels.png",
         "source/MainWindow/GameBackground.png",
