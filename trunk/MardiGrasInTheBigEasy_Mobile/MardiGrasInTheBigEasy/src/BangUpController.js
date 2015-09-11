@@ -94,7 +94,7 @@ BangUpController.prototype.initBangUp = function()
 BangUpController.prototype.startBangup = function(nAwardAmount, bIsBonus)
 {
     this.determineAudioCue(nAwardAmount);
-    this.audioEngine.playMusic("res/Sounds/AwardSounds/"+ this.strSoundCue +".wav", false);
+    //this.audioEngine.playMusic("res/Sounds/AwardSounds/"+ this.strSoundCue +".wav", false);
     this.paidStart = 0;
     this.paidCurrentValue = 0;
     this.paidEnd = 0;
@@ -115,8 +115,8 @@ BangUpController.prototype.incrementText = function ()
 
     if(this.objBangUpController.paidCurrentValue >= this.objBangUpController.paidEnd) {
         this.objBangUpController.paidStart = this.objBangUpController.paidCurrentValue;
-        this.objBangUpController.audioEngine.stopMusic("res/Sounds/AwardSounds/"+ this.strSoundCue +".wav", false);
-        this.objBangUpController.audioEngine.playMusic("res/Sounds/AwardSounds/BangUpSTOP.wav", false);
+        //this.objBangUpController.audioEngine.stopMusic("res/Sounds/AwardSounds/"+ this.strSoundCue +".wav", false);
+       // this.objBangUpController.audioEngine.playMusic("res/Sounds/AwardSounds/BangUpSTOP.wav", false);
         this.unschedule(this.objBangUpController.incrementText);
         this.onBangUpComplete();
         return;

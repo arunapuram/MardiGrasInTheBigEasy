@@ -380,7 +380,14 @@ var HelloWorldLayer = cc.Layer.extend({
                     if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) != "?")
                     {
                         this.aPaylineBox[nCols].visible = true;
-                        this.playAnimatedReelSymbol(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols),nCols,18,this.aPaylineBox[nCols].y-184+28);
+                        var nYoff = 0;
+                        if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) === "I")
+                            nYoff = -184/2;
+                        else if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) === "L")
+                            nYoff = 184/2;
+                        else
+                            nYoff = 0;
+                        this.playAnimatedReelSymbol(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols),nCols,18,this.aPaylineBox[nCols].y-184+28+nYoff);
                     }
                     if(nCols != 0)
                     {
