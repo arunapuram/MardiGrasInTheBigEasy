@@ -83,14 +83,18 @@ AppData.prototype.updateReelFace = function(aReelStopPosition)
                 this.aPaylineID.push(selPaylineIndex);
                 for(var nPindex=nCounter;nPindex<5;nPindex++)
                 {
+                    var nIncCounter = 0
                     for(var nRows = 0; nRows < 3; nRows++)
                     {
                         if(cc.aMathPayline[selPaylineIndex][nRows][nPindex]===1 && ((this.strReelFace[nRows][nPindex] === refSymbol) || (this.strReelFace[nRows][nPindex] === "F" || this.strReelFace[nRows][nPindex] === "G" || this.strReelFace[nRows][nPindex] === "H" || this.strReelFace[nRows][nPindex] === "W")))
                         {
-                            strPaylineStr = strPaylineStr + refSymbol;
+                            strPaylineStr = strPaylineStr + this.strReelFace[nRows][nPindex];
                             coter++;
+                            nIncCounter++;
                         }
                     }
+                    if(nIncCounter === 0)
+                        break;
                 }
                 for(var nPindex=coter;nPindex<5;nPindex++)
                 {
