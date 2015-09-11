@@ -389,7 +389,7 @@ var HelloWorldLayer = cc.Layer.extend({
                             nYoff = 0;
                         this.playAnimatedReelSymbol(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols),nCols,18,this.aPaylineBox[nCols].y-184+28+nYoff);
                     }
-                    if(nCols != 0)
+                    if(nCols != 0 && this.objAppData.aPaylineID[this.nPaylineCounter] < 30)
                     {
                         if(this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols) === "?" && this.objAppData.aPaylineStrings[this.nPaylineCounter].charAt(nCols-1) === "?")
                         {
@@ -442,7 +442,7 @@ var HelloWorldLayer = cc.Layer.extend({
             sprite.initWithTexture(this.aReelSymbols[nstripid-1].getTexture());
             sprite.setAnchorPoint(cc.p(0.5, 0));
             var pp = cc.p(0, (SYMBOL_HEIGHT * (this.nSymbolCount - 1)) - (184 * j));
-            var ScaleX = 232/sprite.width;
+            /*var ScaleX = 232/sprite.width;
             var ScaleY = 184/sprite.height;
             if(ScaleX === 1 && ScaleY === 1)
             {
@@ -453,9 +453,11 @@ var HelloWorldLayer = cc.Layer.extend({
             {
                 sprite.setScaleX(ScaleY);
                 sprite.setScaleY(ScaleY);
-            }
-            sprite.x = pp.x+232/2;
-            sprite.y = pp.y;
+            }*/
+            var ScaleY = (sprite.height - 184)/2;
+            var ScaleX = (sprite.width - 232)/2;
+            sprite.x = pp.x+(sprite.width/2)-ScaleX;
+            sprite.y = pp.y-ScaleY;
             var nStripIndex = (j +this.nCurrentReelIndex[i])%80;
            /* var label = new cc.LabelTTF("" + nStripIndex + cc.aMathReelSet[0][nstripid-1], "fonts/arial.ttf", 55);
             label.setAnchorPoint(cc.p(0, 0));
@@ -471,7 +473,7 @@ var HelloWorldLayer = cc.Layer.extend({
     onBangUpComplete:function ()
     {
        // this.objBangUpController.label.setString("0");
-        CREDIT_METER_AMOUNT = CREDIT_METER_AMOUNT + this.objBangUpController.nAwardAmount
+        CREDIT_METER_AMOUNT = CREDIT_METER_AMOUNT + this.objBangUpController.nAwardAmount;
         this.playbutton.setEnabled(true);
     },
 });
