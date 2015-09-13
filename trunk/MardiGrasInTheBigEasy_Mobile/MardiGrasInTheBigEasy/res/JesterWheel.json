@@ -69,6 +69,7 @@
               "Src": 1,
               "Dst": 771
             },
+            "VisibleForFrame": false,
             "AnchorPoint": {
               "ScaleX": 0.5,
               "ScaleY": 0.5
@@ -320,7 +321,7 @@
               "Y": 0.0
             },
             "LeftMargin": 364.7675,
-            "RightMargin": 328.2325,
+            "RightMargin": 328.2324,
             "TopMargin": 30.4261,
             "BottomMargin": 70.5739,
             "Tag": 9,
@@ -376,6 +377,79 @@
             },
             "Name": "RedPointer",
             "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain59.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain01.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "banner_spinAgain59.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 582,
+            "Scale9Height": 471,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 703.4635,
+              "Y": 364.9434
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5173,
+              "Y": 0.4752
+            },
+            "PreSize": {
+              "X": 0.4279,
+              "Y": 0.6133
+            },
+            "LeftMargin": 412.4635,
+            "RightMargin": 365.5365,
+            "TopMargin": 167.5566,
+            "BottomMargin": 129.4434,
+            "Tag": 81,
+            "ActionTag": 1059751488,
+            "Size": {
+              "X": 582.0,
+              "Y": 471.0
+            },
+            "Name": "PressToSpin",
+            "ctype": "ButtonObjectData"
           }
         ],
         "Size": {
@@ -386,6 +460,9 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
+        "banner_spinAgain59.png",
+        "source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain01.png",
+        "source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain59.png",
         "source/Bonus/JesterWheel/GamescreenCover.PNG",
         "source/Bonus/JesterWheel/JesterWheel.PNG",
         "source/Bonus/JesterWheel/JesterWheelBase.png",

@@ -1,5 +1,5 @@
 <Solution>
-  <PropertyGroup Name="MardiGrasInTheBigEasy" Version="2.3.1.1" Type="CocosStudio" />
+  <PropertyGroup Name="MARDIG~1" Version="2.3.1.1" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
@@ -734,6 +734,7 @@
         <Fnt Name="CreditsWinFont_lrg.fnt" />
         <Fnt Name="BetFont_BetPerLine.fnt" />
         <Project Name="JesterWheel.csd" Type="Scene" />
+        <Image Name="banner_spinAgain59.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>

@@ -22,6 +22,7 @@
         "src/SpriteAnimation.js",
         "src/PickMath.js",
         "src/FlipBookAnimation.js",
-        "src/BangUpController.js"
+        "src/BangUpController.js",
+        "src/JesterWheel.js"
     ]
 }

@@ -17,7 +17,7 @@
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/JesterWheelShadow.PNG" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="GameScreenDimCover" ActionTag="253684096" Tag="8" IconVisible="False" LeftMargin="1.3529" RightMargin="-1.3529" TopMargin="2.2703" BottomMargin="100.7297" ctype="SpriteObjectData">
+          <AbstractNodeData Name="GameScreenDimCover" ActionTag="253684096" Tag="8" VisibleForFrame="False" IconVisible="False" LeftMargin="1.3529" RightMargin="-1.3529" TopMargin="2.2703" BottomMargin="100.7297" ctype="SpriteObjectData">
             <Size X="1360.0000" Y="665.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="681.3529" Y="433.2297" />
@@ -72,7 +72,7 @@
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/WheelCenter.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="LargeArrow" ActionTag="-12360286" Tag="9" IconVisible="False" LeftMargin="364.7675" RightMargin="328.2325" TopMargin="30.4261" BottomMargin="70.5739" ctype="SpriteObjectData">
+          <AbstractNodeData Name="LargeArrow" ActionTag="-12360286" Tag="9" IconVisible="False" LeftMargin="364.7675" RightMargin="328.2324" TopMargin="30.4261" BottomMargin="70.5739" ctype="SpriteObjectData">
             <Size X="667.0000" Y="667.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="698.2675" Y="404.0739" />
@@ -93,6 +93,21 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/RedPointer.PNG" Plist="" />
             <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PressToSpin" ActionTag="1059751488" Tag="81" IconVisible="False" LeftMargin="412.4635" RightMargin="365.5365" TopMargin="167.5566" BottomMargin="129.4434" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="582" Scale9Height="471" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="582.0000" Y="471.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="703.4635" Y="364.9434" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5173" Y="0.4752" />
+            <PreSize X="0.4279" Y="0.6133" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Normal" Path="source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain59.png" Plist="" />
+            <PressedFileData Type="Normal" Path="source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain01.png" Plist="" />
+            <NormalFileData Type="Normal" Path="banner_spinAgain59.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
