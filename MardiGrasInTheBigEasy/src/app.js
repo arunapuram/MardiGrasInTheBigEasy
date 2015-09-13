@@ -253,6 +253,12 @@ var HelloWorldLayer = cc.Layer.extend({
             var pickScene = new PickBonusScene();
             cc.director.pushScene(pickScene);
         }*/
+        if(i===4){
+        //Jester Wheel starting point
+        this.mainscene.node.visible = false;
+        var JesterScene = new JesterWheelScene();
+        cc.director.pushScene(JesterScene);
+        }
     },
     spinReel:function (i)
     {
