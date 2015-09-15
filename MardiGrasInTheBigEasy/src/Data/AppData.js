@@ -69,7 +69,7 @@ AppData.prototype.updateReelFace = function(aReelStopPosition)
             {
                 for(var nRows = 0; nRows < 3; nRows++)
                 {
-                    if(cc.aMathPayline[selPaylineIndex][nRows][nCols]===1 && ((this.strReelFace[nRows][nCols] === refSymbol) || (this.strReelFace[nRows][nCols] === "F" || this.strReelFace[nRows][nCols] === "G" || this.strReelFace[nRows][nCols] === "H" || this.strReelFace[nRows][nCols] === "W")))
+                    if(cc.aMathPayline[selPaylineIndex][nRows][nCols]===1 && ((this.strReelFace[nRows][nCols] === refSymbol) || (this.strReelFace[nRows][nCols] === "F" || this.strReelFace[nRows][nCols] === "G" || this.strReelFace[nRows][nCols] === "H" || this.strReelFace[nRows][nCols] === "W" || this.strReelFace[nRows][nCols] === "S" || this.strReelFace[nRows][nCols] === "U" || this.strReelFace[nRows][nCols] === "V")))
                     {
                         strPaylineStr = strPaylineStr + this.strReelFace[nRows][nCols];
                         nCounter++;
@@ -86,7 +86,7 @@ AppData.prototype.updateReelFace = function(aReelStopPosition)
                     var nIncCounter = 0
                     for(var nRows = 0; nRows < 3; nRows++)
                     {
-                        if(cc.aMathPayline[selPaylineIndex][nRows][nPindex]===1 && ((this.strReelFace[nRows][nPindex] === refSymbol) || (this.strReelFace[nRows][nPindex] === "F" || this.strReelFace[nRows][nPindex] === "G" || this.strReelFace[nRows][nPindex] === "H" || this.strReelFace[nRows][nPindex] === "W")))
+                        if(cc.aMathPayline[selPaylineIndex][nRows][nPindex]===1 && ((this.strReelFace[nRows][nPindex] === refSymbol) || (this.strReelFace[nRows][nPindex] === "F" || this.strReelFace[nRows][nPindex] === "G" || this.strReelFace[nRows][nPindex] === "H" || this.strReelFace[nRows][nPindex] === "W" || this.strReelFace[nRows][nCols] === "S" || this.strReelFace[nRows][nCols] === "U" || this.strReelFace[nRows][nCols] === "V")))
                         {
                             strPaylineStr = strPaylineStr + this.strReelFace[nRows][nPindex];
                             coter++;
