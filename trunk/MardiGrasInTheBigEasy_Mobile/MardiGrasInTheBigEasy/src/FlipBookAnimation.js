@@ -5,20 +5,14 @@ FlipBookAnimation =function(strpath)
     this.strfilename = strpath.substring(strpath.lastIndexOf('/')+1,strpath.length-4);
     cc.spriteFrameCache.addSpriteFrames(this.strpathname+this.strfilename+".plist");
     this.objMainNode = new cc.SpriteBatchNode(this.strpathname+this.strfilename+".png");
-    var animFrames = [];
+    this.animFrames = [];
     var i = 0;
     do{
         str = this.strfilename+ i +".png";
         var frame = cc.spriteFrameCache.getSpriteFrame(str);
-        animFrames.push(frame);
+        this.animFrames.push(frame);
         i++;
     }while(cc.spriteFrameCache.getSpriteFrame(this.strfilename+ i +".png") != undefined );
-    var animation = new cc.Animation(animFrames,1/animFrames.length,1);
-    this.objAnim = new cc.Animate(animation)
-    this.objloopAnim  = this.objAnim.repeatForever();
-    var seqa = this.objAnim.repeat(1);
-    var actionMoveDone = cc.callFunc(this.onAnimCompleated.bind(this), this);
-    this.objPlayAnim   = cc.sequence(this.objAnim,actionMoveDone);
     this.objSubNode = new cc.Sprite("#"+this.strfilename+"0.png");
     this.objMainNode.addChild(this.objSubNode);
 };
@@ -27,21 +21,29 @@ FlipBookAnimation =function(strpath)
 
 FlipBookAnimation.prototype.loopFromStart = function()
 {
-    this.objSubNode.runAction(this.objloopAnim);
+    var animation = new cc.Animation(this.animFrames,1/this.animFrames.length,1);
+    var objAnim = new cc.Animate(animation);
+    var objloopAnim  = objAnim.repeatForever();
+    this.objSubNode.runAction(objloopAnim);
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
 FlipBookAnimation.prototype.playFromStart = function()
 {
-    this.objSubNode.runAction(this.objPlayAnim);
+    var animation = new cc.Animation(this.animFrames,1/this.animFrames.length,1);
+    var objAnim = new cc.Animate(animation);
+    var seqa = objAnim.repeat(1);
+    var actionMoveDone = cc.callFunc(this.onAnimCompleated.bind(this), this);
+    var objPlayAnim   = cc.sequence(seqa,actionMoveDone);
+    this.objSubNode.runAction(objPlayAnim);
 };
 
 FlipBookAnimation.prototype.onAnimCompleated = function()
 {
-    this.objSubNode.stopAction(this.objPlayAnim);
-    if(this.onAnimationCompleated != null)
-        this.onAnimationCompleated();
+    //this.objSubNode.stopAction(this.objPlayAnim);
+   /* if(this.onAnimationCompleated != null)
+        this.onAnimationCompleated();*/
 };
 /////////////////////////////////////////////////////////////////////////////////////////
 

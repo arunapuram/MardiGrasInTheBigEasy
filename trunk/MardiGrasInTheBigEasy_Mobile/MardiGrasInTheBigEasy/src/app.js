@@ -151,7 +151,16 @@ var HelloWorldLayer = cc.Layer.extend({
             var aAnimReelSymbols = objAnimReelSymbolsNode.getChildByName("AnimatedReelSymbol."+sSYM);
             for(var k=0;k<5;k++)
             {
-                this.aAnimatedReelSymbols[sSYM][k] = new FlipBookAnimation(aAnimReelSymbols.getTexture().url);
+               /* var label = new cc.LabelTTF(cc.textureCache.getTextureFilePath(aAnimReelSymbols.getTexture()), "fonts/arial.ttf", 55);
+                label.x = size.width/2;
+                label.y = 730;
+                this.addChild(label);*/
+                var strpath;
+                if(cc.sys.isNative)
+                    strpath = cc.textureCache.getTextureFilePath(aAnimReelSymbols.getTexture());
+                else
+                    strpath = aAnimReelSymbols.getTexture().url;
+                this.aAnimatedReelSymbols[sSYM][k] = new FlipBookAnimation(strpath);
                 this.aAnimatedReelSymbols[sSYM][k].onAnimationCompleated = this.hideAnimatedSymbol.bind(this,sSYM,k);
                 var objNode = this.aAnimatedReelSymbols[sSYM][k].getNode();
                 this.objClipper[k].addChild(objNode);
@@ -190,6 +199,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.DemoBg.visible = this.bIsDemoOpen;
         this.objDemo.enable(this.bIsDemoOpen);
 
+        
         /*
          var s = cc.winSize;
          //setup camera
@@ -275,6 +285,7 @@ var HelloWorldLayer = cc.Layer.extend({
     checkControl1:function (i)
     {
         this.reelStop(i,false);
+        
     },
     spinReel:function (i)
     {
