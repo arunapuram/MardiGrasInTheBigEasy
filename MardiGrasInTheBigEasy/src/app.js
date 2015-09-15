@@ -247,19 +247,6 @@ var HelloWorldLayer = cc.Layer.extend({
     checkControl1:function (i)
     {
         this.reelStop(i,false);
-        /*if(i===4)
-        {
-            this.mainscene.node.visible = false;
-            var pickScene = new PickBonusScene();
-            cc.director.pushScene(pickScene);
-        }*/
-		/*
-        if(i===4){
-        //Jester Wheel starting point
-        this.mainscene.node.visible = false;
-        var JesterScene = new JesterWheelScene();
-        cc.director.pushScene(JesterScene);
-        }*/
     },
     spinReel:function (i)
     {
@@ -317,16 +304,59 @@ var HelloWorldLayer = cc.Layer.extend({
             var seq;
             if(i===4)
             {
-                var actionMoveDone = cc.callFunc(this.startPaylines.bind(this), this);
+                var actionMoveDone = cc.callFunc(this.onAllReelStopped.bind(this), this);
                 seq = cc.sequence(move, move1,actionMoveDone);
             }
             else
             {
-                seq = cc.sequence(move, move1);
+                var actionMoveDone = cc.callFunc(this.onReelStopped.bind(this,i), this);
+                seq = cc.sequence(move, move1,actionMoveDone);
             }
             this.aReelStrips[i].runAction(seq);
         }
 
+    },
+    onReelStopped:function (nReelIndexVal)
+    {
+
+    },
+    onAllReelStopped:function ()
+    {
+        for(var i=0;i<this.objAppData.aPaylineID.length;i++)
+        {
+            if(this.objAppData.aPaylineID[i] === 30)
+            {
+                bonusId = 1;
+                break;
+            }
+            else if(this.objAppData.aPaylineID[i] === 31)
+            {
+                bonusId = 4;
+                break;
+            }
+            else if(this.objAppData.aPaylineID[i] === 32)
+            {
+                bonusId = 5;
+                break;
+            }
+        }
+        if(bonusId===4)
+        {
+            this.mainscene.node.visible = false;
+            var pickScene = new PickBonusScene();
+            cc.director.pushScene(pickScene);
+        }
+        else if(bonusId===5)
+        {
+            //Jester Wheel starting point
+            this.mainscene.node.visible = false;
+            var JesterScene = new JesterWheelScene();
+            cc.director.pushScene(JesterScene);
+        }
+        else
+        {
+            this.startPaylines();
+        }
     },
     startPaylines:function ()
     {
