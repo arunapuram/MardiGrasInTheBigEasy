@@ -200,7 +200,7 @@ var HelloWorldLayer = cc.Layer.extend({
          this.addChild(camera);
 
          var circleBack = new jsb.Sprite3D();
-         var circle = new cc.Sprite("res/source/Bonus/JesterWheel/JesterWheel.PNG");
+         var circle = new cc.Sprite("res/source/Bonus/Roulette/Roulette.png");
          circleBack.setScale(0.5);
          circleBack.addChild(circle);
          circle.runAction(cc.rotateBy(3, cc.math.vec3(0, 0, 360)).repeatForever());
