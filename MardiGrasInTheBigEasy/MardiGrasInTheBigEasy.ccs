@@ -544,6 +544,9 @@
                 <Image Name="Wheel.png" />
               </Folder>
             </Folder>
+            <Folder Name="Multiplier">
+              <Image Name="Multiplier.png" />
+            </Folder>
           </Folder>
           <Folder Name="Paylines">
             <Image Name="PayBox.png" />
