@@ -1,5 +1,5 @@
 <Solution>
-  <PropertyGroup Name="MARDIG~1" Version="2.3.1.1" Type="CocosStudio" />
+  <PropertyGroup Name="MardiGrasInTheBigEasy" Version="2.3.1.1" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
@@ -460,18 +460,21 @@
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
+                <Image Name="Wild0.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild1">
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
+                <Image Name="Wild1.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild2">
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
+                <Image Name="Wild2.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild_2x">
