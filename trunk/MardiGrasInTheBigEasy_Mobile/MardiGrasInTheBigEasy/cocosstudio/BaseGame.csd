@@ -242,7 +242,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild_2x/Wild_2x.png" Plist="" />
+                <FileData Type="Normal" Path="source/Reels/Multiplier/Multiplier.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="ReelSymbol.U" Visible="False" ActionTag="78693685" Tag="24" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
@@ -253,7 +253,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild_3x/Wild_3x.png" Plist="" />
+                <FileData Type="Normal" Path="source/Reels/Multiplier/Multiplier.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="ReelSymbol.V" Visible="False" ActionTag="-1385930988" Tag="25" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
@@ -264,7 +264,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild_4x/Wild_4x.png" Plist="" />
+                <FileData Type="Normal" Path="source/Reels/Multiplier/Multiplier.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="ReelSymbol.I" Visible="False" ActionTag="-506223642" Tag="26" IconVisible="False" LeftMargin="-97.5000" RightMargin="-97.5000" TopMargin="-92.5000" BottomMargin="-92.5000" ctype="SpriteObjectData">

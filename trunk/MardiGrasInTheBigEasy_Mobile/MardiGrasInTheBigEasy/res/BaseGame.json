@@ -1000,7 +1000,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild_2x/Wild_2x.png",
+                  "Path": "source/Reels/Multiplier/Multiplier.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1045,7 +1045,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild_3x/Wild_3x.png",
+                  "Path": "source/Reels/Multiplier/Multiplier.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -1090,7 +1090,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "source/Reels/Wild_4x/Wild_4x.png",
+                  "Path": "source/Reels/Multiplier/Multiplier.png",
                   "Plist": ""
                 },
                 "BlendFunc": {
@@ -3242,6 +3242,7 @@
         "source/Reels/KingCake/KingCake.png",
         "source/Reels/Mask/Animated/Mask.png",
         "source/Reels/Mask/Mask.png",
+        "source/Reels/Multiplier/Multiplier.png",
         "source/Reels/Nine/Animated/Nine.png",
         "source/Reels/Nine/Nine.png",
         "source/Reels/PartyGirl/Animated/PartyGirl.png",
@@ -3256,11 +3257,8 @@
         "source/Reels/Wheel/Animated/Wheel.png",
         "source/Reels/Wheel/Wheel.png",
         "source/Reels/Wild_2x/Animated/Wild_2x.png",
-        "source/Reels/Wild_2x/Wild_2x.png",
         "source/Reels/Wild_3x/Animated/Wild_3x.png",
-        "source/Reels/Wild_3x/Wild_3x.png",
         "source/Reels/Wild_4x/Animated/Wild_4x.png",
-        "source/Reels/Wild_4x/Wild_4x.png",
         "source/Reels/Wild0/Animated/Wild0.png",
         "source/Reels/Wild0/Wild.PNG",
         "source/Reels/Wild1/Animated/Wild1.png",
