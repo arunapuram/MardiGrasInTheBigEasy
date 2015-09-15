@@ -350,6 +350,7 @@ var HelloWorldLayer = cc.Layer.extend({
     },
     onAllReelStopped:function ()
     {
+        var bonusId = 0;
         for(var i=0;i<this.objAppData.aPaylineID.length;i++)
         {
             if(this.objAppData.aPaylineID[i] === 30)
