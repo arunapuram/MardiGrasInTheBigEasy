@@ -210,7 +210,7 @@ var HelloWorldLayer = cc.Layer.extend({
             camera.lookAt(cc.math.vec3(0, 0, 0));
             this.addChild(camera);*/
 
-            var circleBack = new jsb.Sprite3D();
+            //var circleBack = new jsb.Sprite3D();
             this.circle = new cc.Sprite("res/source/Bonus/Roulette/Roulette.png");
             this.circle.setPosition(cc.p(size.width/2,size.height/2));
            // circleBack.setScale(0.5);
@@ -228,8 +228,39 @@ var HelloWorldLayer = cc.Layer.extend({
             this._accAngle = 0;
             this.scheduleUpdate();
         }
-
+        var canvas = document.getElementById('gameCanvas');
+        this.spotlight(canvas, {x:500,y:100});
         return true;
+    },
+    spotlight:function(canvas, coord)
+    {
+        var context = canvas.getContext('webgl');
+        /*context.clearRect(0,0,canvas.width, canvas.height);
+        // Create gradient
+        context.clearRect(5,5,790,590);
+        var grd = context.createRadialGradient(
+            coord.x, coord.y,  60,
+            250, -25,  25);
+        grd.addColorStop(1,'rgba(255,255,255,1)');
+        grd.addColorStop(0.75,'rgba(255,255,255,0)');
+        var grd2 = context.createRadialGradient(
+            coord.x, coord.y,  55,
+            coord.x, coord.y,  50);
+        grd2.addColorStop(0,'rgba(255,255,255,0)');
+        grd2.addColorStop(1,'rgba(255,255,255,.7)');
+
+        // draw picture
+        context.fillStyle=grd;
+        context.fillRect(5,5,790,590);
+        context.fillStyle=grd2;*/
+    },
+    getMousePos:function(canvas, evt)
+    {
+        var rect = canvas.getBoundingClientRect();
+        return {
+            x:  evt.clientX - rect.left,
+            y:  evt.clientY - rect.top
+        };
     },
     update:function(dt){
         this._accAngle += dt * cc.degreesToRadians(60);
