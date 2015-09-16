@@ -21,7 +21,7 @@
               "Plist": ""
             },
             "BlendFunc": {
-              "Src": 1,
+              "Src": 770,
               "Dst": 771
             },
             "AnchorPoint": {
@@ -112,7 +112,7 @@
               "Plist": ""
             },
             "BlendFunc": {
-              "Src": 1,
+              "Src": 770,
               "Dst": 771
             },
             "AnchorPoint": {
@@ -205,7 +205,7 @@
               "Plist": ""
             },
             "BlendFunc": {
-              "Src": 1,
+              "Src": 770,
               "Dst": 771
             },
             "AnchorPoint": {
@@ -295,7 +295,7 @@
               "Plist": ""
             },
             "BlendFunc": {
-              "Src": 1,
+              "Src": 770,
               "Dst": 771
             },
             "AnchorPoint": {
@@ -340,7 +340,7 @@
               "Plist": ""
             },
             "BlendFunc": {
-              "Src": 1,
+              "Src": 770,
               "Dst": 771
             },
             "AnchorPoint": {

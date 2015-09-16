@@ -15,7 +15,7 @@
             <PrePosition X="0.4235" Y="0.5357" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/JesterWheelShadow.PNG" Plist="" />
-            <BlendFunc Src="1" Dst="771" />
+            <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="GameScreenDimCover" ActionTag="253684096" Tag="8" VisibleForFrame="False" IconVisible="False" LeftMargin="1.3529" RightMargin="-1.3529" TopMargin="2.2703" BottomMargin="100.7297" ctype="SpriteObjectData">
             <Size X="1360.0000" Y="665.0000" />
@@ -37,7 +37,7 @@
             <PrePosition X="0.1956" Y="0.5351" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/JesterWheelBase.png" Plist="" />
-            <BlendFunc Src="1" Dst="771" />
+            <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="JusterWheel" ActionTag="1626472819" Tag="3" Rotation="15.0000" RotationSkewX="15.0000" RotationSkewY="15.0000" IconVisible="False" LeftMargin="363.5776" RightMargin="329.4224" TopMargin="26.8572" BottomMargin="74.1428" ctype="SpriteObjectData">
             <Size X="667.0000" Y="667.0000" />
@@ -50,16 +50,16 @@
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/JesterWheel.PNG" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="GlowPointer" ActionTag="-1082110541" Tag="6" IconVisible="False" LeftMargin="128.9665" RightMargin="1148.0334" TopMargin="254.2028" BottomMargin="309.7972" ctype="SpriteObjectData">
+          <AbstractNodeData Name="GlowPointer" ActionTag="-1082110541" Tag="6" IconVisible="False" LeftMargin="129.5000" RightMargin="1147.5000" TopMargin="254.0000" BottomMargin="310.0000" ctype="SpriteObjectData">
             <Size X="83.0000" Y="204.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="170.4665" Y="411.7972" />
+            <Position X="171.0000" Y="412.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1253" Y="0.5362" />
+            <PrePosition X="0.1257" Y="0.5365" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/SmallArrowsGlow.PNG" Plist="" />
-            <BlendFunc Src="1" Dst="771" />
+            <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="WheelCenter" ActionTag="-1219345582" Tag="7" IconVisible="False" LeftMargin="364.3264" RightMargin="327.6736" TopMargin="27.2784" BottomMargin="72.7216" ctype="SpriteObjectData">
             <Size X="668.0000" Y="668.0000" />
@@ -81,7 +81,7 @@
             <PrePosition X="0.5134" Y="0.5261" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/LargeArrow.PNG" Plist="" />
-            <BlendFunc Src="1" Dst="771" />
+            <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="RedPointer" ActionTag="-154442685" Tag="5" IconVisible="False" LeftMargin="275.5964" RightMargin="967.4036" TopMargin="309.0397" BottomMargin="350.9603" ctype="SpriteObjectData">
             <Size X="117.0000" Y="108.0000" />
@@ -92,7 +92,7 @@
             <PrePosition X="0.2457" Y="0.5273" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/RedPointer.PNG" Plist="" />
-            <BlendFunc Src="1" Dst="771" />
+            <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="PressToSpin" ActionTag="1059751488" Tag="81" IconVisible="False" LeftMargin="412.4635" RightMargin="365.5365" TopMargin="167.5566" BottomMargin="129.4434" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="582" Scale9Height="471" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="582.0000" Y="471.0000" />

@@ -16,6 +16,10 @@ var JesterWheelLayer = cc.Layer.extend({
         this.startSpinbutton = this.JeseterWheelscene.node.getChildByName("PressToSpin");
         this.startSpinbutton.addTouchEventListener(this.touchEvent, this);
 
+        this.objJWGlowPointer = this.JeseterWheelscene.node.getChildByName("GlowPointer");
+
+        this.nGlowCounter = 1;
+        this.startRenderJW();
         return true;
     },
     touchEvent: function (sender, type) {
@@ -31,18 +35,32 @@ var JesterWheelLayer = cc.Layer.extend({
     },
     startJWSpin:function () {
         var nFinalDegree = Math.random() * 360;
-        var nStartFraction = 1000;
-        var _rotationaction1 = cc.rotateBy(10 , 360000);
-        do {
-            var _rotationaction1 = cc.rotateBy(1 * nStartFraction, nStartFraction * 360);
-            nStartFraction --;
-            cc.log("nStartFraction = " + nStartFraction);
-        }while(nStartFraction > 0)
-
-        var _rotationaction2 = cc.rotateBy(1, nFinalDegree);
-        var action1 = cc.sequence(_rotationaction1, _rotationaction2).repeat();
+        var _rotationaction1 = cc.rotateBy(0.25 , -10);
+        var _rotationaction2 = cc.rotateBy(10, 5760);
+        var _rotationaction3 = cc.rotateBy(2.5, 720);
+        var _rotationaction5 = cc.rotateBy(2.5 , 360 + nFinalDegree);
+      var action1 = cc.sequence(_rotationaction1, _rotationaction2, _rotationaction3, /*_rotationaction4,*/ _rotationaction5).repeat();
 
         this.objJesterWheel.runAction(action1);
+    },
+    startRenderJW:function() {
+        this.schedule(this.updateGlowPointerPosition, 0.2);
+    },
+    updateGlowPointerPosition:function(){
+        switch(this.nGlowCounter) {
+            case 0:
+                this.objJWGlowPointer.x = 171.00;
+                this.nGlowCounter = 1;
+                break;
+            case 1:
+                this.objJWGlowPointer.x = 210.00;
+                this.nGlowCounter = 2;
+                break;
+            case 2:
+                this.objJWGlowPointer.x = 248.00;
+                this.nGlowCounter = 0;
+                break;
+        }
     }
 });
 
