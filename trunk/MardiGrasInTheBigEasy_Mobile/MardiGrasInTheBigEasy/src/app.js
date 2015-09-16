@@ -199,36 +199,35 @@ var HelloWorldLayer = cc.Layer.extend({
         this.DemoBg.visible = this.bIsDemoOpen;
         this.objDemo.enable(this.bIsDemoOpen);
 
-        
-        /*
-         var s = cc.winSize;
-         //setup camera
-         var camera = cc.Camera.createPerspective(40, s.width/s.height, 0.01, 1000);
-         camera.setCameraFlag(cc.CameraFlag.USER1);
-         camera.setPosition3D(cc.math.vec3(0, 30, 100));
-         camera.lookAt(cc.math.vec3(0, 0, 0));
-         this.addChild(camera);
 
-         var circleBack = new jsb.Sprite3D();
-         var circle = new cc.Sprite("res/source/Bonus/Roulette/Roulette.png");
-         circleBack.setScale(0.5);
-         circleBack.addChild(circle);
-         circle.runAction(cc.rotateBy(3, cc.math.vec3(0, 0, 360)).repeatForever());
-         circleBack.setRotation3D(cc.math.vec3(90, 0, 0));
-         circleBack.setPosition3D(cc.math.vec3(pos.x, pos.y, pos.z-1));
-         circleBack.setCameraMask(2);
-         circleBack.setTag(2);
-         this.addChild(circleBack);
+        //if(cc.sys.isNative)
+        {
+            var s = cc.winSize;
+            //setup camera
+           /* var camera = cc.Camera.createPerspective(40, s.width / s.height, 0.01, 1000);
+            camera.setCameraFlag(cc.CameraFlag.USER1);
+            camera.setPosition3D(cc.math.vec3(0, 30, 100));
+            camera.lookAt(cc.math.vec3(0, 0, 0));
+            this.addChild(camera);*/
 
-         this._spotLight = jsb.SpotLight.create(cc.math.vec3(-1, -1, 0), cc.math.vec3(0, 0, 0), cc.color(200, 200, 200), 0, 0.5, 10000);
-         this._spotLight.setEnabled(true);
-         this.mainscene.node.addChild(this._spotLight);
-         this._spotLight.setCameraMask(2);
-         this._angle = 0;
+            var circleBack = new jsb.Sprite3D();
+            this.circle = new cc.Sprite("res/source/Bonus/Roulette/Roulette.png");
+            this.circle.setPosition(cc.p(size.width/2,size.height/2));
+           // circleBack.setScale(0.5);
+           // circleBack.addChild(circle);
+            this.circle.runAction(cc.rotateBy(1, 360,0).repeatForever());
+           // circleBack.setRotation3D(cc.math.vec3(90, 0, 0));
+           // circleBack.setCameraMask(2);
+            this.mainscene.node.addChild(this.circle);
 
-         this.scheduleUpdate();
-         this.update(0.1);
-         */
+           /* this._spotLight = jsb.SpotLight.create(cc.math.vec3(-1, -1, 0), cc.math.vec3(0, 0, 0), cc.color(200, 200, 200), 0, 0.5, 10000);
+            this._spotLight.setEnabled(true);
+            this.mainscene.node.addChild(this._spotLight);
+            this._spotLight.setCameraMask(2);
+            this._angle = 0;*/
+            this._accAngle = 0;
+            this.scheduleUpdate();
+        }
 
         return true;
     },
@@ -237,11 +236,10 @@ var HelloWorldLayer = cc.Layer.extend({
         var radius = 30;
         var x = Math.cos(this._accAngle) * radius;
         var z = Math.sin(this._accAngle) * radius;
-        var circle = this.getChildByTag(2);
-        circle.setPositionX(x);
-        circle.setVertexZ(z);
-        this._spotLight.setPosition3D(cc.math.vec3(100*Math.cos(this._angle+4*dt), 100, 100*Math.sin(this._angle+4*dt)));
-        this._spotLight.setDirection(cc.math.vec3(-Math.cos(this._angle + 4 * dt), -1, -Math.sin(this._angle + 4*dt)));
+        //this.circle.setPositionX(x);
+        //circle.setVertexZ(z);
+        //this._spotLight.setPosition3D(cc.math.vec3(100*Math.cos(this._angle+4*dt), 100, 100*Math.sin(this._angle+4*dt)));
+        //this._spotLight.setDirection(cc.math.vec3(-Math.cos(this._angle + 4 * dt), -1, -Math.sin(this._angle + 4*dt)));
     },
     touchEvent: function (sender, type) {
         switch (type) {
