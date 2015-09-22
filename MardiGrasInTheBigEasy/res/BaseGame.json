@@ -3191,6 +3191,51 @@
             },
             "Name": "DemoBackground",
             "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PickYourPoison/LargeCoaster.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -400.8552,
+              "Y": 390.6913
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.2947,
+              "Y": 0.5087
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -785.3552,
+            "RightMargin": 1376.3552,
+            "TopMargin": -7.1913,
+            "BottomMargin": 6.1913,
+            "Tag": 72,
+            "ActionTag": 1757451357,
+            "Size": {
+              "X": 769.0,
+              "Y": 769.0
+            },
+            "Name": "LargeCoster",
+            "ctype": "SpriteObjectData"
           }
         ],
         "Size": {
@@ -3211,6 +3256,7 @@
         "Default/Button_Disable.png",
         "Default/Sprite.png",
         "particle_texture.plist",
+        "PickYourPoison/LargeCoaster.png",
         "source/Demo/DemoBackground.png",
         "source/Demo/DemoNormal.png",
         "source/Demo/DemoPressed.png",
