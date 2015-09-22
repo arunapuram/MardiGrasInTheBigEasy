@@ -199,7 +199,9 @@ var HelloWorldLayer = cc.Layer.extend({
         this.DemoBg.visible = this.bIsDemoOpen;
         this.objDemo.enable(this.bIsDemoOpen);
 
-
+        this.largeCoaster = this.mainscene.node.getChildByName("LargeCoster");
+        this.mainscene.node.reorderChild(this.largeCoaster,1000);
+        this.largeCoaster.visible = false;
         //if(cc.sys.isNative)
         {
             var s = cc.winSize;
@@ -211,14 +213,15 @@ var HelloWorldLayer = cc.Layer.extend({
             this.addChild(camera);*/
 
             //var circleBack = new jsb.Sprite3D();
-            this.circle = new cc.Sprite("res/source/Bonus/Roulette/Roulette.png");
+//Roulette is here add here later
+ /*            this.circle = new cc.Sprite("res/source/Bonus/Roulette/Roulette.png");
             this.circle.setPosition(cc.p(size.width/2,size.height/2));
            // circleBack.setScale(0.5);
            // circleBack.addChild(circle);
             this.circle.runAction(cc.rotateBy(1, 360,0).repeatForever());
            // circleBack.setRotation3D(cc.math.vec3(90, 0, 0));
            // circleBack.setCameraMask(2);
-            this.mainscene.node.addChild(this.circle);
+            this.mainscene.node.addChild(this.circle);*/
 
            /* this._spotLight = jsb.SpotLight.create(cc.math.vec3(-1, -1, 0), cc.math.vec3(0, 0, 0), cc.color(200, 200, 200), 0, 0.5, 10000);
             this._spotLight.setEnabled(true);
@@ -411,9 +414,14 @@ var HelloWorldLayer = cc.Layer.extend({
         }
         if(bonusId===4)
         {
-            this.mainscene.node.visible = false;
+           /* this.mainscene.node.visible = false;
             var pickScene = new PickBonusScene();
-            cc.director.pushScene(pickScene);
+            cc.director.pushScene(pickScene);*/
+            this.largeCoaster.setPosition(cc.p(-390,390));
+            this.largeCoaster.visible = true;
+            var move = cc.moveBy(3.0, cc.p(3000,0));
+            this.largeCoaster.runAction(move);
+            this.largeCoaster.runAction(cc.rotateBy(1, 360,0).repeatForever());
         }
         else if(bonusId===5)
         {
