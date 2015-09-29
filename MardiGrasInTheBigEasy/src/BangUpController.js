@@ -115,14 +115,15 @@ BangUpController.prototype.incrementText = function ()
 
     if(this.objBangUpController.paidCurrentValue >= this.objBangUpController.paidEnd) {
         this.objBangUpController.paidStart = this.objBangUpController.paidCurrentValue;
-        //this.objBangUpController.audioEngine.stopMusic("res/Sounds/AwardSounds/"+ this.strSoundCue +".wav", false);
-       // this.objBangUpController.audioEngine.playMusic("res/Sounds/AwardSounds/BangUpSTOP.wav", false);
+        this.objBangUpController.audioEngine.stopMusic("res/Sounds/AwardSounds/"+ this.strSoundCue +".wav", false);
+        this.objBangUpController.audioEngine.playMusic("res/Sounds/AwardSounds/BangUpSTOP.wav", false);
         this.unschedule(this.objBangUpController.incrementText);
         this.onBangUpComplete();
         return;
     }
     else {
         this.objBangUpController.paidCurrentValue++;
+        this.objBangUpController.PaidTextlabel.visible = true;
         var nCreditValue = CREDIT_METER_AMOUNT + this.objBangUpController.paidCurrentValue;
         this.objBangUpController.PaidTextlabel.setString(this.objBangUpController.paidCurrentValue.toString());
         this.objBangUpController.CreditTextlabel.setString(nCreditValue);

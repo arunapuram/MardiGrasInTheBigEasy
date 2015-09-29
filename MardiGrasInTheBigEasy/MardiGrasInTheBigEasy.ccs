@@ -27,6 +27,81 @@
             <Folder Name="Blank">
               <Image Name="blank.png" />
             </Folder>
+            <Folder Name="anticipation">
+              <PlistImageFolder Image="anticipation0.png" PListFile="anticipation0.plist" Name=".anticipation0_PList.Dir">
+                <PlistImageFile Name="00.png" Key="00.png" />
+                <PlistImageFile Name="01.png" Key="01.png" />
+                <PlistImageFile Name="02.png" Key="02.png" />
+                <PlistImageFile Name="03.png" Key="03.png" />
+                <PlistImageFile Name="04.png" Key="04.png" />
+                <PlistImageFile Name="05.png" Key="05.png" />
+              </PlistImageFolder>
+              <Image Name="anticipation0.png" />
+            </Folder>
+            <Folder Name="anticipation_jester">
+              <Image Name="anticipation_reel_jesterWheel_00000.png" />
+              <Image Name="anticipation_reel_jesterWheel_00001.png" />
+              <Image Name="anticipation_reel_jesterWheel_00002.png" />
+              <Image Name="anticipation_reel_jesterWheel_00003.png" />
+              <Image Name="anticipation_reel_jesterWheel_00004.png" />
+              <Image Name="anticipation_reel_jesterWheel_00005.png" />
+              <Image Name="anticipation_reel_jesterWheel_00006.png" />
+              <Image Name="anticipation_reel_jesterWheel_00007.png" />
+              <Image Name="anticipation_reel_jesterWheel_00008.png" />
+              <Image Name="anticipation_reel_jesterWheel_00009.png" />
+              <Image Name="anticipation_reel_jesterWheel_00010.png" />
+              <Image Name="anticipation_reel_jesterWheel_00011.png" />
+              <Image Name="anticipation_reel_jesterWheel_00012.png" />
+              <Image Name="anticipation_reel_jesterWheel_00013.png" />
+              <Image Name="anticipation_reel_jesterWheel_00014.png" />
+              <Image Name="anticipation_reel_jesterWheel_00015.png" />
+              <Image Name="anticipation_reel_jesterWheel_00016.png" />
+              <Image Name="anticipation_reel_jesterWheel_00017.png" />
+              <Image Name="anticipation_reel_jesterWheel_00018.png" />
+              <Image Name="anticipation_reel_jesterWheel_00019.png" />
+              <Image Name="anticipation_reel_jesterWheel_00020.png" />
+              <Image Name="anticipation_reel_jesterWheel_00021.png" />
+              <Image Name="anticipation_reel_jesterWheel_00022.png" />
+              <Image Name="anticipation_reel_jesterWheel_00023.png" />
+              <Image Name="anticipation_reel_jesterWheel_00024.png" />
+              <Image Name="anticipation_reel_jesterWheel_00025.png" />
+              <Image Name="anticipation_reel_jesterWheel_00026.png" />
+              <Image Name="anticipation_reel_jesterWheel_00027.png" />
+              <Image Name="anticipation_reel_jesterWheel_00028.png" />
+              <Image Name="anticipation_reel_jesterWheel_00029.png" />
+            </Folder>
+            <Folder Name="anticipation_poison">
+              <Image Name="anticipation_reel_poison_00000.png" />
+              <Image Name="anticipation_reel_poison_00001.png" />
+              <Image Name="anticipation_reel_poison_00002.png" />
+              <Image Name="anticipation_reel_poison_00003.png" />
+              <Image Name="anticipation_reel_poison_00004.png" />
+              <Image Name="anticipation_reel_poison_00005.png" />
+              <Image Name="anticipation_reel_poison_00006.png" />
+              <Image Name="anticipation_reel_poison_00007.png" />
+              <Image Name="anticipation_reel_poison_00008.png" />
+              <Image Name="anticipation_reel_poison_00009.png" />
+              <Image Name="anticipation_reel_poison_00010.png" />
+              <Image Name="anticipation_reel_poison_00011.png" />
+              <Image Name="anticipation_reel_poison_00012.png" />
+              <Image Name="anticipation_reel_poison_00013.png" />
+              <Image Name="anticipation_reel_poison_00014.png" />
+              <Image Name="anticipation_reel_poison_00015.png" />
+              <Image Name="anticipation_reel_poison_00016.png" />
+              <Image Name="anticipation_reel_poison_00017.png" />
+              <Image Name="anticipation_reel_poison_00018.png" />
+              <Image Name="anticipation_reel_poison_00019.png" />
+              <Image Name="anticipation_reel_poison_00020.png" />
+              <Image Name="anticipation_reel_poison_00021.png" />
+              <Image Name="anticipation_reel_poison_00022.png" />
+              <Image Name="anticipation_reel_poison_00023.png" />
+              <Image Name="anticipation_reel_poison_00024.png" />
+              <Image Name="anticipation_reel_poison_00025.png" />
+              <Image Name="anticipation_reel_poison_00026.png" />
+              <Image Name="anticipation_reel_poison_00027.png" />
+              <Image Name="anticipation_reel_poison_00028.png" />
+              <Image Name="anticipation_reel_poison_00029.png" />
+            </Folder>
           </Folder>
           <Folder Name="Bonus">
             <Folder Name="PickYourPoison">
@@ -364,6 +439,46 @@
               <Image Name="RedPointer.PNG" />
               <Image Name="SmallArrowsGlow.PNG" />
               <Image Name="WheelCenter.png" />
+              <Folder Name="TouchScreenToSpin">
+                <PlistImageFolder Image="TouchToSpin0.png" PListFile="TouchToSpin0.plist" Name=".TouchToSpin0_PList.Dir" />
+                <Image Name="TouchToSpin0.png" />
+              </Folder>
+              <Folder Name="TotalBonusWon">
+                <Image Name="MyFrame_00.png" />
+                <Image Name="MyFrame_01.png" />
+                <Image Name="MyFrame_02.png" />
+                <Image Name="MyFrame_03.png" />
+                <Image Name="MyFrame_04.png" />
+                <Image Name="MyFrame_05.png" />
+                <Image Name="MyFrame_06.png" />
+                <Image Name="MyFrame_07.png" />
+                <Image Name="MyFrame_08.png" />
+                <Image Name="MyFrame_09.png" />
+                <Image Name="MyFrame_10.png" />
+                <Image Name="MyFrame_11.png" />
+                <Image Name="MyFrame_12.png" />
+                <Image Name="MyFrame_13.png" />
+                <Image Name="MyFrame_14.png" />
+                <Image Name="MyFrame_15.png" />
+                <Image Name="MyFrame_16.png" />
+                <Image Name="MyFrame_17.png" />
+                <Image Name="MyFrame_18.png" />
+                <Image Name="MyFrame_19.png" />
+                <Image Name="MyFrame_20.png" />
+                <Image Name="MyFrame_21.png" />
+                <Image Name="MyFrame_22.png" />
+                <Image Name="MyFrame_23.png" />
+                <Image Name="MyFrame_24.png" />
+                <Image Name="MyFrame_25.png" />
+                <Image Name="MyFrame_26.png" />
+                <Image Name="MyFrame_27.png" />
+                <Image Name="MyFrame_28.png" />
+                <Image Name="MyFrame_29.png" />
+                <Image Name="MyFrame_30.png" />
+                <Image Name="MyFrame_31.png" />
+                <Image Name="MyFrame_32.png" />
+                <Image Name="MyFrame_33.png" />
+              </Folder>
             </Folder>
             <Folder Name="VoodooWilds">
               <Folder Name="Landing">
@@ -421,6 +536,9 @@
               <Image Name="Playbar_Voodoo.png" />
               <Image Name="Reels_Voodoo.png" />
             </Folder>
+            <Folder Name="Roulette">
+              <Image Name="Roulette.png" />
+            </Folder>
           </Folder>
           <Folder Name="Reels">
             <Folder Name="Ace">
@@ -460,21 +578,18 @@
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
-                <Image Name="Wild0.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild1">
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
-                <Image Name="Wild1.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild2">
               <Image Name="Wild.PNG" />
               <Folder Name="Animated">
                 <Image Name="Wild.png" />
-                <Image Name="Wild2.png" />
               </Folder>
             </Folder>
             <Folder Name="Wild_2x">
@@ -544,9 +659,6 @@
                 <Image Name="Wheel.png" />
               </Folder>
             </Folder>
-            <Folder Name="Multiplier">
-              <Image Name="Multiplier.png" />
-            </Folder>
           </Folder>
           <Folder Name="Paylines">
             <Image Name="PayBox.png" />
@@ -555,6 +667,15 @@
             <Image Name="DemoNormal.png" />
             <Image Name="DemoPressed.png" />
             <Image Name="DemoBackground.png" />
+          </Folder>
+          <Folder Name="Fonts">
+            <Fnt Name="BetFont_BetPerLine.fnt" />
+            <Fnt Name="CreditsWinFont_lrg.fnt" />
+            <Fnt Name="CreditsWinFont_med.fnt" />
+            <Fnt Name="CreditsWinFont_sml.fnt" />
+            <Fnt Name="Font_IRS.fnt" />
+            <Fnt Name="freespin_font.fnt" />
+            <Fnt Name="totalBonusWon_font.fnt" />
           </Folder>
         </Folder>
         <PlistParticleFile Name="Coin5.plist" />
@@ -741,6 +862,7 @@
         <Fnt Name="BetFont_BetPerLine.fnt" />
         <Project Name="JesterWheel.csd" Type="Scene" />
         <Image Name="banner_spinAgain59.png" />
+        <PlistInfo Name="Plist.csi" Type="Plist" />
       </RootFolder>
     </Group>
   </SolutionFolder>

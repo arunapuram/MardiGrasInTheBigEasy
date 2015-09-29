@@ -7,112 +7,6 @@ var SYMBOL_HEIGHT = 184;
 var SYMBOL_WIDTH_HALF = 232 >> 1;
 var SYMBOL_HEIGHT_HALF = 184 >> 1;
 var MINIMUM_REELSPIN_DURATION = 5.0;
-cc.GLNode = cc.GLNode || cc.Node.extend({
-        ctor:function(){
-            this._super();
-            this.init();
-        },
-        init:function(){
-            this._renderCmd._needDraw = true;
-            this._renderCmd.rendering =  function(ctx){
-                cc.kmGLMatrixMode(cc.KM_GL_MODELVIEW);
-                cc.kmGLPushMatrix();
-                cc.kmGLLoadMatrix(this._stackMatrix);
-
-                this._node.draw(ctx);
-
-                cc.kmGLPopMatrix();
-            };
-        },
-        draw:function(ctx){
-            this._super(ctx);
-        }
-    });
-//------------------------------------------------------------------
-//
-// ShaderNode
-//
-//------------------------------------------------------------------
-var ShaderNode = cc.GLNode.extend({
-    ctor:function(vertexShader, framentShader) {
-        this._super();
-        this.init();
-
-        if( 'opengl' in cc.sys.capabilities ) {
-            this.width = 1368;
-            this.height = 768;
-            this.anchorX = 0.5;
-            this.anchorY = 0.5;
-
-            this.shader = cc.GLProgram.create(vertexShader, framentShader);
-            this.shader.retain();
-            this.shader.addAttribute("aVertex", cc.VERTEX_ATTRIB_POSITION);
-            this.shader.link();
-            this.shader.updateUniforms();
-
-            var program = this.shader.getProgram();
-            this.uniformCenter = gl.getUniformLocation( program, "position");
-            this.uniformResolution = gl.getUniformLocation( program, "lightSize");
-            this.initBuffers();
-
-            this.scheduleUpdate();
-            this._time = 0;
-        }
-    },
-    draw:function() {
-        this.shader.use();
-        this.shader.setUniformsForBuiltins();
-
-        //
-        // Uniforms
-        //
-        var center = cc.winSize;
-        var circleRadius = 200;
-        var lightSize = Math.sin(this._time) * 50 + 100;
-        var position = cc.p(Math.cos(this._time) * circleRadius, Math.sin(this._time) * circleRadius);
-        var pp = cc.p(cc.winSize.width/2,cc.winSize.height/2);//position + center / 2.0;
-        var ll = 200.0;
-        //this.shader.setUniformLocationF32( this.uniformCenter, frameSize.width/2, frameSize.height/2);
-        //this.shader.setUniformLocationF32( this.uniformResolution, 256, 256);
-        this.shader.setUniformLocationWith2f(this.uniformCenter,pp.x,pp.y);
-        this.shader.setUniformLocationWith1f(this.uniformResolution, ll);
-        cc.glEnableVertexAttribs( cc.VERTEX_ATTRIB_FLAG_POSITION );
-
-        // Draw fullscreen Square
-        gl.bindBuffer(gl.ARRAY_BUFFER, this.squareVertexPositionBuffer);
-        gl.vertexAttribPointer(cc.VERTEX_ATTRIB_POSITION, 2, gl.FLOAT, false, 0, 0);
-        gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-
-        gl.bindBuffer(gl.ARRAY_BUFFER, null);
-    },
-
-    update:function(dt) {
-
-
-
-
-        this._time += dt;
-
-
-
-    },
-    initBuffers:function() {
-
-        //
-        // Square
-        //
-        var squareVertexPositionBuffer = this.squareVertexPositionBuffer = gl.createBuffer();
-        gl.bindBuffer(gl.ARRAY_BUFFER, squareVertexPositionBuffer);
-        vertices = [
-            1360,            768,
-            0,              768,
-            1360,            0,
-            0,              0
-        ];
-        gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
-        gl.bindBuffer(gl.ARRAY_BUFFER, null);
-    }
-});
 var HelloWorldLayer = cc.Layer.extend({
     sprite:null,
     ctor:function () {
@@ -305,9 +199,9 @@ var HelloWorldLayer = cc.Layer.extend({
         this.DemoBg.visible = this.bIsDemoOpen;
         this.objDemo.enable(this.bIsDemoOpen);
 
-        this.largeCoaster = this.mainscene.node.getChildByName("LargeCoster");
+      /*  this.largeCoaster = this.mainscene.node.getChildByName("LargeCoster");
         this.mainscene.node.reorderChild(this.largeCoaster,1000);
-        this.largeCoaster.visible = false;
+        this.largeCoaster.visible = false;*/
         //if(cc.sys.isNative)
         {
             var s = cc.winSize;
@@ -337,11 +231,49 @@ var HelloWorldLayer = cc.Layer.extend({
             this._accAngle = 0;
             this.scheduleUpdate();
         }
-        var shaderNode = new ShaderNode("res/Shaders/example_Spotlight.vsh", "res/Shaders/example_Spotlight.fsh");
-        this.mainscene.node.addChild(shaderNode);
-        shaderNode.x = size.width/2;
-        shaderNode.y = size.height/2;
+        var canvas = document.getElementById('gameCanvas');
+        this.spotlight(canvas, {x:500,y:100});
         return true;
+    },
+    spotlight:function(canvas, coord)
+    {
+        var context = canvas.getContext('webgl');
+        /*context.clearRect(0,0,canvas.width, canvas.height);
+        // Create gradient
+        context.clearRect(5,5,790,590);
+        var grd = context.createRadialGradient(
+            coord.x, coord.y,  60,
+            250, -25,  25);
+        grd.addColorStop(1,'rgba(255,255,255,1)');
+        grd.addColorStop(0.75,'rgba(255,255,255,0)');
+        var grd2 = context.createRadialGradient(
+            coord.x, coord.y,  55,
+            coord.x, coord.y,  50);
+        grd2.addColorStop(0,'rgba(255,255,255,0)');
+        grd2.addColorStop(1,'rgba(255,255,255,.7)');
+
+        // draw picture
+        context.fillStyle=grd;
+        context.fillRect(5,5,790,590);
+        context.fillStyle=grd2;*/
+    },
+    getMousePos:function(canvas, evt)
+    {
+        var rect = canvas.getBoundingClientRect();
+        return {
+            x:  evt.clientX - rect.left,
+            y:  evt.clientY - rect.top
+        };
+    },
+    update:function(dt){
+        this._accAngle += dt * cc.degreesToRadians(60);
+        var radius = 30;
+        var x = Math.cos(this._accAngle) * radius;
+        var z = Math.sin(this._accAngle) * radius;
+        //this.circle.setPositionX(x);
+        //circle.setVertexZ(z);
+        //this._spotLight.setPosition3D(cc.math.vec3(100*Math.cos(this._angle+4*dt), 100, 100*Math.sin(this._angle+4*dt)));
+        //this._spotLight.setDirection(cc.math.vec3(-Math.cos(this._angle + 4 * dt), -1, -Math.sin(this._angle + 4*dt)));
     },
     touchEvent: function (sender, type) {
         switch (type) {
@@ -495,17 +427,24 @@ var HelloWorldLayer = cc.Layer.extend({
         {
             //Jester Wheel starting point
             this.mainscene.node.visible = false;
-            var JesterScene = new JesterWheelScene();
-            cc.director.pushScene(JesterScene);
+            this.JesterScene = new JesterWheelScene(this.onJesterWheelComplete.bind(this, this.nTotalbonusamnt));
+            cc.director.pushScene(this.JesterScene);
         }
         else
         {
             this.startPaylines();
         }
     },
+    onJesterWheelComplete:function ()
+    {
+        this.nAwardcredits = this.JesterScene._children["0"].TBWamount;
+        cc.director.popScene();
+        this.startPaylines();
+    },
     startPaylines:function ()
     {
-        this.nAwardcredits = 100;
+        //if(this.nAwardcredits != undefined)
+            this.nAwardcredits = 100;
         this.objBangUpController.startBangup(this.nAwardcredits, this.bIsBonus);
         this.nPaylineCounter = 0;
         this.bShowPaylines = true;
