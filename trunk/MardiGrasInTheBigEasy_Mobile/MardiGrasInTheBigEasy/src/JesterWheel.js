@@ -32,15 +32,14 @@ var JesterWheelLayer = cc.Layer.extend({
         this.TBWTextlabel.visible = false;
 
         this.objSpritename = this.JeseterWheelscene.node.getChildByName("TouchToSpinSprite");
+        this.objSpritename.visible = false;
         if(cc.sys.isNative)
             strpath = cc.textureCache.getTextureFilePath(this.objSpritename.getTexture());
         else
             strpath = this.objSpritename.getTexture().url;
 
 
-       /* this.startSpinSprite = new FlipBookAnimation(strpath);
-        this.startSpinSprite.loopFromStart();
-        this.startSpinSprite.visible = true;*/
+
 
         this.objJWGlowPointer = this.JeseterWheelscene.node.getChildByName("GlowPointer");
         this.objJWGlowPointer.visible = true;
@@ -53,6 +52,13 @@ var JesterWheelLayer = cc.Layer.extend({
         this.aAngleIndex = [ 30, 60,  90,120, 150,180,210,240, 270,300,330, 360];
         this.startRenderJWdetails();
         this.TBWamount = 0;
+        this.startSpinSprite = new FlipBookAnimation(strpath);
+        var bbb = this.startSpinSprite.getNode();
+        bbb.x = 680;
+        bbb.y = 200;
+        this.JeseterWheelscene.node.addChild(bbb);
+        bbb.visible = true;
+        this.startSpinSprite.loopFromStart();
         return true;
     },
     touchEvent: function (sender, type) {
