@@ -46,7 +46,9 @@ var res = {
     Pickoneflip_png19  : "res/source/Reels/Wild2/Animated/Wild2.png",
     Pickoneflip_plist19 : "res/source/Reels/Wild2/Animated/Wild2.plist",
     JesterWheel_png01 : "res/source/Bonus/JesterWheel/TouchScreenToSpin/TouchToSpin0.png",
-    JesterWheel_plist01 : "res/source/Bonus/JesterWheel/TouchScreenToSpin/TouchToSpin0.plist"
+    JesterWheel_plist01 : "res/source/Bonus/JesterWheel/TouchScreenToSpin/TouchToSpin0.plist",
+   SpotLightVertexRes  : "res/Shaders/example_Spotlight.vsh",
+    SpotLightFragRes : "res/Shaders/example_Spotlight.fsh"
 };
 
 var g_resources = [];
