@@ -6,11 +6,19 @@
     "Content": {
       "Animation": {
         "Duration": 0,
-        "Speed": 1.0,
+        "Speed": 0.25,
+        "ActivedAnimationName": "animation0",
         "Timelines": [],
         "ctype": "TimelineActionData"
       },
-      "AnimationList": [],
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 0,
+          "Name": "animation0",
+          "ctype": "AnimationInfoData"
+        }
+      ],
       "ObjectData": {
         "Tag": 70,
         "Children": [
@@ -213,8 +221,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 170.4665,
-              "Y": 411.7972
+              "X": 171.0,
+              "Y": 412.0
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -223,17 +231,17 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.1253,
-              "Y": 0.5362
+              "X": 0.1257,
+              "Y": 0.5365
             },
             "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": 128.9665,
-            "RightMargin": 1148.0334,
-            "TopMargin": 254.2028,
-            "BottomMargin": 309.7972,
+            "LeftMargin": 129.5,
+            "RightMargin": 1147.5,
+            "TopMargin": 254.0,
+            "BottomMargin": 310.0,
             "Tag": 6,
             "ActionTag": -1082110541,
             "Size": {
@@ -386,24 +394,9 @@
               "G": 65,
               "B": 70
             },
-            "DisabledFileData": {
-              "Type": "Normal",
-              "Path": "source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain59.png",
-              "Plist": ""
-            },
-            "PressedFileData": {
-              "Type": "Normal",
-              "Path": "source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain01.png",
-              "Plist": ""
-            },
-            "NormalFileData": {
-              "Type": "Normal",
-              "Path": "banner_spinAgain59.png",
-              "Plist": ""
-            },
             "Scale9Enable": true,
-            "Scale9Width": 582,
-            "Scale9Height": 471,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
             "OutlineColor": {
               "G": 0,
               "B": 0
@@ -421,8 +414,53 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 703.4635,
-              "Y": 364.9434
+              "X": 700.0,
+              "Y": 406.0
+            },
+            "Scale": {
+              "ScaleX": 11.6812,
+              "ScaleY": 13.4648
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5147,
+              "Y": 0.5286
+            },
+            "PreSize": {
+              "X": 0.0368,
+              "Y": 0.0521
+            },
+            "LeftMargin": 675.0,
+            "RightMargin": 635.0,
+            "TopMargin": 342.0,
+            "BottomMargin": 386.0,
+            "Tag": 81,
+            "ActionTag": 1059751488,
+            "Size": {
+              "X": 50.0,
+              "Y": 40.0
+            },
+            "Name": "PressToSpin",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/JesterWheel/TouchScreenToSpin/TouchToSpin0.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 761.3099,
+              "Y": 282.1255
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -431,25 +469,157 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.5173,
-              "Y": 0.4752
+              "X": 0.5598,
+              "Y": 0.3674
             },
             "PreSize": {
-              "X": 0.4279,
-              "Y": 0.6133
+              "X": 0.0,
+              "Y": 0.0
             },
-            "LeftMargin": 412.4635,
-            "RightMargin": 365.5365,
-            "TopMargin": 167.5566,
-            "BottomMargin": 129.4434,
-            "Tag": 81,
-            "ActionTag": 1059751488,
+            "LeftMargin": -262.6901,
+            "RightMargin": -425.3098,
+            "TopMargin": -538.1255,
+            "BottomMargin": -741.8745,
+            "Tag": 252,
+            "ActionTag": 1094633530,
+            "Size": {
+              "X": 2048.0,
+              "Y": 2048.0
+            },
+            "Name": "TouchToSpinSprite",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain59.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 702.8713,
+              "Y": 385.4793
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5168,
+              "Y": 0.5019
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 411.8713,
+            "RightMargin": 366.1287,
+            "TopMargin": 147.0208,
+            "BottomMargin": 149.9793,
+            "Tag": 12,
+            "ActionTag": -369691891,
             "Size": {
               "X": 582.0,
               "Y": 471.0
             },
-            "Name": "PressToSpin",
-            "ctype": "ButtonObjectData"
+            "Name": "SpinAgainSprite",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/Bonus/JesterWheel/TotalBonusWon/MyFrame_33.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 704.3173,
+              "Y": 426.8096
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5179,
+              "Y": 0.5557
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 265.8173,
+            "RightMargin": 217.1826,
+            "TopMargin": -10.3096,
+            "BottomMargin": 75.3096,
+            "Tag": 13,
+            "ActionTag": 1296658374,
+            "Size": {
+              "X": 877.0,
+              "Y": 703.0
+            },
+            "Name": "TotalBonusWonSprite",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "source/Fonts/totalBonusWon_font.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 705.8325,
+              "Y": 286.7777
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.519,
+              "Y": 0.3734
+            },
+            "PreSize": {
+              "X": 0.0007,
+              "Y": 0.2214
+            },
+            "LeftMargin": 480.8325,
+            "RightMargin": 429.1675,
+            "TopMargin": 396.2223,
+            "BottomMargin": 201.7777,
+            "Tag": 15,
+            "ActionTag": -954386963,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "TBWAmountText",
+            "ctype": "TextBMFontObjectData"
           }
         ],
         "Size": {
@@ -460,8 +630,6 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
-        "banner_spinAgain59.png",
-        "source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain01.png",
         "source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain59.png",
         "source/Bonus/JesterWheel/GamescreenCover.PNG",
         "source/Bonus/JesterWheel/JesterWheel.PNG",
@@ -470,7 +638,11 @@
         "source/Bonus/JesterWheel/LargeArrow.PNG",
         "source/Bonus/JesterWheel/RedPointer.PNG",
         "source/Bonus/JesterWheel/SmallArrowsGlow.PNG",
-        "source/Bonus/JesterWheel/WheelCenter.png"
+        "source/Bonus/JesterWheel/TotalBonusWon/MyFrame_33.png",
+        "source/Bonus/JesterWheel/TouchScreenToSpin/TouchToSpin0.png",
+        "source/Bonus/JesterWheel/WheelCenter.png",
+        "source/Fonts/totalBonusWon_font.fnt",
+        "source/Fonts/totalBonusWon_font.png"
       ],
       "ctype": "GameProjectData"
     }

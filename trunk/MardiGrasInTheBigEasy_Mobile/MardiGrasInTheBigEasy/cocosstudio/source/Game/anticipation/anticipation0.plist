@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>00.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{940,0},{280,1288}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{30,0},{280,1288}}</string>
+				<key>sourceSize</key>
+				<string>{334,1288}</string>
+			</dict>
+
+			<key>01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1221,0},{275,1288}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{29,0},{275,1288}}</string>
+				<key>sourceSize</key>
+				<string>{334,1288}</string>
+			</dict>
+
+			<key>02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1497,0},{271,1288}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{28,0},{271,1288}}</string>
+				<key>sourceSize</key>
+				<string>{334,1288}</string>
+			</dict>
+
+			<key>03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{653,0},{286,1288}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{29,0},{286,1288}}</string>
+				<key>sourceSize</key>
+				<string>{334,1288}</string>
+			</dict>
+
+			<key>04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{335,0},{317,1288}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{13,0},{317,1288}}</string>
+				<key>sourceSize</key>
+				<string>{334,1288}</string>
+			</dict>
+
+			<key>05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{334,1288}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{334,1288}}</string>
+				<key>sourceSize</key>
+				<string>{334,1288}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{2048,2048}</string>
+			<key>textureFileName</key>
+			<string>anticipation0.png</string>
+			</dict>
+		</dict>
+</plist>

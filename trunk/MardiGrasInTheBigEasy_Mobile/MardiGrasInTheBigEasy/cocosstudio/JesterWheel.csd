@@ -2,7 +2,12 @@
   <PropertyGroup Type="Scene" Name="JesterWheel" ID="b2dfbc38-cc78-49f0-992c-20fa8549fef6" Version="2.3.1.1" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="0" Speed="1.0000" />
+      <Animation Duration="0" Speed="0.2500" ActivedAnimationName="animation0" />
+      <AnimationList>
+        <AnimationInfo Name="animation0" StartIndex="0" EndIndex="0">
+          <RenderColor A="150" R="135" G="206" B="250" />
+        </AnimationInfo>
+      </AnimationList>
       <ObjectData Name="Scene" Tag="70" ctype="GameNodeObjectData">
         <Size X="1360.0000" Y="768.0000" />
         <Children>
@@ -94,20 +99,60 @@
             <FileData Type="Normal" Path="source/Bonus/JesterWheel/RedPointer.PNG" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PressToSpin" ActionTag="1059751488" Tag="81" IconVisible="False" LeftMargin="412.4635" RightMargin="365.5365" TopMargin="167.5566" BottomMargin="129.4434" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="582" Scale9Height="471" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="582.0000" Y="471.0000" />
+          <AbstractNodeData Name="PressToSpin" ActionTag="1059751488" Tag="81" IconVisible="False" LeftMargin="675.0000" RightMargin="635.0000" TopMargin="342.0000" BottomMargin="386.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="1" Scale9Height="1" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="50.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="703.4635" Y="364.9434" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Position X="700.0000" Y="406.0000" />
+            <Scale ScaleX="11.6812" ScaleY="13.4648" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5173" Y="0.4752" />
-            <PreSize X="0.4279" Y="0.6133" />
+            <PrePosition X="0.5147" Y="0.5286" />
+            <PreSize X="0.0368" Y="0.0521" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain59.png" Plist="" />
-            <PressedFileData Type="Normal" Path="source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain01.png" Plist="" />
-            <NormalFileData Type="Normal" Path="banner_spinAgain59.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="TouchToSpinSprite" Visible="False" ActionTag="1094633530" Tag="252" IconVisible="False" LeftMargin="-262.6901" RightMargin="-425.3098" TopMargin="-538.1255" BottomMargin="-741.8745" ctype="SpriteObjectData">
+            <Size X="2048.0000" Y="2048.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="761.3099" Y="282.1255" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5598" Y="0.3674" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="source/Bonus/JesterWheel/TouchScreenToSpin/TouchToSpin0.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="SpinAgainSprite" ActionTag="-369691891" Tag="12" IconVisible="False" LeftMargin="411.8713" RightMargin="366.1287" TopMargin="147.0208" BottomMargin="149.9793" ctype="SpriteObjectData">
+            <Size X="582.0000" Y="471.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="702.8713" Y="385.4793" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5168" Y="0.5019" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="source/Bonus/JesterWheel/banner_spinAgain/banner_spinAgain59.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="TotalBonusWonSprite" ActionTag="1296658374" Tag="13" IconVisible="False" LeftMargin="265.8173" RightMargin="217.1826" TopMargin="-10.3096" BottomMargin="75.3096" ctype="SpriteObjectData">
+            <Size X="877.0000" Y="703.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="704.3173" Y="426.8096" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5179" Y="0.5557" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="source/Bonus/JesterWheel/TotalBonusWon/MyFrame_33.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="TBWAmountText" ActionTag="-954386963" Tag="15" IconVisible="False" LeftMargin="480.8325" RightMargin="429.1675" TopMargin="396.2223" BottomMargin="201.7777" LabelText="" ctype="TextBMFontObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="705.8325" Y="286.7777" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5190" Y="0.3734" />
+            <PreSize X="0.0007" Y="0.2214" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/totalBonusWon_font.fnt" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
