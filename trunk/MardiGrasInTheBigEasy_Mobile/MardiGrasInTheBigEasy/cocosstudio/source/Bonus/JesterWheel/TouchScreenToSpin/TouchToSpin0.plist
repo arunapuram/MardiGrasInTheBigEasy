@@ -17,11 +17,11 @@
                 <key>originalWidth</key>
                 <integer>883</integer>
                 <key>width</key>
-                <integer>881</integer>
+                <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>1</integer>
+                <integer>2</integer>
             </dict>
             <key>TouchToSpin01.png</key>
             <dict>
@@ -36,11 +36,11 @@
                 <key>originalWidth</key>
                 <integer>883</integer>
                 <key>width</key>
-                <integer>881</integer>
+                <integer>883</integer>
                 <key>x</key>
-                <integer>884</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>1</integer>
+                <integer>2</integer>
             </dict>
             <key>TouchToSpin02.png</key>
             <dict>
@@ -55,11 +55,11 @@
                 <key>originalWidth</key>
                 <integer>883</integer>
                 <key>width</key>
-                <integer>881</integer>
+                <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>144</integer>
+                <integer>2</integer>
             </dict>
             <key>TouchToSpin03.png</key>
             <dict>
@@ -76,9 +76,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>884</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>144</integer>
+                <integer>145</integer>
             </dict>
             <key>TouchToSpin04.png</key>
             <dict>
@@ -95,9 +95,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>287</integer>
+                <integer>145</integer>
             </dict>
             <key>TouchToSpin05.png</key>
             <dict>
@@ -114,9 +114,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>287</integer>
+                <integer>145</integer>
             </dict>
             <key>TouchToSpin06.png</key>
             <dict>
@@ -133,9 +133,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>430</integer>
+                <integer>288</integer>
             </dict>
             <key>TouchToSpin07.png</key>
             <dict>
@@ -152,9 +152,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>430</integer>
+                <integer>288</integer>
             </dict>
             <key>TouchToSpin08.png</key>
             <dict>
@@ -171,9 +171,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>573</integer>
+                <integer>288</integer>
             </dict>
             <key>TouchToSpin09.png</key>
             <dict>
@@ -190,9 +190,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>573</integer>
+                <integer>431</integer>
             </dict>
             <key>TouchToSpin10.png</key>
             <dict>
@@ -209,9 +209,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>716</integer>
+                <integer>431</integer>
             </dict>
             <key>TouchToSpin11.png</key>
             <dict>
@@ -228,9 +228,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>716</integer>
+                <integer>431</integer>
             </dict>
             <key>TouchToSpin12.png</key>
             <dict>
@@ -247,9 +247,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>859</integer>
+                <integer>574</integer>
             </dict>
             <key>TouchToSpin13.png</key>
             <dict>
@@ -266,9 +266,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>859</integer>
+                <integer>574</integer>
             </dict>
             <key>TouchToSpin14.png</key>
             <dict>
@@ -285,9 +285,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>1002</integer>
+                <integer>574</integer>
             </dict>
             <key>TouchToSpin15.png</key>
             <dict>
@@ -304,9 +304,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>1002</integer>
+                <integer>717</integer>
             </dict>
             <key>TouchToSpin16.png</key>
             <dict>
@@ -323,9 +323,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>1145</integer>
+                <integer>717</integer>
             </dict>
             <key>TouchToSpin17.png</key>
             <dict>
@@ -342,9 +342,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>1145</integer>
+                <integer>717</integer>
             </dict>
             <key>TouchToSpin18.png</key>
             <dict>
@@ -361,9 +361,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>1288</integer>
+                <integer>860</integer>
             </dict>
             <key>TouchToSpin19.png</key>
             <dict>
@@ -380,9 +380,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>1288</integer>
+                <integer>860</integer>
             </dict>
             <key>TouchToSpin20.png</key>
             <dict>
@@ -399,9 +399,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>1431</integer>
+                <integer>860</integer>
             </dict>
             <key>TouchToSpin21.png</key>
             <dict>
@@ -418,9 +418,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>1431</integer>
+                <integer>1003</integer>
             </dict>
             <key>TouchToSpin22.png</key>
             <dict>
@@ -437,9 +437,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>1574</integer>
+                <integer>1003</integer>
             </dict>
             <key>TouchToSpin23.png</key>
             <dict>
@@ -456,9 +456,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>1574</integer>
+                <integer>1003</integer>
             </dict>
             <key>TouchToSpin24.png</key>
             <dict>
@@ -475,9 +475,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>1717</integer>
+                <integer>1146</integer>
             </dict>
             <key>TouchToSpin25.png</key>
             <dict>
@@ -494,9 +494,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>1717</integer>
+                <integer>1146</integer>
             </dict>
             <key>TouchToSpin26.png</key>
             <dict>
@@ -513,9 +513,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>1</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>1860</integer>
+                <integer>1146</integer>
             </dict>
             <key>TouchToSpin27.png</key>
             <dict>
@@ -532,9 +532,9 @@
                 <key>width</key>
                 <integer>883</integer>
                 <key>x</key>
-                <integer>886</integer>
+                <integer>2</integer>
                 <key>y</key>
-                <integer>1860</integer>
+                <integer>1289</integer>
             </dict>
             <key>TouchToSpin28.png</key>
             <dict>
@@ -549,11 +549,11 @@
                 <key>originalWidth</key>
                 <integer>883</integer>
                 <key>width</key>
-                <integer>881</integer>
+                <integer>883</integer>
                 <key>x</key>
-                <integer>1771</integer>
+                <integer>887</integer>
                 <key>y</key>
-                <integer>1</integer>
+                <integer>1289</integer>
             </dict>
             <key>TouchToSpin29.png</key>
             <dict>
@@ -568,11 +568,11 @@
                 <key>originalWidth</key>
                 <integer>883</integer>
                 <key>width</key>
-                <integer>881</integer>
+                <integer>883</integer>
                 <key>x</key>
-                <integer>1771</integer>
+                <integer>1772</integer>
                 <key>y</key>
-                <integer>884</integer>
+                <integer>1289</integer>
             </dict>
         </dict>
         <key>metadata</key>
@@ -582,18 +582,18 @@
             <key>realTextureFileName</key>
             <string>TouchToSpin0.png</string>
             <key>size</key>
-            <string>{2048,2048}</string>
+            <string>{2657,1432}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:1b1c37e4b878e4d5027451f0ca1c8dd7:f6bd6b192c95f998a0727ec40cee3058:dfd55cb8c500f4fc67fb2f20dd01c70e$</string>
+            <string>$TexturePacker:SmartUpdate:cff8288a7b83fe105c79aedf7d158dcc:f6bd6b192c95f998a0727ec40cee3058:dfd55cb8c500f4fc67fb2f20dd01c70e$</string>
             <key>textureFileName</key>
             <string>TouchToSpin0.png</string>
         </dict>
         <key>texture</key>
         <dict>
             <key>height</key>
-            <integer>2048</integer>
+            <integer>1432</integer>
             <key>width</key>
-            <integer>2048</integer>
+            <integer>2657</integer>
         </dict>
     </dict>
 </plist>
