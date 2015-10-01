@@ -76,12 +76,12 @@ var JesterWheelLayer = cc.Layer.extend({
         else
             strpath = objSpritename.getTexture().url;
 
-        this.TBWSprite = new FlipBookAnimation(strpath);
-        this.TBWSpriteNode = this.TBWSprite.getNode();
-        this.TBWSpriteNode.x = 680;
-        this.TBWSpriteNode.y = 400;
-        this.JeseterWheelscene.node.addChild(this.TBWSpriteNode);
-        this.TBWSpriteNode.visible = false;
+        this.SpinAgainSprite = new FlipBookAnimation(strpath);
+        this.SpinAgainSpriteNode = this.TBWSprite.getNode();
+        this.SpinAgainSpriteNode.x = 680;
+        this.SpinAgainSpriteNode.y = 400;
+        this.JeseterWheelscene.node.addChild(this.SpinAgainSpriteNode);
+        this.SpinAgainSpriteNode.visible = false;
         return true;
     },
     touchEvent: function (sender, type) {
@@ -151,7 +151,8 @@ var JesterWheelLayer = cc.Layer.extend({
         {
             case 3:
             case 9:
-                this.objSpinAgain.visible = true;
+                this.SpinAgainSpriteNode.visible = true;
+                this.SpinAgainSprite.playFromStart();
                 this.startSpinbutton.setEnabled(true);
                 //respin
                 break;
