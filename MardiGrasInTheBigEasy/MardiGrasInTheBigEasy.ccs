@@ -367,68 +367,6 @@
               <Image Name="Spotlight.png" />
             </Folder>
             <Folder Name="JesterWheel">
-              <Folder Name="banner_spinAgain">
-                <Image Name="banner_spinAgain00.png" />
-                <Image Name="banner_spinAgain01.png" />
-                <Image Name="banner_spinAgain02.png" />
-                <Image Name="banner_spinAgain03.png" />
-                <Image Name="banner_spinAgain04.png" />
-                <Image Name="banner_spinAgain05.png" />
-                <Image Name="banner_spinAgain06.png" />
-                <Image Name="banner_spinAgain07.png" />
-                <Image Name="banner_spinAgain08.png" />
-                <Image Name="banner_spinAgain09.png" />
-                <Image Name="banner_spinAgain10.png" />
-                <Image Name="banner_spinAgain11.png" />
-                <Image Name="banner_spinAgain12.png" />
-                <Image Name="banner_spinAgain13.png" />
-                <Image Name="banner_spinAgain14.png" />
-                <Image Name="banner_spinAgain15.png" />
-                <Image Name="banner_spinAgain16.png" />
-                <Image Name="banner_spinAgain17.png" />
-                <Image Name="banner_spinAgain18.png" />
-                <Image Name="banner_spinAgain19.png" />
-                <Image Name="banner_spinAgain20.png" />
-                <Image Name="banner_spinAgain21.png" />
-                <Image Name="banner_spinAgain22.png" />
-                <Image Name="banner_spinAgain23.png" />
-                <Image Name="banner_spinAgain24.png" />
-                <Image Name="banner_spinAgain25.png" />
-                <Image Name="banner_spinAgain26.png" />
-                <Image Name="banner_spinAgain27.png" />
-                <Image Name="banner_spinAgain28.png" />
-                <Image Name="banner_spinAgain29.png" />
-                <Image Name="banner_spinAgain30.png" />
-                <Image Name="banner_spinAgain31.png" />
-                <Image Name="banner_spinAgain32.png" />
-                <Image Name="banner_spinAgain33.png" />
-                <Image Name="banner_spinAgain34.png" />
-                <Image Name="banner_spinAgain35.png" />
-                <Image Name="banner_spinAgain36.png" />
-                <Image Name="banner_spinAgain37.png" />
-                <Image Name="banner_spinAgain38.png" />
-                <Image Name="banner_spinAgain39.png" />
-                <Image Name="banner_spinAgain40.png" />
-                <Image Name="banner_spinAgain41.png" />
-                <Image Name="banner_spinAgain42.png" />
-                <Image Name="banner_spinAgain43.png" />
-                <Image Name="banner_spinAgain44.png" />
-                <Image Name="banner_spinAgain45.png" />
-                <Image Name="banner_spinAgain46.png" />
-                <Image Name="banner_spinAgain47.png" />
-                <Image Name="banner_spinAgain48.png" />
-                <Image Name="banner_spinAgain49.png" />
-                <Image Name="banner_spinAgain50.png" />
-                <Image Name="banner_spinAgain51.png" />
-                <Image Name="banner_spinAgain52.png" />
-                <Image Name="banner_spinAgain53.png" />
-                <Image Name="banner_spinAgain54.png" />
-                <Image Name="banner_spinAgain55.png" />
-                <Image Name="banner_spinAgain56.png" />
-                <Image Name="banner_spinAgain57.png" />
-                <Image Name="banner_spinAgain58.png" />
-                <Image Name="banner_spinAgain59.png" />
-              </Folder>
               <File Name="totalBonusWon_jesterWheel.bik" />
               <File Name="TouchScreenToSpin_.bik" />
               <Image Name="GamescreenCover.PNG" />
@@ -440,44 +378,142 @@
               <Image Name="SmallArrowsGlow.PNG" />
               <Image Name="WheelCenter.png" />
               <Folder Name="TouchScreenToSpin">
-                <PlistImageFolder Image="TouchToSpin0.png" PListFile="TouchToSpin0.plist" Name=".TouchToSpin0_PList.Dir" />
+                <PlistImageFolder Image="TouchToSpin0.png" PListFile="TouchToSpin0.plist" Name=".TouchToSpin0_PList.Dir">
+                  <PlistImageFile Name="TouchToSpin00.png" Key="TouchToSpin00.png" />
+                  <PlistImageFile Name="TouchToSpin01.png" Key="TouchToSpin01.png" />
+                  <PlistImageFile Name="TouchToSpin02.png" Key="TouchToSpin02.png" />
+                  <PlistImageFile Name="TouchToSpin03.png" Key="TouchToSpin03.png" />
+                  <PlistImageFile Name="TouchToSpin04.png" Key="TouchToSpin04.png" />
+                  <PlistImageFile Name="TouchToSpin05.png" Key="TouchToSpin05.png" />
+                  <PlistImageFile Name="TouchToSpin06.png" Key="TouchToSpin06.png" />
+                  <PlistImageFile Name="TouchToSpin07.png" Key="TouchToSpin07.png" />
+                  <PlistImageFile Name="TouchToSpin08.png" Key="TouchToSpin08.png" />
+                  <PlistImageFile Name="TouchToSpin09.png" Key="TouchToSpin09.png" />
+                  <PlistImageFile Name="TouchToSpin010.png" Key="TouchToSpin010.png" />
+                  <PlistImageFile Name="TouchToSpin011.png" Key="TouchToSpin011.png" />
+                  <PlistImageFile Name="TouchToSpin012.png" Key="TouchToSpin012.png" />
+                  <PlistImageFile Name="TouchToSpin013.png" Key="TouchToSpin013.png" />
+                  <PlistImageFile Name="TouchToSpin014.png" Key="TouchToSpin014.png" />
+                  <PlistImageFile Name="TouchToSpin015.png" Key="TouchToSpin015.png" />
+                  <PlistImageFile Name="TouchToSpin016.png" Key="TouchToSpin016.png" />
+                  <PlistImageFile Name="TouchToSpin017.png" Key="TouchToSpin017.png" />
+                  <PlistImageFile Name="TouchToSpin018.png" Key="TouchToSpin018.png" />
+                  <PlistImageFile Name="TouchToSpin019.png" Key="TouchToSpin019.png" />
+                  <PlistImageFile Name="TouchToSpin020.png" Key="TouchToSpin020.png" />
+                  <PlistImageFile Name="TouchToSpin021.png" Key="TouchToSpin021.png" />
+                  <PlistImageFile Name="TouchToSpin022.png" Key="TouchToSpin022.png" />
+                  <PlistImageFile Name="TouchToSpin023.png" Key="TouchToSpin023.png" />
+                  <PlistImageFile Name="TouchToSpin024.png" Key="TouchToSpin024.png" />
+                  <PlistImageFile Name="TouchToSpin025.png" Key="TouchToSpin025.png" />
+                  <PlistImageFile Name="TouchToSpin026.png" Key="TouchToSpin026.png" />
+                  <PlistImageFile Name="TouchToSpin027.png" Key="TouchToSpin027.png" />
+                  <PlistImageFile Name="TouchToSpin028.png" Key="TouchToSpin028.png" />
+                  <PlistImageFile Name="TouchToSpin029.png" Key="TouchToSpin029.png" />
+                </PlistImageFolder>
                 <Image Name="TouchToSpin0.png" />
               </Folder>
               <Folder Name="TotalBonusWon">
-                <Image Name="MyFrame_00.png" />
-                <Image Name="MyFrame_01.png" />
-                <Image Name="MyFrame_02.png" />
-                <Image Name="MyFrame_03.png" />
-                <Image Name="MyFrame_04.png" />
-                <Image Name="MyFrame_05.png" />
-                <Image Name="MyFrame_06.png" />
-                <Image Name="MyFrame_07.png" />
-                <Image Name="MyFrame_08.png" />
-                <Image Name="MyFrame_09.png" />
-                <Image Name="MyFrame_10.png" />
-                <Image Name="MyFrame_11.png" />
-                <Image Name="MyFrame_12.png" />
-                <Image Name="MyFrame_13.png" />
-                <Image Name="MyFrame_14.png" />
-                <Image Name="MyFrame_15.png" />
-                <Image Name="MyFrame_16.png" />
-                <Image Name="MyFrame_17.png" />
-                <Image Name="MyFrame_18.png" />
-                <Image Name="MyFrame_19.png" />
-                <Image Name="MyFrame_20.png" />
-                <Image Name="MyFrame_21.png" />
-                <Image Name="MyFrame_22.png" />
-                <Image Name="MyFrame_23.png" />
-                <Image Name="MyFrame_24.png" />
-                <Image Name="MyFrame_25.png" />
-                <Image Name="MyFrame_26.png" />
-                <Image Name="MyFrame_27.png" />
-                <Image Name="MyFrame_28.png" />
-                <Image Name="MyFrame_29.png" />
-                <Image Name="MyFrame_30.png" />
-                <Image Name="MyFrame_31.png" />
-                <Image Name="MyFrame_32.png" />
-                <Image Name="MyFrame_33.png" />
+                <PlistImageFolder Image="TotalBonusWon0.png" PListFile="TotalBonusWon0.plist" Name=".TotalBonusWon0_PList.Dir">
+                  <PlistImageFile Name="TotalBonusWon00.png" Key="TotalBonusWon00.png" />
+                  <PlistImageFile Name="TotalBonusWon01.png" Key="TotalBonusWon01.png" />
+                  <PlistImageFile Name="TotalBonusWon02.png" Key="TotalBonusWon02.png" />
+                  <PlistImageFile Name="TotalBonusWon03.png" Key="TotalBonusWon03.png" />
+                  <PlistImageFile Name="TotalBonusWon04.png" Key="TotalBonusWon04.png" />
+                  <PlistImageFile Name="TotalBonusWon05.png" Key="TotalBonusWon05.png" />
+                  <PlistImageFile Name="TotalBonusWon06.png" Key="TotalBonusWon06.png" />
+                  <PlistImageFile Name="TotalBonusWon07.png" Key="TotalBonusWon07.png" />
+                  <PlistImageFile Name="TotalBonusWon08.png" Key="TotalBonusWon08.png" />
+                  <PlistImageFile Name="TotalBonusWon09.png" Key="TotalBonusWon09.png" />
+                  <PlistImageFile Name="TotalBonusWon010.png" Key="TotalBonusWon010.png" />
+                  <PlistImageFile Name="TotalBonusWon011.png" Key="TotalBonusWon011.png" />
+                  <PlistImageFile Name="TotalBonusWon012.png" Key="TotalBonusWon012.png" />
+                  <PlistImageFile Name="TotalBonusWon013.png" Key="TotalBonusWon013.png" />
+                  <PlistImageFile Name="TotalBonusWon014.png" Key="TotalBonusWon014.png" />
+                  <PlistImageFile Name="TotalBonusWon015.png" Key="TotalBonusWon015.png" />
+                  <PlistImageFile Name="TotalBonusWon016.png" Key="TotalBonusWon016.png" />
+                  <PlistImageFile Name="TotalBonusWon017.png" Key="TotalBonusWon017.png" />
+                  <PlistImageFile Name="TotalBonusWon018.png" Key="TotalBonusWon018.png" />
+                  <PlistImageFile Name="TotalBonusWon019.png" Key="TotalBonusWon019.png" />
+                  <PlistImageFile Name="TotalBonusWon020.png" Key="TotalBonusWon020.png" />
+                  <PlistImageFile Name="TotalBonusWon021.png" Key="TotalBonusWon021.png" />
+                  <PlistImageFile Name="TotalBonusWon022.png" Key="TotalBonusWon022.png" />
+                  <PlistImageFile Name="TotalBonusWon023.png" Key="TotalBonusWon023.png" />
+                  <PlistImageFile Name="TotalBonusWon024.png" Key="TotalBonusWon024.png" />
+                  <PlistImageFile Name="TotalBonusWon025.png" Key="TotalBonusWon025.png" />
+                  <PlistImageFile Name="TotalBonusWon026.png" Key="TotalBonusWon026.png" />
+                  <PlistImageFile Name="TotalBonusWon027.png" Key="TotalBonusWon027.png" />
+                  <PlistImageFile Name="TotalBonusWon028.png" Key="TotalBonusWon028.png" />
+                  <PlistImageFile Name="TotalBonusWon029.png" Key="TotalBonusWon029.png" />
+                  <PlistImageFile Name="TotalBonusWon030.png" Key="TotalBonusWon030.png" />
+                  <PlistImageFile Name="TotalBonusWon031.png" Key="TotalBonusWon031.png" />
+                  <PlistImageFile Name="TotalBonusWon032.png" Key="TotalBonusWon032.png" />
+                  <PlistImageFile Name="TotalBonusWon033.png" Key="TotalBonusWon033.png" />
+                </PlistImageFolder>
+                <Image Name="TotalBonusWon0.png" />
+              </Folder>
+              <Folder Name="SpinAgain">
+                <PlistImageFolder Image="SpinAgain0.png" PListFile="SpinAgain0.plist" Name=".SpinAgain0_PList.Dir">
+                  <PlistImageFile Name="SpinAgain01.png" Key="SpinAgain01.png" />
+                  <PlistImageFile Name="SpinAgain02.png" Key="SpinAgain02.png" />
+                  <PlistImageFile Name="SpinAgain03.png" Key="SpinAgain03.png" />
+                  <PlistImageFile Name="SpinAgain04.png" Key="SpinAgain04.png" />
+                  <PlistImageFile Name="SpinAgain05.png" Key="SpinAgain05.png" />
+                  <PlistImageFile Name="SpinAgain06.png" Key="SpinAgain06.png" />
+                  <PlistImageFile Name="SpinAgain07.png" Key="SpinAgain07.png" />
+                  <PlistImageFile Name="SpinAgain08.png" Key="SpinAgain08.png" />
+                  <PlistImageFile Name="SpinAgain09.png" Key="SpinAgain09.png" />
+                  <PlistImageFile Name="SpinAgain010.png" Key="SpinAgain010.png" />
+                  <PlistImageFile Name="SpinAgain011.png" Key="SpinAgain011.png" />
+                  <PlistImageFile Name="SpinAgain012.png" Key="SpinAgain012.png" />
+                  <PlistImageFile Name="SpinAgain013.png" Key="SpinAgain013.png" />
+                  <PlistImageFile Name="SpinAgain014.png" Key="SpinAgain014.png" />
+                  <PlistImageFile Name="SpinAgain015.png" Key="SpinAgain015.png" />
+                  <PlistImageFile Name="SpinAgain016.png" Key="SpinAgain016.png" />
+                  <PlistImageFile Name="SpinAgain017.png" Key="SpinAgain017.png" />
+                  <PlistImageFile Name="SpinAgain018.png" Key="SpinAgain018.png" />
+                  <PlistImageFile Name="SpinAgain019.png" Key="SpinAgain019.png" />
+                  <PlistImageFile Name="SpinAgain020.png" Key="SpinAgain020.png" />
+                  <PlistImageFile Name="SpinAgain021.png" Key="SpinAgain021.png" />
+                  <PlistImageFile Name="SpinAgain022.png" Key="SpinAgain022.png" />
+                  <PlistImageFile Name="SpinAgain023.png" Key="SpinAgain023.png" />
+                  <PlistImageFile Name="SpinAgain024.png" Key="SpinAgain024.png" />
+                  <PlistImageFile Name="SpinAgain025.png" Key="SpinAgain025.png" />
+                  <PlistImageFile Name="SpinAgain026.png" Key="SpinAgain026.png" />
+                  <PlistImageFile Name="SpinAgain027.png" Key="SpinAgain027.png" />
+                  <PlistImageFile Name="SpinAgain028.png" Key="SpinAgain028.png" />
+                  <PlistImageFile Name="SpinAgain029.png" Key="SpinAgain029.png" />
+                  <PlistImageFile Name="SpinAgain030.png" Key="SpinAgain030.png" />
+                  <PlistImageFile Name="SpinAgain031.png" Key="SpinAgain031.png" />
+                  <PlistImageFile Name="SpinAgain032.png" Key="SpinAgain032.png" />
+                  <PlistImageFile Name="SpinAgain033.png" Key="SpinAgain033.png" />
+                  <PlistImageFile Name="SpinAgain034.png" Key="SpinAgain034.png" />
+                  <PlistImageFile Name="SpinAgain035.png" Key="SpinAgain035.png" />
+                  <PlistImageFile Name="SpinAgain036.png" Key="SpinAgain036.png" />
+                  <PlistImageFile Name="SpinAgain037.png" Key="SpinAgain037.png" />
+                  <PlistImageFile Name="SpinAgain038.png" Key="SpinAgain038.png" />
+                  <PlistImageFile Name="SpinAgain039.png" Key="SpinAgain039.png" />
+                  <PlistImageFile Name="SpinAgain040.png" Key="SpinAgain040.png" />
+                  <PlistImageFile Name="SpinAgain041.png" Key="SpinAgain041.png" />
+                  <PlistImageFile Name="SpinAgain042.png" Key="SpinAgain042.png" />
+                  <PlistImageFile Name="SpinAgain043.png" Key="SpinAgain043.png" />
+                  <PlistImageFile Name="SpinAgain044.png" Key="SpinAgain044.png" />
+                  <PlistImageFile Name="SpinAgain045.png" Key="SpinAgain045.png" />
+                  <PlistImageFile Name="SpinAgain046.png" Key="SpinAgain046.png" />
+                  <PlistImageFile Name="SpinAgain047.png" Key="SpinAgain047.png" />
+                  <PlistImageFile Name="SpinAgain048.png" Key="SpinAgain048.png" />
+                  <PlistImageFile Name="SpinAgain049.png" Key="SpinAgain049.png" />
+                  <PlistImageFile Name="SpinAgain050.png" Key="SpinAgain050.png" />
+                  <PlistImageFile Name="SpinAgain051.png" Key="SpinAgain051.png" />
+                  <PlistImageFile Name="SpinAgain052.png" Key="SpinAgain052.png" />
+                  <PlistImageFile Name="SpinAgain053.png" Key="SpinAgain053.png" />
+                  <PlistImageFile Name="SpinAgain054.png" Key="SpinAgain054.png" />
+                  <PlistImageFile Name="SpinAgain055.png" Key="SpinAgain055.png" />
+                  <PlistImageFile Name="SpinAgain056.png" Key="SpinAgain056.png" />
+                  <PlistImageFile Name="SpinAgain057.png" Key="SpinAgain057.png" />
+                  <PlistImageFile Name="SpinAgain058.png" Key="SpinAgain058.png" />
+                  <PlistImageFile Name="SpinAgain059.png" Key="SpinAgain059.png" />
+                </PlistImageFolder>
+                <Image Name="SpinAgain0.png" />
               </Folder>
             </Folder>
             <Folder Name="VoodooWilds">

@@ -234,37 +234,37 @@
                 <FileData Type="Normal" Path="source/Reels/Wild2/Wild.PNG" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.S" Visible="False" ActionTag="-1204972092" Tag="23" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
-                <Size X="260.0000" Y="260.0000" />
+              <AbstractNodeData Name="ReelSymbol.S" Visible="False" ActionTag="-1204972092" Tag="23" IconVisible="False" LeftMargin="-23.0000" RightMargin="-23.0000" TopMargin="-23.0000" BottomMargin="-23.0000" ctype="SpriteObjectData">
+                <Size X="46.0000" Y="46.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Multiplier/Multiplier.png" Plist="" />
+                <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.U" Visible="False" ActionTag="78693685" Tag="24" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
-                <Size X="260.0000" Y="260.0000" />
+              <AbstractNodeData Name="ReelSymbol.U" Visible="False" ActionTag="78693685" Tag="24" IconVisible="False" LeftMargin="-23.0000" RightMargin="-23.0000" TopMargin="-23.0000" BottomMargin="-23.0000" ctype="SpriteObjectData">
+                <Size X="46.0000" Y="46.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Multiplier/Multiplier.png" Plist="" />
+                <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ReelSymbol.V" Visible="False" ActionTag="-1385930988" Tag="25" IconVisible="False" LeftMargin="-130.0000" RightMargin="-130.0000" TopMargin="-130.0000" BottomMargin="-130.0000" ctype="SpriteObjectData">
-                <Size X="260.0000" Y="260.0000" />
+              <AbstractNodeData Name="ReelSymbol.V" Visible="False" ActionTag="-1385930988" Tag="25" IconVisible="False" LeftMargin="-23.0000" RightMargin="-23.0000" TopMargin="-23.0000" BottomMargin="-23.0000" ctype="SpriteObjectData">
+                <Size X="46.0000" Y="46.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Multiplier/Multiplier.png" Plist="" />
+                <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="ReelSymbol.I" Visible="False" ActionTag="-506223642" Tag="26" IconVisible="False" LeftMargin="-97.5000" RightMargin="-97.5000" TopMargin="-92.5000" BottomMargin="-92.5000" ctype="SpriteObjectData">
@@ -454,37 +454,37 @@
                 <FileData Type="Normal" Path="source/Reels/Ten/Animated/Ten.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="AnimatedReelSymbol.F" Visible="False" ActionTag="565070334" Tag="45" IconVisible="False" LeftMargin="-393.0000" RightMargin="-393.0000" TopMargin="-393.0000" BottomMargin="-393.0000" ctype="SpriteObjectData">
-                <Size X="786.0000" Y="786.0000" />
+              <AbstractNodeData Name="AnimatedReelSymbol.F" Visible="False" ActionTag="565070334" Tag="45" IconVisible="False" LeftMargin="-23.0000" RightMargin="-23.0000" TopMargin="-23.0000" BottomMargin="-23.0000" ctype="SpriteObjectData">
+                <Size X="46.0000" Y="46.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild0/Animated/Wild0.png" Plist="" />
+                <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="AnimatedReelSymbol.G" Visible="False" ActionTag="1620884284" Tag="46" IconVisible="False" LeftMargin="-393.0000" RightMargin="-393.0000" TopMargin="-393.0000" BottomMargin="-393.0000" ctype="SpriteObjectData">
-                <Size X="786.0000" Y="786.0000" />
+              <AbstractNodeData Name="AnimatedReelSymbol.G" Visible="False" ActionTag="1620884284" Tag="46" IconVisible="False" LeftMargin="-23.0000" RightMargin="-23.0000" TopMargin="-23.0000" BottomMargin="-23.0000" ctype="SpriteObjectData">
+                <Size X="46.0000" Y="46.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild1/Animated/Wild1.png" Plist="" />
+                <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="AnimatedReelSymbol.H" Visible="False" ActionTag="508066614" Tag="47" IconVisible="False" LeftMargin="-393.0000" RightMargin="-393.0000" TopMargin="-393.0000" BottomMargin="-393.0000" ctype="SpriteObjectData">
-                <Size X="786.0000" Y="786.0000" />
+              <AbstractNodeData Name="AnimatedReelSymbol.H" Visible="False" ActionTag="508066614" Tag="47" IconVisible="False" LeftMargin="-23.0000" RightMargin="-23.0000" TopMargin="-23.0000" BottomMargin="-23.0000" ctype="SpriteObjectData">
+                <Size X="46.0000" Y="46.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="source/Reels/Wild2/Animated/Wild2.png" Plist="" />
+                <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="AnimatedReelSymbol.S" Visible="False" ActionTag="-1911808621" Tag="48" IconVisible="False" LeftMargin="-401.0000" RightMargin="-401.0000" TopMargin="-401.0000" BottomMargin="-401.0000" ctype="SpriteObjectData">

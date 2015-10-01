@@ -22,24 +22,16 @@ var JesterWheelLayer = cc.Layer.extend({
         this.objRedPointer = this.JeseterWheelscene.node.getChildByName("RedPointer");
         this.objRedPointer.visible = true;
 
-        this.objSpinAgain = this.JeseterWheelscene.node.getChildByName("SpinAgainSprite");
-        this.objSpinAgain.visible = false;
-
-        this.objTBWSprite = this.JeseterWheelscene.node.getChildByName("TotalBonusWonSprite");
-        this.objTBWSprite.visible = false;
-
         this.TBWTextlabel = this.JeseterWheelscene.node.getChildByName("TBWAmountText");
         this.TBWTextlabel.visible = false;
+        this.JeseterWheelscene.node.reorderChild(this.TBWTextlabel,500);
 
-        this.objSpritename = this.JeseterWheelscene.node.getChildByName("TouchToSpinSprite");
-        this.objSpritename.visible = false;
+        var objSpritename = this.JeseterWheelscene.node.getChildByName("TouchToSpinSprite");
+        objSpritename.visible = false;
         if(cc.sys.isNative)
-            strpath = cc.textureCache.getTextureFilePath(this.objSpritename.getTexture());
+            strpath = cc.textureCache.getTextureFilePath(objSpritename.getTexture());
         else
-            strpath = this.objSpritename.getTexture().url;
-
-
-
+            strpath = objSpritename.getTexture().url;
 
         this.objJWGlowPointer = this.JeseterWheelscene.node.getChildByName("GlowPointer");
         this.objJWGlowPointer.visible = true;
@@ -53,12 +45,43 @@ var JesterWheelLayer = cc.Layer.extend({
         this.startRenderJWdetails();
         this.TBWamount = 0;
         this.startSpinSprite = new FlipBookAnimation(strpath);
-        var bbb = this.startSpinSprite.getNode();
-        bbb.x = 680;
-        bbb.y = 200;
-        this.JeseterWheelscene.node.addChild(bbb);
-        bbb.visible = true;
+        this.startSpinSpriteNode = this.startSpinSprite.getNode();
+        this.startSpinSpriteNode.x = 680;
+        this.startSpinSpriteNode.y = 200;
+        this.JeseterWheelscene.node.addChild(this.startSpinSpriteNode);
+        this.startSpinSpriteNode.visible = true;
         this.startSpinSprite.loopFromStart();
+
+        objSpritename = this.JeseterWheelscene.node.getChildByName("TotalBonusWonSprite");
+        objSpritename.visible = false;
+
+        if(cc.sys.isNative)
+            strpath = cc.textureCache.getTextureFilePath(objSpritename.getTexture());
+        else
+            strpath = objSpritename.getTexture().url;
+
+        this.TBWSprite = new FlipBookAnimation(strpath);
+        this.TBWSpriteNode = this.TBWSprite.getNode();
+        this.TBWSpriteNode.x = 680;
+        this.TBWSpriteNode.y = 400;
+        this.JeseterWheelscene.node.addChild(this.TBWSpriteNode);
+        this.TBWSpriteNode.visible = false;
+        //this.TBWSprite.loopFromStart();
+
+        objSpritename = this.JeseterWheelscene.node.getChildByName("SpinAgainSprite");
+        objSpritename.visible = false;
+
+        if(cc.sys.isNative)
+            strpath = cc.textureCache.getTextureFilePath(objSpritename.getTexture());
+        else
+            strpath = objSpritename.getTexture().url;
+
+        this.TBWSprite = new FlipBookAnimation(strpath);
+        this.TBWSpriteNode = this.TBWSprite.getNode();
+        this.TBWSpriteNode.x = 680;
+        this.TBWSpriteNode.y = 400;
+        this.JeseterWheelscene.node.addChild(this.TBWSpriteNode);
+        this.TBWSpriteNode.visible = false;
         return true;
     },
     touchEvent: function (sender, type) {
@@ -76,6 +99,7 @@ var JesterWheelLayer = cc.Layer.extend({
         }
     },
     startJWSpin:function () {
+        this.startSpinSpriteNode.visible = false;
         this.finalPrize = 0;
         var _rotation = cc.rotateTo(0.03, -10);
         var _rotation1 = cc.rotateTo(0.03, 10);
@@ -151,7 +175,8 @@ var JesterWheelLayer = cc.Layer.extend({
     	this.schedule(this.updateGlowPointerPosition, 0.2);
     },
     showTotalBonusWonState:function() {
-        this.objTBWSprite.visible = true;
+        this.TBWSpriteNode.visible = true;
+        this.TBWSprite.playFromStart();
         this.TBWTextlabel.visible = true;
         this.TBWTextlabel.setString(this.TBWamount.toString());
         this.scheduleOnce(this.JWDone, 3.0);
