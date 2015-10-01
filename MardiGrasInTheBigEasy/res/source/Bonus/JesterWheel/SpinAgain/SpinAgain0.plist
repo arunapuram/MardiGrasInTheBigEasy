@@ -4,7 +4,26 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>SpinAgain01.png</key>
+            <key>SpinAgain00.png</key>
+            <dict>
+                <key>height</key>
+                <integer>0</integer>
+                <key>offsetX</key>
+                <real>0</real>
+                <key>offsetY</key>
+                <real>0</real>
+                <key>originalHeight</key>
+                <integer>0</integer>
+                <key>originalWidth</key>
+                <integer>0</integer>
+                <key>width</key>
+                <integer>0</integer>
+                <key>x</key>
+                <integer>0</integer>
+                <key>y</key>
+                <integer>0</integer>
+            </dict>
+			<key>SpinAgain01.png</key>
             <dict>
                 <key>height</key>
                 <integer>249</integer>
