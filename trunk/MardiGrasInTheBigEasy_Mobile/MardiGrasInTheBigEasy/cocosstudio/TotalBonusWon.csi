@@ -1,0 +1,9 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="TotalBonusWon" ID="02507a73-6593-4c50-9426-582b08340c2d" Version="2.3.1.1" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="source/Bonus/PickYourPoison/PYPTotalBonusWon0.png" />
+    </ImageFiles>
+    <MaxSize Width="4096" Height="4096" />
+  </Content>
+</PlistInfoProjectFile>

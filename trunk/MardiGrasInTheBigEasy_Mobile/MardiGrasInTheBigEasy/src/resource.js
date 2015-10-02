@@ -52,7 +52,9 @@ var res = {
     JesterWheel_png03 : "res/source/Bonus/JesterWheel/SpinAgain/SpinAgain0.png",
     JesterWheel_plist03 : "res/source/Bonus/JesterWheel/SpinAgain/SpinAgain0.plist",
     SpotLightVertexRes  : "res/Shaders/example_Spotlight.vsh",
-    SpotLightFragRes : "res/Shaders/example_Spotlight.fsh"
+    SpotLightFragRes : "res/Shaders/example_Spotlight.fsh",
+    TotalBonusWon_png  : "res/source/Bonus/PickYourPoison/PYPTotalBonusWon.png",
+    TotalBonusWon_plist : "res/source/Bonus/PickYourPoison/PYPTotalBonusWon.plist",
 };
 
 var g_resources = [];
