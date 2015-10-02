@@ -70,7 +70,7 @@ var JesterWheelLayer = cc.Layer.extend({
 
         objSpritename = this.JeseterWheelscene.node.getChildByName("SpinAgainSprite");
         objSpritename.visible = false;
-
+/*
         if(cc.sys.isNative)
             strpath = cc.textureCache.getTextureFilePath(objSpritename.getTexture());
         else
@@ -81,14 +81,14 @@ var JesterWheelLayer = cc.Layer.extend({
         this.SpinAgainSpriteNode.x = 680;
         this.SpinAgainSpriteNode.y = 400;
         this.JeseterWheelscene.node.addChild(this.SpinAgainSpriteNode);
-        this.SpinAgainSpriteNode.visible = false;
+        this.SpinAgainSpriteNode.visible = false;*/
         return true;
     },
     touchEvent: function (sender, type) {
         switch (type) {
             case ccui.Widget.TOUCH_ENDED:
                 if(sender === this.startSpinbutton) {
-                    this.objSpinAgain.visible = false;
+                    //this.objSpinAgain.visible = false;
                     this.startJWSpin();
                     this.startSpinbutton.setEnabled(false);
                     this.startSpinbutton.visible = true;
@@ -151,8 +151,8 @@ var JesterWheelLayer = cc.Layer.extend({
         {
             case 3:
             case 9:
-                this.SpinAgainSpriteNode.visible = true;
-                this.SpinAgainSprite.playFromStart();
+                //this.SpinAgainSpriteNode.visible = true;
+                //this.SpinAgainSprite.playFromStart();
                 this.startSpinbutton.setEnabled(true);
                 //respin
                 break;
