@@ -262,6 +262,7 @@
               <Image Name="Scotch.PNG" />
               <Image Name="SignON.PNG" />
               <File Name="totalBonusWon_pickyourpoison.bik" />
+              <Image Name="PYPTotalBonusWon0.png" />
             </Folder>
             <Folder Name="FreeSpin">
               <Folder Name="curtains">
@@ -752,6 +753,7 @@
         <Fnt Name="BetFont_BetPerLine.fnt" />
         <Project Name="JesterWheel.csd" Type="Scene" />
         <Image Name="banner_spinAgain59.png" />
+        <PlistInfo Name="TotalBonusWon.csi" Type="Plist" />
       </RootFolder>
     </Group>
   </SolutionFolder>

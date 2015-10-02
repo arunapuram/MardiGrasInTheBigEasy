@@ -1009,243 +1009,243 @@
             <FileData Type="Normal" Path="PickYourPoison/LargeCoaster.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount0" ActionTag="1915769299" Tag="161" IconVisible="False" LeftMargin="174.7641" RightMargin="1149.2358" TopMargin="289.6197" BottomMargin="423.3803" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount0" ActionTag="1915769299" Tag="161" IconVisible="False" LeftMargin="185.7640" RightMargin="1138.2360" TopMargin="308.6198" BottomMargin="404.3802" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="192.7641" Y="450.8803" />
+            <Position X="203.7640" Y="431.8802" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1417" Y="0.5871" />
+            <PrePosition X="0.1498" Y="0.5623" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount1" ActionTag="-1739068001" Tag="162" IconVisible="False" LeftMargin="368.7638" RightMargin="955.2362" TopMargin="289.6199" BottomMargin="423.3801" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount1" ActionTag="-1739068001" Tag="162" IconVisible="False" LeftMargin="379.7642" RightMargin="944.2358" TopMargin="308.6198" BottomMargin="404.3802" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="386.7638" Y="450.8801" />
+            <Position X="397.7642" Y="431.8802" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.2844" Y="0.5871" />
+            <PrePosition X="0.2925" Y="0.5623" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount2" ActionTag="1593821062" Tag="163" IconVisible="False" LeftMargin="571.7635" RightMargin="752.2365" TopMargin="292.6206" BottomMargin="420.3794" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount2" ActionTag="1593821062" Tag="163" IconVisible="False" LeftMargin="582.7639" RightMargin="741.2361" TopMargin="311.6205" BottomMargin="401.3795" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="589.7635" Y="447.8794" />
+            <Position X="600.7639" Y="428.8795" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.4336" Y="0.5832" />
+            <PrePosition X="0.4417" Y="0.5584" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount3" ActionTag="858995491" Tag="164" IconVisible="False" LeftMargin="781.7626" RightMargin="542.2374" TopMargin="290.0305" BottomMargin="422.9695" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount3" ActionTag="858995491" Tag="164" IconVisible="False" LeftMargin="792.7628" RightMargin="531.2372" TopMargin="309.0304" BottomMargin="403.9696" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="799.7626" Y="450.4695" />
+            <Position X="810.7628" Y="431.4696" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5881" Y="0.5865" />
+            <PrePosition X="0.5961" Y="0.5618" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount4" ActionTag="-1793663359" Tag="165" IconVisible="False" LeftMargin="972.7639" RightMargin="351.2361" TopMargin="292.6199" BottomMargin="420.3801" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount4" ActionTag="-1793663359" Tag="165" IconVisible="False" LeftMargin="983.7639" RightMargin="340.2361" TopMargin="311.6199" BottomMargin="401.3801" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="990.7639" Y="447.8801" />
+            <Position X="1001.7639" Y="428.8801" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.7285" Y="0.5832" />
+            <PrePosition X="0.7366" Y="0.5584" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount5" ActionTag="-1187999295" Tag="166" IconVisible="False" LeftMargin="1180.7604" RightMargin="143.2396" TopMargin="291.6200" BottomMargin="421.3800" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount5" ActionTag="-1187999295" Tag="166" IconVisible="False" LeftMargin="1191.7587" RightMargin="132.2413" TopMargin="310.6201" BottomMargin="402.3799" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="1198.7604" Y="448.8800" />
+            <Position X="1209.7587" Y="429.8799" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.8814" Y="0.5845" />
+            <PrePosition X="0.8895" Y="0.5597" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount6" ActionTag="927465137" Tag="167" IconVisible="False" LeftMargin="177.7632" RightMargin="1146.2368" TopMargin="483.6203" BottomMargin="229.3797" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount6" ActionTag="927465137" Tag="167" IconVisible="False" LeftMargin="184.5478" RightMargin="1139.4523" TopMargin="505.6204" BottomMargin="207.3796" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="195.7632" Y="256.8797" />
+            <Position X="202.5478" Y="234.8796" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1439" Y="0.3345" />
+            <PrePosition X="0.1489" Y="0.3058" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount7" ActionTag="540742898" Tag="168" IconVisible="False" LeftMargin="377.7629" RightMargin="946.2371" TopMargin="483.6204" BottomMargin="229.3796" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount7" ActionTag="540742898" Tag="168" IconVisible="False" LeftMargin="384.5478" RightMargin="939.4521" TopMargin="505.6207" BottomMargin="207.3793" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="395.7629" Y="256.8796" />
+            <Position X="402.5478" Y="234.8793" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.2910" Y="0.3345" />
+            <PrePosition X="0.2960" Y="0.3058" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount8" ActionTag="-1160199411" Tag="169" IconVisible="False" LeftMargin="578.7629" RightMargin="745.2371" TopMargin="480.6206" BottomMargin="232.3794" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount8" ActionTag="-1160199411" Tag="169" IconVisible="False" LeftMargin="585.5476" RightMargin="738.4524" TopMargin="502.6208" BottomMargin="210.3792" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="596.7629" Y="259.8794" />
+            <Position X="603.5476" Y="237.8792" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.4388" Y="0.3384" />
+            <PrePosition X="0.4438" Y="0.3097" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount9" ActionTag="701612953" Tag="170" IconVisible="False" LeftMargin="782.7617" RightMargin="541.2383" TopMargin="481.6207" BottomMargin="231.3793" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount9" ActionTag="701612953" Tag="170" IconVisible="False" LeftMargin="787.7615" RightMargin="536.2385" TopMargin="503.6209" BottomMargin="209.3791" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="800.7617" Y="258.8793" />
+            <Position X="805.7615" Y="236.8791" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5888" Y="0.3371" />
+            <PrePosition X="0.5925" Y="0.3084" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount10" ActionTag="439491923" Tag="171" IconVisible="False" LeftMargin="983.7630" RightMargin="340.2370" TopMargin="483.6205" BottomMargin="229.3795" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount10" ActionTag="439491923" Tag="171" IconVisible="False" LeftMargin="988.7624" RightMargin="335.2375" TopMargin="505.6207" BottomMargin="207.3793" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="1001.7630" Y="256.8795" />
+            <Position X="1006.7624" Y="234.8793" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.7366" Y="0.3345" />
+            <PrePosition X="0.7403" Y="0.3058" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Pickamount11" ActionTag="254263003" Tag="172" IconVisible="False" LeftMargin="1187.7599" RightMargin="136.2401" TopMargin="476.6207" BottomMargin="236.3793" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Pickamount11" ActionTag="254263003" Tag="172" IconVisible="False" LeftMargin="1192.7588" RightMargin="131.2412" TopMargin="498.6210" BottomMargin="214.3790" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="1205.7599" Y="263.8793" />
+            <Position X="1210.7588" Y="241.8790" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.8866" Y="0.3436" />
+            <PrePosition X="0.8903" Y="0.3149" />
             <PreSize X="0.0154" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext0" ActionTag="-1776333493" Tag="176" IconVisible="False" LeftMargin="175.7640" RightMargin="1148.2360" TopMargin="288.6198" BottomMargin="424.3802" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext0" ActionTag="-1776333493" Tag="176" IconVisible="False" LeftMargin="187.7641" RightMargin="1136.2358" TopMargin="312.4049" BottomMargin="400.5951" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="193.7640" Y="451.8802" />
+            <Position X="205.7641" Y="428.0951" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1425" Y="0.5884" />
+            <PrePosition X="0.1513" Y="0.5574" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext1" ActionTag="890723183" Tag="177" IconVisible="False" LeftMargin="369.7633" RightMargin="954.2367" TopMargin="288.6199" BottomMargin="424.3801" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext1" ActionTag="890723183" Tag="177" IconVisible="False" LeftMargin="381.7639" RightMargin="942.2361" TopMargin="311.4047" BottomMargin="401.5953" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="387.7633" Y="451.8801" />
+            <Position X="399.7639" Y="429.0953" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.2851" Y="0.5884" />
+            <PrePosition X="0.2939" Y="0.5587" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext2" ActionTag="-415950559" Tag="178" IconVisible="False" LeftMargin="572.7633" RightMargin="751.2367" TopMargin="291.6206" BottomMargin="421.3794" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext2" ActionTag="-415950559" Tag="178" IconVisible="False" LeftMargin="584.7637" RightMargin="739.2363" TopMargin="314.4054" BottomMargin="398.5946" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="590.7633" Y="448.8794" />
+            <Position X="602.7637" Y="426.0946" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.4344" Y="0.5845" />
+            <PrePosition X="0.4432" Y="0.5548" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext3" ActionTag="333884979" Tag="179" IconVisible="False" LeftMargin="782.7625" RightMargin="541.2375" TopMargin="289.0306" BottomMargin="423.9694" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext3" ActionTag="333884979" Tag="179" IconVisible="False" LeftMargin="794.7628" RightMargin="529.2372" TopMargin="310.0305" BottomMargin="402.9695" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="800.7625" Y="451.4694" />
+            <Position X="812.7628" Y="430.4695" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5888" Y="0.5879" />
+            <PrePosition X="0.5976" Y="0.5605" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext4" ActionTag="-434608203" Tag="180" IconVisible="False" LeftMargin="973.7636" RightMargin="350.2364" TopMargin="291.6201" BottomMargin="421.3799" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext4" ActionTag="-434608203" Tag="180" IconVisible="False" LeftMargin="985.7628" RightMargin="338.2372" TopMargin="312.6201" BottomMargin="400.3799" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="991.7636" Y="448.8799" />
+            <Position X="1003.7628" Y="427.8799" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.7292" Y="0.5845" />
+            <PrePosition X="0.7381" Y="0.5571" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext5" ActionTag="-1656542294" Tag="181" IconVisible="False" LeftMargin="1181.7600" RightMargin="142.2400" TopMargin="290.6201" BottomMargin="422.3799" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext5" ActionTag="-1656542294" Tag="181" IconVisible="False" LeftMargin="1193.7573" RightMargin="130.2427" TopMargin="311.6200" BottomMargin="401.3800" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="1199.7600" Y="449.8799" />
+            <Position X="1211.7573" Y="428.8800" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.8822" Y="0.5858" />
+            <PrePosition X="0.8910" Y="0.5584" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext6" ActionTag="858584306" Tag="182" IconVisible="False" LeftMargin="178.7630" RightMargin="1145.2371" TopMargin="482.6205" BottomMargin="230.3795" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext6" ActionTag="858584306" Tag="182" IconVisible="False" LeftMargin="184.7629" RightMargin="1139.2371" TopMargin="504.6205" BottomMargin="208.3795" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="196.7630" Y="257.8795" />
+            <Position X="202.7629" Y="235.8795" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1447" Y="0.3358" />
+            <PrePosition X="0.1491" Y="0.3071" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext7" ActionTag="1067367625" Tag="183" IconVisible="False" LeftMargin="378.7624" RightMargin="945.2376" TopMargin="482.6205" BottomMargin="230.3795" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext7" ActionTag="1067367625" Tag="183" IconVisible="False" LeftMargin="384.7624" RightMargin="939.2377" TopMargin="504.6205" BottomMargin="208.3795" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="396.7624" Y="257.8795" />
+            <Position X="402.7624" Y="235.8795" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.2917" Y="0.3358" />
+            <PrePosition X="0.2961" Y="0.3071" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext8" ActionTag="-1017303491" Tag="184" IconVisible="False" LeftMargin="579.7625" RightMargin="744.2375" TopMargin="479.6209" BottomMargin="233.3791" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext8" ActionTag="-1017303491" Tag="184" IconVisible="False" LeftMargin="585.7625" RightMargin="738.2375" TopMargin="501.6212" BottomMargin="211.3788" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="597.7625" Y="260.8791" />
+            <Position X="603.7625" Y="238.8788" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.4395" Y="0.3397" />
+            <PrePosition X="0.4439" Y="0.3110" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext9" ActionTag="760725722" Tag="185" IconVisible="False" LeftMargin="783.7617" RightMargin="540.2383" TopMargin="480.6208" BottomMargin="232.3792" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext9" ActionTag="760725722" Tag="185" IconVisible="False" LeftMargin="789.7617" RightMargin="534.2383" TopMargin="502.6209" BottomMargin="210.3791" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="801.7617" Y="259.8792" />
+            <Position X="807.7617" Y="237.8791" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5895" Y="0.3384" />
+            <PrePosition X="0.5939" Y="0.3097" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext10" ActionTag="-1822977222" Tag="186" IconVisible="False" LeftMargin="984.7626" RightMargin="339.2374" TopMargin="482.6206" BottomMargin="230.3794" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext10" ActionTag="-1822977222" Tag="186" IconVisible="False" LeftMargin="990.7625" RightMargin="333.2375" TopMargin="504.6207" BottomMargin="208.3793" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="1002.7626" Y="257.8794" />
+            <Position X="1008.7625" Y="235.8793" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.7373" Y="0.3358" />
+            <PrePosition X="0.7417" Y="0.3071" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.Hurricanetext11" ActionTag="586946063" Tag="187" IconVisible="False" LeftMargin="1188.7594" RightMargin="135.2406" TopMargin="475.6210" BottomMargin="237.3790" LabelText="0" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="PB.Hurricanetext11" ActionTag="586946063" Tag="187" IconVisible="False" LeftMargin="1194.7583" RightMargin="129.2417" TopMargin="497.6211" BottomMargin="215.3789" LabelText="0" ctype="TextBMFontObjectData">
             <Size X="36.0000" Y="55.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="1206.7594" Y="264.8790" />
+            <Position X="1212.7583" Y="242.8789" />
             <Scale ScaleX="1.1000" ScaleY="1.1000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.8873" Y="0.3449" />
+            <PrePosition X="0.8917" Y="0.3162" />
             <PreSize X="0.0265" Y="0.0716" />
             <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
           </AbstractNodeData>

@@ -394,11 +394,22 @@ PickBonusLayer.prototype.revealedState = function()
             this.pickobject[nCount][this.getPickObjectatIndex].setColor(colorval);
         }
     }
-    this.scheduleOnce(this.onplayLargecoaster,2.5);
+    this.scheduleOnce(this.playTotalBonusWon,2.5);
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
+PickBonusLayer.prototype.playTotalBonusWon = function() {
+
+    var str = "PYPTotalBonusWon";
+    var totalBonuswon = new SpriteAnimation(193.76,451.88,str,false,this.onplayLargecoaster.bind(this));
+    this.pickscene.node.addChild(totalBonuswon.getNode(),3000);
+    totalBonuswon.playAnimationOnce();
+
+    //this.scheduleOnce(this.onplayLargecoaster,2.5);
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
 PickBonusLayer.prototype.onplayLargecoaster = function() {
 
     this.largeCoasterr.visible = true;
