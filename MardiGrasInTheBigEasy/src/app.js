@@ -130,6 +130,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.objClipper = [];
         this.nPaylineCounter = 0;
         this.bShowPaylines = false;
+        this.brightcolorval = cc.color(255,255,255,255);
         for(var j=0; j<3;j++)
         {
             this.aPaylinePositions[j] = [];
@@ -158,44 +159,46 @@ var HelloWorldLayer = cc.Layer.extend({
         // create a render texture
         for(var i=0;i<this.nSymbols;i++)
         {
-            this.aReelStrips[i] = new cc.RenderTexture(SYMBOL_WIDTH, SYMBOL_HEIGHT*this.nSymbolCount,2);
+            this.aReelStrips[i] = new cc.RenderTexture(SYMBOL_WIDTH, SYMBOL_HEIGHT*this.nSymbolCount,cc.Texture2D.PIXEL_FORMAT_RGBA8888);
+            this.aReelStrips[i].getSprite().setBlendFunc(cc.BlendFunc.ALPHA_NON_PREMULTIPLIED);
+            //this.aReelStrips[i].setVirtualViewport(cc.Point(10,10),cc.Rect(0,0,200,200),cc.Rect(0,0,100,100));
             /*var pp = cc.p(23+(232/2)+i*232,-1*(184*this.nSymbolCount/2)+1400);*/
             var pp = cc.p(23+(SYMBOL_WIDTH_HALF)+i*SYMBOL_WIDTH,-1*(SYMBOL_HEIGHT*this.nSymbolCount/2)+cc.winSize.height);
             this.nCurrentReelIndex[i] = 0;
             this.aReelStrips[i].visible = true;
             //this.mainscene.node.addChild(this.aReelStrips[i]);
         }
-        var objReelSymbolsNode = this.mainscene.node.getChildByName("ReelSymbols");
+        this.objReelSymbolsNode = this.mainscene.node.getChildByName("ReelSymbols");
         for(var i=0;i<this.nreelsymbols;i++)
         {
-            this.aReelSymbols[i] = objReelSymbolsNode.getChildByName("ReelSymbol."+cc.aMathReelSet[0][i]);
+            this.aReelSymbols[i] = this.objReelSymbolsNode.getChildByName("ReelSymbol."+cc.aMathReelSet[0][i]);
             this.aReelSymbols[i].visible = false;
         }
         for(var i=0;i<this.nSymbols;i++)
         {
             this.reelStop(i,true);
             /*this.aReelStrips[i].beginWithClear(255,255,255,255);*//*
-            this.aReelStrips[i].beginWithClear(1,1,1,1);
-            for(var j = 0; j < this.nSymbolCount; j++)
-            {
-                var nRandom = Math.floor(*//*(Math.random() * 4)*//*j%5);
-                var sprite = new cc.Sprite(this.aSymbolNames[nRandom]);
-                sprite.setAnchorPoint(cc.p(0,0));
-                var pp = cc.p(0,(SYMBOL_HEIGHT*(this.nSymbolCount-1))-(sprite.height*j));
-                sprite.x=pp.x;
-                sprite.y=pp.y;
+         this.aReelStrips[i].beginWithClear(1,1,1,1);
+         for(var j = 0; j < this.nSymbolCount; j++)
+         {
+         var nRandom = Math.floor(*//*(Math.random() * 4)*//*j%5);
+         var sprite = new cc.Sprite(this.aSymbolNames[nRandom]);
+         sprite.setAnchorPoint(cc.p(0,0));
+         var pp = cc.p(0,(SYMBOL_HEIGHT*(this.nSymbolCount-1))-(sprite.height*j));
+         sprite.x=pp.x;
+         sprite.y=pp.y;
 
-                var label = new cc.LabelTTF(""+j, "fonts/arial.ttf", 55);
-                label.setAnchorPoint(cc.p(0,0));
-                label.x=pp.x;
-                label.y=pp.y;
-                sprite.visit();
-                label.visit();
-            }
-            this.aReelStrips[i].end();
-            this.aReelStrips[i].getSprite().getTexture().setAntiAliasTexParameters();
-            //this.aReelStrips[i].setAlphaBlending(true);
-           // this.aReelStrips[i].clip(cc.size(232, 184*3));*/
+         var label = new cc.LabelTTF(""+j, "fonts/arial.ttf", 55);
+         label.setAnchorPoint(cc.p(0,0));
+         label.x=pp.x;
+         label.y=pp.y;
+         sprite.visit();
+         label.visit();
+         }
+         this.aReelStrips[i].end();
+         this.aReelStrips[i].getSprite().getTexture().setAntiAliasTexParameters();
+         //this.aReelStrips[i].setAlphaBlending(true);
+         // this.aReelStrips[i].clip(cc.size(232, 184*3));*/
         }
         this.bIsBonus = false;
         this.objBangUpController = new BangUpController("PaidText","CreditText",this.bIsBonus, this);
@@ -225,14 +228,14 @@ var HelloWorldLayer = cc.Layer.extend({
         objPaylineBoxNode.visible = false;
         for(var i=0; i<this.nSymbols;i++)
         {
-            var reels = objReelNode.getChildByName("Reel"+i);
+            this.reels = objReelNode.getChildByName("Reel"+i);
             this.objClipper[i] = new cc.ClippingNode();
-            this.objClipper[i].width = reels.width;
-            this.objClipper[i].height = reels.height;
+            this.objClipper[i].width = this.reels.width;
+            this.objClipper[i].height = this.reels.height;
             this.objClipper[i].anchorX = 0;
             this.objClipper[i].anchorY = 1;
-            this.objClipper[i].x = reels.x;
-            this.objClipper[i].y = reels.y;
+            this.objClipper[i].x = this.reels.x;
+            this.objClipper[i].y = this.reels.y;
             //clipper.runAction(cc.rotateBy(1, 45).repeatForever());
             this.mainscene.node.addChild(this.objClipper[i]);
 
@@ -256,10 +259,10 @@ var HelloWorldLayer = cc.Layer.extend({
             var aAnimReelSymbols = objAnimReelSymbolsNode.getChildByName("AnimatedReelSymbol."+sSYM);
             for(var k=0;k<5;k++)
             {
-               /* var label = new cc.LabelTTF(cc.textureCache.getTextureFilePath(aAnimReelSymbols.getTexture()), "fonts/arial.ttf", 55);
-                label.x = size.width/2;
-                label.y = 730;
-                this.addChild(label);*/
+                /* var label = new cc.LabelTTF(cc.textureCache.getTextureFilePath(aAnimReelSymbols.getTexture()), "fonts/arial.ttf", 55);
+                 label.x = size.width/2;
+                 label.y = 730;
+                 this.addChild(label);*/
                 var strpath;
                 if(cc.sys.isNative)
                     strpath = cc.textureCache.getTextureFilePath(aAnimReelSymbols.getTexture());
@@ -274,9 +277,9 @@ var HelloWorldLayer = cc.Layer.extend({
         }
 
         /*var label = new cc.LabelTTF(this.objAppData.getReelFace(), "fonts/arial.ttf", 55);
-        label.x = size.width/2;
-        label.y = 730;
-        this.addChild(label);*/
+         label.x = size.width/2;
+         label.y = 730;
+         this.addChild(label);*/
         for(var i=0; i<this.nSymbols;i++)
         {
             var reels = objReelNode.getChildByName("Reel" + i);
@@ -304,37 +307,37 @@ var HelloWorldLayer = cc.Layer.extend({
         this.DemoBg.visible = this.bIsDemoOpen;
         this.objDemo.enable(this.bIsDemoOpen);
 
-        /*this.largeCoaster = this.mainscene.node.getChildByName("LargeCoster");
+        this.largeCoaster = this.mainscene.node.getChildByName("LargeCoster");
         this.mainscene.node.reorderChild(this.largeCoaster,1000);
-        this.largeCoaster.visible = false;*/
+        this.largeCoaster.visible = false;
         //if(cc.sys.isNative)
         {
             var s = cc.winSize;
             //setup camera
-           /* var camera = cc.Camera.createPerspective(40, s.width / s.height, 0.01, 1000);
-            camera.setCameraFlag(cc.CameraFlag.USER1);
-            camera.setPosition3D(cc.math.vec3(0, 30, 100));
-            camera.lookAt(cc.math.vec3(0, 0, 0));
-            this.addChild(camera);*/
+            /* var camera = cc.Camera.createPerspective(40, s.width / s.height, 0.01, 1000);
+             camera.setCameraFlag(cc.CameraFlag.USER1);
+             camera.setPosition3D(cc.math.vec3(0, 30, 100));
+             camera.lookAt(cc.math.vec3(0, 0, 0));
+             this.addChild(camera);*/
 
             //var circleBack = new jsb.Sprite3D();
 //Roulette is here add here later
- /*            this.circle = new cc.Sprite("res/source/Bonus/Roulette/Roulette.png");
-            this.circle.setPosition(cc.p(size.width/2,size.height/2));
-           // circleBack.setScale(0.5);
-           // circleBack.addChild(circle);
-            this.circle.runAction(cc.rotateBy(1, 360,0).repeatForever());
-           // circleBack.setRotation3D(cc.math.vec3(90, 0, 0));
-           // circleBack.setCameraMask(2);
-            this.mainscene.node.addChild(this.circle);*/
+            /*            this.circle = new cc.Sprite("res/source/Bonus/Roulette/Roulette.png");
+             this.circle.setPosition(cc.p(size.width/2,size.height/2));
+             // circleBack.setScale(0.5);
+             // circleBack.addChild(circle);
+             this.circle.runAction(cc.rotateBy(1, 360,0).repeatForever());
+             // circleBack.setRotation3D(cc.math.vec3(90, 0, 0));
+             // circleBack.setCameraMask(2);
+             this.mainscene.node.addChild(this.circle);*/
 
-           /* this._spotLight = jsb.SpotLight.create(cc.math.vec3(-1, -1, 0), cc.math.vec3(0, 0, 0), cc.color(200, 200, 200), 0, 0.5, 10000);
-            this._spotLight.setEnabled(true);
-            this.mainscene.node.addChild(this._spotLight);
-            this._spotLight.setCameraMask(2);
-            this._angle = 0;
-            this._accAngle = 0;*/
-
+            /* this._spotLight = jsb.SpotLight.create(cc.math.vec3(-1, -1, 0), cc.math.vec3(0, 0, 0), cc.color(200, 200, 200), 0, 0.5, 10000);
+             this._spotLight.setEnabled(true);
+             this.mainscene.node.addChild(this._spotLight);
+             this._spotLight.setCameraMask(2);
+             this._angle = 0;*/
+            this._accAngle = 0;
+            this.scheduleUpdate();
         }
         this.shaderNode = new ShaderNode("res/Shaders/example_Spotlight.vsh", "res/Shaders/example_Spotlight.fsh");
         this.mainscene.node.addChild(this.shaderNode);
@@ -426,12 +429,45 @@ var HelloWorldLayer = cc.Layer.extend({
         for (var i = 0; i < this.nSymbols; i++) {
             this.scheduleOnce(this.spinReel.bind(this, i), i * (0.3));
         }
+        this.mainscene.node._realOpacity = 255;
+        this.mainscene.node.setColor(this.brightcolorval);
+        /*        var i = 0;
+         do{
+         this.mainscene.node._children[i]._realOpacity = 255;
+         if(i != 14)
+         {
+         var fade = cc.fadeIn(0.2);
+         var fade_in = fade.reverse();
+         var delay = cc.delayTime(0.025);
+         var seq = cc.sequence(fade, delay, fade_in, delay.clone());
+         this.repeat = fade;
+         this.mainscene.node._children[i].runAction(this.repeat);
+         }
+         else
+         {
+         break;
+         }
+
+         i++;
+         }while(i < 32);
+
+         //while((this.mainscene.node._children[i]._name.message)!= ("Cannot read property '_name' of undefined")  && true)
+         for (var i = 0; i < 5; i++) {
+         this.aReelStrips[i]._realOpacity = 255;
+         var fade = cc.fadeIn(0.2);
+         //var fade_in = fade.reverse();
+         var delay = cc.delayTime(0.025);
+         var seq = cc.sequence(fade, delay, fade_in, delay.clone());
+         this.repeat = fade;
+         this.aReelStrips[i].runAction(this.repeat);
+         }*/
+        this.fadeAnimations(false);
         this.playbutton.setEnabled(false);
     },
     checkControl1:function (i)
     {
         this.reelStop(i,false);
-        
+
     },
     spinReel:function (i)
     {
@@ -444,6 +480,7 @@ var HelloWorldLayer = cc.Layer.extend({
             this.showWinningPayline();
             this.objPaylineSegment.clear();
         }
+        this.mainscene.node._realOpacity = 255;
         var move = cc.moveBy(0.3, cc.p(0,50));
         var actionMoveDone = cc.callFunc(this.spinReelAfterBounce.bind(this,i), this);
         var seq = cc.sequence(move,actionMoveDone);
@@ -482,7 +519,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.UpdateReelStrip(i);
         if(bFromStart === false)
         {
-           // this.playbutton.setEnabled(true);
+            // this.playbutton.setEnabled(true);
             this.aReelStrips[i].stopAction(this.fe2[i]);
             var move = cc.moveBy(0.3, cc.p(0,50));
             var move1 = cc.moveBy(0.3, cc.p(0,-50));
@@ -528,15 +565,16 @@ var HelloWorldLayer = cc.Layer.extend({
         }
         if(bonusId===4)
         {
-            this.mainscene.node.visible = false;
-            var pickScene = new PickBonusScene();
-            cc.director.pushScene(pickScene);
-            /*this.largeCoaster.setPosition(cc.p(-390,390));
+            this.largeCoaster.setPosition(cc.p(-390,390));
             this.largeCoaster.visible = true;
-            var move = cc.moveBy(3.0, cc.p(3000,0));
-            this.largeCoaster.runAction(move);
+
+            var move = cc.moveBy(3.0, cc.p(2500,0));
+            var actionMoveDonee = cc.callFunc(this.showPickScene.bind(this), this);
+            var seqQQ = cc.sequence(move, actionMoveDonee);
+            this.largeCoaster.runAction(seqQQ);
             this.largeCoaster.runAction(cc.rotateBy(1, 360,0).repeatForever());
-            this.scheduleOnce(this.startPick.bind(this), 3000);*/
+            this.fadeAnimations(true);
+
         }
         else if(bonusId===5)
         {
@@ -550,12 +588,42 @@ var HelloWorldLayer = cc.Layer.extend({
             this.startPaylines();
         }
     },
-    startPick:function ()
+    fadeAnimations:function(bEnable)
     {
-        var pickScene = new PickBonusScene();
-        cc.director.pushScene(pickScene);
+        var i = 0;
+        do{
+            this.mainscene.node._children[i]._realOpacity = 255;
+            if(i != 14)
+            {
+                if(bEnable)
+                    var fade = cc.fadeOut(2.0);
+                else
+                    var fade = cc.fadeIn(0.2);
+                var fade_in = fade.reverse();
+                var delay = cc.delayTime(0.025);
+                var seq = cc.sequence(fade, delay, fade_in, delay.clone());
+                this.repeat = fade;
+                this.mainscene.node._children[i].runAction(this.repeat);
+            }
+            else
+            {
+                break;
+            }
+            i++;
+        }while(i < 32);
+
+        //while((this.mainscene.node._children[i]._name.message)!= ("Cannot read property '_name' of undefined"))
+        for (var i = 0; i < 5; i++) {
+            this.aReelStrips[i]._realOpacity = 255;
+            if(bEnable)
+                var fade = cc.fadeOut(2.0);
+            else
+                var fade = cc.fadeIn(0.2);
+            this.repeat = fade;
+            this.aReelStrips[i].runAction(this.repeat);
+        }
     },
-    onJesterWheelComplete:function ()
+     onJesterWheelComplete:function ()
     {
         this.nAwardcredits = this.JesterScene._children["0"].TBWamount;
         cc.director.popScene();
@@ -563,8 +631,7 @@ var HelloWorldLayer = cc.Layer.extend({
     },
     startPaylines:function ()
     {
-        //if(this.nAwardcredits != undefined)
-            this.nAwardcredits = 100;
+        this.nAwardcredits = 100;
         this.objBangUpController.startBangup(this.nAwardcredits, this.bIsBonus);
         this.nPaylineCounter = 0;
         this.bShowPaylines = true;
@@ -581,11 +648,11 @@ var HelloWorldLayer = cc.Layer.extend({
     hideAnimatedSymbol:function (srtSYMB,nCol)
     {
         /*var objNode = this.aAnimatedReelSymbols[srtSYMB][nCol].getNode();
-        objNode.visible = false;*/
+         objNode.visible = false;*/
         /*if(nCol===2)
-        {
-            this.showWinningPayline();
-        }*/
+         {
+         this.showWinningPayline();
+         }*/
     },
     hidePaylines:function ()
     {
@@ -598,6 +665,12 @@ var HelloWorldLayer = cc.Layer.extend({
                 objNode.visible = false;
             }
         }
+    },
+    showPickScene:function ()
+    {
+        this.mainscene.node.visible = false;
+        var pickScene = new PickBonusScene();
+        cc.director.pushScene(pickScene);
     },
     showWinningPayline:function ()
     {
@@ -684,36 +757,36 @@ var HelloWorldLayer = cc.Layer.extend({
             sprite.setAnchorPoint(cc.p(0.5, 0));
             var pp = cc.p(0, (SYMBOL_HEIGHT * (this.nSymbolCount - 1)) - (184 * j));
             /*var ScaleX = 232/sprite.width;
-            var ScaleY = 184/sprite.height;
-            if(ScaleX === 1 && ScaleY === 1)
-            {
-                sprite.setScaleX(ScaleX);
-                sprite.setScaleY(ScaleY);
-            }
-            else
-            {
-                sprite.setScaleX(ScaleY);
-                sprite.setScaleY(ScaleY);
-            }*/
+             var ScaleY = 184/sprite.height;
+             if(ScaleX === 1 && ScaleY === 1)
+             {
+             sprite.setScaleX(ScaleX);
+             sprite.setScaleY(ScaleY);
+             }
+             else
+             {
+             sprite.setScaleX(ScaleY);
+             sprite.setScaleY(ScaleY);
+             }*/
             var ScaleY = (sprite.height - 184)/2;
             var ScaleX = (sprite.width - 232)/2;
             sprite.x = pp.x+(sprite.width/2)-ScaleX;
             sprite.y = pp.y-ScaleY;
             var nStripIndex = (j +this.nCurrentReelIndex[i])%80;
-           /* var label = new cc.LabelTTF("" + nStripIndex + cc.aMathReelSet[0][nstripid-1], "fonts/arial.ttf", 55);
-            label.setAnchorPoint(cc.p(0, 0));
-            label.x = pp.x;
-            label.y = pp.y;*/
+            /* var label = new cc.LabelTTF("" + nStripIndex + cc.aMathReelSet[0][nstripid-1], "fonts/arial.ttf", 55);
+             label.setAnchorPoint(cc.p(0, 0));
+             label.x = pp.x;
+             label.y = pp.y;*/
             sprite.visit();
-           // label.visit();
+            // label.visit();
         }
         this.aReelStrips[i].end();
         this.aReelStrips[i].getSprite().getTexture().setAntiAliasTexParameters();
-       // this.scheduleOnce(this.UpdateReelStrip.bind(this,i),0.1);
+        // this.scheduleOnce(this.UpdateReelStrip.bind(this,i),0.1);
     },
     onBangUpComplete:function ()
     {
-       // this.objBangUpController.label.setString("0");
+        // this.objBangUpController.label.setString("0");
         CREDIT_METER_AMOUNT = CREDIT_METER_AMOUNT + this.objBangUpController.nAwardAmount;
         this.playbutton.setEnabled(true);
     },
