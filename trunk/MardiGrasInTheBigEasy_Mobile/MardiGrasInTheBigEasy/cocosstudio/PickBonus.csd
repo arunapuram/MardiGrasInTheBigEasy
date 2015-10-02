@@ -168,7 +168,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Normal" Path="PickYourPoison/Blank.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -227,7 +227,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_05.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -286,7 +286,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -345,7 +345,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -404,7 +404,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -463,7 +463,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -522,7 +522,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -581,7 +581,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -640,7 +640,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -699,7 +699,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -758,7 +758,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -817,7 +817,7 @@
             <PreSize X="0.1993" Y="0.2773" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="PickoneFlip.plist" />
             <NormalFileData Type="Normal" Path="source/Bonus/PickYourPoison/CoasterFlipAnim/MyFrame_00.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -932,7 +932,7 @@
             <FileData Type="Normal" Path="PickYourPoison/Scotch.PNG" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PB.pickobject64" ActionTag="-1060126944" Tag="82" IconVisible="False" LeftMargin="145.9301" RightMargin="1098.0699" TopMargin="467.9400" BottomMargin="173.0600" ctype="SpriteObjectData">
+          <AbstractNodeData Name="PB.pickobject64" ActionTag="-1060126944" Tag="82" IconVisible="False" LeftMargin="145.9301" RightMargin="1098.0698" TopMargin="467.9400" BottomMargin="173.0600" ctype="SpriteObjectData">
             <Size X="116.0000" Y="127.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="203.9301" Y="236.5600" />
@@ -997,6 +997,267 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="PickYourPoison/Scotch.PNG" Plist="" />
             <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="LargeCoasterr" ActionTag="2038858770" Tag="160" IconVisible="False" LeftMargin="1385.8356" RightMargin="-794.8354" TopMargin="-6.5000" BottomMargin="5.5000" ctype="SpriteObjectData">
+            <Size X="769.0000" Y="769.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1770.3356" Y="390.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="1.3017" Y="0.5078" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="PickYourPoison/LargeCoaster.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount0" ActionTag="1915769299" Tag="161" IconVisible="False" LeftMargin="174.7641" RightMargin="1149.2358" TopMargin="289.6197" BottomMargin="423.3803" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="192.7641" Y="450.8803" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.1417" Y="0.5871" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount1" ActionTag="-1739068001" Tag="162" IconVisible="False" LeftMargin="368.7638" RightMargin="955.2362" TopMargin="289.6199" BottomMargin="423.3801" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="386.7638" Y="450.8801" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2844" Y="0.5871" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount2" ActionTag="1593821062" Tag="163" IconVisible="False" LeftMargin="571.7635" RightMargin="752.2365" TopMargin="292.6206" BottomMargin="420.3794" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="589.7635" Y="447.8794" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4336" Y="0.5832" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount3" ActionTag="858995491" Tag="164" IconVisible="False" LeftMargin="781.7626" RightMargin="542.2374" TopMargin="290.0305" BottomMargin="422.9695" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="799.7626" Y="450.4695" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5881" Y="0.5865" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount4" ActionTag="-1793663359" Tag="165" IconVisible="False" LeftMargin="972.7639" RightMargin="351.2361" TopMargin="292.6199" BottomMargin="420.3801" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="990.7639" Y="447.8801" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7285" Y="0.5832" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount5" ActionTag="-1187999295" Tag="166" IconVisible="False" LeftMargin="1180.7604" RightMargin="143.2396" TopMargin="291.6200" BottomMargin="421.3800" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1198.7604" Y="448.8800" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8814" Y="0.5845" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount6" ActionTag="927465137" Tag="167" IconVisible="False" LeftMargin="177.7632" RightMargin="1146.2368" TopMargin="483.6203" BottomMargin="229.3797" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="195.7632" Y="256.8797" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.1439" Y="0.3345" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount7" ActionTag="540742898" Tag="168" IconVisible="False" LeftMargin="377.7629" RightMargin="946.2371" TopMargin="483.6204" BottomMargin="229.3796" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="395.7629" Y="256.8796" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2910" Y="0.3345" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount8" ActionTag="-1160199411" Tag="169" IconVisible="False" LeftMargin="578.7629" RightMargin="745.2371" TopMargin="480.6206" BottomMargin="232.3794" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="596.7629" Y="259.8794" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4388" Y="0.3384" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount9" ActionTag="701612953" Tag="170" IconVisible="False" LeftMargin="782.7617" RightMargin="541.2383" TopMargin="481.6207" BottomMargin="231.3793" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="800.7617" Y="258.8793" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5888" Y="0.3371" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount10" ActionTag="439491923" Tag="171" IconVisible="False" LeftMargin="983.7630" RightMargin="340.2370" TopMargin="483.6205" BottomMargin="229.3795" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1001.7630" Y="256.8795" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7366" Y="0.3345" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Pickamount11" ActionTag="254263003" Tag="172" IconVisible="False" LeftMargin="1187.7599" RightMargin="136.2401" TopMargin="476.6207" BottomMargin="236.3793" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1205.7599" Y="263.8793" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8866" Y="0.3436" />
+            <PreSize X="0.0154" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext0" ActionTag="-1776333493" Tag="176" IconVisible="False" LeftMargin="175.7640" RightMargin="1148.2360" TopMargin="288.6198" BottomMargin="424.3802" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="193.7640" Y="451.8802" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.1425" Y="0.5884" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext1" ActionTag="890723183" Tag="177" IconVisible="False" LeftMargin="369.7633" RightMargin="954.2367" TopMargin="288.6199" BottomMargin="424.3801" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="387.7633" Y="451.8801" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2851" Y="0.5884" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext2" ActionTag="-415950559" Tag="178" IconVisible="False" LeftMargin="572.7633" RightMargin="751.2367" TopMargin="291.6206" BottomMargin="421.3794" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="590.7633" Y="448.8794" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4344" Y="0.5845" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext3" ActionTag="333884979" Tag="179" IconVisible="False" LeftMargin="782.7625" RightMargin="541.2375" TopMargin="289.0306" BottomMargin="423.9694" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="800.7625" Y="451.4694" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5888" Y="0.5879" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext4" ActionTag="-434608203" Tag="180" IconVisible="False" LeftMargin="973.7636" RightMargin="350.2364" TopMargin="291.6201" BottomMargin="421.3799" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="991.7636" Y="448.8799" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7292" Y="0.5845" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext5" ActionTag="-1656542294" Tag="181" IconVisible="False" LeftMargin="1181.7600" RightMargin="142.2400" TopMargin="290.6201" BottomMargin="422.3799" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1199.7600" Y="449.8799" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8822" Y="0.5858" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext6" ActionTag="858584306" Tag="182" IconVisible="False" LeftMargin="178.7630" RightMargin="1145.2371" TopMargin="482.6205" BottomMargin="230.3795" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="196.7630" Y="257.8795" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.1447" Y="0.3358" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext7" ActionTag="1067367625" Tag="183" IconVisible="False" LeftMargin="378.7624" RightMargin="945.2376" TopMargin="482.6205" BottomMargin="230.3795" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="396.7624" Y="257.8795" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2917" Y="0.3358" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext8" ActionTag="-1017303491" Tag="184" IconVisible="False" LeftMargin="579.7625" RightMargin="744.2375" TopMargin="479.6209" BottomMargin="233.3791" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="597.7625" Y="260.8791" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4395" Y="0.3397" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext9" ActionTag="760725722" Tag="185" IconVisible="False" LeftMargin="783.7617" RightMargin="540.2383" TopMargin="480.6208" BottomMargin="232.3792" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="801.7617" Y="259.8792" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5895" Y="0.3384" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext10" ActionTag="-1822977222" Tag="186" IconVisible="False" LeftMargin="984.7626" RightMargin="339.2374" TopMargin="482.6206" BottomMargin="230.3794" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1002.7626" Y="257.8794" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7373" Y="0.3358" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PB.Hurricanetext11" ActionTag="586946063" Tag="187" IconVisible="False" LeftMargin="1188.7594" RightMargin="135.2406" TopMargin="475.6210" BottomMargin="237.3790" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="36.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1206.7594" Y="264.8790" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8873" Y="0.3449" />
+            <PreSize X="0.0265" Y="0.0716" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/PickingFont02.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PickPaidfieldText" ActionTag="982684888" Tag="113" IconVisible="False" LeftMargin="993.3826" RightMargin="328.6174" TopMargin="698.5146" BottomMargin="14.4854" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="38.0000" Y="55.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1012.3826" Y="41.9854" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7444" Y="0.0547" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <LabelBMFontFile_CNB Type="Normal" Path="CreditsWinFont_lrg.fnt" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

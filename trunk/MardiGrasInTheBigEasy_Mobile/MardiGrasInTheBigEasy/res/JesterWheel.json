@@ -476,23 +476,23 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": 738.3099,
-            "RightMargin": 575.6901,
-            "TopMargin": 462.8745,
-            "BottomMargin": 259.1255,
+            "LeftMargin": -567.1901,
+            "RightMargin": -729.8098,
+            "TopMargin": -230.1255,
+            "BottomMargin": -433.8745,
             "Tag": 252,
             "ActionTag": 1094633530,
             "Size": {
-              "X": 46.0,
-              "Y": 46.0
+              "X": 2657.0,
+              "Y": 1432.0
             },
             "Name": "TouchToSpinSprite",
             "ctype": "SpriteObjectData"
           },
           {
             "FileData": {
-              "Type": "Normal",
-              "Path": "source/Bonus/JesterWheel/SpinAgain/SpinAgain0.png",
+              "Type": "Default",
+              "Path": "Default/Sprite.png",
               "Plist": ""
             },
             "BlendFunc": {
@@ -521,15 +521,15 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": -849.1287,
-            "RightMargin": -894.8713,
-            "TopMargin": -569.9792,
-            "BottomMargin": -567.0207,
+            "LeftMargin": 411.8713,
+            "RightMargin": 366.1287,
+            "TopMargin": 147.0207,
+            "BottomMargin": 149.9793,
             "Tag": 12,
             "ActionTag": -369691891,
             "Size": {
-              "X": 3104.0,
-              "Y": 1905.0
+              "X": 46.0,
+              "Y": 46.0
             },
             "Name": "SpinAgainSprite",
             "ctype": "SpriteObjectData"
@@ -630,6 +630,7 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
+        "Default/Sprite.png",
         "source/Bonus/JesterWheel/GamescreenCover.PNG",
         "source/Bonus/JesterWheel/JesterWheel.PNG",
         "source/Bonus/JesterWheel/JesterWheelBase.png",
@@ -637,7 +638,6 @@
         "source/Bonus/JesterWheel/LargeArrow.PNG",
         "source/Bonus/JesterWheel/RedPointer.PNG",
         "source/Bonus/JesterWheel/SmallArrowsGlow.PNG",
-        "source/Bonus/JesterWheel/SpinAgain/SpinAgain0.png",
         "source/Bonus/JesterWheel/TotalBonusWon/TotalBonusWon0.png",
         "source/Bonus/JesterWheel/TouchScreenToSpin/TouchToSpin0.png",
         "source/Bonus/JesterWheel/WheelCenter.png",

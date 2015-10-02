@@ -780,6 +780,17 @@
             <PreSize X="0.9559" Y="0.7813" />
             <FileData Type="Normal" Path="source/Demo/DemoBackground.png" Plist="" />
           </AbstractNodeData>
+          <AbstractNodeData Name="LargeCoster" ActionTag="1757451357" Tag="72" IconVisible="False" LeftMargin="-785.3552" RightMargin="1376.3552" TopMargin="-4.7811" BottomMargin="3.7811" ctype="SpriteObjectData">
+            <Size X="769.0000" Y="769.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-400.8552" Y="388.2811" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="-0.2947" Y="0.5056" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="PickYourPoison/LargeCoaster.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>
