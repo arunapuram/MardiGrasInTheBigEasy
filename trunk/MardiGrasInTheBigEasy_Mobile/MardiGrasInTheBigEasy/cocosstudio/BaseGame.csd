@@ -791,6 +791,219 @@
             <FileData Type="Normal" Path="PickYourPoison/LargeCoaster.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
+          <AbstractNodeData Name="Button_1" ActionTag="-381580624" Tag="382" IconVisible="False" LeftMargin="1191.3179" RightMargin="16.6821" TopMargin="651.0074" BottomMargin="18.9925" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="122" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="152.0000" Y="98.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1267.3179" Y="67.9925" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9319" Y="0.0885" />
+            <PreSize X="0.1118" Y="0.1276" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Normal" Path="source/Denom/Change/Denom100.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Sprite_1" ActionTag="-1712608140" Tag="459" IconVisible="False" LeftMargin="1182.9010" RightMargin="-2.9010" TopMargin="496.0977" BottomMargin="148.9023" ctype="SpriteObjectData">
+            <Size X="180.0000" Y="123.0000" />
+            <AnchorPoint ScaleY="0.2927" />
+            <Position X="1182.9010" Y="184.9021" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8698" Y="0.2408" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="FreeSpin1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Sprite_2" ActionTag="-1410578855" Tag="460" IconVisible="False" LeftMargin="1177.7999" RightMargin="0.2001" TopMargin="373.3375" BottomMargin="271.6625" ctype="SpriteObjectData">
+            <Size X="182.0000" Y="123.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1268.7999" Y="333.1625" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9329" Y="0.4338" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="PickYourPoison1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Sprite_3" ActionTag="-789875612" Tag="461" IconVisible="False" LeftMargin="1179.8069" RightMargin="1.1931" TopMargin="248.3466" BottomMargin="394.6534" ctype="SpriteObjectData">
+            <Size X="179.0000" Y="125.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1269.3069" Y="457.1534" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9333" Y="0.5953" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="JesterWheel1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Sprite_4" ActionTag="1689625048" Tag="462" IconVisible="False" LeftMargin="1181.7961" RightMargin="-1.7961" TopMargin="121.6464" BottomMargin="523.3536" ctype="SpriteObjectData">
+            <Size X="180.0000" Y="123.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1271.7961" Y="584.8536" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9351" Y="0.7615" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="ShowUsYourMultipliers1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Sprite_5" ActionTag="-1806182109" Tag="463" IconVisible="False" LeftMargin="1179.9753" RightMargin="-0.9753" TopMargin="-7.5626" BottomMargin="649.5626" ctype="SpriteObjectData">
+            <Size X="181.0000" Y="126.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1270.4753" Y="712.5626" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9342" Y="0.9278" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="VoodooWilds1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner1" ActionTag="-782529418" Tag="464" IconVisible="False" LeftMargin="-0.1849" RightMargin="187.1849" TopMargin="-2.7879" BottomMargin="695.7879" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="586.3151" Y="733.2879" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4311" Y="0.9548" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs00.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner2" ActionTag="955809909" Tag="465" IconVisible="False" LeftMargin="9.9656" RightMargin="177.0344" TopMargin="-0.5504" BottomMargin="693.5504" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="596.4656" Y="731.0504" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4386" Y="0.9519" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs01.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner3" ActionTag="278422030" Tag="466" IconVisible="False" LeftMargin="25.7856" RightMargin="161.2144" TopMargin="-1.0258" BottomMargin="694.0258" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="612.2856" Y="731.5258" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4502" Y="0.9525" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs02.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner4" ActionTag="-1885018856" Tag="467" IconVisible="False" LeftMargin="34.5219" RightMargin="152.4780" TopMargin="1.2286" BottomMargin="691.7714" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="621.0219" Y="729.2714" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4566" Y="0.9496" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs03.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner5" ActionTag="-379517405" Tag="468" IconVisible="False" LeftMargin="-28.4283" RightMargin="215.4283" TopMargin="-0.7385" BottomMargin="693.7385" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="558.0717" Y="731.2385" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4103" Y="0.9521" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs04.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner6" ActionTag="1958756143" Tag="469" IconVisible="False" LeftMargin="-21.6570" RightMargin="208.6570" TopMargin="-6.8044" BottomMargin="699.8044" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="564.8430" Y="737.3044" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4153" Y="0.9600" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs05.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner7" ActionTag="1075753655" Tag="470" IconVisible="False" LeftMargin="23.7769" RightMargin="163.2231" TopMargin="-5.5336" BottomMargin="698.5336" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="610.2769" Y="736.0336" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4487" Y="0.9584" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs06.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner8" ActionTag="-1590697272" Tag="471" IconVisible="False" LeftMargin="21.7419" RightMargin="165.2581" TopMargin="-10.0256" BottomMargin="703.0256" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="608.2419" Y="740.5256" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4472" Y="0.9642" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs07.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner9" ActionTag="1009934036" Tag="472" IconVisible="False" LeftMargin="6.0232" RightMargin="180.9768" TopMargin="-11.6847" BottomMargin="704.6847" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.4510" />
+            <Position X="592.5232" Y="738.5095" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4357" Y="0.9616" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs08.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner10" ActionTag="-296434180" Tag="473" IconVisible="False" LeftMargin="-44.1655" RightMargin="231.1655" TopMargin="-24.5172" BottomMargin="717.5172" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="542.3345" Y="755.0172" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.3988" Y="0.9831" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs09.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner11" ActionTag="602491146" Tag="474" IconVisible="False" LeftMargin="-28.5524" RightMargin="215.5525" TopMargin="-16.8040" BottomMargin="709.8040" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="557.9476" Y="747.3040" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4103" Y="0.9731" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs10.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner12" ActionTag="-1280913405" Tag="475" IconVisible="False" LeftMargin="-39.0752" RightMargin="226.0752" TopMargin="-13.0751" BottomMargin="706.0751" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="547.4248" Y="743.5751" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4025" Y="0.9682" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs11.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Banner13" ActionTag="-1781271848" Tag="476" IconVisible="False" LeftMargin="57.5811" RightMargin="129.4189" TopMargin="-10.8538" BottomMargin="703.8538" ctype="SpriteObjectData">
+            <Size X="1173.0000" Y="75.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="644.0811" Y="741.3538" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4736" Y="0.9653" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Hotdogs12.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>

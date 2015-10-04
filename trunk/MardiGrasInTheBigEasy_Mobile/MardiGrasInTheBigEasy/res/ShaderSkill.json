@@ -1,0 +1,119 @@
+{
+  "ID": "17dddb41-23f2-4edf-abe0-bb2a138afe73",
+  "Version": "2.3.1.1",
+  "Name": "ShaderSkill",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 383,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "source/TopBackground/TopGlass.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1360,
+            "Scale9Height": 768,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 688.4372,
+              "Y": 385.6391
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5062,
+              "Y": 0.5021
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 8.4372,
+            "RightMargin": -8.4373,
+            "TopMargin": -1.6392,
+            "BottomMargin": 1.6391,
+            "Tag": 384,
+            "ActionTag": 508674819,
+            "Size": {
+              "X": 1360.0,
+              "Y": 768.0
+            },
+            "Name": "BackGround",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Mardigras.PNG",
+              "Plist": ""
+            },
+            "Scale9Width": 1417,
+            "Scale9Height": 760,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 687.548,
+              "Y": 386.8392
+            },
+            "Scale": {
+              "ScaleX": 0.9663,
+              "ScaleY": 1.0125
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5055,
+              "Y": 0.5037
+            },
+            "PreSize": {
+              "X": 1.0419,
+              "Y": 0.9896
+            },
+            "LeftMargin": -20.952,
+            "RightMargin": -36.048,
+            "TopMargin": 1.1608,
+            "BottomMargin": 6.8392,
+            "Tag": 385,
+            "ActionTag": 921756558,
+            "Size": {
+              "X": 1417.0,
+              "Y": 760.0
+            },
+            "Name": "BackGroundFlip",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1360.0,
+          "Y": 768.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Mardigras.PNG",
+        "source/TopBackground/TopGlass.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

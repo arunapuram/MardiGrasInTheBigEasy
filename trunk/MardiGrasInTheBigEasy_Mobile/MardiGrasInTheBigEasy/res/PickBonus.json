@@ -5333,6 +5333,48 @@
             },
             "Name": "PickPaidfieldText",
             "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "source/Fonts/totalBonusWon_font.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 714.2349,
+              "Y": 226.633
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0915
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5252,
+              "Y": 0.2951
+            },
+            "PreSize": {
+              "X": 0.0007,
+              "Y": 0.2214
+            },
+            "LeftMargin": 652.2349,
+            "RightMargin": 583.7651,
+            "TopMargin": 456.367,
+            "BottomMargin": 141.633,
+            "Tag": 309,
+            "ActionTag": -1211416971,
+            "Size": {
+              "X": 124.0,
+              "Y": 170.0
+            },
+            "Name": "TotalBonusWonFont",
+            "ctype": "TextBMFontObjectData"
           }
         ],
         "Size": {
@@ -5360,7 +5402,9 @@
         "source/Fonts/PickingFont.fnt",
         "source/Fonts/PickingFont.png",
         "source/Fonts/PickingFont02.fnt",
-        "source/Fonts/PickingFont02.png"
+        "source/Fonts/PickingFont02.png",
+        "source/Fonts/totalBonusWon_font.fnt",
+        "source/Fonts/totalBonusWon_font.png"
       ],
       "ctype": "GameProjectData"
     }

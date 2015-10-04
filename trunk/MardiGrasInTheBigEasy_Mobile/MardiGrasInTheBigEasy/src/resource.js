@@ -2,6 +2,7 @@ var res = {
 
     MainScene_json : "res/BaseGame.json",
     PickScene_json : "res/PickBonus.json",
+    ShaderSkill_json : "res/ShaderSkill.json",
     JesterWheelScene_json : "res/JesterWheel.json",
     glowburst_png  : "res/source/Bonus/PickYourPoison/glowburst.png",
     glowburst_plist : "res/source/Bonus/PickYourPoison/glowburst.plist",
