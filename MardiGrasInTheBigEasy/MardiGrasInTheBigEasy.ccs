@@ -568,6 +568,14 @@
             <Fnt Name="PickingFont02.fnt" />
             <Fnt Name="PickingFont.fnt" />
           </Folder>
+          <Folder Name="Denom">
+            <Folder Name="Change">
+              <Image Name="Denom100.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="TopBackground">
+            <Image Name="TopGlass.png" />
+          </Folder>
         </Folder>
         <PlistParticleFile Name="Coin5.plist" />
         <PlistParticleFile Name="Coin4.plist" />
@@ -754,6 +762,26 @@
         <Project Name="JesterWheel.csd" Type="Scene" />
         <Image Name="banner_spinAgain59.png" />
         <PlistInfo Name="TotalBonusWon.csi" Type="Plist" />
+        <Project Name="ShaderSkill.csd" Type="Scene" />
+        <Image Name="Mardigras.PNG" />
+        <Image Name="FreeSpin1.png" />
+        <Image Name="PickYourPoison1.png" />
+        <Image Name="JesterWheel1.png" />
+        <Image Name="ShowUsYourMultipliers1.png" />
+        <Image Name="VoodooWilds1.png" />
+        <Image Name="Hotdogs00.png" />
+        <Image Name="Hotdogs01.png" />
+        <Image Name="Hotdogs02.png" />
+        <Image Name="Hotdogs03.png" />
+        <Image Name="Hotdogs04.png" />
+        <Image Name="Hotdogs05.png" />
+        <Image Name="Hotdogs06.png" />
+        <Image Name="Hotdogs07.png" />
+        <Image Name="Hotdogs08.png" />
+        <Image Name="Hotdogs09.png" />
+        <Image Name="Hotdogs10.png" />
+        <Image Name="Hotdogs11.png" />
+        <Image Name="Hotdogs12.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>

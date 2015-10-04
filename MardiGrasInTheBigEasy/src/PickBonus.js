@@ -42,6 +42,8 @@ var PickBonusLayer = cc.Layer.extend({
         this.label.setColor(cc.color(255,0,0,255));
 
         this.nPaidtext = this.pickscene.node.getChildByName("PickPaidfieldText");
+        this.nTotalBonusWonPaidtext = this.pickscene.node.getChildByName("TotalBonusWonFont");
+        this.nTotalBonusWonPaidtext.visible = false;
         //this.nPaidtext = new cc.LabelTTF(this.nTotalPrize.toString(), "fonts/arial.ttf", 57);
 /*        this.addChild(this.nPaidtext);
         this.nPaidtext.x = 1010;//538.01;517
@@ -402,15 +404,24 @@ PickBonusLayer.prototype.revealedState = function()
 PickBonusLayer.prototype.playTotalBonusWon = function() {
 
     var str = "PYPTotalBonusWon";
-    var totalBonuswon = new SpriteAnimation(193.76,451.88,str,false,this.onplayLargecoaster.bind(this));
-    this.pickscene.node.addChild(totalBonuswon.getNode(),3000);
+    var totalBonuswon = new SpriteAnimation(700,369,str,false,this.onplayLargecoaster.bind(this));
+    this.pickscene.node.addChild(totalBonuswon.getNode(),7500);
     totalBonuswon.playAnimationOnce();
 
-    //this.scheduleOnce(this.onplayLargecoaster,2.5);
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////
 PickBonusLayer.prototype.onplayLargecoaster = function() {
+
+    this.nTotalBonusWonPaidtext.visible = true;
+    this.nTotalBonusWonPaidtext.setString(this.nTotalPrize.toString());
+    this.pickscene.node.reorderChild(this.nTotalBonusWonPaidtext,8000);
+    this.scheduleOnce(this.onplayLargecoasterwithDelay,4.0);
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+PickBonusLayer.prototype.onplayLargecoasterwithDelay = function() {
 
     this.largeCoasterr.visible = true;
     this.pickscene.node.reorderChild(this.largeCoasterr,4500);
@@ -423,6 +434,7 @@ PickBonusLayer.prototype.onplayLargecoaster = function() {
     this.largeCoasterr.runAction(seqQQ);
     this.largeCoasterr.runAction(cc.rotateBy(0.8, -360, 0).repeatForever());
 }
+
 ////////////////////////////////////////////////////////////////////////////////////////
 
 PickBonusLayer.prototype.onPickBonusComplete = function()

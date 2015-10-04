@@ -7,7 +7,7 @@ var SYMBOL_HEIGHT = 184;
 var SYMBOL_WIDTH_HALF = 232 >> 1;
 var SYMBOL_HEIGHT_HALF = 184 >> 1;
 var MINIMUM_REELSPIN_DURATION = 5.0;
-cc.GLNode = cc.GLNode || cc.Node.extend({
+/*cc.GLNode = cc.GLNode || cc.Node.extend({
         ctor:function(){
             this._super();
             this.init();
@@ -27,8 +27,8 @@ cc.GLNode = cc.GLNode || cc.Node.extend({
         draw:function(ctx){
             this._super(ctx);
         }
-    });
-//------------------------------------------------------------------
+    });*/
+/*//------------------------------------------------------------------
 //
 // ShaderNode
 //
@@ -111,7 +111,7 @@ var ShaderNode = cc.GLNode.extend({
         gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
         gl.bindBuffer(gl.ARRAY_BUFFER, null);
     }
-});
+});*/
 var HelloWorldLayer = cc.Layer.extend({
     sprite:null,
     ctor:function () {
@@ -128,8 +128,12 @@ var HelloWorldLayer = cc.Layer.extend({
         this.objPaylineSegment = null;
         this.aPaylinePositions = [];
         this.objClipper = [];
+        this.Mainelements = [];
+        this.banner = [];
+        this.nBannerCount = 1;
         this.nPaylineCounter = 0;
         this.bShowPaylines = false;
+        this.SkillWild =  [21,21,23,21,22];
         this.brightcolorval = cc.color(255,255,255,255);
         for(var j=0; j<3;j++)
         {
@@ -207,6 +211,9 @@ var HelloWorldLayer = cc.Layer.extend({
         this.objTotalBetText = this.mainscene.node.getChildByName("TOTAL_BET_TEXT");
         this.objBetPerLineText.setString(BET_PER_LINE.toString());
         this.objTotalBetText.setString(TOTAL_BET.toString());
+
+        this.bonusDenombutton = this.mainscene.node.getChildByName("Button_1");
+        this.bonusDenombutton.addTouchEventListener(this.touchEvent, this);
 
         this.playbutton = this.mainscene.node.getChildByName("Play.Button");
         this.coinparticle0 = this.mainscene.node.getChildByName("coin_particle0");
@@ -307,6 +314,20 @@ var HelloWorldLayer = cc.Layer.extend({
         this.DemoBg.visible = this.bIsDemoOpen;
         this.objDemo.enable(this.bIsDemoOpen);
 
+        for (var i = 1; i <= 5 ; i++)
+        {
+            this.Mainelements[i]= this.mainscene.node.getChildByName("Sprite_"+i);
+            this.Mainelements[i].visible = true;
+        }
+        for (var i = 1; i <= 13 ; i++)
+        {
+            this.banner[i]= this.mainscene.node.getChildByName("Banner"+i);
+            this.banner[i].visible = false;
+        }
+
+        this.startBanner();
+
+
         this.largeCoaster = this.mainscene.node.getChildByName("LargeCoster");
         this.mainscene.node.reorderChild(this.largeCoaster,1000);
         this.largeCoaster.visible = false;
@@ -339,7 +360,7 @@ var HelloWorldLayer = cc.Layer.extend({
             this._accAngle = 0;
             this.scheduleUpdate();
         }
-        this.shaderNode = new ShaderNode("res/Shaders/example_Spotlight.vsh", "res/Shaders/example_Spotlight.fsh");
+/*        this.shaderNode = new ShaderNode("res/Shaders/example_Spotlight.vsh", "res/Shaders/example_Spotlight.fsh");
         this.mainscene.node.addChild(this.shaderNode);
         this.shaderNode.x = size.width/2;
         this.shaderNode.y = size.height/2;
@@ -365,7 +386,7 @@ var HelloWorldLayer = cc.Layer.extend({
         }
         for(var ii=0;ii<this.aPositionPathX[0].length;ii++)
         {
-            this.sp0A[ii] = cc.moveTo(1, cc.p(this.aPositionPathX[0][ii], this.aPositionPathY[0][ii]));
+            this.sp0A[ii] = cc.moveTo(2, cc.p(this.aPositionPathX[0][ii], this.aPositionPathY[0][ii]));
         }
         for(var ii=0;ii<this.aPositionPathX[1].length;ii++)
         {
@@ -387,11 +408,12 @@ var HelloWorldLayer = cc.Layer.extend({
             this.aSpotLight[ii].visible = false;
         }
         this.scheduleUpdate();
-        return true;
+        return true;*/
     },
-    update:function(dt) {
+   /* update:function(dt) {
         this.shaderNode.updateLPosition(dt,this.aSpotLight);
-    },
+        cc.log( "X ="+this.aSpotLight[0]._position.x)
+    },*/
     touchEvent: function (sender, type) {
         switch (type) {
             case ccui.Widget.TOUCH_ENDED:
@@ -406,6 +428,12 @@ var HelloWorldLayer = cc.Layer.extend({
                     this.objDemo.enable(this.bIsDemoOpen);
                 }
                 break;
+            case ccui.Widget.TOUCH_MOVED:
+                if(sender === this.bonusDenombutton)
+                {
+                    this.bonusDenombutton.setPositionX(sender._touchMovePosition.x);
+                    this.bonusDenombutton.setPositionY(sender._touchMovePosition.y);
+                }
             default:
                 break;
         }
@@ -467,6 +495,40 @@ var HelloWorldLayer = cc.Layer.extend({
     checkControl1:function (i)
     {
         this.reelStop(i,false);
+
+    },
+    startBanner:function ()
+    {
+        if (this.nBannerCount === 1) {
+            this.banner[this.nBannerCount].visible = true;
+        }
+        else
+        {
+            this.banner[this.nBannerCount-1].visible = false;
+            this.banner[this.nBannerCount].visible = true;
+        }
+        if (this.nBannerCount !== 13)
+        {
+            this.nBannerCount++
+        }
+        else
+        {
+            this.nBannerCount = 1;
+        }
+        this.scheduleOnce(this.continueBanner, 1.0);
+    },
+    continueBanner:function ()
+    {
+        if (this.nBannerCount === 1) {
+            this.banner[13].visible = false;
+            this.banner[this.nBannerCount].visible = true;
+        }
+        else
+        {
+            this.banner[this.nBannerCount-1].visible = false;
+            this.banner[this.nBannerCount].visible = true;
+        }
+        this.scheduleOnce(this.startBanner, 1.0);
 
     },
     spinReel:function (i)
@@ -563,6 +625,7 @@ var HelloWorldLayer = cc.Layer.extend({
                 break;
             }
         }
+
         if(bonusId===4)
         {
             this.largeCoaster.setPosition(cc.p(-390,390));
@@ -582,6 +645,12 @@ var HelloWorldLayer = cc.Layer.extend({
             this.mainscene.node.visible = false;
             this.JesterScene = new JesterWheelScene(this.onJesterWheelComplete.bind(this, this.nTotalbonusamnt));
             cc.director.pushScene(this.JesterScene);
+        }
+        else if(this.SkillWild[3] === this.aStopPosition[3])
+        {
+            this.mainscene.node.visible = false;
+            var skillScene = new SkillScene();
+            cc.director.pushScene(skillScene);
         }
         else
         {

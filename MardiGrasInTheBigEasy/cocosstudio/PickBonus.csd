@@ -1259,6 +1259,16 @@
             <PreSize X="0.0000" Y="0.0000" />
             <LabelBMFontFile_CNB Type="Normal" Path="CreditsWinFont_lrg.fnt" Plist="" />
           </AbstractNodeData>
+          <AbstractNodeData Name="TotalBonusWonFont" ActionTag="-1211416971" Tag="309" IconVisible="False" LeftMargin="652.2349" RightMargin="583.7651" TopMargin="456.3670" BottomMargin="141.6330" LabelText="0" ctype="TextBMFontObjectData">
+            <Size X="124.0000" Y="170.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="714.2349" Y="226.6330" />
+            <Scale ScaleX="1.0000" ScaleY="1.0915" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5252" Y="0.2951" />
+            <PreSize X="0.0007" Y="0.2214" />
+            <LabelBMFontFile_CNB Type="Normal" Path="source/Fonts/totalBonusWon_font.fnt" Plist="" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>
