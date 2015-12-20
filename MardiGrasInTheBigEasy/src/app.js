@@ -308,6 +308,18 @@ var HelloWorldLayer = cc.Layer.extend({
         this.objDemo = new DemoPrizeControl(this);
         this.DemoBtn = this.mainscene.node.getChildByName("DemoButton");
         this.DemoBg = this.mainscene.node.getChildByName("DemoBackground");
+
+
+
+
+        this.Background = this.mainscene.node.getChildByName("MainBackground");
+        this.Background.visible = false;
+
+
+
+
+
+
         this.mainscene.node.reorderChild(this.DemoBtn,1000);
         this.mainscene.node.reorderChild(this.DemoBg,1000);
         this.DemoBtn.addTouchEventListener(this.touchEvent, this);
