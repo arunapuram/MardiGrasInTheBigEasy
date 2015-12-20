@@ -319,7 +319,7 @@ var HelloWorldLayer = cc.Layer.extend({
 
 
 
-        this.mainscene.node.reorderChild(this.DemoBtn,1000);
+        this.mainscene.node.reorderChild(this.DemoBtn,1001);
         this.mainscene.node.reorderChild(this.DemoBg,1000);
         this.DemoBtn.addTouchEventListener(this.touchEvent, this);
         this.DemoBg.visible = this.bIsDemoOpen;
