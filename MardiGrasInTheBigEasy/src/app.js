@@ -312,7 +312,7 @@ var HelloWorldLayer = cc.Layer.extend({
 
 
         this.Background = this.mainscene.node.getChildByName("MainBackground");
-        this.Background.visible = false;
+        this.Background.visible = true;
 
 
 
