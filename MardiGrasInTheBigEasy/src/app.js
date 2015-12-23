@@ -312,10 +312,10 @@ var HelloWorldLayer = cc.Layer.extend({
 
 
         this.Background = this.mainscene.node.getChildByName("MainBackground");
-        this.Background.visible = !true;
+        this.Background.visible = true;
 
 
-
+        // this.startBanner();
 
 
 
@@ -336,7 +336,7 @@ var HelloWorldLayer = cc.Layer.extend({
             this.banner[i].visible = false;
         }
 
-       // this.startBanner();
+
 
 
         this.largeCoaster = this.mainscene.node.getChildByName("LargeCoster");
