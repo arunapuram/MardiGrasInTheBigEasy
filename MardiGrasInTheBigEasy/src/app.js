@@ -315,7 +315,7 @@ var HelloWorldLayer = cc.Layer.extend({
         this.Background.visible = true;
 
 
-        // this.startBanner();
+         this.startBanner();
 
 
 
